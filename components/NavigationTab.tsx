@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PiHouse, PiInfo, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import { TbMailPin } from "react-icons/tb";
+import { Button } from "@nextui-org/react";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -34,11 +35,13 @@ const NavigationTab = () => {
       
       {
         NAVIGATION_DATA.map(item => (
-          <Link key={item.pageTitle} href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="p-4 flex items-center gap-2 cursor-pointer text-3xl">
+          <Link key={item.pageTitle} href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="px-3 py-4 flex items-center cursor-pointer text-4xl">
             
-            <item.pageIcon />
+            <Button isIconOnly size="md" className="text-4xl" variant="light">
+              <item.pageIcon />
+              <div className="hidden">{item.pageTitle}</div>
+            </Button>
 
-            <div className="hidden">{item.pageTitle}</div>
           </Link>
         ))
       }
