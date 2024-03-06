@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply w-full h-full flex justify-center items-center
+    @apply w-full h-full flex justify-center items-center bg-background
   }
 }
 

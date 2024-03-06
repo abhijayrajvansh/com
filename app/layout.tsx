@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 import { Inter } from "next/font/google";
 import { Providers } from "./provider";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,8 +22,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
 	themeColor: [
-		{ media: "(prefers-color-scheme: light)", color: "white" },
-		{ media: "(prefers-color-scheme: dark)", color: "black" },
+		{ media: "(prefers-color-scheme: light)", color: "background" },
+		{ media: "(prefers-color-scheme: dark)", color: "background" },
 	],
 };
 
