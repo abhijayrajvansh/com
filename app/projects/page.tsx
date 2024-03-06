@@ -1,9 +1,9 @@
-import Home from "@/components/Home";
+import Projects from "@/components/Projects";
 
 const page = () => {
   return (
     <section className="wrapper">
-      <Home />
+      <Projects />
     </section>
   )
 }

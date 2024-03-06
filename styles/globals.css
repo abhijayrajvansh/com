@@ -8,6 +8,12 @@
   }
 }
 
+@layer components {
+  .wrapper {
+    @apply w-full min-w-[384px] max-w-sm h-full
+  }
+}
+
 /* debugging border classes */
 @layer components {
   .bred {

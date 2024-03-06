@@ -3,9 +3,9 @@ import { ThemeSwitch } from "./theme-switch";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between py-4">
+    <div className="flex items-center justify-between p-4">
       <div>
-        <ThemeSwitch />
+        <ThemeSwitch className=""/>
       </div>
       <Button color="primary">contact</Button>
     </div>
