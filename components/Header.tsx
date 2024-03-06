@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between p-4">
+    <header className="flex items-center justify-between pt-5 pl-4 pb-10">
       <div>
         <ThemeSwitch className=""/>
       </div>

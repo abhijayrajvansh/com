@@ -30,7 +30,7 @@ const NAVIGATION_DATA = [
 
 const NavigationTab = () => {
   return (
-    <section className="w-full flex items-center justify-between fixed bottom-0 left-0 max-w-[415px] backdrop-blur-[5px] sm:flex-col sm:h-full sm:max-w-fit">
+    <section className="w-full flex items-center justify-between fixed bottom-0 left-0 max-w-[435px] backdrop-blur-[5px] sm:flex-col sm:h-full sm:max-w-fit">
       
       {
         NAVIGATION_DATA.map(item => (
