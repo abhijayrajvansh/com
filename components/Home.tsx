@@ -27,8 +27,8 @@ const Home = () => {
 						</span>
 					</h1>
 
-					<p className="font-normal text-[1rem] text-default-600 leading-relaxed">
-						<span className="font-medium">Freelance</span> Web & Mobile Developer, <span className="font-medium">Silicon Valley</span> Intern, <span className="font-medium">Apple's</span> iOS Development Trainee, Former <span className="font-medium">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600" href={'/about'}>more...</Link>
+					<p className="font-normal text-[1.05rem] text-default-500 leading-relaxed">
+						<span className="font-semibold">Freelance</span> Web & Mobile Developer, <span className="font-semibold">Silicon Valley</span> Intern, <span className="font-semibold">Apple's</span> iOS Development Trainee, Former <span className="font-semibold">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600" href={'/about'}>more...</Link>
 					</p>
 				</div>
 
