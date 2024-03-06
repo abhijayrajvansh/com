@@ -1,6 +1,13 @@
+import Header from "./Header";
+import NavigationTab from "./NavigationTab";
+
 const About = () => {
   return (
-    <div>about</div>
+    <div>
+      <Header />
+			<NavigationTab />
+      about
+    </div>
   )
 }
 

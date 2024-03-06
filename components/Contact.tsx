@@ -1,6 +1,13 @@
+import Header from "./Header";
+import NavigationTab from "./NavigationTab";
+
 const Contact = () => {
   return (
-    <div>contact</div>
+    <div>
+      <Header />
+			<NavigationTab />
+      contact
+    </div>
   )
 }
 

@@ -1,6 +1,13 @@
+import Header from "./Header";
+import NavigationTab from "./NavigationTab";
+
 const Projects = () => {
   return (
-    <div>projects</div>
+    <div>
+      <Header />
+			<NavigationTab />
+      projects
+    </div>
   )
 }
 

@@ -1,6 +1,13 @@
+import Header from "./Header";
+import NavigationTab from "./NavigationTab";
+
 const Experience = () => {
   return (
-    <div>experience</div>
+    <div>
+      <Header />
+			<NavigationTab />
+      experience
+    </div>
   )
 }
 
