@@ -38,7 +38,7 @@ const Home = () => {
 
 				{/* Projects Exhibition */}
 				<div>
-					<h1 className={`font-medium text-2xl inline-block my-5`}>
+					<h1 className={`font-medium text-2xl inline-block mt-5`}>
 						Recent Projects
 					</h1>
 					
@@ -71,6 +71,8 @@ const Home = () => {
 					</div>
 
 				</div>
+
+				{/* to work on fixed navbar, seperates away on zoom out .. not correct */}
 
 				<p className="mt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sint qui architecto cumque excepturi est neque dolores asperiores fuga libero illum commodi, quia ab, nobis iste. Nam officiis illum quae est fuga, delectus aliquid facilis. Est iure adipisci inventore expedita. Magnam ex velit libero cum quaerat ducimus ut sint mollitia quod ullam eveniet nisi fugit delectus recusandae ea, est repellat vel natus, aperiam accusantium nesciunt itaque in? Officiis cupiditate, omnis vero repellat pariatur eos fugit optio vitae placeat exercitationem temporibus vel quaerat recusandae itaque eveniet ratione reiciendis rem quibusdam aut in aperiam. Fuga alias cum officia maiores, quis eos dolorum quod sed rerum eum deleniti commodi nemo facilis asperiores qui! Aut.</p>
 
