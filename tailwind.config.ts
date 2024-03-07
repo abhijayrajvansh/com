@@ -30,6 +30,8 @@ const config: Config = {
           colors: {
             background: "#FFFFFF", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA 
             foreground: "#11181C", // or 50 to 900 DEFAULT
+            projectCardTop: "white",
+            projectCardBotttom: "white",
             primary: {
               //... 50 to 900
               foreground: "#FFFFFF",
@@ -42,6 +44,8 @@ const config: Config = {
           colors: {
             background: "#0F182A", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000
             foreground: "#ECEDEE", // or 50 to 900 DEFAULT
+            projectCardTop: "#141D2E",
+            projectCardBotttom: "#1E2A3B",
             primary: {
               //... 50 to 900
               foreground: "#FFFFFF",

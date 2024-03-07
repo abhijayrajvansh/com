@@ -13,18 +13,20 @@ const Playground = () => {
       {/* ********************************** */}
 
 
-
+      <div className="bg-[url('https://nypost.com/wp-content/uploads/sites/2/2022/04/feat-elon-musk-420-reference-in-twitter-takeover.jpg?quality=75&strip=all')] h-screen w-full box-content" >
+        image div
+      </div>
 
 
 
 
       {/* project card  */}
-      <div className="my-5 rounded-xl p-4 shadow-xl border border-default-300">
+      <div className="my-5 rounded-xl p-4 shadow-xl bg-gradient-to-b from-projectCardTop to-projectCardBotttom border border-default-200">
 
         <div className="flex justify-between items-center">
 
           <div className="text-2xl font-bold">Twitter Clone</div>
-          <Chip size="md" variant="flat" color="success">
+          <Chip size="sm" variant="flat" color="success">
             personal project
           </Chip>
 

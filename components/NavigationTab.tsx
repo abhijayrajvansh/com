@@ -30,13 +30,13 @@ const NAVIGATION_DATA = [
 
 const NavigationTab = () => {
   return (
-    <section className="w-full flex items-center justify-between fixed bottom-0 left-0 max-w-[435px] backdrop-blur-[5px] sm:flex-col sm:h-full sm:max-w-fit z-10">
+    <section className="w-full flex items-center justify-between fixed bottom-0 left-0 max-w-[435px] sm:flex-col sm:h-full sm:max-w-fit z-10  backdrop-blur-[5px] bg-background bg-opacity-60">
       
       {
         NAVIGATION_DATA.map(item => (
-          <Link key={item.pageTitle} href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="px-3 py-4 flex items-center cursor-pointer text-4xl">
+          <Link key={item.pageTitle} href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="px-3 py-2 flex items-center cursor-pointer text-4xl">
             
-            <Button isIconOnly size="md" className="text-4xl" variant="light">
+            <Button isIconOnly size="md" className="text-3xl" variant="light">
               <item.pageIcon />
               <div className="hidden">{item.pageTitle}</div>
             </Button>
