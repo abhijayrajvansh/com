@@ -4,13 +4,13 @@
 
 @layer base {
   body {
-    @apply w-full h-full flex justify-center items-center bg-background
+    @apply w-full h-full flex justify-center items-center
   }
 }
 
 @layer components {
   .wrapper {
-    @apply w-screen min-w-[360px] h-full px-5 max-w-2xl
+    @apply w-screen min-w-[360px] h-full px-5 max-w-3xl
   }
 }
 

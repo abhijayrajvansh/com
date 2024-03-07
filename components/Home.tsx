@@ -73,6 +73,7 @@ const Home = () => {
 				</div>
 
 				{/* to work on fixed navbar, seperates away on zoom out .. not correct */}
+				{/* also i havent erapper nav into main of home, which is correct but it is NOT flex and then i have used fixed left... that's bad ig */}
 
 				<p className="mt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sint qui architecto cumque excepturi est neque dolores asperiores fuga libero illum commodi, quia ab, nobis iste. Nam officiis illum quae est fuga, delectus aliquid facilis. Est iure adipisci inventore expedita. Magnam ex velit libero cum quaerat ducimus ut sint mollitia quod ullam eveniet nisi fugit delectus recusandae ea, est repellat vel natus, aperiam accusantium nesciunt itaque in? Officiis cupiditate, omnis vero repellat pariatur eos fugit optio vitae placeat exercitationem temporibus vel quaerat recusandae itaque eveniet ratione reiciendis rem quibusdam aut in aperiam. Fuga alias cum officia maiores, quis eos dolorum quod sed rerum eum deleniti commodi nemo facilis asperiores qui! Aut.</p>
 
