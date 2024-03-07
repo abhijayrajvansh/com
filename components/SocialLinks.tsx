@@ -1,5 +1,5 @@
 import { Button } from "@nextui-org/react";
-import Link from "next/link";
+import { Link } from "@nextui-org/react";
 import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { siteConfig } from '@/config/site'
@@ -7,13 +7,13 @@ import { siteConfig } from '@/config/site'
 const SocialLinks = () => {
   return (
     <div className="flex items-center justify-between p-2">
-      <Link href={`${siteConfig.links.github}`}><Button isIconOnly size="lg" className="text-4xl" variant="light"><FaGithub /></Button></Link>
+      <Button href={`${siteConfig.links.github}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><FaGithub /></Button>
 
-      <Link href={`${siteConfig.links.linkedin}`}><Button isIconOnly size="lg" className="text-4xl" variant="light"><FaLinkedin /></Button></Link>
+      <Button href={`${siteConfig.links.linkedin}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><FaLinkedin /></Button>
 
-      <Link href={`${siteConfig.links.twitter}`}><Button isIconOnly size="lg" className="text-4xl" variant="light"><FaXTwitter /></Button></Link>
+      <Button href={`${siteConfig.links.twitter}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><FaXTwitter /></Button>
 
-      <Link href={`${siteConfig.links.email}`}><Button isIconOnly size="lg" className="text-4xl" variant="light"><MdOutlineAttachEmail /></Button></Link>
+      <Button href={`${siteConfig.links.email}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><MdOutlineAttachEmail /></Button>
     </div>
   )
 }

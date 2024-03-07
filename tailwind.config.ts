@@ -22,10 +22,13 @@ const config: Config = {
   darkMode: "class",
   plugins: [
     nextui({
+
+      // custom themes
+
       themes: {
         light: {
           colors: {
-            background: "#FFFAED", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA
+            background: "#FFFFFF", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA 
             foreground: "#11181C", // or 50 to 900 DEFAULT
             primary: {
               //... 50 to 900
@@ -37,7 +40,7 @@ const config: Config = {
         },
         dark: {
           colors: {
-            background: "#0F172A", // or DEFAULT ✅ 0F172A 141414 121422
+            background: "#0F182A", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000
             foreground: "#ECEDEE", // or 50 to 900 DEFAULT
             primary: {
               //... 50 to 900

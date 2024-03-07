@@ -1,9 +1,8 @@
 // navigation tab import
-import Link from "next/link";
 import { PiHouse, PiInfo, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import { TbMailPin } from "react-icons/tb";
-import { Button } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -31,7 +30,7 @@ const NAVIGATION_DATA = [
 
 const NavigationTab = () => {
   return (
-    <section className="w-full flex items-center justify-between fixed bottom-0 left-0 max-w-[435px] backdrop-blur-[5px] sm:flex-col sm:h-full sm:max-w-fit">
+    <section className="w-full flex items-center justify-between fixed bottom-0 left-0 max-w-[435px] backdrop-blur-[5px] sm:flex-col sm:h-full sm:max-w-fit z-10">
       
       {
         NAVIGATION_DATA.map(item => (
