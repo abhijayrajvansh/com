@@ -1,7 +1,5 @@
 // playground imports
 import { title } from "../components/primitives";
-import { Button, Link, Chip} from "@nextui-org/react";
-import { FaGithub } from "react-icons/fa6";
 
 
 const Playground = () => {
@@ -13,61 +11,10 @@ const Playground = () => {
       {/* ********************************** */}
 
 
-      <div className="bg-[url('https://nypost.com/wp-content/uploads/sites/2/2022/04/feat-elon-musk-420-reference-in-twitter-takeover.jpg?quality=75&strip=all')] h-screen w-full box-content" >
-        image div
-      </div>
 
-
-
-
-      {/* project card  */}
-      <div className="my-5 rounded-xl p-4 shadow-xl bg-gradient-to-b from-projectCardTop to-projectCardBotttom border border-default-200">
-
-        <div className="flex justify-between items-center">
-
-          <div className="text-2xl font-bold">Twitter Clone</div>
-          <Chip size="sm" variant="flat" color="success">
-            personal project
-          </Chip>
-
-        </div>
-        
-        <div className="mt-3 text-default-500">Tech Stack: next.js, typescript, tailwindcss...</div>
-        
-
-        <img className="mt-5 rounded-2xl shadow-xl border border-default-200" src="/xTwitterThumbnail.webp" alt="project-thumbnail" />
-
-
-        <div className="flex justify-between mt-5">
-
-          <Button size="md"
-            isExternal={true}
-            href="/"
-            as={Link}
-            variant="bordered"
-            
-          >
-            <FaGithub size={'21'} /> 
-            GitHub
-          </Button>
-
-          <Button size="md"
-            color="danger"
-            isExternal={true}
-            href="/"
-            as={Link}
-            variant="solid"
-            showAnchorIcon
-          >
-            Visit
-            
-          </Button>
-
-        </div>
-
-      </div>
       
-
+      
+        {/* start building */}
 
 
 

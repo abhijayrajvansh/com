@@ -1,9 +1,9 @@
-import Link from "next/link";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import { title, subtitle } from "@/components/primitives";
-import Playground from "./Playground";
-import { colorVariants } from "@nextui-org/react";
+import ProjectCard from "./ProjectCard";
+import { siteConfig } from "@/config/site";
+import Link from "next/link";
 
 const Home = () => {
 	return (
@@ -13,10 +13,10 @@ const Home = () => {
 			<main>
 				
 				{/* banner */}
-				<img className='rounded-xl shadow-xl' src="/homeBanner.webp" alt="childVersionOfMyself" />
+				<img className='rounded-xl shadow-xl' src="/childVersionofMyself.webp" alt="childVersionOfMyself" />
 
 				{/* short intro and tagline */}
-				<div className="space-y-5 py-5 font-medium">
+				<div className="space-y-5 my-5 font-medium">
 
 					<p className="text-[1.3rem] space-x-2 mb-4">
 						<span>Hi, I'm</span>
@@ -38,9 +38,41 @@ const Home = () => {
 
 				{/* Projects Exhibition */}
 				<div>
-					<h1 className={`font-medium text-xl ${subtitle()}`}>Recent Projects</h1>
-					<Playground />
+					<h1 className={`font-medium text-2xl inline-block my-5`}>
+						Recent Projects
+					</h1>
+					
+					<div className="flex flex-col sm:flex-row sm:space-x-7">
+						<ProjectCard 
+							title={siteConfig.projects.twitter.title}
+							description={siteConfig.projects.twitter.description}
+							type={siteConfig.projects.twitter.type}
+							thumbnail={siteConfig.projects.twitter.thumbnail}
+							sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
+							liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
+							tilt="-rotate-1" 
+						/>
+
+						<ProjectCard 
+							title={siteConfig.projects.twitter.title}
+							description={siteConfig.projects.twitter.description}
+							type={siteConfig.projects.twitter.type}
+							thumbnail={siteConfig.projects.twitter.thumbnail}
+							sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
+							liveProjectLink={siteConfig.projects.twitter.liveProjectLink} 
+							tilt="rotate-1"
+						/>
+
+					</div>
+
+					<div className="text-md flex gap-2"> 
+						<p>See a list of all my projects</p>
+						<Link className="text-primary-600 font-medium" href={'/projects'}>On my projects page.</Link>
+					</div>
+
 				</div>
+
+				<p className="mt-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic sint qui architecto cumque excepturi est neque dolores asperiores fuga libero illum commodi, quia ab, nobis iste. Nam officiis illum quae est fuga, delectus aliquid facilis. Est iure adipisci inventore expedita. Magnam ex velit libero cum quaerat ducimus ut sint mollitia quod ullam eveniet nisi fugit delectus recusandae ea, est repellat vel natus, aperiam accusantium nesciunt itaque in? Officiis cupiditate, omnis vero repellat pariatur eos fugit optio vitae placeat exercitationem temporibus vel quaerat recusandae itaque eveniet ratione reiciendis rem quibusdam aut in aperiam. Fuga alias cum officia maiores, quis eos dolorum quod sed rerum eum deleniti commodi nemo facilis asperiores qui! Aut.</p>
 
 			</main>
 		</section>

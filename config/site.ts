@@ -14,10 +14,10 @@ export const siteConfig = {
 
 	projects: {
 		twitter: {
-			title: "𝕏 (formerly Twitter) Clone",
+			title: "Twitter 𝕏 Clone",
 			type: "personal-project",
-			description: "Next.js/React, Supabase, Drizzle ORM, TailwindCSS, Shadcn/ui, RadixUI, Typescrip",
-			thumbnail: "/xTwitterThumbnail.webp",
+			description: "Next.js, Supabase, Drizzle ORM, TailwindCSS, Shadcn/ui, RadixUI, Typescript",
+			thumbnail: "/t3.webp",
 			sourceCodeLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
 			liveProjectLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js"
 		},
