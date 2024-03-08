@@ -25,13 +25,14 @@ const Home = () => {
 						<ShortIntro />
 
 
+						<Awwwards />
+						
+										
 						<RecentProjects />
 
 
-						<Awwwards />
 
-
-						<DummyTextSpace />
+						{/* <DummyTextSpace /> */}
 						
 
 					</main>

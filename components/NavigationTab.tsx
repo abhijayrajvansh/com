@@ -39,7 +39,7 @@ const NavigationTab = () => {
             <Link key={item.pageTitle} 
             href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="flex items-center cursor-pointer text-3xl sm:text-base">
               
-              <div className="sm:flex sm:items-center sm:space-x-3 px-4 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition sm:py-2">
+              <div className="sm:flex sm:items-center sm:space-x-3 px-4 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/40 transition sm:py-2 sm:hover:shadow-xl">
                 <item.pageIcon className="sm:text-3xl" />
                 <div className="hidden lg:block">{item.pageTitle}</div>
               </div>

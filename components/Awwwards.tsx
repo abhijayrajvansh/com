@@ -1,4 +1,3 @@
-import Link from "next/link";
 import AchievementCard from "./AchievementCard";
 
 const Awwwards = () => {
@@ -11,22 +10,38 @@ const Awwwards = () => {
       {/* top 2 projects showcase */}
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
-        <AchievementCard
-        tilt="right" />
 
+        <AchievementCard
+          title="Coding Ninjas, Hackathon"
+          position="Winner, Smarthacks"
+          thumbnail="bg-[url('/cn.webp')]"
+          tilt="left" 
+        />
+
+        <AchievementCard
+          title="Google Hash Code"
+          position="Rank 804th"
+          thumbnail="bg-[url('/ghc.webp')]"
+          tilt="right" 
+        />
+        
       </div>
 
-
-      {/* another 2 projects showcase */}
 
       <div className="flex flex-col sm:flex-row sm:space-x-7">
-        {/* add project cards here... */}
+        
+        <AchievementCard
+          title="Facebook Hacker Cup"
+          position="Rank 1524th"
+          thumbnail="bg-[url('/fhc.webp')]"
+          tilt="left" 
+        />
+       
       </div>
 
 
-      <div className="text-md sm:mb-10 font-light flex gap-1"> 
-        <p>See a list of all my projects</p>
-        <Link className="text-primary-600 font-normal" href={'/projects'}>On my projects page.</Link>
+      <div className="text-md mb-5 font-light flex gap-1"> 
+        <p>funfact: ...</p>
       </div>
 
     </div>
