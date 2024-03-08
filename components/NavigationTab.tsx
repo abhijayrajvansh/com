@@ -1,7 +1,7 @@
 // navigation tab import
 import { PiHouse, PiInfo, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
-import { TbMailPin } from "react-icons/tb";
+import { PiHandshakeDuotone } from "react-icons/pi";
 import Link from "next/link";
 
 // navigation tab routes
@@ -23,8 +23,8 @@ const NAVIGATION_DATA = [
     pageIcon: FaReact
   },
   {
-    pageTitle: 'Contact',
-    pageIcon: TbMailPin
+    pageTitle: 'Contacts',
+    pageIcon: PiHandshakeDuotone
   },
 ]
 

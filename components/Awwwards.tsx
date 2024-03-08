@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AchievementCard from "./AchievementCard";
 
 const Awwwards = () => {
   return (
@@ -10,7 +11,8 @@ const Awwwards = () => {
       {/* top 2 projects showcase */}
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
-        yaha card section rhega
+        <AchievementCard
+        tilt="right" />
 
       </div>
 
