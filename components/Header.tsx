@@ -4,7 +4,7 @@ import { Link } from "@nextui-org/react";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between py-5 mb-5 pl-4">
+    <header className="flex items-center justify-between px-5 py-5 pl-4 sm:ml-[230px]">
       <div>
         <ThemeSwitch />
       </div>

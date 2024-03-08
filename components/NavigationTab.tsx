@@ -30,16 +30,16 @@ const NAVIGATION_DATA = [
 
 const NavigationTab = () => {
   return (
-    <section className="w-full flex  sm:items-end sm:top-[90px] fixed bottom-0 left-0 max-w-[435px] sm:flex-col z-10  backdrop-blur-[5px] sm:backdrop-blur-[0px] bg-background bg-opacity-60 sm:bg-opacity-0 sm:max-w-fit sm:pl-[100px]">
+    <section className="flex z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-5 sm:top-0 sm:pt-20 sm:border-r border-default-200 sm:font-light "> 
       
       <div className="flex items-center justify-between w-full sm:block">
         {
           NAVIGATION_DATA.map(item => (
 
             <Link key={item.pageTitle} 
-            href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="flex items-center cursor-pointer text-3xl sm:text-xl">
+            href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="flex items-center cursor-pointer text-3xl sm:text-base">
               
-              <div className="sm:flex sm:items-center sm:space-x-3 px-4 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary-100 transition">
+              <div className="sm:flex sm:items-center sm:space-x-3 px-4 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition sm:py-2">
                 <item.pageIcon className="sm:text-3xl" />
                 <div className="hidden lg:block">{item.pageTitle}</div>
               </div>

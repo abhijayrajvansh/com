@@ -10,7 +10,7 @@
 
 @layer components {
   .wrapper {
-    @apply w-screen min-w-[360px] h-full px-5 max-w-3xl
+    @apply w-screen h-full max-w-screen-xl
   }
 }
 
