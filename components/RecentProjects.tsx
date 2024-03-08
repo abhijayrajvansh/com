@@ -18,7 +18,7 @@ const RecentProjects = () => {
           thumbnail={siteConfig.projects.twitter.thumbnail}
           sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
           liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
-          tilt="left" 
+          tilt="right" 
         />
 
         <ProjectCard 
@@ -28,7 +28,7 @@ const RecentProjects = () => {
           thumbnail={siteConfig.projects.twitter.thumbnail}
           sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
           liveProjectLink={siteConfig.projects.twitter.liveProjectLink} 
-          tilt="right"
+          tilt="left"
         />
       </div>
 

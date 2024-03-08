@@ -15,14 +15,14 @@ const Awwwards = () => {
           title="Coding Ninjas, Hackathon"
           position="Winner, Smarthacks"
           thumbnail="bg-[url('/cn.webp')]"
-          tilt="left" 
+          tilt="right" 
         />
 
         <AchievementCard
           title="Google Hash Code"
           position="Rank 804th"
           thumbnail="bg-[url('/ghc.webp')]"
-          tilt="right" 
+          tilt="left" 
         />
         
       </div>
@@ -34,7 +34,7 @@ const Awwwards = () => {
           title="Facebook Hacker Cup"
           position="Rank 1524th"
           thumbnail="bg-[url('/fhc.webp')]"
-          tilt="left" 
+          tilt="right" 
         />
        
       </div>
