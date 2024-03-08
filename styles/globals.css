@@ -12,6 +12,14 @@
   .wrapper {
     @apply w-screen h-full max-w-screen-xl
   }
+  
+  .pageWrapper {
+    @apply lg:flex
+  }
+  
+  .contentWrapper {
+    @apply px-4 sm:ml-[100px] lg:ml-[230px] sm:min-w-[750px]
+  }
 }
 
 /* debugging border classes */

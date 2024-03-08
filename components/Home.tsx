@@ -16,9 +16,9 @@ const Home = () => {
 				<Header />
 				<NavigationTab />
 
-				<div className="lg:flex">
+				<div className="pageWrapper">
 
-					<main className="px-4 sm:ml-[100px] lg:ml-[230px] sm:min-w-[750px] sm:max-w-[750px]">
+					<main className="contentWrapper">
 						{/* home page (middle column starts here...) */}
 
 						{/* banner */}

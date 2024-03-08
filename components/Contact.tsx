@@ -1,15 +1,29 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import SocialLinks from "./SocialLinks";
+import Subscription from "./Subscription";
 
 const Contact = () => {
   return (
-    <div>
+    <section className="wrapper">
       <Header />
-			<NavigationTab />
-      <SocialLinks />
-      contact
-    </div>
+      <NavigationTab />
+
+      <div className="pageWrapper">
+
+        <main className="contentWrapper">
+
+
+        <SocialLinks />
+
+          contact page
+        </main>
+
+
+        <Subscription />
+      </div>
+      
+    </section>
   )
 }
 

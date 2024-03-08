@@ -1,13 +1,29 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
+import Subscription from "./Subscription";
 
 const Projects = () => {
   return (
-    <div>
+    <section className="wrapper">
       <Header />
-			<NavigationTab />
-      projects
-    </div>
+      <NavigationTab />
+
+      <div className="pageWrapper">
+
+        <main className="contentWrapper">
+
+
+        projects page
+
+
+
+        </main>
+
+
+        <Subscription />
+      </div>
+      
+    </section>
   )
 }
 

@@ -1,13 +1,30 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
+import Subscription from "./Subscription";
 
 const Experience = () => {
   return (
-    <div>
+    <section className="wrapper">
       <Header />
-			<NavigationTab />
-      experience
-    </div>
+      <NavigationTab />
+
+      <div className="pageWrapper">
+
+        <main className="contentWrapper">
+
+
+        
+          experience page
+
+
+
+        </main>
+
+
+        <Subscription />
+      </div>
+      
+    </section>
   )
 }
 
