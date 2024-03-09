@@ -11,7 +11,7 @@ const Header = () => {
       </div>
 
       <Button
-        href="/contact"
+        href="/contacts"
         as={Link}
         color="primary"
         showAnchorIcon

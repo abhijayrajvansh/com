@@ -32,18 +32,19 @@ const NAVIGATION_DATA = [
 
 const NavigationTab = () => {
   return (
-    <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-4 sm:pr-3 sm:top-0 sm:pt-20 sm:border-r border-default-200 sm:font-light "> 
+    <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-4 sm:pr-3 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light "> 
 
-
-      <Avatar className="hidden sm:block"
-       isBordered color="default" 
-       radius="md" 
-       src={siteConfig.avatar.src} 
-      />
 
 {/* avatar to bich me align karna hai */}
       
-      <div className=" bred flex items-center justify-between w-full sm:block">
+      <div className="flex items-center justify-between w-full sm:block sm:pt-5">
+
+      <Avatar className="hidden sm:block mx-4 mb-5"
+        isBordered color="default" 
+        radius="md" 
+        src={siteConfig.avatar.src}
+      />
+        
         
         {
           NAVIGATION_DATA.map(item => (
