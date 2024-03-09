@@ -13,13 +13,13 @@ interface projectCardProps {
 
 const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumbnail, sourceCodeLink, liveProjectLink, tilt}) => {
   return (
-    <div className={`mt-5 bg-[url('/t3.webp')] ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} rounded-2xl hover:rotate-0 transition`}>
+    <div className={`mt-5 ${thumbnail} ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} rounded-2xl hover:rotate-0 transition`}>
 
     {/* bg-gradient-to-b from-projectCardTop to-projectCardBotttom */}
     <div className={`rounded-xl p-4 shadow-xl bg-black bg-opacity-50 hover:bg-opacity-40 transition text-white`}>
         
         <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold ">{title}</div>
+          <div className="text-[22px] font-bold ">{title}</div>
           
           <Chip className="backdrop-blur-xl" 
             size="sm" variant="flat" color="success">

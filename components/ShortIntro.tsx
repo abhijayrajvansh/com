@@ -5,9 +5,9 @@ const ShortIntro = () => {
   return (
     <div className="space-y-5 my-5 font-medium">
 
-      <p className="text-[1.3rem] space-x-2 mb-4">
+      <p className="text-xl space-x-2 mb-4">
         <span>Hi, I'm</span>
-        <span className={`font-semibold text-primary-500 text-[1.5rem]`}>Abhijay Rajvansh.</span>
+        <span className={`font-medium text-primary-500`}>Abhijay Rajvansh</span>
       </p>
       {/* full-stack: className="bg-success-100 bg-opacity-60 px-2 rounded-xl text-success-700" */}
       <h1 className={`${title()}text-[2rem] leading-tight font-semibold`}>

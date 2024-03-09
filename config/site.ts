@@ -17,7 +17,7 @@ export const siteConfig = {
 			title: "Twitter 𝕏 Clone",
 			type: "personal-project",
 			description: "Next.js, Supabase, Drizzle ORM, TailwindCSS, Shadcn/ui, RadixUI, Typescript",
-			thumbnail: "/t3.webp",
+			thumbnail: "bg-[url('/t3.webp')]",
 			sourceCodeLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
 			liveProjectLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js"
 		},
