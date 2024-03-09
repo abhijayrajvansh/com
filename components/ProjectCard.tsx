@@ -16,7 +16,7 @@ interface projectCardProps {
 const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumbnail, sourceCodeLink, liveProjectLink, tilt}) => {
   return (
     // bg-[url('/t3.webp')]
-    <div className={`mt-5 bg-[url('/t3.webp')] ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} rounded-2xl hover:rotate-0 transition`}>
+    <div className={`mt-5 ${thumbnail} ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} rounded-2xl hover:rotate-0 transition`}>
 
     {/* bg-gradient-to-b from-projectCardTop to-projectCardBotttom */}
     <div className={`rounded-xl p-4 shadow-xl bg-black bg-opacity-50 hover:bg-opacity-40 transition text-white`}>

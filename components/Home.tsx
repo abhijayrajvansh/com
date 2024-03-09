@@ -10,7 +10,9 @@ const Home = () => {
 
 	return (
 			<section className="wrapper">
+				{/* top header */}
 				<Header />
+				{/* left section */}
 				<NavigationTab />
 
 				<div className="pageWrapper">
@@ -28,12 +30,7 @@ const Home = () => {
 						
 										
 						<RecentProjects />
-
-
-
-						{/* <DummyTextSpace /> */}
 						
-
 					</main>
 						
 					{/* right section */}

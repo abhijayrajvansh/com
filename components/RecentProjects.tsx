@@ -41,8 +41,8 @@ const RecentProjects = () => {
 
 
       <div className="text-md sm:mb-10 font-light flex gap-1 mt-5"> 
-        <p>See a list of all my projects</p>
-        <Link className="text-primary-600 font-normal" href={'/projects'}>On my projects page.</Link>
+        <p>See a list of all my projects on the</p>
+        <Link className="text-primary-600 font-normal" href={'/projects'}>projects page.</Link>
       </div>
     </div>
 
