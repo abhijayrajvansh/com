@@ -40,9 +40,9 @@ const Awwwards = () => {
       </div>
 
 
-      {/* <div className="text-md mb-5 font-light flex gap-1"> 
-        <p>funfact: ...</p>
-      </div> */}
+      <div className="text-md mb-5 font-light flex gap-1"> 
+        <p>funfact: when the world was debating on DSA vs Dev, I was learning both!</p>
+      </div>
 
     </div>
   )

@@ -2,7 +2,6 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./Subscription";
 import RecentProjects from "./RecentProjects";
-import DummyTextSpace from "./DummyTextSpace";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";

@@ -4,6 +4,10 @@ export const siteConfig = {
 	name: "Abhijay Rajvansh | Freelance Web & Mobile Developer",
 	
 	description: "Are you looking for your website or mobile app? Consider it done with Abhijay Rajvansh's expertise in software development, design prowess, and strategic approach for the best outcome. Your desired needs are the priority here!",
+
+	avatar: {
+		src: "https://avatars.githubusercontent.com/u/82618814?v=4",
+	},
 	
 	links: {
 		github: "https://github.com/abhijayrajvansh",
