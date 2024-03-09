@@ -3,7 +3,6 @@ import { PiHouse, PiInfo, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import { PiHandshakeDuotone } from "react-icons/pi";
 import Link from "next/link";
-import { Avatar } from "@nextui-org/react";
 import { siteConfig } from "@/config/site";
 
 // navigation tab routes
@@ -33,19 +32,16 @@ const NAVIGATION_DATA = [
 const NavigationTab = () => {
   return (
     <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-4 sm:pr-3 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light "> 
-
-
-{/* avatar to bich me align karna hai */}
       
-      <div className="flex items-center justify-between w-full sm:block sm:pt-5">
+    <div className="flex items-center justify-between w-full sm:block sm:pt-5">
 
-      <Avatar className="hidden sm:block mx-4 mb-5"
-        isBordered color="default" 
-        radius="md" 
-        src={siteConfig.avatar.src}
-      />
+      {/* portfolio avatar */}
+      <Link href={'/'} className="hidden sm:block mb-8">
+        <img className="h-10 mx-3 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
+      </Link>
         
         
+        {/* navigation options starts here */}
         {
           NAVIGATION_DATA.map(item => (
 
