@@ -30,7 +30,7 @@ const NAVIGATION_DATA = [
 
 const NavigationTab = () => {
   return (
-    <section className="flex z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-5 sm:top-0 sm:pt-20 sm:border-r border-default-200 sm:font-light "> 
+    <section className="flex z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-4 sm:pr-3 sm:top-0 sm:pt-20 sm:border-r border-default-200 sm:font-light "> 
       
       <div className="flex items-center justify-between w-full sm:block">
         {
