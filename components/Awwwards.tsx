@@ -41,7 +41,7 @@ const Awwwards = () => {
 
 
       <div className="text-md mb-5 font-light flex gap-1"> 
-        <p><span className="text-danger-500 font-semibold">funfact:</span> when the world was arguing on DSA vs Dev, I was learning both!</p>
+          <span className="text-danger-500 font-semibold">funfact: <span className="text-default-900 font-light">I love to <span className="underline underline-offset-4 font-medium">figure things out</span>, that's my biggest flex!</span></span>
       </div>
 
     </div>
