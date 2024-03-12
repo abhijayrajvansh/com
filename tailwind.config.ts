@@ -28,7 +28,7 @@ const config: Config = {
       themes: {
         light: {
           colors: {
-            background: "#FFFFFF", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA 
+            background: "#FFFFFF", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA FFFDF9
             foreground: "#11181C", // or 50 to 900 DEFAULT
             projectCardTop: "white",
             projectCardBotttom: "white",

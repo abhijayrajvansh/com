@@ -22,7 +22,7 @@ const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumb
     <div className={`rounded-xl p-4 shadow-xl bg-black bg-opacity-50 hover:bg-opacity-40 transition text-white`}>
         
         <div className="flex justify-between items-center">
-          <div className="text-[22px] font-bold ">{title}</div>
+          <div className="text-xl font-bold ">{title}</div>
           
           <Chip className="backdrop-blur-xl" 
             size="sm" variant="flat" color="success">
