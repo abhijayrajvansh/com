@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ShortIntro = () => {
   return (
-    <div className="space-y-5 my-5 font-medium">
+    <div className="space-y-5 my-5 mt-7 font-medium">
 
       <p className="text-xl space-x-2 mb-4">
         <span>Hi, I'm</span>

@@ -12,13 +12,9 @@ const Projects = () => {
 
         <main className="contentWrapper">
 
-
         projects page
 
-
-
         </main>
-
 
         <Subscription />
       </div>

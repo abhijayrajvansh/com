@@ -19,7 +19,9 @@ const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumb
     <div className={`mt-5 ${thumbnail} ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} rounded-2xl hover:rotate-0 transition`}>
 
     {/* bg-gradient-to-b from-projectCardTop to-projectCardBotttom */}
-    <div className={`rounded-xl p-4 shadow-xl bg-black bg-opacity-50 hover:bg-opacity-40 transition text-white`}>
+
+    {/* need to redesign project card */}
+    <div className={`rounded-xl p-4 shadow-xl bg-black bg-opacity-50 hover:bg-opacity-40 transition text-white backdrop-blur-[3px] hover:backdrop-blur-none`}>
         
         <div className="flex justify-between items-center">
           <div className="text-xl font-bold ">{title}</div>

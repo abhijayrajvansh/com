@@ -12,6 +12,7 @@ const Home = () => {
 			<section className="wrapper">
 				{/* top header */}
 				<Header />
+				
 				{/* left section */}
 				<NavigationTab />
 
@@ -22,13 +23,10 @@ const Home = () => {
 						
 						<CuriousChildinMe />
 
-
 						<ShortIntro />
-
 
 						<Awwwards />
 						
-										
 						<RecentProjects />
 						
 					</main>

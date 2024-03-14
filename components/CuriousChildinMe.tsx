@@ -1,6 +1,6 @@
 const CuriousChildinMe = () => {
   return (
-    <img className='rounded-xl shadow-xl' src="/childVersionofMyself.webp" alt="childVersionOfMyself" />
+    <img className='rounded-2xl shadow-xl' src="/childVersionofMyself.png" alt="childVersionOfMyself" />
   )
 }
 
