@@ -10,25 +10,31 @@ const Awwwards = () => {
       {/* top 2 projects showcase */}
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
+        <AchievementCard
+            title="Google Hash Code"
+            position="Rank 804th"
+            thumbnail="bg-[url('/ghc.webp')]"
+            tilt="left" 
+          />
 
         <AchievementCard
-          title="Coding Ninja's Hackathon"
-          position="Winner, Smarthacks"
-          thumbnail="bg-[url('/cn.webp')]"
+          title="Apple iOS Developer Program"
+          position="Best Developer Award"
+          thumbnail="bg-[url('/appletrainee.webp')]"
           tilt="right" 
         />
 
-        <AchievementCard
-          title="Google Hash Code"
-          position="Rank 804th"
-          thumbnail="bg-[url('/ghc.webp')]"
-          tilt="left" 
-        />
-        
       </div>
 
 
       <div className="flex flex-col sm:flex-row sm:space-x-7">
+
+        <AchievementCard
+          title="Asia Largest Hackathon"
+          position="Winner, Smarthacks"
+          thumbnail="bg-[url('/cn.webp')]"
+          tilt="right" 
+        />
         
         <AchievementCard
           title="Facebook Hacker Cup"
@@ -39,8 +45,7 @@ const Awwwards = () => {
        
       </div>
 
-
-      <div className="text-md mb-5 font-light flex gap-1"> 
+      <div className="text-md mt-3 mb-5 font-light flex gap-1"> 
           <span className="text-danger-500 font-semibold">funfact: <span className="text-default-900 font-light">I'm good at <span className="underline underline-offset-4 font-medium">figuring things out</span>, that's my biggest flex!</span></span>
       </div>
 

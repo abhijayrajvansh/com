@@ -15,7 +15,7 @@ const RecentProjects = () => {
           title={siteConfig.projects.twitter.title}
           description={siteConfig.projects.twitter.description}
           type={siteConfig.projects.twitter.type}
-          thumbnail={siteConfig.projects.twitter.thumbnail}
+          thumbnail="bg-[url('/t3.webp')]"
           sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
           liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
           tilt="right" 
@@ -25,11 +25,13 @@ const RecentProjects = () => {
           title={siteConfig.projects.twitter.title}
           description={siteConfig.projects.twitter.description}
           type={siteConfig.projects.twitter.type}
-          thumbnail={siteConfig.projects.twitter.thumbnail}
+          thumbnail="bg-[url('/t3.webp')]"
           sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
-          liveProjectLink={siteConfig.projects.twitter.liveProjectLink} 
-          tilt="left"
+          liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
+          tilt="right" 
         />
+
+
       </div>
 
 

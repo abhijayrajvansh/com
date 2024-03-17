@@ -4,21 +4,21 @@ import { Link } from "@nextui-org/react";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between px-5 py-5 pl-4 pb-10 sm:ml-[110px] lg:ml-[230px]">
+    <header className="flex items-center justify-between px-5 pt-5 sm:pl-0 pb-10 sm:ml-[110px] lg:ml-[230px]">
       
       <div>
         <ThemeSwitch />
       </div>
 
       <Button
-        href="/contacts"
+        href="/contact"
         as={Link}
         color="primary"
         showAnchorIcon
-        variant="shadow"
-      >
+        variant="shadow" >
+        
         Contact
-    </Button>
+      </Button>
     </header>
   )
 }
