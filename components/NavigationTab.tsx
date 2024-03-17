@@ -1,9 +1,11 @@
-// navigation tab import
+'use client';
+
 import { PiHouse, PiInfo, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import { PiHandshakeDuotone } from "react-icons/pi";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import { usePathname } from "next/navigation";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -24,37 +26,55 @@ const NAVIGATION_DATA = [
     pageIcon: FaReact
   },
   {
-    pageTitle: 'Contacts',
+    pageTitle: 'Contact',
     pageIcon: PiHandshakeDuotone
   },
 ]
 
 const NavigationTab = () => {
+
+  const pathname = usePathname();
+
   return (
-    <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-4 sm:pr-3 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light "> 
+    <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-0 sm:pr-4 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light"> 
       
-    <div className="flex items-center justify-between w-full sm:block sm:pt-5">
+    <div className="flex items-center justify-between w-full sm:block sm:pt-5 sm:mt-2">
 
       {/* portfolio avatar */}
-      <Link href={'/'} className="hidden sm:block mb-8">
-        <img className="h-10 mx-3 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
+      <Link href={'/'} className="hidden sm:flex mb-5">
+        <div className="flex items-center">
+          <img className="h-10 mx-3 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
+          <div className="hidden lg:block text-[11px]">
+            <p className="text-primary-500 font-medium text-[12px]">Abhijay Rajvansh</p>
+            <p>Software Engineer</p>
+          </div>
+        </div>
       </Link>
         
-        
+
         {/* navigation options starts here */}
         {
-          NAVIGATION_DATA.map(item => (
+          NAVIGATION_DATA.map(item => {
 
-            <Link key={item.pageTitle} 
-            href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className="flex items-center cursor-pointer text-3xl sm:text-base">
-              
-              <div className="sm:flex sm:items-center sm:space-x-3 px-4 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/40 transition duration-0 sm:py-2 sm:hover:shadow-xl">
-                <item.pageIcon className="sm:text-3xl" />
-                <div className="hidden lg:block">{item.pageTitle}</div>
-              </div>
+            let currentPathname = '/' + item.pageTitle.toLowerCase();
+            if (currentPathname === '/home') { currentPathname = '/'; }
+            const isActive = pathname === currentPathname;
+            
+            return (
+              <Link 
+                key={item.pageTitle}
+                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex items-center cursor-pointer text-3xl sm:text-sm`}>
+                  
+                <div className={`sm:flex sm:items-center sm:space-x-3 px-4 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition duration-0 sm:py-2 sm:hover:shadow-xl ${isActive && 'sm:bg-primary/30 sm:shadow-lg font-medium text-primary-500 sm:text-primary-700'}`}>
+                
+                  <item.pageIcon className="sm:text-3xl" />
+                  <div className="hidden lg:block">{item.pageTitle}</div>
+                </div>
 
-            </Link>
-          ))
+              </Link>
+            )
+
+          })
         }
       </div>
 

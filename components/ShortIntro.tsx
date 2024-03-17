@@ -17,8 +17,8 @@ const ShortIntro = () => {
         </span>
       </h1>
 
-      <p className="font-light text-[1.05rem] text-default-500 leading-relaxed">
-        <span className="font-medium">Freelance</span> Web & Mobile Developer, <span className="font-medium">Silicon Valley</span> Intern, <span className="font-medium">Apple's</span> iOS Development Trainee, Former <span className="font-medium">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600 font-medium" href={'/about'}>more...</Link>
+      <p className="font-light text-default-550 leading-relaxed">
+        <span className="">Freelance</span> Web & Mobile Developer, <span className="">Former Silicon Valley</span> Intern, <span className="">Apple's</span> Development Trainee, Former <span className="">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600 font-medium" href={'/about'}>more...</Link>
       </p>
 
     </div>
