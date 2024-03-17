@@ -11,57 +11,48 @@ interface projectCardProps {
   tilt: string,
 }
 
-// const bgimg = 'background-image: url('/t3.webp')';
+const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumbnail, sourceCodeLink, liveProjectLink, tilt, }) => {
+  return (  
+    <div className={`border ${thumbnail} border-default-200 w-full my-5 sm:w-[341px] rounded-xl ${tilt === 'right' ? 'rotate-1' : '-rotate-1'} transition hover:rotate-0`}>
 
-const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumbnail, sourceCodeLink, liveProjectLink, tilt}) => {
-  return (
-    // bg-[url('/t3.webp')]
-    <div className={`mt-5 ${thumbnail} ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} rounded-2xl hover:rotate-0 transition`}>
+      <div className="bg-hoverdarkbg bg-opacity-60 hover:bg-opacity-40 transition w-full min-h-44 rounded-xl flex flex-col justify-between text-2xl font-medium p-4 shadow-xl text-white backdrop-blur-[2px] ">
 
-    {/* bg-gradient-to-b from-projectCardTop to-projectCardBotttom */}
 
-    {/* need to redesign project card */}
-    <div className={`rounded-xl p-4 shadow-xl bg-black bg-opacity-50 hover:bg-opacity-40 transition text-white backdrop-blur-[3px] hover:backdrop-blur-none`}>
-        
-        <div className="flex justify-between items-center">
-          <div className="text-xl font-bold ">{title}</div>
-          
-          <Chip className="backdrop-blur-xl" 
-            size="sm" variant="flat" color="success">
-            {type}
-          </Chip>
-        
-        </div>
+      <div className="flex justify-between items-center">
+        <div className="text-xl font-bold ">{title}</div>
+        <Chip className="backdrop-blur-xl" 
+          size="sm" variant="flat" color="success">
+          {type}
+        </Chip>
+      </div>
 
-        {/* text-default-500 */}
-        <div className="my-5  text-sm">{description}</div>
-        
-        {/* <img className="mt-5 rounded-2xl shadow-xl border border-default-200 w-[338px] h-[190px] object-cover" src={thumbnail} alt="project-thumbnail" /> */}
-        
-        <div className="flex justify-between py-2">
-        
-          <Button size="md" className="backdrop-blur-lg text-white"
-            isExternal={true}
-            href={sourceCodeLink}
-            as={Link}
-            variant="bordered">
-            <div className="flex items-center gap-3 font-semibold">
-              <FaGithub size={'25'} /> 
-              GitHub
-            </div>
-          </Button>
+      <div className="my-5  text-sm">{description}</div>
 
-          <Button size="md"
-            color="danger"
-            isExternal={true}
-            href={liveProjectLink}
-            as={Link}
-            variant="solid"
-            showAnchorIcon>
-            Visit
-          </Button>
+      <div className="flex justify-between">
+        <Button size="md" className="backdrop-blur-lg text-white"
+          isExternal={true}
+          href={sourceCodeLink}
+          as={Link}
+          variant="bordered">
+          <div className="flex items-center gap-3 font-semibold">
+            <FaGithub size={'25'} /> 
+            GitHub
+          </div>
+        </Button>
 
-        </div>
+        <Button size="md"
+          color="danger"
+          isExternal={true}
+          href={liveProjectLink}
+          as={Link}
+          variant="solid"
+          showAnchorIcon>
+          Visit
+        </Button>
+      </div>
+      
+      
+      
       </div>
 
     </div>
@@ -69,3 +60,10 @@ const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumb
 }
 
 export default ProjectCard;
+
+
+
+
+
+
+
