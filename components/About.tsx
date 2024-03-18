@@ -12,7 +12,7 @@ const About = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-5xl font-semibold mb-16">About Me</h1>
+          <h1 className="text-5xl font-semibold mb-10">About Me</h1>
           
           <img className="mb-5" src="/abhijayatwork.gif" alt="abhijay@work-pixelAnimated" />
           

@@ -14,7 +14,7 @@ const Experience = () => {
 
 
         
-          <h1 className="text-5xl font-semibold mb-16">Experience</h1>
+          <h1 className="text-5xl font-semibold mb-10">Experience</h1>
           <p>data</p>
 
 
