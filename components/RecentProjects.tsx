@@ -31,9 +31,7 @@ const RecentProjects = () => {
           tilt="left" 
         />
 
-
       </div>
-
 
       {/* another 2 projects showcase */}
 
@@ -42,8 +40,8 @@ const RecentProjects = () => {
       </div>
 
 
-      <div className="text-md sm:mb-10 font-light flex gap-1 mt-5"> 
-        <p>See a list of all my projects on the</p>
+      <div className="text-md font-light flex gap-1 mb-10"> 
+        <p>View all my projects on the</p>
         <Link className="text-primary-600 underline underline-offset-4 font-medium" href={'/projects'}>projects page.</Link>
       </div>
     </div>

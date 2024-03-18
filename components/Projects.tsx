@@ -12,7 +12,8 @@ const Projects = () => {
 
         <main className="contentWrapper">
 
-        projects page
+          <h1 className="text-5xl font-semibold mb-16">Projects</h1>
+          <p>data</p>
 
         </main>
 

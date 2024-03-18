@@ -38,7 +38,7 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 		onChange,
 	});
 
-	const bulbSize = 30;
+	const bulbSize = 25;
 
 	return (
 		<Component

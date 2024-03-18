@@ -13,6 +13,7 @@ export const siteConfig = {
 		github: "https://github.com/abhijayrajvansh",
 		twitter: "https://x.com/rajvanshtwt",
     linkedin:"https://www.linkedin.com/in/abhijayrajvansh/",
+		youtube: "https://youtube.com/@abhijayrajvansh",
 		email:"mailto:abhijayrajvansh01@gmail.com",
 	},
 

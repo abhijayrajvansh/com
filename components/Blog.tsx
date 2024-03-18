@@ -24,11 +24,9 @@ const Blog = () => {
 
       <div className="pageWrapper">
         <main className="contentWrapper">
-          <h1 className="text-5xl font-semibold">My Blog</h1>
-          <AddGap vertical="3" />
+          <h1 className="text-5xl font-semibold mb-16">My Blog</h1>
 
           <div className="flex flex-col items-start">
-            <AddGap vertical="3" />
 
             <ButtonGroup radius="sm" variant="flat">
               
