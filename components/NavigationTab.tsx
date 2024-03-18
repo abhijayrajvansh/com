@@ -1,11 +1,12 @@
 'use client';
 
-import { PiHouse, PiInfo, PiSuitcase } from "react-icons/pi";
+import { PiHouse, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import { PiHandshakeDuotone } from "react-icons/pi";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
+import { CiUser } from "react-icons/ci";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -15,7 +16,7 @@ const NAVIGATION_DATA = [
   },
   {
     pageTitle: 'About',
-    pageIcon: PiInfo
+    pageIcon: CiUser
   },
   {
     pageTitle: 'Experience',
