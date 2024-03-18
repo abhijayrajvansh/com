@@ -11,8 +11,6 @@ const ShortIntro = () => {
         <span className={`font-medium text-primary-600`}>Abhijay Rajvansh</span>
       </p>
 
-      <AddGap vertical='2'/>
-
       <h1 className={`${title()}text-[2rem] leading-tight font-semibold`}>
         <span>I develop </span>
           <span className={title({color:'green'})}>full-stack</span>

@@ -7,6 +7,7 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
 import { CiUser } from "react-icons/ci";
+import { MdOutlineArticle } from "react-icons/md";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -17,6 +18,10 @@ const NAVIGATION_DATA = [
   {
     pageTitle: 'About',
     pageIcon: CiUser
+  },
+  {
+    pageTitle: 'Blog',
+    pageIcon: MdOutlineArticle
   },
   {
     pageTitle: 'Experience',
