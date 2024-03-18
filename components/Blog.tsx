@@ -4,7 +4,7 @@ import { Button, ButtonGroup } from "@nextui-org/react";
 import AddGap from "./AddGap";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./Subscription";
+import Subscription from "./EngagementSection";
 import { useState } from "react";
 import BlogCard from "@/components/BlogCard";
 import { siteConfig } from "@/config/site";
@@ -24,7 +24,8 @@ const Blog = () => {
 
       <div className="pageWrapper">
         <main className="contentWrapper">
-          <h1 className="text-4xl font-semibold">My Blog</h1>
+          <h1 className="text-5xl font-semibold">My Blog</h1>
+          <AddGap vertical="3" />
 
           <div className="flex flex-col items-start">
             <AddGap vertical="3" />

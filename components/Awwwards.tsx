@@ -3,7 +3,7 @@ import AchievementCard from "./AchievementCard";
 const Awwwards = () => {
   return (
     <div>
-      <h1 className={`font-semibold text-xl inline-block mt-5`}>
+      <h1 className={`font-semibold text-xl inline-block`}>
         Awards and Achievements
       </h1>
       

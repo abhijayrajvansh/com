@@ -33,20 +33,23 @@ const RecentArticles = () => {
       {
         tabContent === 'lat' ?
         <div className="p-2 rounded-xl w-full">
-
+          {/* latest : to pin only 3 for user to scroll other content */}
           <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
           <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
+          <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
         </div>:
 
         tabContent === 'prog' ?
         <div className="p-2 rounded-xl w-full">
+          {/* programming */}
           <p>programming</p>
         </div>:
 
         <div className="p-2 rounded-xl w-full">
+          {/* tutorials */}
           <p>tutorials</p>
         </div>
       }

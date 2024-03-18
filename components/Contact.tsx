@@ -1,7 +1,7 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import SocialLinks from "./SocialLinks";
-import Subscription from "./Subscription";
+import Subscription from "./EngagementSection";
 
 const Contact = () => {
   return (

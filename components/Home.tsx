@@ -1,6 +1,6 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./Subscription";
+import Subscription from "./EngagementSection";
 import RecentProjects from "./RecentProjects";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
@@ -29,9 +29,9 @@ const Home = () => {
 
 						<RecentArticles />
 
-						<Awwwards />
-						
 						<RecentProjects />
+						
+						<Awwwards />
 						
 					</main>
 						

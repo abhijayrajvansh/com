@@ -1,9 +1,8 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./Subscription";
-import Link from "next/link";
-import { title } from "./primitives";
+import Subscription from "./EngagementSection";
 import CuriousChildinMe from "./CuriousChildinMe";
+import AddGap from "./AddGap";
 
 const About = () => {
   return (
@@ -15,8 +14,9 @@ const About = () => {
 
         <main className="contentWrapper">
 
+          <h1 className="text-5xl font-semibold">Hi. I'm Abhijay Rajvansh</h1>
+          <AddGap vertical="3" />
           <CuriousChildinMe />
-
         <p>
           piyush garg example: My name is Piyush Garg and I am 24 Years old developer. I have developed many websites, Worked on JavaScript frameworks like react and angular, Php login authentication system and session handling worked on Android apps, Basic IOS apps, Database management with MySql and Firebase, Python programing with the automation of software and much more. recently I have completed my journey as a MERN stack developer and undertraining flutter developer.
           <br /> <br />

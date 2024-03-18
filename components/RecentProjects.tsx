@@ -28,7 +28,7 @@ const RecentProjects = () => {
           thumbnail="bg-[url('/t3.webp')]"
           sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
           liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
-          tilt="right" 
+          tilt="left" 
         />
 
 
