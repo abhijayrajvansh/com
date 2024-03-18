@@ -5,6 +5,8 @@ import RecentProjects from "./RecentProjects";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";
+import RecentArticles from "./RecentArticles";
+
 
 const Home = () => {
 
@@ -24,6 +26,8 @@ const Home = () => {
 						<CuriousChildinMe />
 
 						<ShortIntro />
+
+						<RecentArticles />
 
 						<Awwwards />
 						

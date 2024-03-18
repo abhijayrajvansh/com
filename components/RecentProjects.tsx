@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className={`font-medium text-xl inline-block mt-5`}>
+      <h1 className={`font-semibold text-xl inline-block mt-5`}>
         Recent Projects
       </h1>
       
