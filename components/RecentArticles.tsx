@@ -3,6 +3,8 @@
 import { useState } from "react";
 import {Button, ButtonGroup} from "@nextui-org/react";
 import AddGap from "./AddGap";
+import BlogCard from "./BlogCard";
+import { siteConfig } from '@/config/site'
 
 const RecentArticles = () => {
 
@@ -31,7 +33,12 @@ const RecentArticles = () => {
       {
         tabContent === 'lat' ?
         <div className="p-2 rounded-xl w-full">
-          <p>latest</p>
+
+          <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
+
+          <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
+
+
         </div>:
 
         tabContent === 'prog' ?

@@ -34,6 +34,7 @@ export const siteConfig = {
 			thumbnail: "xLogo.jpeg",
 			date: "MAR 18, 2024",
 			timeToRead: "2 MIN READ",
+			link: "twitterclone",
 		}
 	}
 };
