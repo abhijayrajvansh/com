@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 import {useIsSSR} from "@react-aria/ssr";
 import clsx from "clsx";
 import { FaLightbulb } from "react-icons/fa";
-import { TbBulbFilled } from "react-icons/tb";
+
 
 export interface ThemeSwitchProps {
 	className?: string;

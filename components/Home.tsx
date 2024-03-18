@@ -7,7 +7,6 @@ import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";
 import RecentArticles from "./RecentArticles";
 
-
 const Home = () => {
 
 	return (
