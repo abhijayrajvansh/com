@@ -1,5 +1,6 @@
 import { title } from '@/components/primitives';
 import Link from 'next/link';
+import AddGap from './AddGap';
 
 const ShortIntro = () => {
   return (
@@ -9,6 +10,8 @@ const ShortIntro = () => {
         <span>Hi, I'm</span>
         <span className={`font-medium text-primary-600`}>Abhijay Rajvansh</span>
       </p>
+
+      <AddGap vertical='2'/>
 
       <h1 className={`${title()}text-[2rem] leading-tight font-semibold`}>
         <span>I develop </span>
