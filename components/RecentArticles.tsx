@@ -21,7 +21,7 @@ const RecentArticles = () => {
       <AddGap vertical="3"/>
 
       <ButtonGroup radius="sm" variant="flat">
-        <Button color={tabContent === 'lat' ? 'danger' : 'default'} onClick={() => handleTabContent('lat')}>Latest</Button>
+        <Button color={tabContent === 'lat' ? 'primary' : 'default'} onClick={() => handleTabContent('lat')}>Latest</Button>
         <Button color={tabContent === 'prog' ? 'success' : 'default'} onClick={() => handleTabContent('prog')}>Programming</Button>
         <Button color={tabContent === 'tut' ? 'warning' : 'default'} onClick={() => handleTabContent('tut')}>Tutorials</Button>
       </ButtonGroup>
@@ -43,7 +43,6 @@ const RecentArticles = () => {
           <p>tutorials</p>
         </div>
       }
-
 
     </div>
   )
