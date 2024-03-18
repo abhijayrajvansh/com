@@ -33,7 +33,7 @@ const Awwwards = () => {
           title="Asia Largest Hackathon"
           position="Winner, Smarthacks"
           thumbnail="bg-[url('/cn.webp')]"
-          tilt="right" 
+          tilt="left" 
         />
         
         <AchievementCard
