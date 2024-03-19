@@ -1,3 +1,4 @@
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -8,6 +9,7 @@ export const siteConfig = {
 	avatar: {
 		src: "https://avatars.githubusercontent.com/u/82618814?v=4",
 	},
+
 	
 	links: {
 		github: "https://github.com/abhijayrajvansh",

@@ -6,6 +6,7 @@ import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";
 import RecentArticles from "./RecentArticles";
+import AddGap from "./AddGap";
 
 const Home = () => {
 
@@ -28,7 +29,11 @@ const Home = () => {
 
 						<RecentArticles />
 
+						<AddGap vertical="3" />
+
 						<RecentProjects />
+
+						<AddGap vertical="3" />
 						
 						<Awwwards />
 						
