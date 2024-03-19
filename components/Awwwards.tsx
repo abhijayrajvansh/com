@@ -35,13 +35,6 @@ const Awwwards = () => {
           thumbnail="bg-[url('/cn.webp')]"
           tilt="left" 
         />
-        
-        <AchievementCard
-          title="Facebook Hacker Cup"
-          position="Rank 1524th"
-          thumbnail="bg-[url('/fhc.webp')]"
-          tilt="right" 
-        />
        
       </div>
 
