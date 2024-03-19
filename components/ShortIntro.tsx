@@ -1,6 +1,5 @@
 import { title } from '@/components/primitives';
 import Link from 'next/link';
-import AddGap from './AddGap';
 
 const ShortIntro = () => {
   return (
@@ -18,7 +17,7 @@ const ShortIntro = () => {
         </span>
       </h1>
 
-      <p className="pt-3 font-light text-default-550 leading-relaxed">
+      <p className="pt-3 font-normal text-[#94A3B8] leading-relaxed">
         <span className="">Freelance</span> Web & Mobile Developer, <span className="">Former Silicon Valley</span> Intern, <span className="">Apple</span> Development Trainee, Former <span className="">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600 font-medium" href={'/about'}>more...</Link>
       </p>
 

@@ -10,7 +10,7 @@ const AchievementCard:React.FC<AchievementCardProps> = ({thumbnail, tilt, positi
     
     <div className={`border ${thumbnail} bg-cover bg-center border-default-200 w-full my-5 sm:w-[341px] rounded-xl ${tilt === 'right' ? 'rotate-1' : '-rotate-1'} transition hover:rotate-0`}>
 
-      <div className="bg-hoverdarkbg bg-opacity-60 hover:bg-opacity-40 transition w-full min-h-44 rounded-xl flex flex-col text-2xl font-medium justify-center px-4 shadow-xl text-white backdrop-blur-[2px]">
+      <div className="bg-hoverdarkbg bg-opacity-50 hover:bg-opacity-40 transition w-full min-h-44 rounded-xl flex flex-col text-2xl font-medium justify-center px-4 shadow-xl text-white backdrop-blur-[2px]">
         <div className="font-semibold">{position}</div>
         <div className="text-lg">
           {title}

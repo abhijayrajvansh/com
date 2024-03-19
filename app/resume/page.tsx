@@ -1,9 +1,9 @@
-import Experience from "@/components/Experience";
+import Resume from "@/components/Resume";
 
 const page = () => {
   return (
     <section className="wrapper">
-      <Experience />
+      <Resume />
     </section>
   )
 }

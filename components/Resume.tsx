@@ -2,7 +2,7 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
 
-const Experience = () => {
+const Resume = () => {
   return (
     <section className="wrapper">
       <Header />
@@ -14,7 +14,7 @@ const Experience = () => {
 
 
         
-          <h1 className="text-5xl font-semibold mb-10">Experience</h1>
+          <h1 className="text-5xl font-semibold mb-10">Resume</h1>
           <p>data</p>
 
 
@@ -29,4 +29,4 @@ const Experience = () => {
   )
 }
 
-export default Experience;
+export default Resume;

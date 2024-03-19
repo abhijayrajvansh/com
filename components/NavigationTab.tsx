@@ -24,12 +24,12 @@ const NAVIGATION_DATA = [
     pageIcon: MdOutlineArticle
   },
   {
-    pageTitle: 'Experience',
-    pageIcon: PiSuitcase
-  },
-  {
     pageTitle: 'Projects',
     pageIcon: FaReact
+  },
+  {
+    pageTitle: 'Resume',
+    pageIcon: PiSuitcase
   },
   {
     pageTitle: 'Contact',
