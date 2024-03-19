@@ -13,15 +13,15 @@ interface projectCardProps {
 
 const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumbnail, sourceCodeLink, liveProjectLink, tilt, }) => {
   return (  
-    <div className={`border ${thumbnail} border-default-200 w-full my-5 sm:w-[341px] rounded-xl ${tilt === 'right' ? 'rotate-1' : '-rotate-1'} transition hover:rotate-0 shadow-lg`}>
+    <div className={`border ${thumbnail} border-default-200 w-full my-5 sm:w-[341px] rounded-xl ${tilt === 'right' ? 'rotate-1' : '-rotate-1'} transition hover:rotate-0 shadow-lg `}>
 
 
-      <div className="bg-hoverdarkbg bg-opacity-60 hover:bg-opacity-50 transition w-full min-h-44 rounded-xl flex flex-col justify-between text-2xl font-medium p-4 text-white backdrop-blur-[5px] ">
+      <div className="bg-hoverdarkbg bg-opacity-50 hover:bg-opacity-30 transition w-full min-h-44 rounded-xl flex flex-col justify-between text-2xl font-medium p-4 text-white backdrop-blur-[5px] ">
 
 
       <div className="flex justify-between items-center">
         <div className="text-xl font-bold ">{title}</div>
-        <Chip
+        <Chip className="backdrop-blur-xl"
           size="sm" variant="flat" color="success">
           {type}
         </Chip>
@@ -35,8 +35,8 @@ const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumb
           href={sourceCodeLink}
           as={Link}
           variant="solid">
-          <div className="flex items-center gap-3 font-semibold">
-            <FaGithub size={'25'} /> 
+          <div className="flex items-center gap-2 font-semibold">
+            <FaGithub size={'20'} /> 
             GitHub
           </div>
         </Button>
@@ -47,7 +47,7 @@ const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumb
           href={liveProjectLink}
           as={Link}
           variant="solid"
-          className="bg-red-500/80 border border-default-400/50 font-semibold"
+          className="bg-red-500/85 border border-default-400/50 font-semibold"
           showAnchorIcon>
           Visit
         </Button>
