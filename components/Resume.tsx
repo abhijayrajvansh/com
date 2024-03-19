@@ -1,6 +1,7 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./EngagementSection";
+import NotesCard from "./NotesCard";
+import { languages, technicalSkills, technicalTools } from "@/config/site";
 
 const Resume = () => {
   return (
@@ -11,18 +12,19 @@ const Resume = () => {
       <div className="pageWrapper">
 
         <main className="contentWrapper">
-
-
         
           <h1 className="text-5xl font-semibold mb-10">Resume</h1>
           <p>data</p>
 
-
-
         </main>
 
+        <div className="flex flex-col">
 
-        <Subscription />
+          {/* engagement section */}
+          <NotesCard title="Technical Skills" elements={technicalSkills} tilt="right"/>
+          <NotesCard title="Tools" elements={technicalTools} tilt="left"/>
+          <NotesCard title="Languages" elements={languages} tilt="right"/>
+        </div>
       </div>
       
     </section>

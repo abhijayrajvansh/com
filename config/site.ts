@@ -1,16 +1,44 @@
 
 export type SiteConfig = typeof siteConfig;
 
+export const technicalSkills = [
+	'T3 Stack',
+	'Next.js, React, React Native', 
+	'Typescript & Javascript',
+	'Node: Express.js & Bun', 
+	'DB: MongoDB, PostgreSQL',
+	'Golang: Go-Gin',
+	'GraphQL, tRPC, gRPC & REST', 
+	'Python: Automation & Django', 
+	'Solidity',
+	'Rust',
+]
+
+export const technicalTools = [
+	"Git", 
+	"Github",
+	"VS Code",
+	"Postman",
+	"MongoDB",
+	"Expo", 
+	"AWS",
+	"Figma",
+]
+
+export const languages = [
+	"🇺🇸 English",
+	"🇮🇳 Hindi",
+	"🇫🇷 French",
+]
+
 export const siteConfig = {
-	name: "Abhijay Rajvansh | Freelance Web & Mobile Developer",
-	
+	name: "Abhijay Rajvansh",
 	description: "Are you looking for your website or mobile app? Consider it done with Abhijay Rajvansh's expertise in software development, design prowess, and strategic approach for the best outcome. Your desired needs are the priority here!",
 
 	avatar: {
 		src: "https://avatars.githubusercontent.com/u/82618814?v=4",
 	},
 
-	
 	links: {
 		github: "https://github.com/abhijayrajvansh",
 		twitter: "https://x.com/rajvanshtwt",

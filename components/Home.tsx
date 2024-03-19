@@ -1,12 +1,14 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./EngagementSection";
 import RecentProjects from "./RecentProjects";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";
 import RecentArticles from "./RecentArticles";
 import AddGap from "./AddGap";
+import TechnicalSkills from "./TechnicalSkills";
+import Newsletter from "./Newsletter";
+import Twitter from "./Twitter";
 
 const Home = () => {
 
@@ -40,7 +42,14 @@ const Home = () => {
 					</main>
 						
 					{/* right section */}
-					<Subscription />
+					<div className="flex flex-col">
+						<Newsletter />
+						<Twitter />
+						<TechnicalSkills />
+						{/* newsletter */}
+						{/* spotify card */}
+						{/* thanks note */}
+					</div>
 				
 				</div>
 

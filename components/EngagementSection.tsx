@@ -1,4 +1,4 @@
-import SubscriptionCard from "./Newsletter"
+import Newsletter from "./Newsletter"
 import Spotify from "./Spotify";
 import TechnicalSkills from "./TechnicalSkills";
 import ThanksNote from "./ThanksNote";
@@ -8,7 +8,7 @@ const EngagementSection = () => {
   return (
     <section>
       <TechnicalSkills />
-      <SubscriptionCard />
+      <Newsletter />
       <Twitter />
       <Spotify />
       <ThanksNote />

@@ -8,15 +8,15 @@ import { IoLogoYoutube } from "react-icons/io";
 const SocialLinks = () => {
   return (
     <div className="flex items-center gap-5">
-      <Button href={`${siteConfig.links.github}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><FaGithub /></Button>
+      <Button href={`${siteConfig.links.github}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaGithub /></Button>
 
-      <Button href={`${siteConfig.links.linkedin}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><FaLinkedin /></Button>
+      <Button href={`${siteConfig.links.linkedin}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaLinkedin /></Button>
 
-      <Button href={`${siteConfig.links.twitter}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><FaXTwitter /></Button>
+      <Button href={`${siteConfig.links.twitter}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaXTwitter /></Button>
 
-      <Button href={`${siteConfig.links.youtube}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><IoLogoYoutube /></Button>
+      <Button href={`${siteConfig.links.youtube}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><IoLogoYoutube /></Button>
 
-      <Button href={`${siteConfig.links.email}`} isExternal as={Link} isIconOnly size="lg" className="text-4xl" variant="light"><MdOutlineAttachEmail /></Button>
+      <Button href={`${siteConfig.links.email}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><MdOutlineAttachEmail /></Button>
     </div>
   )
 }
