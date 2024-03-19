@@ -10,6 +10,7 @@ export const technicalSkills = [
 	'Golang: Go-Gin',
 	'GraphQL, tRPC, gRPC & REST', 
 	'Python: Automation & Django', 
+	'C/C++',
 	'Solidity',
 	'Rust',
 ]
