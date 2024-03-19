@@ -1,6 +1,6 @@
 import { Button } from "@nextui-org/react";
 import { Link } from "@nextui-org/react";
-import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaXTwitter, FaGithub, FaLinkedin, FaMedium } from "react-icons/fa6";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { siteConfig } from '@/config/site'
 import { IoLogoYoutube } from "react-icons/io";
@@ -15,6 +15,8 @@ const SocialLinks = () => {
       <Button href={`${siteConfig.links.twitter}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaXTwitter /></Button>
 
       <Button href={`${siteConfig.links.youtube}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><IoLogoYoutube /></Button>
+
+      <Button href={`${siteConfig.links.medium}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaMedium /></Button>
 
       <Button href={`${siteConfig.links.email}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><MdOutlineAttachEmail /></Button>
     </div>
