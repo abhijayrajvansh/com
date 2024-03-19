@@ -9,7 +9,7 @@ export const technicalSkills = [
 	'DB: MongoDB, PostgreSQL',
 	'Golang: Go-Gin',
 	'GraphQL, tRPC, gRPC & REST', 
-	'Python: Automation & Django',
+	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
 	'C/C++',
 	'Solidity',
@@ -40,7 +40,7 @@ export const siteConfig = {
 	description: "Are you looking for your website or mobile app? Consider it done with Abhijay Rajvansh's expertise in software development, design prowess, and strategic approach for the best outcome. Your desired needs are the priority here!",
 
 	avatar: {
-		src: "https://avatars.githubusercontent.com/u/82618814?v=4",
+		src: "/abhijay-rajvansh-software-best-software-engineer.png",
 	},
 
 	links: {

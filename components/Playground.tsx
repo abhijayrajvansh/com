@@ -19,22 +19,6 @@ const Playground = () => {
 
 
 
-        <ProjectCard 
-          title={siteConfig.projects.twitter.title}
-          description={siteConfig.projects.twitter.description}
-          type={siteConfig.projects.twitter.type}
-          thumbnail="bg-[url('/skillsbg.jpeg')]"
-          sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
-          liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
-          tilt="left" 
-        />
-
-        
-
-
-
-
-
 
       {/* ********************************** */}
     </>
