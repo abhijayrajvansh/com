@@ -24,7 +24,6 @@ const Home = () => {
 					
 					{/* mid section */}
 					<main className="contentWrapper">
-						
 						<CuriousChildinMe />
 
 						<ShortIntro />
@@ -33,12 +32,9 @@ const Home = () => {
 
 						<AddGap vertical="3" />
 
-						<RecentProjects />
-
-						<AddGap vertical="3" />
-						
 						<Awwwards />
-						
+
+						<RecentProjects />
 					</main>
 						
 					{/* right section */}
