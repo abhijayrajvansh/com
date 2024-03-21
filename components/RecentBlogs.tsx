@@ -6,7 +6,7 @@ import AddGap from "./AddGap";
 import BlogCard from "./BlogCard";
 import { siteConfig } from '@/config/site'
 
-const RecentArticles = () => {
+const RecentBlogs = () => {
 
   const [tabContent, setTabContent  ] = useState('latest');
 
@@ -63,4 +63,4 @@ const RecentArticles = () => {
   )
 }
 
-export default RecentArticles;
+export default RecentBlogs;

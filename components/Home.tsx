@@ -4,7 +4,7 @@ import RecentProjects from "./RecentProjects";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";
-import RecentArticles from "./RecentArticles";
+import RecentArticles from "./RecentBlogs";
 import AddGap from "./AddGap";
 import TechnicalSkills from "./TechnicalSkills";
 import Newsletter from "./Newsletter";
