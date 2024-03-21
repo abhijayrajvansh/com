@@ -47,7 +47,7 @@ const ProjectCard:React.FC<projectCardProps> = ({title, type, description, thumb
           href={liveProjectLink}
           as={Link}
           variant="solid"
-          className="bg-red-500/85 border border-default-400/50 font-semibold"
+          className="bg-red-600/85 border border-default-400/50 font-semibold"
           showAnchorIcon>
           Visit
         </Button>
