@@ -65,9 +65,7 @@ const NavigationTab = () => {
             let currentPathname = '/' + item.pageTitle.toLowerCase();
             if (currentPathname === '/home') { currentPathname = '/'; }
             const isActive = pathname === currentPathname;
-
-            // on click icon scale up try ?
-            // to fix pfp icon, continent change fetch api failed
+            
             
             return (
               <Link 
