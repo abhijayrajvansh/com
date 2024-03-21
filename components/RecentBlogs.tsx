@@ -5,6 +5,7 @@ import {Button, ButtonGroup} from "@nextui-org/react";
 import AddGap from "./AddGap";
 import BlogCard from "./BlogCard";
 import { siteConfig } from '@/config/site'
+import Link from "next/link";
 
 const RecentBlogs = () => {
 
@@ -16,7 +17,7 @@ const RecentBlogs = () => {
 
   return (
     <div className="flex flex-col items-start">
-      <h1 className={`font-semibold text-xl inline-block mt-5`}>
+      <h1 className={`subHeading`}>
         Recent Blogs
       </h1>
 
@@ -41,10 +42,6 @@ const RecentBlogs = () => {
 
           <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
-          <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
-
-          <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
-
         </div>:
 
         tabContent === 'programming' ?
@@ -58,6 +55,9 @@ const RecentBlogs = () => {
           <p>checking articles</p>
         </div>
       }
+
+
+      <p className="mt-3 mb-5 font-light">Find in-depth software engineering articles only at my <Link className="text-primary-600 font-medium" href={'/blog'}>blogs page.</Link></p>
 
     </div>
   )

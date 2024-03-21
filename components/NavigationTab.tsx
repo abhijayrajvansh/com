@@ -42,14 +42,14 @@ const NavigationTab = () => {
   const pathname = usePathname();
 
   return (
-    <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:pl-2 sm:pr-4 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light"> 
+    <section className="z-10 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-3 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light"> 
       
     <div className="flex items-center justify-between w-full sm:block sm:pt-5 sm:mt-2">
 
       {/* portfolio avatar */}
-      <Link href={'/'} className="hidden sm:flex mb-5">
-        <div className="flex items-center">
-          <img className="h-10 mx-3 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
+      <Link href={'/'} className="hidden sm:flex mb-5 justify-center">
+        <div className="flex items-center gap-3">
+          <img className="h-10 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
           <div className="hidden lg:block text-[11px]">
             <p className="text-primary-600 font-medium text-[12px]">Abhijay Rajvansh</p>
             <p>Software Engineer</p>

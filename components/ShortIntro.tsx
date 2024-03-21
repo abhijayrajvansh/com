@@ -18,7 +18,7 @@ const ShortIntro = () => {
       </h1>
 
       <p className="pt-3 font-normal text-[#94A3B8] leading-relaxed">
-        <span className="">Freelance</span> Web & Mobile Developer, <span className="">Former Silicon Valley</span> Intern, <span className="">Apple</span> Development Trainee, Former <span className="">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600 font-normal" href={'/about'}>more...</Link>
+        <span className="">Freelance</span> Web & Mobile Developer, <span className="">Former Silicon Valley</span> Intern, <span className="">Apple</span> Development Trainee, Former <span className="">AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600 font-medium sm:font-normal" href={'/about'}>more...</Link>
       </p>
 
     </div>

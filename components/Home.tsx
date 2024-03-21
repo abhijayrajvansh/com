@@ -4,8 +4,7 @@ import RecentProjects from "./RecentProjects";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import CuriousChildinMe from "./CuriousChildinMe";
-import RecentArticles from "./RecentBlogs";
-import AddGap from "./AddGap";
+import RecentBlogs from "./RecentBlogs";
 import TechnicalSkills from "./TechnicalSkills";
 import Newsletter from "./Newsletter";
 import Twitter from "./Twitter";
@@ -28,9 +27,7 @@ const Home = () => {
 
 						<ShortIntro />
 
-						<RecentArticles />
-
-						<AddGap vertical="3" />
+						<RecentBlogs />
 
 						<Awwwards />
 

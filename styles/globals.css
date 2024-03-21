@@ -20,6 +20,10 @@
   .contentWrapper {
     @apply px-4 sm:ml-[95px] sm:px-5 lg:px-0 lg:ml-[210px] sm:min-w-[750px]
   }
+
+  .subHeading {
+    @apply font-semibold text-2xl inline-block mt-5 mb-3
+  }
 }
 
 /* debugging border classes */

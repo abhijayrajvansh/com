@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className={`font-semibold text-xl inline-block mt-5`}>
+      <h1 className={`subHeading`}>
         Recent Projects
       </h1>
       
@@ -42,7 +42,7 @@ const RecentProjects = () => {
 
       <div className="text-md font-light flex gap-1 mb-10"> 
         <p>View all my projects on the</p>
-        <Link className="text-primary-600 underline underline-offset-4 font-medium" href={'/projects'}>projects page.</Link>
+        <Link className="text-primary-600 font-medium" href={'/projects'}>projects page.</Link>
       </div>
     </div>
 
