@@ -8,7 +8,7 @@ import { siteConfig } from '@/config/site'
 
 const RecentArticles = () => {
 
-  const [tabContent, setTabContent  ] = useState('lat');
+  const [tabContent, setTabContent  ] = useState('latest');
 
   function handleTabContent (topic: string) {
     setTabContent(topic)
@@ -17,23 +17,28 @@ const RecentArticles = () => {
   return (
     <div className="flex flex-col items-start">
       <h1 className={`font-semibold text-xl inline-block mt-5`}>
-        Recent Articles
+        Recent Blogs
       </h1>
 
-      <AddGap vertical="3"/>
+      <AddGap vertical="2"/>
 
       <ButtonGroup radius="sm" variant="flat">
-        <Button color={tabContent === 'lat' ? 'primary' : 'default'} onClick={() => handleTabContent('lat')}>Latest</Button>
-        <Button color={tabContent === 'prog' ? 'success' : 'default'} onClick={() => handleTabContent('prog')}>Programming</Button>
-        <Button color={tabContent === 'tut' ? 'warning' : 'default'} onClick={() => handleTabContent('tut')}>Tutorials</Button>
+        <Button color={tabContent === 'latest' ? 'primary' : 'default'} onClick={() => handleTabContent('latest')}>Latest</Button>
+
+        <Button color={tabContent === 'programming' ? 'success' : 'default'} onClick={() => handleTabContent('programming')}>Programming</Button>
+
+        <Button color={tabContent === 'articles' ? 'warning' : 'default'} onClick={() => handleTabContent('articles')}>Articles</Button>
+
       </ButtonGroup>
 
       <AddGap vertical="1"/>
 
       {
-        tabContent === 'lat' ?
+        tabContent === 'latest' ?
         <div className="p-2 rounded-xl w-full">
+
           {/* latest : to pin only 3 for user to scroll other content */}
+
           <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
           <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
@@ -42,15 +47,15 @@ const RecentArticles = () => {
 
         </div>:
 
-        tabContent === 'prog' ?
+        tabContent === 'programming' ?
         <div className="p-2 rounded-xl w-full">
           {/* programming */}
-          <p>programming</p>
+          <p>checking programming</p>
         </div>:
 
         <div className="p-2 rounded-xl w-full">
-          {/* tutorials */}
-          <p>tutorials</p>
+          {/* articles */}
+          <p>checking articles</p>
         </div>
       }
 
