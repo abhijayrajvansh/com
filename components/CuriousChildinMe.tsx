@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 const CuriousChildinMe = () => {
   return (
-    <img className='rounded-2xl shadow-xl' src="/aiToddlerVersionofAbhijay.webp" alt="childVersionOfAbhijay" />
+    <Image width={700} height={250} className='rounded-2xl shadow-xl' src="/aiToddlerVersionofAbhijay.webp" alt="childVersionOfAbhijay" />
   )
 }
 

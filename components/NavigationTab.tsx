@@ -8,6 +8,7 @@ import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
 import { CiUser } from "react-icons/ci";
 import { MdOutlineArticle } from "react-icons/md";
+import Image from "next/image";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -49,7 +50,7 @@ const NavigationTab = () => {
       {/* portfolio avatar */}
       <Link href={'/'} className="hidden sm:flex mb-5 justify-center">
         <div className="flex items-center gap-3">
-          <img className="h-10 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
+          <Image height={40} width={40} className="h-10 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
           <div className="hidden lg:block text-[11px]">
             <p className="text-primary-600 font-medium text-sm">Abhijay Rajvansh</p>
             <p className="font-medium text-xs">Passionate Engineer</p>

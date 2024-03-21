@@ -67,7 +67,7 @@ export const siteConfig = {
 		twitter: {
 			title: "Twitter 𝕏 Fullstack Clone",
 			description: "I build a full stack clone of 𝕏 to practice the backend jargon especially how API calls are done on a platform with large user base",
-			thumbnail: "xLogo.jpeg",
+			thumbnail: "/xLogo.jpeg",
 			date: "MAR 18, 2024",
 			timeToRead: "2 MIN READ",
 			link: "twitterclone",
