@@ -36,8 +36,8 @@ const Home = () => {
 						
 					{/* right section */}
 					<div className="flex flex-col">
-						<Newsletter />
-						<Twitter />
+						<Newsletter tilt="left" />
+						{/* <Twitter /> */}
 						<TechnicalSkills />
 						{/* newsletter */}
 						{/* spotify card */}
