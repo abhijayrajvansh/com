@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between px-5 pt-5 sm:pl-0 pb-10 sm:ml-[110px] lg:ml-[230px]">
       
-      <div className="hover:scale-125 transition">
+      <div className="hover:scale-125 transition pl-4">
         <ThemeSwitch />
       </div>
 

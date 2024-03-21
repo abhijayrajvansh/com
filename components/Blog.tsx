@@ -8,6 +8,8 @@ import Subscription from "./EngagementSection";
 import { useState } from "react";
 import BlogCard from "@/components/BlogCard";
 import { siteConfig } from "@/config/site";
+import Newsletter from "./Newsletter";
+import ThanksNote from "./ThanksNote";
 
 
 const Blog = () => {
@@ -71,7 +73,10 @@ const Blog = () => {
           </div>
         </main>
 
-        <Subscription />
+        <div className="flex flex-col">
+          <Newsletter tilt="left" />
+          <ThanksNote tilt='right' />
+        </div>
       
       </div>
     </section>

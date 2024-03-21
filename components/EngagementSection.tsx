@@ -7,11 +7,11 @@ import Twitter from "./Twitter";
 const EngagementSection = () => {
   return (
     <section>
+      <Newsletter tilt="left" />
       <TechnicalSkills />
-      <Newsletter />
-      <Twitter />
-      <Spotify />
-      <ThanksNote />
+      {/* <Twitter tilt="left" /> */}
+      {/* <Spotify tilt="right" /> */}
+      <ThanksNote tilt="left" />
     </section>
   )
 }

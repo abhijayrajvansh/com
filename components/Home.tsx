@@ -8,6 +8,9 @@ import RecentBlogs from "./RecentBlogs";
 import TechnicalSkills from "./TechnicalSkills";
 import Newsletter from "./Newsletter";
 import Twitter from "./Twitter";
+import EngagementSection from "./EngagementSection";
+import SocialLinks from "./SocialLinks";
+import AddGap from "./AddGap";
 
 const Home = () => {
 
@@ -35,14 +38,7 @@ const Home = () => {
 					</main>
 						
 					{/* right section */}
-					<div className="flex flex-col">
-						<Newsletter tilt="left" />
-						{/* <Twitter /> */}
-						<TechnicalSkills />
-						{/* newsletter */}
-						{/* spotify card */}
-						{/* thanks note */}
-					</div>
+					<EngagementSection />
 				
 				</div>
 

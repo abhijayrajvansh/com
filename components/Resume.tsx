@@ -2,6 +2,7 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import NotesCard from "./NotesCard";
 import { languages, technicalSkills, technicalTools } from "@/config/site";
+import ThanksNote from "./ThanksNote";
 
 const Resume = () => {
   return (
@@ -19,11 +20,11 @@ const Resume = () => {
         </main>
 
         <div className="flex flex-col">
-
           {/* engagement section */}
           <NotesCard title="Technical Skills" elements={technicalSkills} tilt="right"/>
           <NotesCard title="Tools" elements={technicalTools} tilt="left"/>
           <NotesCard title="Languages" elements={languages} tilt="right"/>
+          <ThanksNote tilt="left" />
         </div>
       </div>
       

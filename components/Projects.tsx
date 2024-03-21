@@ -13,7 +13,7 @@ const Projects = () => {
         <main className="contentWrapper">
 
           <h1 className="text-5xl font-semibold mb-10">Projects</h1>
-          <p>data</p>
+          <p className="">data</p>
 
         </main>
 
