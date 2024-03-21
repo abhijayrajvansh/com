@@ -56,8 +56,7 @@ const RecentBlogs = () => {
         </div>
       }
 
-
-      <p className="mt-3 mb-5 font-light">Find in-depth software engineering articles only at my <Link className="text-primary-600 font-medium" href={'/blog'}>blogs page.</Link></p>
+      <p className="my-5 font-light">Explore in-depth <span className="text-success-500 font-normal">software engineering</span> concepts and best <span className="text-warning-600 font-normal">industry standard</span> practices only on my <Link className="text-primary-600 font-medium" href={'/blog'}>blog&apos;s page. ✍️</Link></p>
 
     </div>
   )
