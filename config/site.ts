@@ -1,38 +1,6 @@
 
 export type SiteConfig = typeof siteConfig;
 
-export const technicalSkills = [
-	'T3 Stack',
-	'Next.js, React, React Native', 
-	'Typescript & Javascript',
-	'Node: Express.js & Bun', 
-	'DB: MongoDB, PostgreSQL',
-	'Golang: Go-Gin',
-	'GraphQL, tRPC, gRPC & REST', 
-	'Python: Automation & Analysis',
-	'Swift, UIkit & SwiftUI', 
-	'C/C++ and JAVA',
-]
-
-export const technicalTools = [
-	"Git", 
-	"Github",
-	"VS Code",
-	"Xcode",
-	"Postman",
-	"MongoDB",
-	"Expo", 
-	"AWS",
-	"Figma",
-]
-
-export const languages = [
-
-	"🇺🇸 English",
-	"🇮🇳 Hindi",
-	"🇫🇷 French",
-]
-
 export const siteConfig = {
 	name: "Abhijay Rajvansh",
 	description: "Are you looking for your website or mobile app? Consider it done with Abhijay Rajvansh's expertise in software development, design prowess, and strategic approach for the best outcome. Your desired needs are the priority here!",
@@ -72,3 +40,52 @@ export const siteConfig = {
 		}
 	}
 };
+
+export const technicalSkills = [
+	'T3 Stack',
+	'Next.js, React, React Native', 
+	'Typescript & Javascript',
+	'Node: Express.js & Bun', 
+	'DB: MongoDB, PostgreSQL',
+	'Golang: Go-Gin',
+	'GraphQL, tRPC, gRPC & REST', 
+	'Python: Automation & Analysis',
+	'Swift, UIkit & SwiftUI', 
+	'C/C++ and Java',
+]
+
+export const technicalTools = [
+	"Git", 
+	"Github",
+	"VS Code",
+	"Xcode",
+	"Postman",
+	"MongoDB",
+	"Expo", 
+	"AWS",
+	"Figma",
+]
+
+export const languages = [
+	"🇺🇸 English",
+	"🇮🇳 Hindi",
+	"🇫🇷 French",
+]
+
+export const experiencesData = {
+	company : {
+		google : {
+			companyLogo: "/googleLogo.jpeg",
+			startDate: "MAR 2024",
+			endDate: "Present",
+			position: "Software Engineer III",
+			companyName: "Google",
+			companyLocation: "New York",
+			description : [
+				"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis nesciunt corrupti dignissimos?",
+				"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nesciunt eius! Quos repudiandae perferendis quia, iure similique minima! Odio incidunt dolorum iusto eos!",
+				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, non.",
+			]
+		}
+	}
+}

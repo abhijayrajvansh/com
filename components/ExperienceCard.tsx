@@ -1,52 +1,46 @@
 import Image from "next/image";
 
 interface ExperienceCardProps {
-  logo: string, 
+  companyLogo: string,
   startDate: string,
-  endDate: string, 
+  endDate: string,
   position: string,
   companyName: string,
-  location: string,
-  description: string,
-  bottomSpace: string,
-  // bottomSpace for 
-  // mobile screens = (height of the rendered current border element)px - 60px
-  // tablet landscape = mobile screen - 40px
-  //
+  companyLocation: string,
+  description: string[],
 }
 
-const ExperienceCard: React.FC<ExperienceCardProps> = ({logo, startDate, endDate, position, companyName, location, description, bottomSpace}) => {
-  
+const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, endDate, position, companyName, companyLocation, description}) => {
   return (
-    <div className="flex min-w-[385px] gap-3">
+    <div className="flex gap-3 sm:gap-5">
 
-      <div className="w-full max-w-[70px] flex justify-center">
-        <Image width={56} height={56} className={`h-14 rounded-xl ${bottomSpace} z-10 border-2`} src={logo} alt="companyLogo" />
+      {/* verticle timeline border */}
+      <div className="border border-default-400 relative left-10 sm:left-12"></div>
+      
+      
+      <div className="min-w-[56px] z-10">
+        <Image height={56} width={56} 
+          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-warning-400' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
       </div>
-
-
-      <div className="relative w-full">
-
-        {/* border-l-2 border-default-300 */}
-        <div className="flex flex-col gap-1 bred absolute -left-[47px] pl-[50px] w-[350px] md:w-[500px] lg:w-full">
-
-          <p className="text-default-500">{startDate} - {endDate}</p>
-
-          <h2 className="text-lg font-semibold">{position}</h2>
-
-          <div className="flex items-center gap-2">
-            <h3 className="font-medium">{companyName}</h3>
-            <p className="text-default-500 text-sm">•</p>
-            <p className="text-default-500 text-sm">{location}</p>
-          </div>
-
-          <p className="text-default-600 text-sm pt-2">{description}</p>
-
-          <div className="min-h-7 lg:min-h-10"></div>
-
+      
+      
+      <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10">
+        <p className="text-default-500 text-sm">{startDate} - {endDate}</p>
+        <h2 className="text-2xl font-medium">{position}</h2>
+        <div className="flex items-center gap-2 pb-1">
+          <h3 className="text-md font-medium">{companyName}</h3>
+          <p className="text-default-500">•</p>
+          <p className="">{companyLocation}</p>
         </div>
+          {
+            description.map((keyPoint, index) => (
+              <div className="text-default-600 text-sm" key={index}>
+                  <p className="pt-1"><span className="text-primary-600"> — </span>{keyPoint}</p>
+              </div>
+            ))
+          }
       </div>
-
+    
     </div>
   )
 }
