@@ -3,9 +3,6 @@ import NavigationTab from "./NavigationTab";
 import NotesCard from "./NotesCard";
 import { languages, technicalSkills, technicalTools } from "@/config/site";
 import ThanksNote from "./ThanksNote";
-import AddGap from "./AddGap";
-import ExperienceCard from "./ExperienceCard";
-
 const Resume = () => {
   return (
     <section className="wrapper">
@@ -18,7 +15,7 @@ const Resume = () => {
         
           <h1 className="text-5xl font-semibold mb-10">Resume</h1>
 
-          ExperienceCard Component
+          ExperienceCard Component beta changes
 
         </main>
 
