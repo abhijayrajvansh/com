@@ -47,7 +47,6 @@ export const technicalSkills = [
 	'Typescript & Javascript',
 	'Node: Express.js & Bun', 
 	'DB: MongoDB, PostgreSQL',
-	'Golang: Go-Gin',
 	'GraphQL, tRPC, gRPC & REST', 
 	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
