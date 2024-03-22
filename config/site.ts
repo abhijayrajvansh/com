@@ -11,9 +11,7 @@ export const technicalSkills = [
 	'GraphQL, tRPC, gRPC & REST', 
 	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
-	'C/C++',
-	'Solidity',
-	'Rust',
+	'C/C++ and JAVA',
 ]
 
 export const technicalTools = [
