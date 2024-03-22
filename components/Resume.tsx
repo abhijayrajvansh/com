@@ -3,6 +3,8 @@ import NavigationTab from "./NavigationTab";
 import NotesCard from "./NotesCard";
 import { languages, technicalSkills, technicalTools } from "@/config/site";
 import ThanksNote from "./ThanksNote";
+import AddGap from "./AddGap";
+import ExperienceCard from "./ExperienceCard";
 
 const Resume = () => {
   return (
@@ -10,16 +12,17 @@ const Resume = () => {
       <Header />
       <NavigationTab />
 
-      <div className="pageWrapper">
+      <div className="pageWrapper sm:mt-10">
 
         <main className="contentWrapper">
         
           <h1 className="text-5xl font-semibold mb-10">Resume</h1>
-          <p>data</p>
+
+          ExperienceCard Component
 
         </main>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-10">
           {/* engagement section */}
           <NotesCard title="Technical Skills" elements={technicalSkills} tilt="right"/>
           <NotesCard title="Tools" elements={technicalTools} tilt="left"/>

@@ -4,6 +4,7 @@ import { title } from "../components/primitives";
 import AddGap from "./AddGap";
 import ProjectCard from "./ProjectCard";
 import { siteConfig } from "@/config/site";
+import ExperienceCard from "./ExperienceCard";
 
 
 const Playground = () => {
@@ -16,6 +17,13 @@ const Playground = () => {
       {/* ********************************** */}
 
         {/* start building */}
+
+
+
+
+
+        
+
 
 
 

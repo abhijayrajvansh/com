@@ -8,7 +8,7 @@ const Projects = () => {
       <Header />
       <NavigationTab />
 
-      <div className="pageWrapper">
+      <div className="pageWrapper sm:mt-10">
 
         <main className="contentWrapper">
 

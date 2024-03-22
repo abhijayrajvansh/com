@@ -24,7 +24,7 @@ const Blog = () => {
       <Header />
       <NavigationTab />
 
-      <div className="pageWrapper">
+      <div className="pageWrapper sm:mt-10">
         <main className="contentWrapper">
           <h1 className="text-5xl font-semibold mb-10">My Blog</h1>
 
