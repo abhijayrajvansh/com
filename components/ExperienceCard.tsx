@@ -15,26 +15,27 @@ const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, e
     <div className="flex gap-3 sm:gap-5">
 
       {/* verticle timeline border */}
-      <div className="border border-default-400 relative left-10 sm:left-12"></div>
+      <div className={`border border-default-400 relative left-10 sm:left-12`}></div>
       
       
       <div className="min-w-[56px] z-10">
         <Image height={56} width={56} 
-          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-warning-400' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
+          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-yellow-400 shadow-xl shadow-warning-400/50 customShadow' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
       </div>
       
       
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10">
         <p className="text-default-500 text-sm">{startDate} - {endDate}</p>
-        <h2 className="text-2xl font-medium">{position}</h2>
+        <h2 className="text-xl sm:text-2xl font-semibold">{position}</h2>
         <div className="flex items-center gap-2 pb-1">
-          <h3 className="text-md font-medium">{companyName}</h3>
-          <p className="text-default-500">•</p>
-          <p className="">{companyLocation}</p>
+          <div className="text-sm font-medium text-default-600">
+            <h3 className="">{companyName}</h3>
+            <p className="text-default-500">{companyLocation}</p>
+          </div>
         </div>
           {
             description.map((keyPoint, index) => (
-              <div className="text-default-600 text-sm" key={index}>
+              <div className="text-default-500 text-[13px] sm:text-sm" key={index}>
                   <p className="pt-1"><span className="text-primary-600"> — </span>{keyPoint}</p>
               </div>
             ))

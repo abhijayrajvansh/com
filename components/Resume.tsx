@@ -18,14 +18,46 @@ const Resume = () => {
           <h1 className="text-5xl font-semibold mb-10">Resume</h1>
 
             <ExperienceCard 
-              companyLogo={experiencesData.company.google.companyLogo}
-              startDate={experiencesData.company.google.startDate}
-              endDate={experiencesData.company.google.endDate}
-              position={experiencesData.company.google.position}
-              companyName={experiencesData.company.google.companyName}
-              companyLocation={experiencesData.company.google.companyLocation}
-              description={experiencesData.company.google.description}
+              companyLogo={experiencesData.company.bling.companyLogo}
+              startDate={experiencesData.company.bling.startDate}
+              endDate={experiencesData.company.bling.endDate}
+              position={experiencesData.company.bling.position}
+              companyName={experiencesData.company.bling.companyName}
+              companyLocation={experiencesData.company.bling.companyLocation}
+              description={experiencesData.company.bling.description}
             />
+
+            <ExperienceCard 
+              companyLogo={experiencesData.company.appleDeveloperProgram.companyLogo}
+              startDate={experiencesData.company.appleDeveloperProgram.startDate}
+              endDate={experiencesData.company.appleDeveloperProgram.endDate}
+              position={experiencesData.company.appleDeveloperProgram.position}
+              companyName={experiencesData.company.appleDeveloperProgram.companyName}
+              companyLocation={experiencesData.company.appleDeveloperProgram.companyLocation}
+              description={experiencesData.company.appleDeveloperProgram.description}
+            />  
+
+            <ExperienceCard 
+              companyLogo={experiencesData.company.nhs.companyLogo}
+              startDate={experiencesData.company.nhs.startDate}
+              endDate={experiencesData.company.nhs.endDate}
+              position={experiencesData.company.nhs.position}
+              companyName={experiencesData.company.nhs.companyName}
+              companyLocation={experiencesData.company.nhs.companyLocation}
+              description={experiencesData.company.nhs.description}
+            />
+
+            <ExperienceCard 
+              companyLogo={experiencesData.company.unacademy.companyLogo}
+              startDate={experiencesData.company.unacademy.startDate}
+              endDate={experiencesData.company.unacademy.endDate}
+              position={experiencesData.company.unacademy.position}
+              companyName={experiencesData.company.unacademy.companyName}
+              companyLocation={experiencesData.company.unacademy.companyLocation}
+              description={experiencesData.company.unacademy.description}
+            />
+
+
 
         </main>
 
