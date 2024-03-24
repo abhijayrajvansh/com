@@ -93,8 +93,8 @@ export const experiencesData = {
 			companyLogo: "/apple.jpeg",
 			startDate: "Oct 2022",
 			endDate: "Nov 2022",
-			position: "iOS Software Engineer Trainee · Apprenticeship",
-			companyName: "Apple",
+			position: "iOS Software Engineer Trainee",
+			companyName: "Apple · Apprenticeship",
 			companyLocation: "iMac Lab, SRMIST, India · On-site",
 			description : [
 				"Chosen among the top 50 candidates from a pool of over 1600 students for enrolment in the esteemed Apple iOS App Development Training Program.",
