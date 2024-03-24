@@ -1,6 +1,7 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
+import Playground from "./Playground";
 
 const Projects = () => {
   return (
@@ -13,10 +14,16 @@ const Projects = () => {
         <main className="contentWrapper">
 
           <h1 className="text-5xl font-semibold mb-10">Projects</h1>
-          <p className="">data</p>
+          
+
+
+
+            <Playground />
+
+
+
 
         </main>
-
         <Subscription />
       </div>
       
