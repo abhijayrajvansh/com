@@ -2,7 +2,7 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
 import Playground from "./Playground";
-import NewProjectCard from "./NewProjectCard";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
@@ -19,7 +19,7 @@ const Projects = () => {
 
 
 
-            <NewProjectCard />
+            <ProjectCard />
 
 
 
