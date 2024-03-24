@@ -2,12 +2,12 @@
 
 import { PiHouse, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
-import { PiHandshakeDuotone } from "react-icons/pi";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
 import { CiUser } from "react-icons/ci";
 import { MdOutlineArticle } from "react-icons/md";
+import { RiBookMarkLine } from "react-icons/ri";
 import Image from "next/image";
 
 // navigation tab routes
@@ -33,8 +33,8 @@ const NAVIGATION_DATA = [
     pageIcon: PiSuitcase
   },
   {
-    pageTitle: 'Contact',
-    pageIcon: PiHandshakeDuotone
+    pageTitle: 'Guestbook',
+    pageIcon: RiBookMarkLine
   },
 ]
 

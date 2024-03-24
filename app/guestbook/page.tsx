@@ -1,9 +1,9 @@
-import Contact from "@/components/Contact";
+import Guestbook from "@/components/Guestbook";
 
 const page = () => {
   return (
     <section className="wrapper">
-      <Contact />
+      <Guestbook />
     </section>
   )
 }

@@ -2,9 +2,8 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import SocialLinks from "./SocialLinks";
 import Subscription from "./EngagementSection";
-import Playground from "./Playground";
 
-const Contact = () => {
+const Guestbook = () => {
   return (
     <section className="wrapper">
       <Header />
@@ -14,9 +13,7 @@ const Contact = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-5xl font-semibold mb-10">Contact Me</h1>
-
-          <SocialLinks />
+          <h1 className="text-5xl font-semibold mb-10">Guestbook</h1>
         
 
         </main>
@@ -29,4 +26,4 @@ const Contact = () => {
   )
 }
 
-export default Contact;
+export default Guestbook;

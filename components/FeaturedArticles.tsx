@@ -7,7 +7,7 @@ import BlogCard from "./BlogCard";
 import { siteConfig } from '@/config/site'
 import Link from "next/link";
 
-const RecentBlogs = () => {
+const FeaturedArticles = () => {
 
   const [tabContent, setTabContent  ] = useState('latest');
 
@@ -18,7 +18,7 @@ const RecentBlogs = () => {
   return (
     <div className="flex flex-col items-start">
       <h1 className={`subHeading`}>
-        Recent Blogs
+        Featured Articles
       </h1>
 
       <AddGap vertical="2"/>
@@ -62,4 +62,4 @@ const RecentBlogs = () => {
   )
 }
 
-export default RecentBlogs;
+export default FeaturedArticles;
