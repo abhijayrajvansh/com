@@ -2,6 +2,7 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
 import Playground from "./Playground";
+import NewProjectCard from "./NewProjectCard";
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
 
 
 
-            <Playground />
+            <NewProjectCard />
 
 
 

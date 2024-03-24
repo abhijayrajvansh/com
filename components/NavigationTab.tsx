@@ -54,7 +54,7 @@ const NavigationTab = () => {
           <div className="hidden lg:block text-[11px]">
             <p className="text-primary-600 font-medium text-sm">Abhijay Rajvansh</p>
             <p className="font-normal text-xs">Passionate Engineer</p>
-            <p className="font-normal text-xs"> location: India</p>
+            <p className="font-normal text-xs">📍 India</p>
           </div>
         </div>
       </Link>
