@@ -45,8 +45,6 @@ const RecentProjects = () => {
         <Link className="text-primary-600 font-medium" href={'/projects'}>projects page.</Link>
       </div>
     </div>
-
-    
   )
 }
 

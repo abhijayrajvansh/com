@@ -111,7 +111,7 @@ export const experiencesData = {
 			companyName: "L&D  Hospital · Internship",
 			companyLocation: "Luton, England, United Kingdom · Remote",
 			description : [
-				"Led a six-month project developing a deep learning algorithm for automated identification of orthopaedic implants, using YOLOv7 and CNN. ",
+				"Led a 4 month project developing a deep learning algorithm for automated identification of orthopaedic implants, using YOLOv7 and CNN. ",
 				"Achieved an impressive 97% accuracy rate in prediction and identification, showcasing advanced technological expertise and impactful problem-solving.",
 				"Technologies Used: Object Detection, Python, Research Skills, Yolo Algorithm, Convolutional Neural Networks (CNN), Full-Stack Development, Leadership, Machine Learning."
 			]
