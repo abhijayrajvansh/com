@@ -43,7 +43,7 @@ const NavigationTab = () => {
   const pathname = usePathname();
 
   return (
-    <section className="z-20 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:px-6 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light"> 
+    <header className="z-20 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:px-6 sm:top-0 sm:pt-0 sm:border-r border-default-200 sm:font-light"> 
       
     <div className="flex items-center justify-between w-full sm:block sm:pt-5 sm:mt-2">
 
@@ -54,7 +54,6 @@ const NavigationTab = () => {
           <div className="hidden lg:block text-[11px]">
             <p className="text-primary-600 font-medium text-sm">Abhijay Rajvansh</p>
             <p className="font-normal text-xs">Passionate Engineer</p>
-            <p className="font-normal text-xs">📍 India</p>
           </div>
         </div>
       </Link>
@@ -87,7 +86,7 @@ const NavigationTab = () => {
         }
       </div>
 
-    </section>
+    </header>
   )
 }
 

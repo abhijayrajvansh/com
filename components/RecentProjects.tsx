@@ -13,7 +13,7 @@ const RecentProjects = () => {
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
         <ProjectCard 
-          bgBanner="bg-[url('/t3.webp')]"
+          bgBanner="bg-[url('/fullstack-twitter.webp')] bg-cover bg-contain"
           logo={siteConfig.projects.twitter.logo}
           title={siteConfig.projects.twitter.title}
           nextjs react supabse drizzle shadcn reacticnons typescript node
