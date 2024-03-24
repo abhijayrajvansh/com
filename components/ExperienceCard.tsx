@@ -7,7 +7,7 @@ interface ExperienceCardProps {
   position: string,
   companyName: string,
   companyLocation: string,
-  description: string[],
+  description?: string[],
 }
 
 const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, endDate, position, companyName, companyLocation, description}) => {
@@ -20,7 +20,7 @@ const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, e
       
       <div className="min-w-[56px] z-10">
         <Image height={56} width={56} 
-          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-yellow-400 shadow-xl shadow-warning-400/50 customShadow' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
+          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-yellow-400 shadow-lg shadow-warning-400/50 customShadow' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
       </div>
       
       
@@ -34,7 +34,7 @@ const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, e
           </div>
         </div>
           {
-            description.map((keyPoint, index) => (
+            description?.map((keyPoint, index) => (
               <div className="text-default-500 text-[13px] sm:text-sm" key={index}>
                   <p className="pt-1"><span className="text-primary-600"> — </span>{keyPoint}</p>
               </div>

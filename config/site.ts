@@ -126,7 +126,7 @@ export const experiencesData = {
 			companyLocation: "Bengaluru, Karnataka, India · Remote",
 			description : [
 				"Educated and helped students pursuing the course on Data structures, Algorithms and Object Oriented programming in C++ and Java via zoom and discord. Taught students concepts, verified their code, suggested better approaches of solving problems and resolved 500+ doubts.",
-				"Skills: C/C++, Java, DSA, Object Oriented Programming, Problem Solving, Debugging, Communication, Leadership"
+				"Skills: C/C++, Java, DSA, Object Oriented Programming, Problem Solving, Debugging, Communication, Leadership."
 			]
 		},
 	}
