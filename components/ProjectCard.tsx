@@ -31,9 +31,9 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
   return (
 <>
     <div
-      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-xl transition w-full justify-end ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} hover:rotate-0`}
+      className={`border border-default-200 ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-xl transition w-full justify-end ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} hover:rotate-0`}
     >
-    <div className="bottomContainer flex flex-col rounded-xl border border-default-200">
+    <div className="bottomContainer flex flex-col rounded-xl ">
 
         <div className="min-h-[90px] bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-end relative -bottom-1 rounded-t-xl ">
           <div className="flex justify-between items-start">
