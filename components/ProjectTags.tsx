@@ -4,16 +4,17 @@ interface ProjectTagsProps {
   technologyName: string;
 }
 
-import { Chip } from "@nextui-org/react";
-
 const ProjectTags:React.FC<ProjectTagsProps> = ({icon, technologyName, iconColor="text-white"}) => {
 
   const Icon = icon;
 
   return (
-    <Chip className={`bg-gray-800 ${iconColor}`} size="sm" variant="flat" startContent={<Icon size={18}/>}>
-      <p className="text-white">{technologyName}</p>
-    </Chip>
+    <div className="text-sm">
+      <div className={`text-[11px] flex items-center ${iconColor} bg-gray-800 gap-[5px] font-medium w-fit px-[4px] pr-[7px] rounded-full`}>
+        <Icon size={18} />
+        <p className="text-white">{technologyName}</p>
+      </div>
+    </div>
   )
 }
 
