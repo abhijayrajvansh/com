@@ -4,7 +4,7 @@ import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
 import Image from "next/image";
-import { Button, Chip, Link } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { MdOutlineArticle } from "react-icons/md";
@@ -13,7 +13,6 @@ interface ProjectCardProps {
   bgBanner: string, 
   logo: string, 
   title: string, 
-  type: string,
   nextjs?: boolean, 
   react?: boolean, 
   supabse?: boolean, 
@@ -28,7 +27,7 @@ interface ProjectCardProps {
   tilt: string,
 }
 
-const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, type, tilt}) => {
+const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, tilt}) => {
   return (
 <>
     <div
@@ -43,13 +42,6 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
               src={logo}
               alt="projectLogo"
             />
-            <Chip className='bg-black/50 backdrop-blur-sm' size="sm" variant="flat" color={
-              type === 'freelance' ? 'success' : 
-              type === 'open-source' ? 'danger' : 
-              type === 'pet-project' ? 'warning' :
-              type === 'company-project' ? 'primary' : 'default'
-            }>
-            {type}</Chip>
           </div>
         </div>
 
