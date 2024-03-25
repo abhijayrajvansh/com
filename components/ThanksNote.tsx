@@ -13,7 +13,7 @@ const ThanksNote: React.FC<ThanksNoteProps> = ({tilt}) => {
         
         <h3 className="text-warning-500 font-bold text-2xl sm:text-xl">Gald to have you here.</h3>
 
-        <Link className="text-sm" href={'/guestbook'}>Don&apos;t forget to sign my guestbook</Link>
+        <div className=" text-[15px] sm:text-sm">Don&apos;t forget to sign my <Link href={'/guestbook'} className="text-primary-500 font-medium underline underline-offset-2">guestbook!</Link></div>
       </div>
 
     </div>
