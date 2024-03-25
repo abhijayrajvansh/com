@@ -1,6 +1,7 @@
 import { Button } from "@nextui-org/react";
 import { ThemeSwitch } from "./theme-switch";
 import { Link } from "@nextui-org/react";
+import { RiBookMarkLine } from "react-icons/ri";
 
 const Header = () => {
   return (
@@ -10,14 +11,12 @@ const Header = () => {
         <ThemeSwitch />
       </div>
 
-      <Button
-        href="/contact"
+      <Button className="text-xs sm:text-sm bg-primary-400 hover:bg-primary-300 font-medium"
+        href="/guestbook"
         as={Link}
-        color="primary"
-        showAnchorIcon
+        size="sm"
         variant="shadow" >
-        
-        Contact
+        <RiBookMarkLine size={21}/>Sign my guestbook!
       </Button>
     </section>
   )
