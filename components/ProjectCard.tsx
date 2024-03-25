@@ -31,9 +31,9 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
   return (
 <>
     <div
-      className={`border border-default-200 ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-xl transition w-full justify-end ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} hover:rotate-0`}
+      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end ${ tilt === 'right' ? 'hover:rotate-1' : 'hover:-rotate-1'}`}
     >
-    <div className="bottomContainer flex flex-col rounded-xl">
+    <div className="bottomContainer flex flex-col rounded-xl shadow-lg">
 
         <div className="pt-2 bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-end relative -bottom-1 rounded-t-xl ">
           <div className="flex justify-between items-start">
@@ -55,13 +55,14 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
             { drizzle && <Image height={39} width={39} src="/drizzle.png" alt="drizzleLogo"/>}
             { shadcn && <Image height={25} width={25} src="/shadcn.png" alt="shadcnlogo" />}
             { reacticnons && <Image height={25} width={25} src="/react-icons.svg" alt="reacticonslogo" />}
-            { typescript && <SiTypescript className="text-blue-500" />}
+            { typescript && <SiTypescript className="text-[#3075C1]" />}
             { node && <IoLogoNodejs className="text-green-600" />}
           </div>
 
           <div className="flex justify-between mb-2">
             <Button
-              size="md"
+              size="sm"
+              className="text-sm"
               isExternal={true}
               href={visitLink}
               color="danger"
@@ -75,8 +76,23 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
             </Button>
 
             <Button
-              size="md"
-              className="border border-gray-500 bg-black"
+              size="sm"
+              isExternal={true}
+              color="success"
+              className="text-sm "
+              href={blogLink}
+              as={Link}
+              variant="solid"
+            >
+              <div className="flex items-center gap-2 font-normal text-black">
+                <MdOutlineArticle size={21} />
+                Blog
+              </div>
+            </Button>
+
+            <Button
+              size="sm"
+              className="text-sm py-4 border border-gray-500 bg-black"
               isExternal={true}
               color="default"
               href={githubLink}
@@ -89,20 +105,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
               </div>
             </Button>
 
-            <Button
-              size="md"
-              isExternal={true}
-              // color="green"
-              className="bg-green-500"
-              href={blogLink}
-              as={Link}
-              variant="solid"
-            >
-              <div className="flex items-center gap-2 font-semibold text-black">
-                <MdOutlineArticle size={21} />
-                Blog
-              </div>
-            </Button>
+            
           </div>
 
         </div>
