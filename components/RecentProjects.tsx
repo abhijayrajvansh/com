@@ -16,6 +16,7 @@ const RecentProjects = () => {
           bgBanner="bg-[url('/fullstack-twitter.webp')] bg-cover bg-contain"
           logo={siteConfig.projects.twitter.logo}
           title={siteConfig.projects.twitter.title}
+          type='company-project'
           nextjs react supabse drizzle shadcn reacticnons typescript node
           visitLink={siteConfig.projects.twitter.liveProjectLink}
           blogLink={siteConfig.projects.twitter.blog}
@@ -27,6 +28,7 @@ const RecentProjects = () => {
           bgBanner="bg-[url('/t3.webp')]"
           logo={siteConfig.projects.twitter.logo}
           title={siteConfig.projects.twitter.title}
+          type='pet-project'
           nextjs react supabse drizzle shadcn reacticnons typescript node
           visitLink={siteConfig.projects.twitter.liveProjectLink}
           blogLink={siteConfig.projects.twitter.blog}

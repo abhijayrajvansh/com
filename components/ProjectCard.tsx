@@ -13,6 +13,7 @@ interface ProjectCardProps {
   bgBanner: string, 
   logo: string, 
   title: string, 
+  type: string,
   nextjs?: boolean, 
   react?: boolean, 
   supabse?: boolean, 
@@ -27,22 +28,28 @@ interface ProjectCardProps {
   tilt: string,
 }
 
-const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, tilt}) => {
+const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, type, tilt}) => {
   return (
 <>
     <div
       className={`border border-default-200 ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-xl transition w-full justify-end ${tilt === 'left' ? '-rotate-1' : 'rotate-1'} hover:rotate-0`}
     >
-    <div className="bottomContainer flex flex-col rounded-xl ">
+    <div className="bottomContainer flex flex-col rounded-xl">
 
-        <div className="min-h-[90px] bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-end relative -bottom-1 rounded-t-xl ">
+        <div className="pt-2 bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-end relative -bottom-1 rounded-t-xl ">
           <div className="flex justify-between items-start">
             <img
-              className="h-14 w-14 rounded-xl"
+              className="h-14 w-14 rounded-xl border-2 border-default-200"
               src={logo}
               alt="projectLogo"
             />
-            <Chip size="sm" variant="flat" color="default">Pet Project</Chip>
+            <Chip className='bg-black/50 backdrop-blur-sm' size="sm" variant="flat" color={
+              type === 'freelance' ? 'success' : 
+              type === 'open-source' ? 'danger' : 
+              type === 'pet-project' ? 'warning' :
+              type === 'company-project' ? 'primary' : 'default'
+            }>
+            {type}</Chip>
           </div>
         </div>
 
@@ -93,7 +100,8 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
             <Button
               size="md"
               isExternal={true}
-              color="success"
+              // color="green"
+              className="bg-green-500"
               href={blogLink}
               as={Link}
               variant="solid"
