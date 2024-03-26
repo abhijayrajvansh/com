@@ -14,17 +14,19 @@ const About = () => {
         <main className="contentWrapper">
           <h1 className="text-5xl font-semibold mb-10">Who, What & Why?</h1>
 
-          <Tooltip showArrow content="one envision me like this ;P" placement="top-end" color="secondary">
+          {/* <Tooltip showArrow content="one can envision me like this :P" placement="top-end" color="secondary">
             <Image
               unoptimized
               width={700}
               height={200}
               // max-h-[150px] sm:max-h-[200px] for some old banner
-              className="mb-5  shadow-lg object-cover object-center rounded-lg border-2 border-default-200"
+              className="mb-5 shadow-lg object-cover object-center rounded-lg border-2 border-default-200"
               src="/abhijayatwork.gif"
               alt="abhijay@work-pixelAnimated"
             />
-          </Tooltip>
+          </Tooltip> */}
+
+          
 
           <p className="mb-5 text-md">Let&apos;s start with<span className="text-xl font-semibold">{" "}&apos;Why?&apos;</span></p>
 
@@ -38,20 +40,24 @@ const About = () => {
             <br />
             That&apos;s where I come in. I love helping individuals transform
             their concepts into fully operational digital products. With almost
-            4 years of experience in software development both as a consultant
+            <span className="text-pink">
+            {' '}4+ years of experience{' '}
+            </span>in software development both as a consultant
             and as a full-time developer. I provide actionable guidance, offer
             practical solutions, or even facilitate connections bridging the
             gap for those needing expertise beyond my own in areas like non-tech
             support.
             <br />
             <br />
-            For me software engineering is an ART just like painting was for 
+            For me Software Engineering is an ART just like painting was for 
             Leonardo Da Vinci. I&apos;m also a big fan of open
             source software - which is why almost everything I build is open
             source! I also love educating others about technology and
             programming, which is why I&apos;m a content creator and write blogs
             in my free time.
           </p>
+
+          <p>P.S. I&apos;m an artist who aims for his art to leave behind a lasting legacy!</p>
 
           
 

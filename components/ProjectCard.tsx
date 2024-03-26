@@ -4,7 +4,7 @@ import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
 import Image from "next/image";
-import { Button, Link } from "@nextui-org/react";
+import { Button, Link, Tooltip } from "@nextui-org/react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { MdOutlineArticle } from "react-icons/md";
@@ -25,11 +25,12 @@ interface ProjectCardProps {
   githubLink: string, 
   blogLink: string, 
   tilt: string,
+  type?: string,
 }
 
-const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, tilt}) => {
+const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, tilt, type}) => {
   return (
-<>
+<Tooltip showArrow content={type} placement={'top-end'} color={type === 'freelance' ? 'success' : type === 'open-source' ? 'danger' : type === 'company-project' ? 'primary' : type === 'pet-project' ? 'secondary' : 'default'}>
     <div
       className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end ${ tilt === 'right' ? 'hover:rotate-1' : 'hover:-rotate-1'}`}
     >
@@ -113,7 +114,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
 
       </div>
     </div>
-    </>
+    </Tooltip>
   );
 };
 

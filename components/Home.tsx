@@ -6,8 +6,7 @@ import ShortIntro from "@/components/ShortIntro";
 import FeaturedArticles from "./FeaturedArticles";
 import EngagementSection from "./EngagementSection";
 import SocialLinks from "./SocialLinks";
-import Image from "next/image";
-import { Tooltip } from "@nextui-org/react";
+import Banner from "@/components/Banner"
 
 const Home = () => {
 
@@ -21,9 +20,7 @@ const Home = () => {
 					
 					<main className="contentWrapper">
 
-					<Tooltip showArrow={true} content="that's me in the cyberworld!" placement={'bottom'} color="foreground">
-						<Image width={700} height={250} className='rounded-lg shadow-lg' src="/abhijayrajvansh-in-the-cyberworld.webp" alt="abhijay_as_curioustoddler_in_the_cyberworld" />
-					</Tooltip>
+						<Banner />
 
 						<ShortIntro />
 
