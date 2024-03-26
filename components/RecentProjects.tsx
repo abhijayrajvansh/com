@@ -11,24 +11,27 @@ const RecentProjects = () => {
       
       {/* top 2 projects showcase */}
       <div className="flex flex-col sm:flex-row sm:space-x-7">
+
         <ProjectCard 
+          bgBanner="bg-[url('/fullstack-twitter.webp')] bg-cover bg-contain"
+          logo={siteConfig.projects.twitter.logo}
           title={siteConfig.projects.twitter.title}
-          description={siteConfig.projects.twitter.description}
-          type={siteConfig.projects.twitter.type}
-          thumbnail="bg-[url('/t3.webp')]"
-          sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
-          liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
-          tilt="right" 
+          nextjs react supabse drizzle shadcn reacticnons typescript node
+          visitLink={siteConfig.projects.twitter.liveProjectLink}
+          blogLink={siteConfig.projects.twitter.blog}
+          githubLink={siteConfig.projects.twitter.sourceCodeLink}
+          tilt='right'
         />
 
         <ProjectCard 
+          bgBanner="bg-[url('/t3.webp')]"
+          logo={siteConfig.projects.twitter.logo}
           title={siteConfig.projects.twitter.title}
-          description={siteConfig.projects.twitter.description}
-          type={siteConfig.projects.twitter.type}
-          thumbnail="bg-[url('/t3.webp')]"
-          sourceCodeLink={siteConfig.projects.twitter.sourceCodeLink}
-          liveProjectLink={siteConfig.projects.twitter.liveProjectLink}
-          tilt="left" 
+          nextjs react supabse drizzle shadcn reacticnons typescript node
+          visitLink={siteConfig.projects.twitter.liveProjectLink}
+          blogLink={siteConfig.projects.twitter.blog}
+          githubLink={siteConfig.projects.twitter.sourceCodeLink}
+          tilt='left'
         />
 
       </div>
@@ -45,8 +48,6 @@ const RecentProjects = () => {
         <Link className="text-primary-600 font-medium" href={'/projects'}>projects page.</Link>
       </div>
     </div>
-
-    
   )
 }
 

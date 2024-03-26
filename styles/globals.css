@@ -24,6 +24,9 @@
   .subHeading {
     @apply font-semibold text-2xl inline-block mt-5 mb-3
   }
+  .text-color-text {
+    @apply dark:text-[#94A3B8] text-[#64748B]
+  }
 }
 
 /* debugging border classes */

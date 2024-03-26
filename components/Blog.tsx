@@ -4,7 +4,6 @@ import { Button, ButtonGroup } from "@nextui-org/react";
 import AddGap from "./AddGap";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./EngagementSection";
 import { useState } from "react";
 import BlogCard from "@/components/BlogCard";
 import { siteConfig } from "@/config/site";
