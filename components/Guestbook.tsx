@@ -1,28 +1,10 @@
-import Header from "./Header";
-import NavigationTab from "./NavigationTab";
-import SocialLinks from "./SocialLinks";
-import Subscription from "./EngagementSection";
+import Image from "next/image";
 
 const Guestbook = () => {
   return (
-    <section className="wrapper">
-      <Header />
-      <NavigationTab />
-
-      <div className="pageWrapper sm:mt-10">
-
-        <main className="contentWrapper">
-
-          <h1 className="text-5xl font-semibold mb-10">Guestbook</h1>
-        
-
-        </main>
-
-
-        <Subscription />
-      </div>
-      
-    </section>
+    <div className="my-10 flex">
+      <h1 className="text-2xl font-medium mb-10">sign my guestbook...</h1>
+    </div>
   )
 }
 

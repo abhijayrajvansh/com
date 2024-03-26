@@ -7,7 +7,7 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const SocialLinks = () => {
   return (
-    <div className="flex items-center gap-5">
+    <div className="flex items-center gap-5 mb-5">
       <Button href={`${siteConfig.links.github}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaGithub /></Button>
 
       <Button href={`${siteConfig.links.linkedin}`} isExternal as={Link} isIconOnly size="lg" className="hover:scale-125 text-4xl" variant="light"><FaLinkedin /></Button>

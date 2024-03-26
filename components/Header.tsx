@@ -13,7 +13,7 @@ const Header = () => {
 
       <div className="flex items-center space-x-2">
         <Button className="text-xs bg-primary-400 hover:bg-primary-300 font-medium text-white"
-          href="/guestbook"
+          href="/contact"
           as={Link}
           size="sm"
           variant="solid" >

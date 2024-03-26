@@ -14,15 +14,12 @@ const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, e
   return (
     <div className="flex gap-3 sm:gap-5">
 
-      {/* verticle timeline border */}
       <div className={`border border-default-400 relative left-10 sm:left-12`}></div>
-      
       
       <div className="min-w-[56px] z-10">
         <Image height={56} width={56} 
           className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-yellow-400 shadow-lg shadow-warning-400/50 customShadow' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
       </div>
-      
       
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10">
         <p className="text-default-500 text-sm">{startDate} - {endDate}</p>

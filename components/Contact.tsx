@@ -2,6 +2,8 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
 import SocialLinks from "./SocialLinks";
+import Guestbook from "./Guestbook";
+import CalltoAction from "./CalltoAction";
 
 const Contact = () => {
   return (
@@ -15,11 +17,11 @@ const Contact = () => {
 
           <h1 className="text-5xl font-semibold mb-10">Let&apos;s Connect!</h1>
 
-
-
           <SocialLinks />
 
+          <CalltoAction />
 
+          <Guestbook/>
 
         </main>
         <Subscription />
