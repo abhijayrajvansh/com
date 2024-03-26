@@ -1,8 +1,9 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
+import SocialLinks from "./SocialLinks";
 
-const Projects = () => {
+const Contact = () => {
   return (
     <section className="wrapper">
       <Header />
@@ -12,8 +13,11 @@ const Projects = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-5xl font-semibold mb-10">Projects</h1>
+          <h1 className="text-5xl font-semibold mb-10">Let&apos;s Connect!</h1>
 
+
+
+          <SocialLinks />
 
 
 
@@ -25,4 +29,4 @@ const Projects = () => {
   )
 }
 
-export default Projects;
+export default Contact;

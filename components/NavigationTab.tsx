@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
 import { CiUser } from "react-icons/ci";
 import { MdOutlineArticle } from "react-icons/md";
-import { RiBookMarkLine } from "react-icons/ri";
+import { PiHandshakeDuotone } from "react-icons/pi";
 import Image from "next/image";
 
 // navigation tab routes
@@ -33,8 +33,8 @@ const NAVIGATION_DATA = [
     pageIcon: PiSuitcase
   },
   {
-    pageTitle: 'Guestbook',
-    pageIcon: RiBookMarkLine
+    pageTitle: 'Contact',
+    pageIcon: PiHandshakeDuotone
   },
 ]
 
@@ -73,7 +73,7 @@ const NavigationTab = () => {
                 key={item.pageTitle}
                 href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex items-center cursor-pointer text-3xl sm:text-sm`}>
                   
-                <nav className={`sm:flex sm:items-center sm:space-x-3 px-4 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition duration-0 sm:py-2 sm:hover:shadow-xl hover:scale-125 sm:hover:scale-110 font-medium ${isActive && 'sm:bg-primary/30 sm:shadow-lg text-primary-500 sm:text-primary-700'}`}>
+                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition duration-0 sm:py-2 sm:hover:shadow-xl hover:scale-125 sm:hover:scale-110 font-medium ${isActive && 'sm:bg-primary/30 sm:shadow-lg text-primary-500 sm:text-primary-700'}`}>
                 
                   <item.pageIcon className="sm:text-3xl transition" />
                   <div className="hidden lg:block">{item.pageTitle}</div>

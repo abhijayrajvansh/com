@@ -5,7 +5,6 @@ import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import FeaturedArticles from "./FeaturedArticles";
 import EngagementSection from "./EngagementSection";
-import SocialLinks from "./SocialLinks";
 import Banner from "@/components/Banner"
 
 const Home = () => {
@@ -23,8 +22,6 @@ const Home = () => {
 						<Banner />
 
 						<ShortIntro />
-
-						<SocialLinks />
 
 						<FeaturedArticles />
 
