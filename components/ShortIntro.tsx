@@ -6,8 +6,7 @@ const ShortIntro = () => {
     <div className="space-y-5 my-5 font-medium">
 
       <p className="text-xl space-x-2 mb-5">
-        <span>Hi, I&apos;m</span>
-        <span className={`font-medium text-primary-600`}>Abhijay Rajvansh</span>
+        <span>Hi, I&apos;m</span><span className={`font-medium text-primary-600`}>{" "}Abhijay Rajvansh</span>
       </p>
 
       <h1 className={`${title()}text-[2rem] leading-tight font-semibold`}>
