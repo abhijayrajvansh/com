@@ -25,7 +25,7 @@ const About = () => {
           />
 
           <p className="dark:text-[#94A3B8] text-[#64748B]">
-            Let me know if you can relate: In today's rapidly evolving tech
+            Let me know if you can relate: In today&apos;s rapidly evolving tech
             landscape, staying current is a big challenge. Platforms like
             Product Hunt and HubSpot introduce new features every day, while AI
             is being incorporated into EVERYTHING. If you&apos;re staying the same,
@@ -33,7 +33,7 @@ const About = () => {
             
             <br /><br />
             
-            That's where I come in. I love helping
+            That&apos;s where I come in. I love helping
             individuals transform their concepts into fully operational digital
             products. With almost 4 years of experience in software
             development—both as a freelancer and as a full-time developer—I
@@ -49,17 +49,17 @@ const About = () => {
             </Link>
 
             {" "}Rajvansh, a full-stack software engineer currently based in India 🇮🇳.
-            I'm passionate about building products that help people and make a difference 
-            in the world. I'm also a big fan of open source software - which is why almost 
+            I&apos;m passionate about building products that help people and make a difference 
+            in the world. I&apos;m also a big fan of open source software - which is why almost 
             everything I build is open source! I also love educating others about technology 
-            and programming, which is why I'm a content creator and write blogs in my free 
+            and programming, which is why I&apos;m a content creator and write blogs in my free 
             time. I mainly write code in the T3 Stack
           </p>
           {/* <p>
           piyush garg example: My name is Piyush Garg and I am 24 Years old developer. I have developed many websites, Worked on JavaScript frameworks like react and angular, Php login authentication system and session handling worked on Android apps, Basic IOS apps, Database management with MySql and Firebase, Python programing with the automation of software and much more. recently I have completed my journey as a MERN stack developer and undertraining flutter developer.
 
   
-          dhravy shah: I'm a product maker (... and full stack developer) currently based in Arizona, USA. I'm passionate about building products that help people and make a difference in the world. I'm also a big fan of open source software - which is why almost everything I build is open source! I also love educating others about technology and programming, which is why I'm a content creator and write blogs in my free time. I mainly write code in the T3 Stack
+          dhravy shah: I&apos;m a product maker (... and full stack developer) currently based in Arizona, USA. I&apos;m passionate about building products that help people and make a difference in the world. I&apos;m also a big fan of open source software - which is why almost everything I build is open source! I also love educating others about technology and programming, which is why I&apos;m a content creator and write blogs in my free time. I mainly write code in the T3 Stack
 
           
           summary : Diligent Technical Project Manager with 8 years of experience as a fintech unicorn in Silicon Valley.

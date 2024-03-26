@@ -37,10 +37,11 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
 
         <div className="pt-2 bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-end relative -bottom-1 rounded-t-xl ">
           <div className="flex justify-between items-start">
-            <img
+            <Image
               className="h-14 w-14 rounded-xl border-2 border-default-200"
               src={logo}
               alt="projectLogo"
+              width={56} height={56}
             />
           </div>
         </div>
