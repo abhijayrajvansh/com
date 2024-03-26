@@ -11,7 +11,7 @@ const Header = () => {
         <ThemeSwitch />
       </div>
 
-      <Button className="text-xs sm:text-sm bg-primary-400 hover:bg-primary-300 font-medium"
+      <Button className="text-xs sm:text-sm bg-primary-400 hover:bg-primary-300 font-medium text-white"
         href="/guestbook"
         as={Link}
         size="sm"
