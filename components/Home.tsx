@@ -3,26 +3,27 @@ import NavigationTab from "./NavigationTab";
 import RecentProjects from "./RecentProjects";
 import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
-import CuriousChildinMe from "./CuriousChildinMe";
 import FeaturedArticles from "./FeaturedArticles";
 import EngagementSection from "./EngagementSection";
 import SocialLinks from "./SocialLinks";
+import Image from "next/image";
+import { Tooltip } from "@nextui-org/react";
 
 const Home = () => {
 
 	return (
 			<section className="wrapper">
-				{/* top header */}
 				<Header />
 				
-				{/* left section */}
 				<NavigationTab />
 
 				<div className="pageWrapper">
 					
-					{/* mid section */}
 					<main className="contentWrapper">
-						<CuriousChildinMe />
+
+					<Tooltip showArrow={true} content="that's me in the cyberworld!">
+						<Image width={700} height={250} className='rounded-lg shadow-lg' src="/abhijayrajvansh-in-the-cyberworld.webp" alt="abhijay_as_curioustoddler_in_the_cyberworld" />
+					</Tooltip>
 
 						<ShortIntro />
 
@@ -37,9 +38,7 @@ const Home = () => {
 						
 					{/* right section */}
 					<EngagementSection />
-				
 				</div>
-
 			</section>
 	)
 }
