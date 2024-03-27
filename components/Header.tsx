@@ -11,7 +11,7 @@ const Header = () => {
         <ThemeSwitch />
       </div>
 
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-5">
         <Button className="text-xs bg-primary-400 hover:bg-primary-300 font-medium text-white"
           href="/contact"
           as={Link}

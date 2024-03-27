@@ -25,7 +25,7 @@ const Blog = () => {
 
       <div className="pageWrapper sm:mt-10">
         <main className="contentWrapper">
-          <h1 className="text-5xl font-semibold mb-10">My Blog</h1>
+          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">My Blog</h1>
 
           <div className="flex flex-col items-start">
 
