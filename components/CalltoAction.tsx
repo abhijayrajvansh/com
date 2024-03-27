@@ -6,8 +6,8 @@ const CalltoAction = () => {
   return (
     <p className="text-color-text">
       Shoot me an{" "}
-      <Link href={siteConfig.links.email} className="text-primary-500">
-        email
+      <Link href={siteConfig.links.email} className="text-primary-500 font-medium">
+        Email
       </Link>{" "}
       or you can DM me on{" "}
       <Link

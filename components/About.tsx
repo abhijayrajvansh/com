@@ -1,12 +1,21 @@
+'use client'
+
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
-import Image from "next/image";
-import {  Tooltip } from "@nextui-org/react";
+import { Tooltip } from "@nextui-org/react";
 import CalltoAction from "./CalltoAction";
 import SocialLinks from "./SocialLinks";
+import { useState, useEffect } from "react";
 
 const About = () => {
+  const [isLoaded, setIsLoaded  ] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true)
+  }, [])
+
+  if(! isLoaded) return null;
 
   return (
     <section className="wrapper">
@@ -14,28 +23,12 @@ const About = () => {
       <NavigationTab />
 
       <div className="pageWrapper sm:my-10">
-        <main className="contentWrapper">
+        <div className="contentWrapper">
           <h1 className="text-5xl font-semibold mb-10">Who, What & Why?</h1>
 
-
-          <Tooltip
-            showArrow
-            content="one can envision me like this, lol :P"
-            placement="top-end"
-            color="secondary"
-          >
-            <Image
-              unoptimized
-              width={700}
-              height={200}
-              // max-h-[150px] sm:max-h-[200px] for some old banner
-              className="mb-5 max-h-[200px] sm:max-h-[350px] shadow-lg object-cover object-center rounded-lg border-2 border-default-200"
-              src="/abhijayatwork.gif"
-              alt="abhijay@work-pixelAnimated"
-            />
-
+          <Tooltip showArrow content="one can envision me like this, lol :P" placement="top-end" color="secondary">
+            <video src="/abhijayatwork.mp4" autoPlay muted loop className="w-full rounded-xl mb-5 h-[250px] sm:h-[450px] border-2 border-default-200 object-center object-cover "></video>   
           </Tooltip>
-
 
           <p className="mb-3 text-md">
             Let&apos;s start with
@@ -82,7 +75,7 @@ const About = () => {
           
 
           {/* piyush garg example: My name is Piyush Garg and I am 24 Years old developer. I have developed many websites, Worked on JavaScript frameworks like react and angular, Php login authentication system and session handling worked on Android apps, Basic IOS apps, Database management with MySql and Firebase, Python programing with the automation of software and much more. recently I have completed my journey as a MERN stack developer and undertraining flutter developer. */}
-        </main>
+        </div>
 
         <Subscription />
       </div>
