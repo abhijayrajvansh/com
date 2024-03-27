@@ -12,7 +12,7 @@ const Projects = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-5xl font-semibold mb-10">Projects</h1>
+          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Projects</h1>
 
 
 

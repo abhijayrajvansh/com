@@ -15,7 +15,7 @@ const Contact = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-5xl font-semibold mb-10">Let&apos;s Connect!</h1>
+          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Let&apos;s Connect!</h1>
 
           <SocialLinks />
 

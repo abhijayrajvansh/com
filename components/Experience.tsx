@@ -15,7 +15,7 @@ const Experience = () => {
 
         <main className="contentWrapper mb-20">
         
-          <h1 className="text-5xl font-semibold mb-10">Work Experience</h1>
+          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Work Experience</h1>
 
             <ExperienceCard 
               companyLogo={experiencesData.company.bling.companyLogo}

@@ -3,19 +3,10 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
-import { Tooltip } from "@nextui-org/react";
 import CalltoAction from "./CalltoAction";
 import SocialLinks from "./SocialLinks";
-import { useState, useEffect } from "react";
 
 const About = () => {
-  const [isLoaded, setIsLoaded  ] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true)
-  }, [])
-
-  if(! isLoaded) return null;
 
   return (
     <section className="wrapper">
@@ -24,11 +15,7 @@ const About = () => {
 
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
-          <h1 className="text-5xl font-semibold mb-10">Who, What & Why?</h1>
-
-          <Tooltip showArrow content="one can envision me like this, lol :P" placement="top-end" color="secondary">
-            <video src="/abhijayatwork.mp4" autoPlay muted loop className="w-full rounded-xl mb-5 h-[250px] sm:h-[450px] border-2 border-default-200 object-center object-cover "></video>   
-          </Tooltip>
+          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Who, What & Why?</h1>
 
           <p className="mb-3 text-md">
             Let&apos;s start with
@@ -72,9 +59,8 @@ const About = () => {
             <SocialLinks />
           </p>
 
-          
-
           {/* piyush garg example: My name is Piyush Garg and I am 24 Years old developer. I have developed many websites, Worked on JavaScript frameworks like react and angular, Php login authentication system and session handling worked on Android apps, Basic IOS apps, Database management with MySql and Firebase, Python programing with the automation of software and much more. recently I have completed my journey as a MERN stack developer and undertraining flutter developer. */}
+
         </div>
 
         <Subscription />
