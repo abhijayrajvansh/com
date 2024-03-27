@@ -16,7 +16,7 @@ const About = () => {
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
           <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Who, What & Why?</h1>
-
+          
           <p className="mb-3 text-md">
             Let&apos;s start with
             <span className="text-xl font-semibold"> &apos;Why?&apos;</span>
