@@ -2,6 +2,7 @@ import { Button } from "@nextui-org/react";
 import { ThemeSwitch } from "./theme-switch";
 import { Link } from "@nextui-org/react";
 import { PiHandshakeDuotone } from "react-icons/pi";
+import HeaderLinks from "./HeaderLinks";
 
 const Header = () => {
   return (
@@ -11,7 +12,10 @@ const Header = () => {
         <ThemeSwitch />
       </div>
 
-      <div className="flex items-center space-x-5">
+      
+
+      <div className="flex items-center space-x-10">
+        <HeaderLinks />
         <Button 
           href="/contact" 
           as={Link} size="sm" 

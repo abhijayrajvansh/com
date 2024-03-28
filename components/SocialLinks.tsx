@@ -1,9 +1,9 @@
 import { Button } from "@nextui-org/react";
 import { Link } from "@nextui-org/react";
 import { FaXTwitter, FaGithub, FaLinkedin, FaMedium } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { siteConfig } from '@/config/site'
-import { IoLogoYoutube } from "react-icons/io";
 
 const SocialLinks = () => {
   return (
