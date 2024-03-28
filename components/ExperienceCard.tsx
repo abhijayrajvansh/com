@@ -2,11 +2,11 @@ import Image from "next/image";
 
 interface ExperienceCardProps {
   companyLogo: string,
-  startDate: string,
-  endDate: string,
+  startDate?: string,
+  endDate?: string,
   position: string,
   companyName: string,
-  companyLocation: string,
+  companyLocation?: string,
   description?: string[],
 }
 
@@ -22,7 +22,7 @@ const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, e
       </div>
       
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10">
-        <p className="text-default-500 text-sm">{startDate} - {endDate}</p>
+        {startDate && <p className="text-default-500 text-sm">{startDate} - {endDate}</p>}
         <h2 className="text-xl sm:text-2xl font-semibold">{position}</h2>
         <div className="flex items-center gap-2 pb-1">
           <div className="text-sm font-medium text-default-600">

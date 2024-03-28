@@ -75,7 +75,6 @@ export const languages = [
 
 export const experiencesData = {
 	company : {
-
 		bling : {
 			companyLogo: "/bling.jpeg",
 			startDate: "Feb 2023",
@@ -131,5 +130,19 @@ export const experiencesData = {
 				"Skills: C/C++, Java, DSA, Object Oriented Programming, Problem Solving, Debugging, Communication, Leadership."
 			]
 		},
-	}
+
+		CS50 : {
+			InstituteLogo: "/cs50.jpeg",
+			course: "Harvard's CS50: Introduction to Computer Science",
+			companyName: "Harvard University | CS50",
+			description : ['Skills: c/c++, Software Development, Computer Science, Python (Programming Language), Algorithms, Data Structures']
+		},
+
+		redhat : {
+			InstituteLogo: "/redhat.jpeg",
+			course: "Fundamentals of Red Hat Enterprise Linux",
+			companyName: "RedHat",
+			description : ['Skills: Linux and different distros, Shell Scripting, Computer Science, Bash, Zsh, Red Hat Enterprise Linux & Linux Tools.']
+		},
+	},
 }
