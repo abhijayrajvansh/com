@@ -21,7 +21,7 @@ const Spotify: React.FC<SpotifyProps> = ({tilt, musicThumbnai}) => {
             <div className="flex flex-col mt-5 gap-1 sm:w-[300px] sm:px-5">
               <div className="rounded-xl  bg-black/20 p-2">
                 <h3 className="text-center">One Of The Girls, (with JENNIE, Lily Rose Depp)</h3>
-                <p className="text-center text-color-text">Listening on Abhijay's Spotify</p>
+                <p className="text-center text-color-text">Listening on Abhijay&apos;s Spotify</p>
 
                 <Slider
                   aria-label="Music progress"
