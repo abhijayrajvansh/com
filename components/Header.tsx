@@ -17,7 +17,7 @@ const Header = () => {
           as={Link} size="sm" 
           variant="shadow" 
           color="warning"
-          className="text-white font-medium text-sm sm:text-base  sm:py-5">
+          className="text-white font-medium text-sm sm:py-5">
           <PiHandshakeDuotone size={25} />
           Contact me
         </Button>
