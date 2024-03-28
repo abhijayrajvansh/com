@@ -1,4 +1,6 @@
+import { Button } from "@nextui-org/react";
 import Link from "next/link";
+import { RiBookMarkLine } from "react-icons/ri";
 
 interface ThanksNoteProps {
   tilt: string,
@@ -13,7 +15,13 @@ const ThanksNote: React.FC<ThanksNoteProps> = ({tilt}) => {
         
         <h3 className="text-warning-500 font-bold text-2xl sm:text-xl">Gald to have you here.</h3>
 
-        <div className=" text-[15px] sm:text-sm">Don&apos;t forget to sign my <Link href={'/contact'} className="text-primary-500 font-medium underline underline-offset-2">guestbook!</Link></div>
+        <Button className="text-xs bg-primary-400 hover:bg-primary-300 font-medium text-white"
+          href="/contact"
+          as={Link}
+          size="sm"
+          variant="solid" >
+          <RiBookMarkLine size={21}/>Sign my guestbook!
+        </Button>
       </div>
 
     </div>

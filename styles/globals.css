@@ -14,7 +14,7 @@
   }
   
   .pageWrapper {
-    @apply lg:flex 
+    @apply lg:flex mt-5
   }
   
   .contentWrapper {
