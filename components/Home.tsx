@@ -8,6 +8,7 @@ import Banner from "@/components/Banner"
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import TechnicalSkills from "./TechnicalSkills";
+import Spotify from "./Spotify";
 
 const Home = () => {
 
@@ -36,7 +37,8 @@ const Home = () => {
 						{/* right section */}
 						<Newsletter tilt="left" />
 						<TechnicalSkills />
-						<ThanksNote tilt="left" />
+						<Spotify tilt="left"/>
+						<ThanksNote tilt="right" />
 					</section>
 				</div>
 			</section>
