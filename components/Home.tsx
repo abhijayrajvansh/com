@@ -7,6 +7,7 @@ import FeaturedArticles from "./FeaturedArticles";
 import Banner from "@/components/Banner"
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
+import TechnicalSkills from "./TechnicalSkills";
 
 const Home = () => {
 
@@ -34,6 +35,7 @@ const Home = () => {
 					<section>
 						{/* right section */}
 						<Newsletter tilt="left" />
+						<TechnicalSkills />
 						<ThanksNote tilt="left" />
 					</section>
 				</div>

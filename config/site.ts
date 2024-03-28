@@ -1,4 +1,3 @@
-
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
@@ -44,26 +43,27 @@ export const siteConfig = {
 };
 
 export const technicalSkills = [
-	'T3 Stack',
-	'Next.js, React, React Native', 
+	'Next.js, React & React Native', 
 	'Typescript & Javascript',
 	'Node: Express.js & Bun', 
-	'DB: MongoDB, PostgreSQL',
+	'DB: PostgreSQL & MongoDB',
 	'GraphQL, tRPC, gRPC & REST', 
+	'TailwindCSS, Shadcn/ui & NextUI',
 	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
 	'C/C++ and Java',
+	'Product Design & UI/UX',
 ]
 
 export const technicalTools = [
-	"Git", 
-	"Github",
-	"VS Code",
-	"Xcode",
+	"Linux",
+	"Git & Github",
+	"VS Code & Vim",
+	"Xcode & Android Studio",
 	"Postman",
-	"MongoDB",
+	"iOS & Android Simulators",	
 	"Expo", 
-	"AWS",
+	"AWS & Vercel",
 	"Figma",
 ]
 
