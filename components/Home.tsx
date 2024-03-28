@@ -34,12 +34,12 @@ const Home = () => {
 					</main>
 						
 					<section>
-						{/* right section */}
 						<Newsletter tilt="left" />
 						<TechnicalSkills />
-						<Spotify tilt="left"/>
+						<Spotify musicThumbnai="/spotify.jpeg" tilt="left"/>
 						<ThanksNote tilt="right" />
 					</section>
+					
 				</div>
 			</section>
 	)

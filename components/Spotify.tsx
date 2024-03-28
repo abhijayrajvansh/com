@@ -1,15 +1,50 @@
+import Image from "next/image";
+import {Card, CardBody, Button, Slider} from "@nextui-org/react";
+
 interface SpotifyProps {
   tilt: string,
+  musicThumbnai: string,
 }
 
-const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
+const Spotify: React.FC<SpotifyProps> = ({tilt, musicThumbnai}) => {
   return (
-    <div className="w-full px-5 sm:ml-2">
-      <div className={`flex flex-col items-center gap-4 rounded-xl p-4 font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-default-200/50 mb-5 shadow-xl bg-gradient-to-b from-projectCardTop to-projectCardBotttom ${tilt === 'left' ? 'hover:-rotate-1' : 'hover:rotate-1'} transition py-7`}>
+    <div className={`ml-7 mb-7 shadow-xl rounded-xl min-h-[300px] mr-5 border border-default-200/50 transition ${tilt === 'left' ? 'hover:-rotate-1' : 'hover:rotate-1'}  relative sm:ml-[116px] lg:ml-7 sm:w-[650px] lg:max-w-[300px] flex items-center justify-center`}>
+      
+      <div className="w-full">
+        <Image src={musicThumbnai} alt="musicThumbnai" width={300} height={300} className="rounded-xl absolute object-cove "/>
+    
+        <div className="min-h-[300px] rounded-xl backdrop-blur-2xl flex flex-col items-center justify-center p-5">
+      
+          <Image className="rounded-lg" src={musicThumbnai} alt="musicThumbnai" width={300} height={300} />
         
-        <h3 className="font-medium text-2xl sm:text-xl">Spotify</h3>
+          <div>
+            <div className="flex flex-col mt-5 gap-1 sm:w-[300px] sm:px-5">
+              <div className="rounded-xl  bg-black/20 p-2">
+                <h3 className="text-center">One Of The Girls, (with JENNIE, Lily Rose Depp)</h3>
+                <p className="text-center text-color-text">Listening on Abhijay's Spotify</p>
+
+                <Slider
+                  aria-label="Music progress"
+                  classNames={{
+                    track: "bg-default-500/30",
+                    thumb: "w-2 h-2 after:w-2 after:h-2 after:bg-foreground",
+                  }}
+                  color="foreground"
+                  defaultValue={33}
+                  size="sm"
+                />
+                <div className="flex justify-between">
+                  <p className="text-small">1:23</p>
+                  <p className="text-small text-foreground/50">4:32</p>
+                </div>
+              </div>
+            </div>
+          </div>
         
+        </div>
       </div>
+
+
 
     </div>
   )
