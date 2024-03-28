@@ -45,7 +45,7 @@ export const siteConfig = {
 export const technicalSkills = [
 	'Next.js, React & React Native', 
 	'Typescript & Javascript',
-	'Node: Express.js & Bun', 
+	'Node.js, Express.js & Bun', 
 	'DB: PostgreSQL & MongoDB',
 	'GraphQL, tRPC, gRPC & REST', 
 	'TailwindCSS, Shadcn/ui & NextUI',
