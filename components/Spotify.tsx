@@ -18,7 +18,7 @@ const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
       <div className="w-full">
         {/* <Image src={songs.podcast.songThumbnail} alt="musicThumbnai" width={300} height={300} className="rounded-xl absolute object-cove "/> */}
     
-        <div className="min-h-[300px] rounded-xl backdrop-blur-2xl flex flex-col items-center justify-center p-3">
+        <div className="min-h-[300px] rounded-xl backdrop-blur-2xl bg-black/10 flex flex-col items-center justify-center p-3">
       
           <Image className="rounded-lg border border-default-200/10" src={songs.podcast.songThumbnail} alt="musicThumbnai" width={500} height={500} />
         
