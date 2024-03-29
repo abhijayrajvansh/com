@@ -39,8 +39,8 @@ const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
                   size="sm"
                 />
                 <div className="flex justify-between">
-                  <p className="text-small">1:23</p>
-                  <p className="text-small text-foreground/50">4:32</p>
+                  <p className="text-small">15:23</p>
+                  <p className="text-small text-foreground/50">19:56</p>
                 </div>
               </div>
             </div>
