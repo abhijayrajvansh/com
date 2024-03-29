@@ -7,8 +7,8 @@ import FeaturedArticles from "./FeaturedArticles";
 import Banner from "@/components/Banner"
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
-import TechnicalSkills from "./TechnicalSkills";
 import Spotify from "./Spotify";
+import Twitter from "./Twitter";
 
 const Home = () => {
 
@@ -35,8 +35,8 @@ const Home = () => {
 						
 					<section>
 						<Newsletter tilt="left" />
-						<TechnicalSkills />
-						<Spotify musicThumbnai="/spotify.jpeg" tilt="left"/>
+						<Spotify musicThumbnai="/spotify.jpeg" tilt="right"/>
+						<Twitter tilt="left"/>
 						<ThanksNote tilt="right" />
 					</section>
 					
