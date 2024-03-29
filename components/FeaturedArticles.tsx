@@ -56,7 +56,7 @@ const FeaturedArticles = () => {
         </div>
       }
 
-      <p className="my-5 font-light">Explore in-depth <span className="text-success-500 font-normal">software engineering</span> concepts and best <span className="text-warning-600 font-normal">industry standard</span> practices only on my <Link className="text-primary-600 font-medium" href={'/blog'}>blog&apos;s page. ✍️</Link></p>
+      <p className="my-5 font-light">Discover <span className="text-success-500 font-normal">software engineering</span> with <span className="text-warning-600 font-normal">top industry standards</span> practices <Link className="text-primary-600 font-medium" href={'/blog'}>on my blog.</Link></p>
 
     </div>
   )
