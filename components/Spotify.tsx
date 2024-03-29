@@ -18,14 +18,14 @@ const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
       <div className="w-full">
         {/* <Image src={songs.podcast.songThumbnail} alt="musicThumbnai" width={300} height={300} className="rounded-xl absolute object-cove "/> */}
     
-        <div className="min-h-[300px] rounded-xl backdrop-blur-2xl flex flex-col items-center justify-center p-5">
+        <div className="min-h-[300px] rounded-xl backdrop-blur-2xl flex flex-col items-center justify-center p-3">
       
-          <Image className="rounded-lg border border-default-200/10" src={songs.podcast.songThumbnail} alt="musicThumbnai" width={300} height={300} />
+          <Image className="rounded-lg border border-default-200/10" src={songs.podcast.songThumbnail} alt="musicThumbnai" width={500} height={500} />
         
           <div className="w-full">
             <div className="flex flex-col mt-5 gap-1 w-full ">
               <div className="rounded-xl w-full bg-black/20 p-2">
-                <h3 className="text-center ">{songs.podcast.songTitle}</h3>
+                <h3 className="text-center text-lg sm:text-base">{songs.podcast.songTitle}</h3>
                 <p className="text-center text-color-text sm:text-sm">Listening on Abhijay&apos;s Spotify</p>
 
                 <Slider
