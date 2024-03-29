@@ -25,7 +25,7 @@ const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
           <div className="w-full">
             <div className="flex flex-col mt-5 gap-1 w-full ">
               <div className="rounded-xl w-full bg-black/20 p-2">
-                <h3 className="text-center text-lg sm:text-base">{songs.podcast.songTitle}</h3>
+                <h3 className="text-center text-lg sm:text-base text-white">{songs.podcast.songTitle}</h3>
                 <p className="text-center text-color-text sm:text-sm">Listening on Abhijay&apos;s Spotify</p>
 
                 <Slider
@@ -34,13 +34,13 @@ const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
                     track: "bg-default-500/30",
                     thumb: "w-2 h-2 after:w-2 after:h-2 after:bg-foreground",
                   }}
-                  color="foreground"
+                  color="success"
                   defaultValue={75}
                   size="sm"
                 />
                 <div className="flex justify-between">
-                  <p className="text-small">15:23</p>
-                  <p className="text-small text-foreground/50">19:56</p>
+                  <p className="text-small text-white">15:23</p>
+                  <p className="text-small text-foreground/50 text-white">19:56</p>
                 </div>
               </div>
             </div>
