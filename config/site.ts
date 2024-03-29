@@ -52,6 +52,7 @@ export const technicalSkills = [
 	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
 	'C/C++ and Java',
+	'Data Structures & Algorithms',
 	'Product Design & UI/UX',
 ]
 
