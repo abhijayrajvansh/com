@@ -15,6 +15,10 @@ const About = () => {
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
           <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Who, What & Why?</h1>
+
+          <div className="mb-5">
+            {/* <img className="w-full sm:rounded" src="/meWalkingInCyberworld.gif" alt="aboutSectionBanner" /> */}
+          </div>
           
           <div>
             <h2 className="mb-3 text-md">
@@ -34,8 +38,8 @@ const About = () => {
 
               That&apos;s where I come in. I love helping individuals transform
               their concepts into fully operational digital products. With almost
-              <span className="text-pink"> 4+ years of experience </span>in
-              software development both as a consultant and as a full-time
+              <span className="text-white font-medium"> 4+ years of experience </span>
+              in software development both as a consultant and as a full-time
               developer. I provide actionable guidance, offer practical solutions,
               or even facilitate connections bridging the gap for those needing
               expertise beyond my own in areas like non-tech support.
@@ -43,12 +47,15 @@ const About = () => {
               <br />
               <br />
 
-              For me <span className="text-default-900 font-medium">Software Engineering is an ART</span> just like
-              painting was for Leonardo Da Vinci. I&apos;m also a big fan of open
-              source software - which is why almost everything I build is open
-              source! I also love educating others about technology and
+              For me <span className="text-default-900 font-medium">Software Engineering 
+              is an ART</span> just like painting was for Leonardo Da Vinci. 
+              I&apos;m also a big fan of open source software 
+              - which is why almost everything I build is open source! 
+              I also love educating others about technology and
               programming, which is why I&apos;m a content creator and write blogs
               in my free time.
+
+              {/* facts about me: i know nothing i'm a good student */}
             </p>
 
             <p className="text-default-700 font-medium">
@@ -67,6 +74,7 @@ const About = () => {
             <h1 className="text-2xl font-semibold my-2">Find me on these platforms:</h1>
             <SocialLinks />
           </div>
+
           {/* piyush garg example: My name is Piyush Garg and I am 24 Years old developer. I have developed many websites, Worked on JavaScript frameworks like react and angular, Php login authentication system and session handling worked on Android apps, Basic IOS apps, Database management with MySql and Firebase, Python programing with the automation of software and much more. recently I have completed my journey as a MERN stack developer and undertraining flutter developer. */}
 
         </div>
