@@ -22,7 +22,7 @@ const Twitter: React.FC<twitterProps> = ({tilt}) => {
          </div>
 
          <p>
-          Random thing I wish I could do: be able to use the laptop's trackpad for 
+          {/* Random thing I wish I could do: be able to use the laptop's trackpad for  */}
           hours without my hand hetting tired
          </p>
 
