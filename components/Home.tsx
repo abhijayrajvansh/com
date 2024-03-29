@@ -9,6 +9,7 @@ import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import Spotify from "./Spotify";
 import Twitter from "./Twitter";
+import TechnicalSkills from "./TechnicalSkills";
 
 const Home = () => {
 
@@ -35,8 +36,8 @@ const Home = () => {
 						
 					<section>
 						<Newsletter tilt="left" />
+						<TechnicalSkills />
 						<Spotify musicThumbnai="/spotify.jpeg" tilt="right"/>
-						<Twitter tilt="left"/>
 						<ThanksNote tilt="right" />
 					</section>
 					
