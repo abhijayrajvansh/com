@@ -36,8 +36,8 @@ const Home = () => {
 						
 					<section>
 						<Newsletter tilt="left" />
-						<TechnicalSkills />
-						<Spotify musicThumbnai="/spotify.jpeg" tilt="right"/>
+						<Twitter tilt="right"/>
+						<Spotify musicThumbnai="/spotify.jpeg" tilt="left"/>
 						<ThanksNote tilt="right" />
 					</section>
 					

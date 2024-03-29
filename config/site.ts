@@ -81,6 +81,14 @@ export const songs = {
 	},
 }
 
+export const tweets = {
+	post: {
+		tweet: "nmw, i'll always wannabe a part of an infamous group of hackers, lol",
+		time: '13:23',
+		date: "Mar 29, 2024",
+	}
+}
+
 export const experiencesData = {
 	company : {
 		bling : {
