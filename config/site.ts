@@ -74,6 +74,13 @@ export const languages = [
 	"🇫🇷 French",
 ]
 
+export const songs = {
+	podcast: {
+		songThumbnail: "/podcast/tgvae.jpeg",
+		songTitle: "The GaryVee Audio Experience",
+	},
+}
+
 export const experiencesData = {
 	company : {
 		bling : {
