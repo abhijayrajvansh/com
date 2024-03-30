@@ -6,7 +6,6 @@ import { songs } from "@/config/site";
 
 interface SpotifyProps {
   tilt: string,
-  musicThumbnai: string,
 }
 
 const Spotify: React.FC<SpotifyProps> = ({tilt}) => {
