@@ -32,14 +32,14 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
   return (
 <Tooltip showArrow content={type} placement={'top-end'} color={type === 'freelance' ? 'success' : type === 'open-source' ? 'danger' : type === 'company-project' ? 'primary' : type === 'pet-project' ? 'secondary' : 'default'}>
     <div
-      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end ${ tilt === 'right' ? 'hover:rotate-1' : 'hover:-rotate-1'}`}
+      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end ${tilt === 'right' ? 'hover:rotate-1' : 'hover:-rotate-1'} `}
     >
     <div className="bottomContainer flex flex-col rounded-xl shadow-lg">
 
-        <div className="pt-2 bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-end relative -bottom-1 rounded-t-xl ">
-          <div className="flex justify-between items-start">
+        <div className="pt-2 bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-center relative -bottom-1 rounded-t-xl min-h-[90px]">
+          <div className="flex justify-between ">
             <Image
-              className="h-14 w-14 rounded-xl border-2 border-default-200"
+              className="h-14 w-14 rounded-xl border-2 border-default-300 "
               src={logo}
               alt="projectLogo"
               width={56} height={56}
@@ -47,8 +47,8 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
           </div>
         </div>
 
-        <div className="transition flex flex-col text-xl font-medium justify-end  bg-black px-4 rounded-b-xl  pb-2">
-          <h1 className="font-semibold text-white">{title}</h1>
+        <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-xl pb-2 ">
+          <h1 className="font-semibold sm:font-medium text-2xl text-white">{title}</h1>
 
           <div className="flex gap-2 items-center py-1 pb-2">
             { nextjs && <TbBrandNextjs className="text-white" /> }
