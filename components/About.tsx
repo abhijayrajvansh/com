@@ -74,12 +74,12 @@ const About = () => {
               creator and write blogs in my free time.
               <br />
               <br />
-              But wait, there's more to me than just lines of code. Here's a
+              But wait, there&apos;s more to me than just lines of code. Here&apos;s a
               glimpse into my off-duty persona: I proudly embrace the title of a{" "}
               <span className="text-default-700 font-medium">
                 perpetual learner.
               </span>{" "}
-              Admittedly, I know nothing - but I'm an exceptional student,
+              Admittedly, I know nothing - but I&apos;m an exceptional student,
               eagerly absorbing every lesson that comes my way. Because in this
               ever-evolving landscape, the true art lies in the journey of
               discovery.
