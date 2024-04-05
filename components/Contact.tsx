@@ -17,11 +17,14 @@ const Contact = () => {
 
           <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Connect with me!</h1>
 
-          <SocialLinks />
+          <div className="space-y-5">
+            <CalltoAction />
 
-          <CalltoAction />
+            <h3 className="text-xl font-medium">Find me on these platforms:</h3>
 
-          <Guestbook/>
+            <SocialLinks />
+            {/* <Guestbook/> */}
+          </div>
 
         </main>
         <Subscription />

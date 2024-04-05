@@ -53,7 +53,7 @@ const NavigationTab = () => {
           <Image height={48} width={48} className="h-12 rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
           <div className="hidden lg:block text-[11px]">
             <p className="text-primary-600 font-medium text-sm">Abhijay Rajvansh</p>
-            <p className="font-normal text-xs">Passionate Engineer</p>
+            <p className="font-normal text-xs">Software  Engineer</p>
           </div>
         </div>
       </Link>
