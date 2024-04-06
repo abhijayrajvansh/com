@@ -12,9 +12,7 @@ const Projects = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Projects</h1>
-
-
+          <h1 className="text-4xl font-bold w-fit mb-10 green-text-bg-gradient">Work & Hobby.</h1>
 
 
         </main>

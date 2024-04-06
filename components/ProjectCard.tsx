@@ -4,7 +4,7 @@ import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
 import Image from "next/image";
-import { Button, Link, Tooltip } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { MdOutlineArticle } from "react-icons/md";
@@ -23,11 +23,10 @@ interface ProjectCardProps {
   node?: boolean, 
   visitLink: string, 
   githubLink: string, 
-  blogLink: string, 
-  category?: string,
+  blogLink: string,
 }
 
-const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, category}) => {
+const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink}) => {
   return (
     <div
       className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end`}

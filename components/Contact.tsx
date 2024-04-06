@@ -15,7 +15,7 @@ const Contact = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">Connect with me!</h1>
+          <h1 className="text-4xl pink-text-bg-gradient font-bold mb-10">Shoot Me Email.</h1>
 
           <div className="space-y-5">
             <CalltoAction />

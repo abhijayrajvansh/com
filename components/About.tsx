@@ -5,7 +5,6 @@ import NavigationTab from "./NavigationTab";
 import CalltoAction from "./CalltoAction";
 import SocialLinks from "./SocialLinks";
 import Image from "next/image";
-import Newsletter from "./Newsletter";
 import TechnicalSkills from "./TechnicalSkills";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
@@ -18,7 +17,7 @@ const About = () => {
       <NavigationTab />
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
-          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">
+          <h1 className="text-4xl font-bold mb-10 pink-text-bg-gradient w-fit ">
             Who, What & Why?
           </h1>
 

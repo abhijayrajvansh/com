@@ -25,11 +25,11 @@ const Blog = () => {
 
       <div className="pageWrapper sm:mt-10">
         <main className="contentWrapper">
-          <h1 className="text-4xl sm:text-5xl font-semibold mb-10">My Blog</h1>
+          <h1 className="text-4xl font-bold mb-10 yellow-text-bg-gradient ">Stories & Coding.</h1>
 
           <div className="flex flex-col items-start">
 
-            <ButtonGroup radius="sm" variant="flat">
+            <ButtonGroup radius="sm" variant="flat" size="sm">
               
               <Button
                 color={tabContent === "lat" ? "primary" : "default"}

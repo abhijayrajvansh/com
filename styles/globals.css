@@ -27,6 +27,18 @@
   .text-color-text {
     @apply dark:text-[#94A3B8] text-[#64748B]
   }
+  .pink-text-bg-gradient {
+    @apply bg-gradient-to-r from-[#fd81c1] to-[#bc80e7] py-1 bg-cover bg-clip-text text-transparent
+  }
+  .yellow-text-bg-gradient {
+    @apply bg-gradient-to-r from-[#fda8ac] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#fda8ac] py-1 bg-cover bg-clip-text text-transparent
+  }
+  .green-text-bg-gradient {
+    @apply bg-gradient-to-r from-cyan-400 to-green-500 dark:from-[#80ffe9] dark:to-[#88ff9b] py-1 bg-cover bg-clip-text text-transparent
+  }
+  .blue-text-bg-gradient {
+    @apply bg-gradient-to-r from-blue-500 to-[#9584ff] dark:from-[#9584ff] dark:to-[#87d1f1] py-1 bg-cover bg-clip-text text-transparent
+  }
 }
 
 /* debugging border classes */
