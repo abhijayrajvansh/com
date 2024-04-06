@@ -23,7 +23,7 @@ const FeaturedArticles = () => {
 
       <AddGap vertical="2"/>
 
-      <ButtonGroup radius="sm" variant="flat">
+      <ButtonGroup size="sm" radius="sm" variant="flat">
         <Button color={tabContent === 'latest' ? 'primary' : 'default'} onClick={() => handleTabContent('latest')}>Latest</Button>
 
         <Button color={tabContent === 'programming' ? 'success' : 'default'} onClick={() => handleTabContent('programming')}>Programming</Button>

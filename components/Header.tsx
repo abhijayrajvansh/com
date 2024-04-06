@@ -14,14 +14,14 @@ const Header = () => {
 
       
 
-      <div className="flex items-center space-x-10">
+      <div className="flex items-center space-x-3 sm:space-x-10">
         <HeaderLinks />
         <Button 
-          href="/contact" 
-          as={Link} size="sm" 
+          href="/contact" as={Link} 
+          size="sm" 
           variant="shadow" 
           color="warning"
-          className="text-white font-medium text-sm sm:py-5">
+          className="text-white font-semibold sm:py-3">
           <PiHandshakeDuotone size={25} />
           Contact me
         </Button>

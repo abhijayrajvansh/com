@@ -24,15 +24,13 @@ interface ProjectCardProps {
   visitLink: string, 
   githubLink: string, 
   blogLink: string, 
-  tilt: string,
-  type?: string,
+  category?: string,
 }
 
-const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, tilt, type}) => {
+const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink, category}) => {
   return (
-<Tooltip showArrow content={type} placement={'top-end'} color={type === 'freelance' ? 'success' : type === 'open-source' ? 'danger' : type === 'company-project' ? 'primary' : type === 'pet-project' ? 'secondary' : 'default'}>
     <div
-      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end ${tilt === 'right' ? 'hover:rotate-1' : 'hover:-rotate-1'} `}
+      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end`}
     >
     <div className="bottomContainer flex flex-col rounded-xl shadow-lg">
 
@@ -114,7 +112,6 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
 
       </div>
     </div>
-    </Tooltip>
   );
 };
 

@@ -20,7 +20,6 @@ const Home = () => {
 				<NavigationTab />
 
 				<div className="pageWrapper">
-					
 					<main className="contentWrapper">
 
 						<Banner />
@@ -36,9 +35,13 @@ const Home = () => {
 						
 					<section>
 						<Newsletter tilt="left" />
+
 						<TechnicalSkills />
+						
 						<Twitter tilt="right"/>
+						
 						<Spotify tilt="left"/>
+						
 						<ThanksNote tilt="right" />
 					</section>
 					

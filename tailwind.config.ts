@@ -48,12 +48,12 @@ const config: Config = {
         },
         dark: {
           colors: {
-            background: "#0F182A", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000
+            background: "#030711", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000
             foreground: "#ECEDEE", // or 50 to 900 DEFAULT
             
             // gradient
-            projectCardTop: "#141D2E",
-            projectCardBotttom: "#1E2A3B",
+            projectCardTop: "#030711",
+            projectCardBotttom: "#141927",
             
             // hover dark layer
             hoverdarkbg: "#0F182A",

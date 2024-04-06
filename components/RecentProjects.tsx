@@ -20,7 +20,6 @@ const RecentProjects = () => {
           visitLink={siteConfig.projects.twitter.liveProjectLink}
           blogLink={siteConfig.projects.twitter.blog}
           githubLink={siteConfig.projects.twitter.sourceCodeLink}
-          tilt='right'
         />
 
         <ProjectCard 
@@ -31,7 +30,6 @@ const RecentProjects = () => {
           visitLink={siteConfig.projects.twitter.liveProjectLink}
           blogLink={siteConfig.projects.twitter.blog}
           githubLink={siteConfig.projects.twitter.sourceCodeLink}
-          tilt='left'
         />
 
       </div>
