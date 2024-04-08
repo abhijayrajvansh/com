@@ -8,7 +8,7 @@ import Image from "next/image";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import Spotify from "./Spotify";
-import SocialLinks from "./SoicalLinks";
+import SocialLinks from "./SocialLinks";
 
 const About = () => {
   return (

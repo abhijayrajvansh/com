@@ -2,7 +2,7 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
 import CalltoAction from "./CalltoAction";
-import SocialLinks from "./SoicalLinks";
+import SocialLinks from "./SocialLinks";
 
 const Contact = () => {
   return (

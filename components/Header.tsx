@@ -2,7 +2,8 @@ import { Button } from "@nextui-org/react";
 import { ThemeSwitch } from "./theme-switch";
 import { Link } from "@nextui-org/react";
 import { PiHandshakeDuotone } from "react-icons/pi";
-import SocialLinks from "./SoicalLinks";
+import SocialLinks from "./SocialLinks";
+
 
 const Header = () => {
   return (
