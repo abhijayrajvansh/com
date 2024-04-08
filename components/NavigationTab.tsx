@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa";
 import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
-import { CiUser } from "react-icons/ci";
+import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
 import { PiHandshakeDuotone } from "react-icons/pi";
 import Image from "next/image";
@@ -18,7 +18,7 @@ const NAVIGATION_DATA = [
   },
   {
     pageTitle: 'About',
-    pageIcon: CiUser
+    pageIcon: FiUser
   },
   {
     pageTitle: 'Blog',
@@ -69,7 +69,7 @@ const NavigationTab = () => {
             return (
               <Link 
                 key={item.pageTitle}
-                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex text-color-text items-center cursor-pointer text-3xl sm:text-sm hover:text-white`}>
+                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex text-color-text items-center cursor-pointer text-3xl sm:text-sm hover:text-black dark:hover:text-white`}>
                   
                 <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-105 font-medium ${isActive && 'sm:bg-primary/30 sm:shadow-sm text-primary-500 sm:text-primary-700'}`}>
                 
