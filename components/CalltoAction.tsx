@@ -18,8 +18,7 @@ const CalltoAction = () => {
         𝕏
       </Link>{" "}
       , I&apos;m always motivated & interested in
-      exploring potential opportunities, having discussions with you, and
-      potentially collaborating if it aligns well.
+      exploring potential opportunities, having discussions with you, and collaborating if it aligns well.
     </div>
   )
 }

@@ -14,6 +14,7 @@ export const siteConfig = {
     linkedin:"https://www.linkedin.com/in/abhijayrajvansh/",
 		youtube: "https://youtube.com/@abhijayrajvansh",
 		email:"mailto:abhijayrajvansh01@gmail.com",
+		instagram: "https://www.instagram.com/abhijayrajvansh",
 	},
 
 	projects: {
