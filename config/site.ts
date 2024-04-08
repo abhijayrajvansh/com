@@ -27,7 +27,6 @@ export const siteConfig = {
 			liveProjectLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
 			blog: "/blog/full-stack-twitter-clone"
 		},
-		
 	},
 
 	blogs: {
@@ -53,7 +52,7 @@ export const technicalSkills = [
 	'Swift, UIkit & SwiftUI', 
 	'Data Structures & Algorithms',
 	'Product Design & UI/UX',
-	'C/C++',
+	'C/C++ and Java',
 ]
 
 export const technicalTools = [
