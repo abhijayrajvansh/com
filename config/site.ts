@@ -144,14 +144,24 @@ export const experiencesData = {
 			]
 		},
 
-		CS50 : {
+
+		// coursework & certifications
+
+		metaCourse : {
+			InstituteLogo: "/logo/meta.jpeg",
+			course: "Prompt Engineering with Llama 2",
+			companyName: "Meta",
+			description : ['Skills: Llama 2-b, Code Llama, Prompt Engineering, LLMs Training']
+		},
+		
+		CS50Course : {
 			InstituteLogo: "/cs50.jpeg",
 			course: "Harvard's CS50: Introduction to Computer Science",
 			companyName: "Harvard University | CS50",
 			description : ['Skills: c/c++, Software Development, Computer Science, Python (Programming Language), Algorithms, Data Structures']
 		},
 
-		redhat : {
+		redhatCourse : {
 			InstituteLogo: "/redhat.jpeg",
 			course: "Fundamentals of Red Hat Enterprise Linux",
 			companyName: "RedHat",

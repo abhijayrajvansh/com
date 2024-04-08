@@ -60,17 +60,24 @@ const Resume = () => {
         <h1 className="text-3xl font-semibold my-10 yellow-text-bg-gradient">Relevant Coursework</h1>
 
         <ExperienceCard 
-          companyLogo={experiencesData.company.CS50.InstituteLogo}
-          position={experiencesData.company.CS50.course}
-          companyName={experiencesData.company.CS50.companyName}
-          description={experiencesData.company.CS50.description}
+          companyLogo={experiencesData.company.metaCourse.InstituteLogo}
+          position={experiencesData.company.metaCourse.course}
+          companyName={experiencesData.company.metaCourse.companyName}
+          description={experiencesData.company.metaCourse.description}
         />
 
         <ExperienceCard 
-          companyLogo={experiencesData.company.redhat.InstituteLogo}
-          position={experiencesData.company.redhat.course}
-          companyName={experiencesData.company.redhat.companyName}
-          description={experiencesData.company.redhat.description}
+          companyLogo={experiencesData.company.CS50Course.InstituteLogo}
+          position={experiencesData.company.CS50Course.course}
+          companyName={experiencesData.company.CS50Course.companyName}
+          description={experiencesData.company.CS50Course.description}
+        />
+
+        <ExperienceCard 
+          companyLogo={experiencesData.company.redhatCourse.InstituteLogo}
+          position={experiencesData.company.redhatCourse.course}
+          companyName={experiencesData.company.redhatCourse.companyName}
+          description={experiencesData.company.redhatCourse.description}
         />
 
         </main>
