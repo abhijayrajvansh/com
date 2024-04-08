@@ -4,7 +4,7 @@ const Awwwards = () => {
   return (
     <div>
       <h1 className={`subHeading`}>
-        Services I Offer
+        Top Requested Services
       </h1>
       
       {/* top 2 projects showcase */}
