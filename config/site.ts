@@ -50,9 +50,9 @@ export const technicalSkills = [
 	'TailwindCSS, Shadcn/ui & NextUI',
 	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
-	'C/C++ and Java',
 	'Data Structures & Algorithms',
 	'Product Design & UI/UX',
+	'C/C++',
 ]
 
 export const technicalTools = [
