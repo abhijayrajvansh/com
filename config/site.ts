@@ -57,11 +57,11 @@ export const technicalSkills = [
 ]
 
 export const technicalTools = [
-	"Linux & Bash",
+	"Debian Linux",
 	"Git",
-	"VS Code",
-	"Expo",
+	"Docker",
 	"AWS",
+	"AWS & Vercel",
 	"Figma",
 ]
 
