@@ -29,7 +29,7 @@ const NAVIGATION_DATA = [
     pageIcon: FaReact
   },
   {
-    pageTitle: 'Experience',
+    pageTitle: 'Resume',
     pageIcon: PiSuitcase
   },
   {
@@ -51,8 +51,8 @@ const NavigationTab = () => {
         <div className="flex items-center gap-3">
           <Image height={40} width={40} className="h-[40px] rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
           <div className="hidden lg:block text-[11px]">
-            <p className="text-primary-600 font-medium text-xs">Abhijay Rajvansh</p>
-            <p className="font-normal text-[10px]">Software Engineer</p>
+            <p className="text-primary-600 font-medium text-sm">Abhijay Rajvansh</p>
+            <p className="font-normal text-xs">Software Engineer</p>
           </div>
         </div>
       </Link>
@@ -69,9 +69,9 @@ const NavigationTab = () => {
             return (
               <Link 
                 key={item.pageTitle}
-                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex items-center cursor-pointer text-3xl sm:text-sm`}>
+                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex text-color-text items-center cursor-pointer text-3xl sm:text-sm hover:text-white`}>
                   
-                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition duration-1000 sm:py-2 sm:px-4 sm:hover:shadow-xl hover:scale-125 sm:hover:scale-100 font-medium ${isActive && 'sm:bg-primary/30 sm:shadow-lg text-primary-500 sm:text-primary-700'}`}>
+                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-105 font-medium ${isActive && 'sm:bg-primary/30 sm:shadow-sm text-primary-500 sm:text-primary-700'}`}>
                 
                   <item.pageIcon className="sm:text-3xl transition" />
                   <div className="hidden lg:block">{item.pageTitle}</div>

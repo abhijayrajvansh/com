@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <section className="flex items-center justify-between px-5 py-5 sm:pl-0 sm:ml-[110px] lg:ml-[230px]">
       
-      <div className="hover:scale-125 transition px-4 rounded-xl">
+      <div className="hover:scale-110 transition px-4 rounded-xl">
         <ThemeSwitch />
       </div>
 
@@ -19,8 +19,8 @@ const Header = () => {
         <Button 
           href="/contact" as={Link} 
           size="sm" 
-          variant="shadow" 
-          color="warning"
+          variant="solid" 
+          color="primary"
           className="text-white font-semibold sm:py-3">
           <PiHandshakeDuotone size={25} />
           Contact me

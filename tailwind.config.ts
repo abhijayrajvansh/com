@@ -28,12 +28,12 @@ const config: Config = {
       themes: {
         light: {
           colors: {
-            background: "#FFFFFF", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA FFFDF9
+            background: "#f4f4f4", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA FFFDF9
             foreground: "#11181C", // or 50 to 900 DEFAULT
             
             // gradient
             projectCardTop: "white",
-            projectCardBotttom: "white",
+            projectCardBotttom: "#f4f4f4",
 
             // hover dark layer
             hoverdarkbg: "#0F182A",
@@ -48,12 +48,12 @@ const config: Config = {
         },
         dark: {
           colors: {
-            background: "#030711", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000
+            background: "#0E1327", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000 #15181c (olivier) 030711 (vercel's software)
             foreground: "#ECEDEE", // or 50 to 900 DEFAULT
             
             // gradient
-            projectCardTop: "#030711",
-            projectCardBotttom: "#141927",
+            projectCardTop: "#131A31",
+            projectCardBotttom: "#141D29",
             
             // hover dark layer
             hoverdarkbg: "#0F182A",

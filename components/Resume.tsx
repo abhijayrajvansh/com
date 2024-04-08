@@ -5,7 +5,7 @@ import { experiencesData, languages, technicalSkills, technicalTools } from "@/c
 import ThanksNote from "./ThanksNote";
 import ExperienceCard from "./ExperienceCard";
 
-const Experience = () => {
+const Resume = () => {
   return (
     <section className="wrapper">
       <Header />
@@ -15,7 +15,7 @@ const Experience = () => {
 
         <main className="contentWrapper mb-20">
         
-          <h1 className="text-4xl font-bold mb-10 blue-text-bg-gradient">Work Experience.</h1>
+          <h1 className="text-4xl font-bold mb-10 blue-text-bg-gradient">Career & Expertise.</h1>
 
           <ExperienceCard 
             companyLogo={experiencesData.company.bling.companyLogo}
@@ -57,7 +57,7 @@ const Experience = () => {
             description={experiencesData.company.unacademy.description}
           />
 
-        <h1 className="text-4xl sm:text-5xl font-semibold my-10">Coursework</h1>
+        <h1 className="text-3xl font-semibold my-10 yellow-text-bg-gradient">Relevant Coursework</h1>
 
         <ExperienceCard 
           companyLogo={experiencesData.company.CS50.InstituteLogo}
@@ -89,4 +89,4 @@ const Experience = () => {
   )
 }
 
-export default Experience;
+export default Resume;

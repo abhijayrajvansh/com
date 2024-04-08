@@ -47,7 +47,7 @@ export const technicalSkills = [
 	'Typescript & Javascript',
 	'Node.js, Express.js & Bun', 
 	'DB: PostgreSQL & MongoDB',
-	'GraphQL, tRPC, gRPC & REST', 
+	'REST, GraphQL & tRPC', 
 	'TailwindCSS, Shadcn/ui & NextUI',
 	'Python: Automation & Analysis',
 	'Swift, UIkit & SwiftUI', 
@@ -57,21 +57,18 @@ export const technicalSkills = [
 ]
 
 export const technicalTools = [
-	"Linux",
-	"Git & Github",
-	"VS Code & Vim",
-	"Xcode & Android Studio",
-	"Postman",
-	"iOS & Android Simulators",	
-	"Expo", 
-	"AWS & Vercel",
+	"Linux & Bash",
+	"Git",
+	"VS Code",
+	"Expo",
+	"AWS",
 	"Figma",
 ]
 
 export const languages = [
-	"🇺🇸 English",
-	"🇮🇳 Hindi",
-	"🇫🇷 French",
+	"English",
+	"Hindi",
+	"French",
 ]
 
 export const songs = {
@@ -83,9 +80,9 @@ export const songs = {
 
 export const tweets = {
 	post: {
-		tweet: "nmw, i'll always wannabe a part of an infamous group of hackers, lol",
-		time: '13:23',
-		date: "Mar 29, 2024",
+		tweet: "ai will never replace software engineers.",
+		time: '21:53',
+		date: "Apr 6, 2024",
 	}
 }
 
