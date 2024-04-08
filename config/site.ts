@@ -150,7 +150,7 @@ export const experiencesData = {
 			InstituteLogo: "/logo/meta.jpeg",
 			course: "Prompt Engineering with Llama 2",
 			companyName: "Meta",
-			description : ['Skills: Llama 2-b, Code Llama, Prompt Engineering, LLMs Training']
+			description : ['Skills: Generative AI, Llama 2-b, Code Llama, Prompt Engineering, LLMs Training']
 		},
 		
 		CS50Course : {
