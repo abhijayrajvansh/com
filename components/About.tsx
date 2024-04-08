@@ -3,12 +3,12 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import CalltoAction from "./CalltoAction";
-import SocialLinks from "./SocialLinks";
-import Image from "next/image";
 import TechnicalSkills from "./TechnicalSkills";
+import Image from "next/image";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import Spotify from "./Spotify";
+import SocialLinks from "./SoicalLinks";
 
 const About = () => {
   return (
@@ -95,11 +95,11 @@ const About = () => {
             <CalltoAction />
           </div>
 
-          <div className="my-10">
-            <h1 className="text-2xl font-semibold my-2">
+          <div className="my-10 space-y-5">
+            <h1 className="text-xl font-semibold my-2">
               Find me on these platforms:
             </h1>
-            <SocialLinks />
+            <SocialLinks iconSize={30} showOnMobile />
           </div>
         </div>
 

@@ -1,9 +1,8 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Subscription from "./EngagementSection";
-import SocialLinks from "./SocialLinks";
-import Guestbook from "./Guestbook";
 import CalltoAction from "./CalltoAction";
+import SocialLinks from "./SoicalLinks";
 
 const Contact = () => {
   return (
@@ -22,8 +21,8 @@ const Contact = () => {
 
             <h3 className="text-xl font-medium">Find me on these platforms:</h3>
 
-            <SocialLinks />
-            {/* <Guestbook/> */}
+            <SocialLinks iconSize={30} showOnMobile />
+
           </div>
 
         </main>

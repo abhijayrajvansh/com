@@ -2,7 +2,7 @@ import { Button } from "@nextui-org/react";
 import { ThemeSwitch } from "./theme-switch";
 import { Link } from "@nextui-org/react";
 import { PiHandshakeDuotone } from "react-icons/pi";
-import HeaderLinks from "./HeaderLinks";
+import SocialLinks from "./SoicalLinks";
 
 const Header = () => {
   return (
@@ -15,13 +15,13 @@ const Header = () => {
       
 
       <div className="flex items-center space-x-3 sm:space-x-10">
-        <HeaderLinks />
+        <SocialLinks iconSize={25} showOnMobile={false}/>
         <Button 
           href="/contact" as={Link} 
           size="sm" 
           variant="solid" 
           color="primary"
-          className="text-white font-semibold sm:py-3">
+          className="font-semibold sm:py-3">
           <PiHandshakeDuotone size={25} />
           Contact me
         </Button>
