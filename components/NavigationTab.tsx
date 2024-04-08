@@ -73,7 +73,7 @@ const NavigationTab = () => {
                   
                 <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 transition sm:hover:bg-primary/20 sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-100 ${isActive && 'text-primary-500 sm:text-primary-700 scale-125 sm:scale-100 sm:shadow-sm sm:bg-primary/20'}`}>
                 
-                  <item.pageIcon className="text-[28px] sm:text-3xl transition" />
+                  <item.pageIcon className="text-[28px] sm:text-3 xl transition" />
                   <div className="hidden lg:block">{item.pageTitle}</div>
                 </nav>
 
