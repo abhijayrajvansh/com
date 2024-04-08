@@ -69,11 +69,11 @@ const NavigationTab = () => {
             return (
               <Link 
                 key={item.pageTitle}
-                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex text-color-text items-center cursor-pointer text-3xl sm:text-sm hover:text-black dark:hover:text-white`}>
+                href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex items-center text-color-text font-medium cursor-pointer sm:text-sm hover:text-primary-700`}>
                   
-                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:bg-primary/30 transition sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-105 font-medium ${isActive && 'sm:bg-primary/30 sm:shadow-sm text-primary-500 sm:text-primary-700'}`}>
+                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 transition sm:hover:bg-primary/20 sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-100 ${isActive && 'text-primary-500 sm:text-primary-700 scale-125 sm:scale-100 sm:shadow-sm sm:bg-primary/20'}`}>
                 
-                  <item.pageIcon className="sm:text-3xl transition" />
+                  <item.pageIcon className="text-3xl sm:text-2xl transition" />
                   <div className="hidden lg:block">{item.pageTitle}</div>
                 </nav>
 
