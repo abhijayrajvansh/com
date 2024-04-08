@@ -38,8 +38,6 @@ const FeaturedArticles = () => {
         tabContent === 'latest' ?
         <div className="p-2 rounded-xl w-full">
 
-          {/* latest : to pin only 3 for user to scroll other content */}
-
           <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
         </div>:
@@ -56,7 +54,7 @@ const FeaturedArticles = () => {
         </div>
       }
 
-      <p className="my-5 font-light">Discover <span className="text-success-500 font-normal">software engineering</span> with <span className="text-warning-600 font-normal">top industry standards</span> practices <Link className="text-primary-600 font-medium" href={'/blog'}>on my blog.</Link></p>
+      <p className="my-5 font-light">Read more <Link className="text-primary-600 font-medium hover:underline underline-offset-4" href={'/blog'}>on my blog.</Link></p>
 
     </div>
   )
