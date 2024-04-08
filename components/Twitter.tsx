@@ -25,7 +25,7 @@ const Twitter: React.FC<twitterProps> = ({ tilt }) => {
           <Button as={Link} isExternal href={siteConfig.links.twitter} size="sm" className="bg-white text-black font-medium rounded-full px-3">Follow</Button>
          </div>
 
-         <p className="text-white text-sm">{tweets.post.tweet}</p>
+         <p className="text-white text-base sm:text-sm">{tweets.post.tweet}</p>
 
          <div className="flex items-center justify-start text-sm text-color-text">
           <p>{tweets.post.time} · {tweets.post.date}</p>
