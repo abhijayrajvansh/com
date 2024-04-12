@@ -71,7 +71,7 @@ const NavigationTab = () => {
                 key={item.pageTitle}
                 href={`/${item.pageTitle === 'Home' ? '': item.pageTitle.toLowerCase()}`} className={`flex items-center text-color-text font-medium cursor-pointer sm:text-sm hover:text-primary-700`}>
                   
-                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 transition sm:hover:bg-primary/20 sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-100 ${isActive && 'text-primary-500 sm:text-primary-700 scale-125 sm:scale-100 sm:shadow-sm sm:bg-primary/20'}`}>
+                <nav className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 transition sm:hover:bg-primary-300/50 sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-105 ${isActive && 'text-primary-500 sm:text-primary-700 scale-125 sm:scale-100 sm:shadow-sm sm:bg-primary-300/50'}`}>
                 
                   <item.pageIcon className="text-[28px] sm:text-3 xl transition" />
                   <div className="hidden lg:block">{item.pageTitle}</div>
