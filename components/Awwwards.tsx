@@ -4,7 +4,7 @@ const Awwwards = () => {
   return (
     <div>
       <h1 className={`subHeading`}>
-        Top Requested Services
+        Top Requested Services / Awwards ...
       </h1>
       
       {/* top 2 projects showcase */}
@@ -29,12 +29,12 @@ const Awwwards = () => {
 
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
-        <AchievementCard
+        {/* <AchievementCard
           title="Asia Largest Hackathon"
           position="Winner, Smarthacks"
-          thumbnail="bg-[url('/cn.webp')]"
+          thumbnail="bg-[url('/fhc.webp')]"
           tilt="left" 
-        />
+        /> */}
        
       </div>
 
