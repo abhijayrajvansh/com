@@ -22,7 +22,7 @@ const About = () => {
 
           <div className="mb-5">
 
-          <video 
+          <video className="w-full rounded"
             src="/videos/abhijayWalkingInCyberworld.mp4"
             autoPlay
             loop
