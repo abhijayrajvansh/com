@@ -9,7 +9,7 @@ const ShortIntro = () => {
         Hi, I&apos;m<span className={`font-medium text-primary-600`}>{" "}Abhijay Rajvansh</span>
       </p>
 
-      <h1 className={`${title()}text-[2rem] leading-tight font-semibold`}>
+      <h1 className='text-4xl sm:text-5xl font-semibold'>
         <span>I develop </span>
           <span className={title({color:'green'})}>full-stack</span>
           <span> softwares that people <span className={title({color: 'pink'})}>love.</span>
@@ -17,7 +17,8 @@ const ShortIntro = () => {
       </h1>
 
       <p className="font-normal text-color-text leading-relaxed">
-        <span>Freelance</span> Web & Mobile Developer, <span>Former Silicon Valley</span> Intern, <span>Apple</span> Development Trainee, Former <span>AI/ML Researcher</span> @L&D Hospital, UK and <Link className="text-primary-600 font-medium sm:font-normal hover:underline underline-offset-4" href={'/about'}>more...</Link>
+        Freelance Web & Mobile Developer, Former Silicon Valley Intern and AI/ML Researcher, Educator and {' '}
+        <Link className="text-primary-600 font-medium sm:font-normal hover:underline underline-offset-4" href={'/about'}>more...</Link>
       </p>
 
     </div>
