@@ -28,7 +28,7 @@ const config: Config = {
       themes: {
         light: {
           colors: {
-            background: "#0d1326", // or DEFAULT ✅ #0d1326 FFFAED F5E9D3 DED0BA FFFDF9
+            background: "#f4f4f4", // or DEFAULT ✅ #0d1326 FFFAED F5E9D3 DED0BA FFFDF9
             foreground: "#11181C", // or 50 to 900 DEFAULT
             
             // gradient
