@@ -10,6 +10,7 @@ import ThanksNote from "./ThanksNote";
 import Spotify from "./Spotify";
 import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
+import { Tooltip } from "@nextui-org/react";
 
 const Home = () => {
 
@@ -22,6 +23,7 @@ const Home = () => {
 				<div className="pageWrapper">
 					<main className="contentWrapper">
 
+					
 						<Banner />
 
 						<ShortIntro />
