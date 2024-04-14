@@ -4,7 +4,6 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import CalltoAction from "./CalltoAction";
 import TechnicalSkills from "./TechnicalSkills";
-import Image from "next/image";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import Spotify from "./Spotify";
@@ -22,13 +21,15 @@ const About = () => {
           </h1>
 
           <div className="mb-5">
-            <Image
-              width={0}
-              height={0}
-              className="w-full rounded-sm sm:rounded"
-              src="/meWalkingInCyberworld.gif"
-              alt="aboutSectionBanner"
-            />
+
+          <video 
+            src="/videos/abhijayWalkingInCyberworld.mp4"
+            autoPlay
+            loop
+            playsInline
+            webkit-playsinline >
+          </video>
+
           </div>
 
           <div>
