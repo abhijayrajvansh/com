@@ -9,7 +9,7 @@ const Banner = () => {
           alt="abhijay_as_curioustoddler_in_the_cyberworld"
         />
 
-        <Tooltip showArrow content="ai generated myself in cyberworld" placement="bottom" color="foreground">
+        <Tooltip showArrow content="ai generated myself in futuristic city" placement="bottom" color="foreground">
           
           <Image width={700} height={250} className='hidden sm:block rounded-2xl w-full shadow-lg' 
             src="/images/abhijay-rajvansh-in-cyberworld.png" 
