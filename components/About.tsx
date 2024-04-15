@@ -10,6 +10,7 @@ import Spotify from "./Spotify";
 import SocialLinks from "./SocialLinks";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
+import { Link } from "@nextui-org/react";
 
 const About = () => {
   return (
@@ -51,9 +52,8 @@ const About = () => {
               you&apos;re falling behind.
               <br />
               <br />
-              That&apos;s where I come in. I love helping individuals transform
-              their concepts into fully operational digital products. With
-              almost
+              That&apos;s where I come in. I love helping individuals transform 
+              their concepts into fully operational digital products. With my
               <span className="text-default-700 font-medium">
                 {" "}
                 4+ years of experience{" "}
@@ -69,26 +69,23 @@ const About = () => {
               <span className="text-default-700 font-medium">
                 Software Engineering is an ART
               </span>{" "}
-              just like painting was for Leonardo Da Vinci. I&apos;m also a big
-              fan of open source software - which is why almost everything I
-              build is open source! I also love educating others about
-              technology and programming, which is why I&apos;m a content
-              creator and write blogs in my free time.
-              <br />
-              <br />
-              But wait, there&apos;s more to me than just lines of code. Here&apos;s a
-              glimpse into my off-duty persona: I proudly embrace the title of a{" "}
+              just like painting was for Leonardo Da Vinci. 
+              I value researching and crafting optimized solutions 
+              rather than just copying-pasting code, I&apos;m always curious about the{" "}
               <span className="text-default-700 font-medium">
-                perpetual learner.
-              </span>{" "}
-              Admittedly, I know nothing - but I&apos;m an exceptional student,
-              eagerly absorbing every lesson that comes my way. Because in this
-              ever-evolving landscape, the true art lies in the journey of
-              discovery.
+                algorithms & UI/UX. 
+              </span>{" "}I also love educating fellow developers about
+              technology and programming through writing
+              {" "}<Link className="embeddedLinks text-primary-500" href="/blog">blogs</Link>{" "}
+              in my free time.
+              <br />
+              <br />
+              When I&apos;m not coding, I spend my time trading, playing piano,
+              watching arthouse movies or podcasts & sometimes cooking.
             </p>
 
             <p className="text-default-700 font-medium">
-              P.S. I&apos;m an artist who aims for his art to leave behind a
+              p.s. i&apos;m an artist who aims for his art to leave behind a
               lasting legacy!
             </p>
           </div>

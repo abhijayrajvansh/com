@@ -1,4 +1,5 @@
 import Newsletter from "./Newsletter"
+import SocialConnections from "./SocialConnections";
 import Spotify from "./Spotify";
 import TechnicalSkills from "./TechnicalSkills";
 import ThanksNote from "./ThanksNote";
@@ -8,10 +9,11 @@ const EngagementSection = () => {
   return (
     <section>
       <Newsletter tilt="left" />
-      <TechnicalSkills />
-      {/* <Twitter tilt="left" /> */}
+      {/* <TechnicalSkills /> */}
+      <Twitter tilt="left" />
       {/* <Spotify tilt="right" /> */}
-      <ThanksNote tilt="left" />
+      <SocialConnections tilt="left" />
+      {/* <ThanksNote tilt="left" /> */}
     </section>
   )
 }

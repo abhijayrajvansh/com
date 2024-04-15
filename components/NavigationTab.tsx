@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
 import { PiHandshakeDuotone } from "react-icons/pi";
+import { RiBookMarkLine } from "react-icons/ri";
 import Image from "next/image";
 
 // navigation tab routes
@@ -33,8 +34,8 @@ const NAVIGATION_DATA = [
     pageIcon: PiSuitcase
   },
   {
-    pageTitle: 'Contact',
-    pageIcon: PiHandshakeDuotone
+    pageTitle: 'Guestbook',
+    pageIcon: RiBookMarkLine
   },
 ]
 

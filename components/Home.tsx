@@ -11,6 +11,7 @@ import Spotify from "./Spotify";
 import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
 import { Tooltip } from "@nextui-org/react";
+import SocialConnections from "./SocialConnections";
 
 const Home = () => {
 
@@ -43,8 +44,10 @@ const Home = () => {
 						<Twitter tilt="right"/>
 						
 						<Spotify tilt="left"/>
+
+						<SocialConnections	 tilt="right" />
 						
-						<ThanksNote tilt="right" />
+						<ThanksNote tilt="left" />
 					</section>
 					
 				</div>

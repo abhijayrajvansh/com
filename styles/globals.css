@@ -27,6 +27,10 @@
   .text-color-text {
     @apply dark:text-[#94A3B8] text-[#64748B]
   }
+  .embeddedLinks {
+    @apply font-medium hover:underline underline-offset-4
+  }
+
   .pink-text-bg-gradient {
     @apply bg-gradient-to-r from-[#fd81c1] to-[#bc80e7] py-1 bg-cover bg-clip-text text-transparent
   }
