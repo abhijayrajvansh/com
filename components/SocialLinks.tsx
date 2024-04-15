@@ -19,7 +19,7 @@ const SocialLinks = ({ iconSize, showOnMobile = false }:SocialLinksProps) => {
       <Link isExternal color="foreground" href={siteConfig.links.github}><FaGithub  size={iconSize}  className="hover:scale-125 transition"/></Link>
       <Link isExternal color="foreground" href={siteConfig.links.linkedin}><FaLinkedin  size={iconSize}  className="hover:scale-125 transition"/></Link>
       <Link isExternal color="foreground" href={siteConfig.links.instagram}><FaInstagram  size={iconSize}  className="hover:scale-125 transition"/></Link>
-      <Link isExternal color="foreground" href={siteConfig.links.youtube}><FaYoutube  size={iconSize}  className="hover:scale-125 transition"/></Link>
+      <Link isExternal color="foreground" href={siteConfig.links.youtube}><FaYoutube  size={iconSize}  className="scale-125 hover:scale-150 transition"/></Link>
       <Link color="foreground" href={siteConfig.links.email}><MdEmail  size={iconSize}  className="scale-125 hover:scale-150 transition"/></Link>
     </div>
   )

@@ -8,6 +8,8 @@ import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import Spotify from "./Spotify";
 import SocialLinks from "./SocialLinks";
+import DigitalHandSign from "./DigitalHandSign";
+import SocialConnections from "./SocialConnections";
 
 const About = () => {
   return (
@@ -92,16 +94,11 @@ const About = () => {
           </div>
 
           <div className="my-10">
-            <h1 className="text-3xl font-semibold my-2">Let&apos;s Connect!</h1>
+            <h1 className="text-3xl font-semibold my-2 yellow-text-bg-gradient">Let&apos;s Connect!</h1>
             <CalltoAction />
+            <DigitalHandSign />
           </div>
 
-          <div className="my-10 space-y-5">
-            <h1 className="text-xl font-semibold my-2">
-              Find me on these platforms:
-            </h1>
-            <SocialLinks iconSize={30} showOnMobile />
-          </div>
         </div>
 
         <section>
@@ -109,7 +106,8 @@ const About = () => {
           <TechnicalSkills />
           <Twitter tilt="left" />
           <Spotify tilt="right" />
-          <ThanksNote tilt="left" />
+          <SocialConnections tilt="left" />
+          <ThanksNote tilt="right" />
       </section>
       </div>
     </section>

@@ -13,7 +13,7 @@ const ThanksNote: React.FC<ThanksNoteProps> = ({tilt}) => {
 
         <p className="text-sm font-light text-default-600">Hey, thanks for visiting my website!</p>
         
-        <h3 className="text-warning-500 font-bold text-2xl sm:text-xl">Gald to have you here.</h3>
+        <h3 className="bg-gradient-to-r from-[#df9599] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#fdfc81] py-1 bg-cover bg-clip-text text-transparent font-bold text-2xl sm:text-xl">Gald to have you here.</h3>
 
         <Button className="text-xs bg-primary-400 hover:bg-primary-300 font-medium text-white"
           href="/contact"
