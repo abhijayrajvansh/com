@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 const ShortIntro = () => {
   return (
-    <div className="space-y-7 my-7 font-medium">
+    <div className="space-y-5 my-7 font-medium">
 
-      <p className="text-xl space-x-2 my-7">
+      <p className="text-xl space-x-2 mt-5">
         Hi, I&apos;m<span className={`font-medium text-primary-600`}>{" "}Abhijay Rajvansh</span>
       </p>
 
