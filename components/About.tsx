@@ -24,15 +24,14 @@ const About = () => {
           </h1>
 
           <div className="mb-5">
-
-          <video className="w-full rounded"
-            src="/videos/abhijayWalkingInCyberworld.mp4"
-            autoPlay
-            loop
-            playsInline
-            webkit-playsinline >
-          </video>
-
+            <video
+              className="w-full rounded"
+              src="/videos/abhijayWalkingInCyberworld.mp4"
+              autoPlay
+              loop
+              playsInline
+              webkit-playsinline
+            ></video>
           </div>
 
           <div>
@@ -46,37 +45,50 @@ const About = () => {
 
             <p className="text-color-text mb-3">
               Let me know if you can relate: In today&apos;s rapidly evolving
-              tech landscape, staying current is a big challenge. Product Hunt
-              and HubSpot introduce new features every day, while AI is being
+              tech landscape, staying ahead is a big challenge. Product Hunt and
+              HubSpot introduce new features every day, while AI is being
               incorporated into EVERYTHING. If you&apos;re staying the same,
               you&apos;re falling behind.
+
               <br />
               <br />
-              That&apos;s where I come in. I love helping individuals transform 
-              their concepts into fully operational digital products. With my
+
+              That&apos;s where I come in. I love helping individuals transform
+              their ideas into fully operational digital products. With my
+              
               <span className="text-default-700 font-medium">
                 {" "}
                 4+ years of experience{" "}
               </span>
+              
               in software development both as a consultant and as a full-time
               developer. I provide actionable guidance, offer practical
-              solutions, or even facilitate connections bridging the gap for
-              those needing expertise beyond my own in areas like non-tech
+              solutions and even bridge the gap for those who need non-tech
               support.
+              
               <br />
               <br />
-              For me{" "}
+             
+              For me,{" "}
               <span className="text-default-700 font-medium">
-                Software Engineering is an ART
-              </span>{" "}
+                software engineering is an art
+              </span>{", "}
+
               just like painting was for Leonardo Da Vinci. 
-              I value researching and crafting optimized solutions 
-              rather than just copying-pasting code, I&apos;m always curious about the{" "}
+              I focus research & developing{" "}
+              <Link className="embeddedLinks text-primary-500" href="/projects">
+                optimized solutions
+              </Link>{" "}
+              rather than just copying-pasting code. I&apos;m always curious
+              about the{" "}
               <span className="text-default-700 font-medium">
-                algorithms & UI/UX. 
-              </span>{" "}I also love educating fellow developers about
-              technology and programming through writing
-              {" "}<Link className="embeddedLinks text-primary-500" href="/blog">blogs</Link>{" "}
+                algorithms & UI/UX
+              </span>{" "}
+              and I also love educating fellow developers about technology and
+              programming through writing{" "}
+              <Link className="embeddedLinks text-primary-500" href="/blog">
+                blogs
+              </Link>{" "}
               in my free time.
               <br />
               <br />
@@ -91,11 +103,12 @@ const About = () => {
           </div>
 
           <div className="my-10">
-            <h1 className="text-3xl font-semibold my-2 yellow-text-bg-gradient">Let&apos;s Connect!</h1>
+            <h1 className="text-3xl font-semibold my-2 yellow-text-bg-gradient">
+              Let&apos;s Connect!
+            </h1>
             <CalltoAction />
             <DigitalHandSign />
           </div>
-
         </div>
 
         <section>
@@ -105,7 +118,7 @@ const About = () => {
           <Spotify tilt="right" />
           <SocialConnections tilt="left" />
           <ThanksNote tilt="right" />
-      </section>
+        </section>
       </div>
     </section>
   );
