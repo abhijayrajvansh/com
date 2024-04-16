@@ -100,6 +100,7 @@ const About = () => {
               p.s. i&apos;m an artist who aims for his art to leave behind a
               lasting legacy!
             </p>
+            <DigitalHandSign />
           </div>
 
           <div className="my-10">
@@ -107,7 +108,7 @@ const About = () => {
               Let&apos;s Connect!
             </h1>
             <CalltoAction />
-            <DigitalHandSign />
+            
           </div>
         </div>
 
