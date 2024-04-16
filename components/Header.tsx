@@ -18,7 +18,7 @@ const Header = () => {
       <div className="flex items-center space-x-3 sm:space-x-10">
         <SocialLinks iconSize={21} showOnMobile={false}/>
         <Button 
-          href="/contact" as={Link} 
+          href="/guestbook" as={Link} 
           size="sm" 
           variant="solid" 
           color="primary"
