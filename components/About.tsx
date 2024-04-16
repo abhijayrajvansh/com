@@ -44,7 +44,7 @@ const About = () => {
             </h2>
 
             <p className="text-color-text mb-3">
-              Let me know if you can relate: In today&apos;s rapidly evolving
+              In today&apos;s rapidly evolving
               tech landscape, staying ahead is a big challenge. Product Hunt and
               HubSpot introduce new features every day, while AI is being
               incorporated into EVERYTHING. If you&apos;re staying the same,
