@@ -13,7 +13,7 @@ const Guestbook = () => {
 
         <main className="contentWrapper">
 
-          <h1 className="text-4xl pink-text-bg-gradient font-bold mb-10">Sign my Guestbook</h1>
+          <h1 className="text-4xl pink-text-bg-gradient font-bold mb-10">Sign my guestbook!</h1>
 
           ...comments!
 

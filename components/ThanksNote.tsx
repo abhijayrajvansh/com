@@ -2,6 +2,7 @@ import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import { RiBookMarkLine } from "react-icons/ri";
 
+
 interface ThanksNoteProps {
   tilt: string,
 }
