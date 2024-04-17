@@ -7,9 +7,9 @@ import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
-import { PiHandshakeDuotone } from "react-icons/pi";
 import { RiBookMarkLine } from "react-icons/ri";
 import Image from "next/image";
+import LazyLoadImage from "./LazyloadImage";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -50,7 +50,13 @@ const NavigationTab = () => {
 
       <Link href={'/'} className="hidden sm:flex mb-5 justify-center">
         <div className="flex items-center gap-3">
-          <Image height={40} width={40} className="h-[40px] rounded-xl border-2 border-default-200" src={siteConfig.avatar.src} alt="abhijay-rajvansh-pfp" />
+          
+          <LazyLoadImage blurredImageSrc=""
+            className="h-10 w-10 rounded-xl border-2 border-default-200" 
+            src={siteConfig.avatar.src} 
+            alt="abhijay-rajvansh-pfp" 
+          />
+          
           <div className="hidden lg:block text-[11px]">
             <p className="text-primary-600 font-medium text-sm">Abhijay Rajvansh</p>
             <p className="font-normal text-xs">Software Engineer</p>

@@ -1,12 +1,17 @@
-import { Link, Tooltip } from "@nextui-org/react";
+'use client';
+
+import { Tooltip } from "@nextui-org/react";
+import LazyLoadImage from "./LazyloadImage";
 import Image from "next/image";
 
 const Banner = () => {
   return (
       <>
-        <Image width={700} height={226} className=' sm:hidden rounded-2xl w-full shadow-lg' 
+        <LazyLoadImage 
+          blurredImageSrc="/images/ar-sign-no-bg.png" 
           src="/images/abhijay-rajvansh-in-cyberworld-mobile.png" 
-          alt="abhijay_as_curioustoddler_in_the_cyberworld"
+          alt="ai_generated_abhijay_in_cyberworld" 
+          className='sm:hidden rounded-2xl w-full shadow-lg'
         />
 
         <Tooltip size={'sm'} 
@@ -14,7 +19,9 @@ const Banner = () => {
           placement="bottom" 
           color="foreground">
           
-          <Image width={700} height={250} className='hidden sm:block rounded-2xl w-full shadow-lg' 
+          <LazyLoadImage
+            blurredImageSrc="/images/"
+            className='hidden sm:block rounded-2xl w-full shadow-lg' 
             src="/images/abhijay-rajvansh-in-cyberworld.png" 
             alt="abhijay_as_curioustoddler_in_the_cyberworld"
           />
