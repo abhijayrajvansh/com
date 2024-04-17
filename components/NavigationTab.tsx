@@ -44,7 +44,7 @@ const NavigationTab = () => {
   const pathname = usePathname();
 
   return (
-    <header className="z-20 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:px-6 sm:top-0 sm:pt-0 sm:border-r border-default/50 sm:font-light"> 
+    <header className="z-20 backdrop-blur-[5px] bg-background bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:pr-4 sm:top-0 sm:pt-0 sm:border-r border-default/50 sm:font-light"> 
       
     <div className="flex items-center justify-evenly w-full sm:block sm:pt-5 sm:mt-2">
 
