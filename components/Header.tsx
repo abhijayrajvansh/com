@@ -3,7 +3,7 @@ import { ThemeSwitch } from "./theme-switch";
 import { Link } from "@nextui-org/react";
 import { PiHandshakeDuotone } from "react-icons/pi";
 import SocialLinks from "./SocialLinks";
-
+import { RiBookMarkLine } from "react-icons/ri";
 
 const Header = () => {
   return (
@@ -22,9 +22,9 @@ const Header = () => {
           size="sm" 
           variant="solid" 
           color="primary"
-          className="font-semibold sm:py-3">
-          <PiHandshakeDuotone size={25} />
-          Contact me
+          className="font-medium sm:py-3">
+          <RiBookMarkLine size={21} />
+		  sign my guestbook!
         </Button>
       </div>
 
