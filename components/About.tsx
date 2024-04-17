@@ -93,7 +93,7 @@ const About = () => {
               <br />
               <br />
               When I&apos;m not coding, I spend my time trading, playing piano,
-              watching arthouse movies or podcasts & sometimes cooking.
+              watching arthouse movies or podcasts & sometimes I play chess.
             </p>
 
             <p className="text-default-700 font-medium">

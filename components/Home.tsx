@@ -10,28 +10,27 @@ import ThanksNote from "./ThanksNote";
 import Spotify from "./Spotify";
 import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
-import { Tooltip } from "@nextui-org/react";
 import SocialConnections from "./SocialConnections";
+import Services from "./Services";
 
 const Home = () => {
 
 	return (
 			<section className="wrapper">
 				<Header />
-				
+
 				<NavigationTab />
 
 				<div className="pageWrapper">
 					<main className="contentWrapper">
 
-					
 						<Banner />
 
 						<ShortIntro />
 
 						<FeaturedArticles />
 
-						<Awwwards />
+						<Services />
 
 						<RecentProjects />
 					</main>

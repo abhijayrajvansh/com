@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 const ShortIntro = () => {
   return (
-    <div className="space-y-5 my-7 font-medium">
+    <div className="space-y-5 font-medium">
 
-      <p className="text-xl space-x-2 mt-5">
+      <p className="text-xl space-x-2 mt-10">
         Hi, I&apos;m<span className={`font-medium text-primary-600`}>{" "}Abhijay Rajvansh</span>
       </p>
 
-      <h1 className='text-4xl sm:text-5xl font-semibold'>
+      <h1 className='text-4xl py-3 sm:text-5xl font-semibold'>
         <span>I develop </span>
           <span className={title({color:'green'})}>full-stack</span>
           <span> softwares that people <span className={title({color: 'pink'})}>love.</span>

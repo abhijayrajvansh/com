@@ -17,44 +17,11 @@ const FeaturedArticles = () => {
 
   return (
     <div className="flex flex-col items-start">
-      <h1 className={`subHeading`}>
+      <h1 className={`subHeading mb-5`}>
         Featured Articles
       </h1>
 
-      <AddGap vertical="2"/>
-
-      <ButtonGroup size="sm" radius="sm" variant="flat">
-        <Button color={tabContent === 'latest' ? 'primary' : 'default'} onClick={() => handleTabContent('latest')}>Latest</Button>
-
-        <Button color={tabContent === 'programming' ? 'success' : 'default'} onClick={() => handleTabContent('programming')}>Programming</Button>
-
-        <Button color={tabContent === 'articles' ? 'warning' : 'default'} onClick={() => handleTabContent('articles')}>Articles</Button>
-
-      </ButtonGroup>
-
-      <AddGap vertical="1"/>
-
-      {
-        tabContent === 'latest' ?
-        <div className="p-2 rounded-xl w-full">
-
-          <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
-
-        </div>:
-
-        tabContent === 'programming' ?
-        <div className="p-2 rounded-xl w-full">
-          {/* programming */}
-          <p>checking programming</p>
-        </div>:
-
-        <div className="p-2 rounded-xl w-full">
-          {/* articles */}
-          <p>checking articles</p>
-        </div>
-      }
-
-      <p className="my-5 font-light">Read more <Link className="text-primary-600 font-medium hover:underline underline-offset-4" href={'/blog'}>on my blog.</Link></p>
+      <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
 
     </div>
   )
