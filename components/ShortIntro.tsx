@@ -9,7 +9,7 @@ const ShortIntro = () => {
         Hi, I&apos;m<span className={`font-medium text-primary-600`}>{" "}Abhijay Rajvansh</span>
       </p>
 
-      <h1 className='text-4xl py-3 sm:text-5xl font-semibold'>
+      <h1 className='text-4xl py-3 sm:text-5xl font-medium'>
         <span>I develop </span>
           <span className={title({color:'green'})}>full-stack</span>
           <span> softwares that people <span className={title({color: 'pink'})}>love.</span>

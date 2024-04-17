@@ -3,8 +3,10 @@ import type { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
 import { Inter } from "next/font/google";
 import { Providers } from "./provider";
+import { Bricolage_Grotesque } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
+const myFont = Bricolage_Grotesque({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
@@ -34,7 +36,7 @@ export default function RootLayout({
   return (
 		
     <html lang="en">
-        <body className={`${inter.className}`}>
+        <body className={`${myFont.className}`}>
 					<Providers>
             {children}
 					</Providers>
