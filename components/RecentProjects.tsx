@@ -34,8 +34,6 @@ const RecentProjects = () => {
 
       </div>
 
-      {/* another 2 projects showcase */}
-
       <div className="flex flex-col sm:flex-row sm:space-x-7">
         {/* add project cards here... */}
       </div>

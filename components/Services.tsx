@@ -1,4 +1,7 @@
+'use client';
+
 import AchievementCard from "./AchievementCard";
+import Thumbnail from "@/components/Thumbnail";
 
 const Services = () => {
   return (
@@ -22,6 +25,14 @@ const Services = () => {
           thumbnail="bg-[url('/appletrainee.webp')]"
           tilt="right" 
         />
+
+      </div>
+
+      <div className="flex flex-col sm:flex-row sm:space-x-7">
+
+        {/* insert thumbnail component here */}
+        <Thumbnail src="/videos/wd-thumbnail.mov" />
+        <Thumbnail src="/videos/wd-thumbnail.mov" />
 
       </div>
 
