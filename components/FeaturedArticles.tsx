@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link";
 import BlogCard from "./BlogCard";
 import { siteConfig } from '@/config/site'
 
@@ -12,7 +13,19 @@ const FeaturedArticles = () => {
         Featured Articles
       </h1>
 
-      <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
+      <BlogCard 
+        thumbnail={siteConfig.blogs.twitter.thumbnail} 
+        date={siteConfig.blogs.twitter.date} 
+        timeToRead={siteConfig.blogs.twitter.timeToRead} 
+        title={siteConfig.blogs.twitter.title} 
+        description={siteConfig.blogs.twitter.description} 
+        link={siteConfig.blogs.twitter.link}
+      />
+
+      <p className="font-light mt-3">Read more on my{" "}
+        <Link className="text-primary-600 font-normal hover:underline underline-offset-4" href={'/blog'}>blogs page.
+        </Link>
+      </p>
 
     </div>
   )

@@ -16,7 +16,7 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, date, timeToRead, title, d
 
 
   return (
-    <div className="border-t border-b border-default/50">
+    <div className="border-t border-default/50 py-1 sm:py-3">
       <AddGap vertical="2" />
       <div className="flex gap-5 items-center">
 
