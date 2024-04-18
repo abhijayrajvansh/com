@@ -9,7 +9,6 @@ import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
 import { RiBookMarkLine } from "react-icons/ri";
 import Image from "next/image";
-import LazyLoadImage from "./LazyloadImage";
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -51,7 +50,7 @@ const NavigationTab = () => {
       <Link href={'/'} className="hidden sm:flex mb-5 justify-center">
         <div className="flex items-center gap-3">
           
-          <LazyLoadImage blurredImageSrc=""
+          <Image width={40} height={40}
             className="h-10 w-10 rounded-xl border-2 border-default-200" 
             src={siteConfig.avatar.src} 
             alt="abhijay-rajvansh-pfp" 

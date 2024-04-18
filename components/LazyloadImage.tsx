@@ -24,12 +24,13 @@ const LazyLoadImage: React.FC<LazyLoadImageProps> = ({ src, alt, className='w-fu
   }, [src]);
 
   return (
+    
     <img
       src={imageSrc ? imageSrc : blurredImageSrc}
       alt={alt}
       className={className}
-      loading='lazy'
     />
+    
   );
 };
 
