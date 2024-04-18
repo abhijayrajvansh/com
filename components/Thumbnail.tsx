@@ -1,10 +1,12 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 interface VideoComponentProps {
-  src: string;
+  videosrc: string,
+  imgsrc: string,
 }
 
-const VideoComponent: React.FC<VideoComponentProps> = ({ src }) => {
+const VideoComponent: React.FC<VideoComponentProps> = ({ videosrc, imgsrc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -16,31 +18,30 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ src }) => {
   };
 
   return (
-    <div
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      className="relative w-full sm:w-1/2 h-48"
-    >
-      <video
-        src={src}
-        autoPlay={isHovered}
-        loop
-        muted
-        className="w-full h-full object-cover rounded-xl"
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="relative w-full sm:w-1/2 h-48">
+
+      <Image 
+        width={300} 
+        height={176}  
+        src={imgsrc} 
+        alt='service-thumbnail' 
+        className='w-full h-full object-cover rounded-xl' 
       />
+      
       {isHovered && (
-        <div
-          className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white rounded-xl"
-        >
+        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center text-white rounded-xl">
           <video
-            src={src}
+            src={videosrc}
             autoPlay={isHovered}
             loop
             muted
+            playsInline
+            webkit-playsinline
             className="w-full h-full object-cover rounded-xl"
           />
         </div>
       )}
+    
     </div>
   );
 };

@@ -7,7 +7,6 @@ import TechnicalSkills from "./TechnicalSkills";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import Spotify from "./Spotify";
-import SocialLinks from "./SocialLinks";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
 import { Link } from "@nextui-org/react";

@@ -31,8 +31,10 @@ const Services = () => {
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
         {/* insert thumbnail component here */}
-        <Thumbnail src="/videos/wd-thumbnail.mov" />
-        <Thumbnail src="/videos/wd-thumbnail.mov" />
+        <Thumbnail 
+          videosrc="/videos/wd-thumbnail.mov" 
+          imgsrc='/videos/wd-thumbnail.png'
+        />
 
       </div>
 
