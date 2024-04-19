@@ -12,7 +12,7 @@ const Banner = () => {
           color="foreground">
           
           <Image
-            width={500} height={16}
+            width={700} height={225}
             className='hidden sm:block rounded-2xl w-full shadow-lg' 
             src="/images/abhijay-rajvansh-in-cyberworld.png"
             alt="abhijay_as_curioustoddler_in_the_cyberworld"
@@ -20,7 +20,7 @@ const Banner = () => {
         </Tooltip>
 
         <Image 
-          width={100} height={100}
+          width={382} height={150}
           src="/images/abhijay-rajvansh-in-cyberworld-mobile.jpg" 
           alt="ai_generated_abhijay_in_cyberworld" 
           className='sm:hidden rounded-lg w-full shadow-lg'

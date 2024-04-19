@@ -18,7 +18,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ videosrc, imgsrc }) => 
   };
 
   return (
-    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="relative w-full sm:w-1/2 h-48">
+    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="relative w-full sm:w-[336px] h-48 mb-7">
 
       <Image 
         width={300} 
