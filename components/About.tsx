@@ -91,8 +91,10 @@ const About = () => {
               in my free time.
               <br />
               <br />
-              When I&apos;m not coding, I spend my time trading, playing piano,
-              watching arthouse movies or podcasts & sometimes I play chess.
+              <span>
+				When I&apos;m not coding, I spend my time trading, reading about
+				finance & geopolitics, watching arthouse movies and I play chess.
+			  </span>
             </p>
 
             <p className="text-default-700 font-medium">
