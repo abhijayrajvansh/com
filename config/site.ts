@@ -42,8 +42,8 @@ export const siteConfig = {
 };
 
 export const technicalSkills = [
-	'Next.js - React',
-	'React Native', 
+	'Next.js',
+	'React & React Native', 
 	'Typescript & Javascript',
 	'C/C++ & Java',
 	'Node.js, Express.js & Bun', 
@@ -61,6 +61,7 @@ export const technicalTools = [
 	"Docker",
 	"Kubernetes",
 	"AWS",
+	'Expo',
 	"Figma",
 ]
 
