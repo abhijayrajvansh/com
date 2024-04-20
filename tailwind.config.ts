@@ -53,7 +53,7 @@ const config: Config = {
             
             // gradient
             projectCardTop: "#131A31",
-            projectCardBotttom: "#141D29",
+            projectCardBotttom: "#1C2638",
             
             // hover dark layer
             hoverdarkbg: "#0F182A",

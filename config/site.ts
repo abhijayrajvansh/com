@@ -42,25 +42,25 @@ export const siteConfig = {
 };
 
 export const technicalSkills = [
-	'Next.js, React & React Native', 
+	'Next.js - React',
+	'React Native', 
 	'Typescript & Javascript',
+	'C/C++ & Java',
 	'Node.js, Express.js & Bun', 
-	'DB: PostgreSQL & MongoDB',
+	'PostgreSQL & MongoDB',
 	'REST, GraphQL & tRPC', 
-	'TailwindCSS, Shadcn/ui & NextUI',
-	'Python: Automation & Analysis',
+	'Python: AI Agents & Automation',
 	'Swift, UIkit & SwiftUI', 
-	'Data Structures & Algorithms',
 	'Product Design & UI/UX',
-	'C/C++ and Java',
+	'Data Structures & Algorithms',
 ]
 
 export const technicalTools = [
 	"Debian Linux",
-	"Git",
+	"Git & Github",
 	"Docker",
+	"Kubernetes",
 	"AWS",
-	"AWS & Vercel",
 	"Figma",
 ]
 
