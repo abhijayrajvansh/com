@@ -24,7 +24,7 @@ const About = () => {
 
           <div className="mb-5">
             <video
-              className="w-full rounded"
+              className="w-full sm:h-[282.326px] rounded"
               src="/videos/abhijayWalkingInCyberworld.mp4"
               autoPlay
               loop
