@@ -34,7 +34,7 @@ const Services = () => {
       </div>
 
       <div className="text-md my-5 font-light flex gap-1"> 
-          <span className="text-danger-500 font-semibold">pitch: <span className="text-default-900 font-light">I&apos;m good at <span className="text-default-900 font-medium">figuring things out</span>, that&apos;s my biggest flex!</span></span>
+          <span className="text-danger-500 font-semibold">pitch: <span className="text-default-900 font-light">I&apos;m good at <span className="text-default-900 font-semibold underline underline-offset-4">figuring things out</span>, that&apos;s my biggest flex!</span></span>
       </div>
 
     </div>
