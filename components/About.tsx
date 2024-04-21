@@ -60,8 +60,8 @@ const About = () => {
                 4+ years of experience{" "}
               </span>
               
-              in software development both as a consultant and as a full-time
-              developer. I provide actionable guidance, offer practical
+              in the industry both as a freelance software developer and as a technical consultant, 
+              I provide actionable guidance, offer practical
               solutions and even bridge the gap for those who need non-tech
               support.
               
