@@ -4,9 +4,10 @@ import React, { useState } from 'react';
 interface VideoComponentProps {
   videosrc: string,
   imgsrc: string,
+  title: string,
 }
 
-const VideoComponent: React.FC<VideoComponentProps> = ({ videosrc, imgsrc }) => {
+const VideoComponent: React.FC<VideoComponentProps> = ({ title, videosrc, imgsrc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -18,9 +19,16 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ videosrc, imgsrc }) => 
   };
 
   return (
-    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="relative w-full sm:w-[336px] h-48 mb-7">
+    <div 
+      onMouseEnter={handleMouseEnter} 
+      onMouseLeave={handleMouseLeave} 
+      className="relative w-full sm:w-[336px] h-48 mb-7">
+      
+      <h1 className='absolute w-full h-full text-3xl text-white font-bold rounded-xl flex items-center justify-center bg-black/50'>
+        {title}
+      </h1>
 
-      <Image 
+      <Image
         width={300} 
         height={176}  
         src={imgsrc} 
