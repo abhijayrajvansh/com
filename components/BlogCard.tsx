@@ -20,7 +20,7 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, date, timeToRead, title, d
       <AddGap vertical="2" />
       <div className="flex gap-5 items-center">
 
-        <Image width={80} height={80} className="rounded-xl size-20" src={thumbnail} alt={title} />
+        <Image width={80} height={80} className="rounded-xl size-16 sm:size-20" src={thumbnail} alt={title} />
 
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
