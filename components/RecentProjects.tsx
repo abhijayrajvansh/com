@@ -13,7 +13,7 @@ const RecentProjects = () => {
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
         <ProjectCard 
-          bgBanner="bg-[url('/fullstack-twitter.webp')] bg-cover bg-contain"
+          banner={siteConfig.projects.twitter.banner}
           logo={siteConfig.projects.twitter.logo}
           title={siteConfig.projects.twitter.title}
           nextjs react supabse drizzle shadcn reacticnons typescript node
@@ -22,20 +22,18 @@ const RecentProjects = () => {
           githubLink={siteConfig.projects.twitter.sourceCodeLink}
         />
 
-        <ProjectCard 
-          bgBanner="bg-[url('/t3.webp')]"
-          logo={siteConfig.projects.twitter.logo}
-          title={siteConfig.projects.twitter.title}
-          nextjs react supabse drizzle shadcn reacticnons typescript node
-          visitLink={siteConfig.projects.twitter.liveProjectLink}
-          blogLink={siteConfig.projects.twitter.blog}
-          githubLink={siteConfig.projects.twitter.sourceCodeLink}
-        />
+
+
+
 
       </div>
 
       <div className="flex flex-col sm:flex-row sm:space-x-7">
         {/* add project cards here... */}
+
+        
+
+
       </div>
 
 

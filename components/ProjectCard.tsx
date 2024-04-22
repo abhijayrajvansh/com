@@ -10,7 +10,6 @@ import { MdOutlineArticle } from "react-icons/md";
 import Image from "next/image";
 
 interface ProjectCardProps {
-  bgBanner: string, 
   logo: string, 
   title: string, 
   nextjs?: boolean, 
@@ -24,14 +23,22 @@ interface ProjectCardProps {
   visitLink: string, 
   githubLink: string, 
   blogLink: string,
+  banner: string,
 }
 
-const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink}) => {
+const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink}) => {
   return (
-    <div
-      className={` ${bgBanner} my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end`}
-    >
-    <div className="bottomContainer flex flex-col rounded-xl shadow-lg">
+    <div className={`my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end relative`}>
+      
+      <Image width={340} height={180}
+        src={`${banner}`} 
+        alt="project-banner" 
+        className="absolute w-full -z-10 rounded-xl"
+      />
+      
+      <div className="bottomContainer flex flex-col rounded-xl shadow-lg">
+
+
 
         <div className="pt-2 bg-gradient-to-t from-black pb-3 px-4 flex flex-col justify-center relative -bottom-1 rounded-t-xl min-h-[90px]">
           <div className="flex justify-between ">
@@ -43,6 +50,9 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
             />
           </div>
         </div>
+
+
+
 
         <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-xl pb-2 ">
           <h1 className="font-semibold sm:font-medium text-2xl text-white">{title}</h1>
@@ -58,7 +68,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
             { node && <IoLogoNodejs className="text-green-600" />}
           </div>
 
-          <div className="flex justify-between mb-2">
+          {/* <div className="flex justify-between mb-2">
             <Button
               size="sm"
               className="text-sm"
@@ -105,7 +115,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
             </Button>
 
             
-          </div>
+          </div> */}
 
         </div>
 

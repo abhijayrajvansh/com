@@ -19,6 +19,7 @@ export const siteConfig = {
 
 	projects: {
 		twitter: {
+			banner: '/projects/fullstack-twitter.webp',
 			title: "Twitter 𝕏 Clone",
 			logo: '/xLogo.jpeg',
 			type: "personal-project",
