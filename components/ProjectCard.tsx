@@ -3,11 +3,11 @@ import { RiReactjsLine } from "react-icons/ri";
 import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
-import Image from "next/image";
 import { Button, Link } from "@nextui-org/react";
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { MdOutlineArticle } from "react-icons/md";
+import Image from "next/image";
 
 interface ProjectCardProps {
   bgBanner: string, 
@@ -91,7 +91,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({bgBanner, logo, title, nextjs, 
 
             <Button
               size="sm"
-              className="text-sm py-4 border border-gray-500 bg-black"
+              className="text-sm py-4 border border-gray-500 bg-black "
               isExternal={true}
               color="default"
               href={githubLink}
