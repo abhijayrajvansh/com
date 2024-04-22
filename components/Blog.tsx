@@ -9,6 +9,7 @@ import BlogCard from "@/components/BlogCard";
 import { siteConfig } from "@/config/site";
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
+import TechnicalSkills from "./TechnicalSkills";
 
 
 const Blog = () => {
@@ -23,9 +24,10 @@ const Blog = () => {
       <Header />
       <NavigationTab />
 
-      <div className="pageWrapper sm:mt-10">
+      <div className="pageWrapper sm:my-10">
         <main className="contentWrapper">
           <h1 className="text-4xl font-bold mb-10 yellow-text-bg-gradient ">Stories & Coding.</h1>
+
 
           <div className="flex flex-col items-start">
 
@@ -73,6 +75,8 @@ const Blog = () => {
         </main>
 
         <div className="flex flex-col">
+          {/* adding technical skills makes the width same from home, about ... */}
+          {/* <TechnicalSkills />  */}
           <Newsletter tilt="left" />
           <ThanksNote tilt='right' />
         </div>
