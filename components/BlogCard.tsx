@@ -24,7 +24,7 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, date, timeToRead, title, d
 
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
-            <p className="text-sm text-default-500"><span className="text-primary-500"> — </span>{date} · {timeToRead}</p>
+            <p className="text-sm text-color-text"><span className="text-primary-500"> — </span>{date} · {timeToRead}</p>
 
             <Link href={link}><FaLink className="size-5 text-primary-600" /></Link>
 
@@ -34,7 +34,7 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, date, timeToRead, title, d
               {title}
             </Link>
 
-          <p className="text-sm text-default-500">{description}</p>
+          <p className="text-sm text-color-text">{description}</p>
 
         </div>
       </div>
