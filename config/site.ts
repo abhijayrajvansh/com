@@ -26,7 +26,6 @@ export const siteConfig = {
 			description: "Next.js, Supabase, Drizzle ORM, TailwindCSS, Shadcn/ui, RadixUI, Typescript",
 			sourceCodeLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
 			liveProjectLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
-			blog: "/blog/full-stack-twitter-clone"
 		},
 	},
 
@@ -37,7 +36,7 @@ export const siteConfig = {
 			thumbnail: "/xLogo.jpeg",
 			date: "MAR 18, 2024",
 			timeToRead: "2 MIN READ",
-			link: "twitterclone",
+			link: "/blog/full-stack-twitter-clone",
 		}
 	}
 };
