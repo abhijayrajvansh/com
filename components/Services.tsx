@@ -12,12 +12,16 @@ const Services = () => {
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
         
-        <Thumbnail title="Full-Stack"
+        <Thumbnail 
+          title="Full-Stack"
+          description="e-commerce, cms & ai agents"
           videosrc="/videos/fullstack-thumbnail.mp4" 
           imgsrc='/videos/fullstack-thumbnail.png'
         />
 
-        <Thumbnail title="Mobile App"
+        <Thumbnail 
+          title="Mobile App"
+          description="food, fashion, rental & more"
           videosrc="/videos/mobile-thumbnail.mp4" 
           imgsrc='/videos/mobile-thumbnail.png'
         />
@@ -26,7 +30,9 @@ const Services = () => {
 
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
-        <Thumbnail title="Blockchain"
+        <Thumbnail 
+          title="Blockchain"
+          description="dapps, defi & wallets"
           videosrc="/videos/blockchain-thumbnail.mp4" 
           imgsrc='/videos/blockchain-thumbnail.png'
         />

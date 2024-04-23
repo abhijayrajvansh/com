@@ -5,9 +5,10 @@ interface VideoComponentProps {
   videosrc: string;
   imgsrc: string;
   title: string;
+  description: string;
 }
 
-const VideoComponent: React.FC<VideoComponentProps> = ({ title, videosrc, imgsrc }) => {
+const VideoComponent: React.FC<VideoComponentProps> = ({ title, description, videosrc, imgsrc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -24,8 +25,9 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ title, videosrc, imgsrc
       onMouseLeave={handleMouseLeave}
       className="relative w-full sm:w-[336px] h-48 mb-7 overflow-hidden"
     >
-      <h1 className="absolute w-full h-full text-3xl text-white font-bold rounded-xl flex items-center justify-center dark:bg-black/60 bg-black/50">
-        {title}
+      <h1 className="absolute flex-col w-full h-full text-3xl text-white font-bold rounded-xl flex items-center justify-center dark:bg-black/60 bg-black/50">
+        <h1>{title}</h1>
+        <p className='text-base font-light'>{description}</p>
       </h1>
 
       <Image

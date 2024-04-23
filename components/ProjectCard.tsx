@@ -37,7 +37,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
   return (
-    <div onClick={onOpen} className={`my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end relative`}>
+    <div onClick={onOpen} className={`my-5 sm:w-[341px] rounded-xl shadow-2xl transition w-full justify-end relative cursor-pointer`}>
       
       <Image width={340} height={180}
         src={`${banner}`} 

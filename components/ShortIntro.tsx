@@ -19,7 +19,7 @@ const ShortIntro = () => {
       </h1>
 
       <p className="font-normal text-color-text leading-relaxed">
-        Freelance Web & Mobile Developer, Former Silicon Valley Intern, Apple Developer Awardee, Former AI/ML Researcher @L&D Hospital, UK and {' '}
+        Freelance Web & Mobile Developer, Former Silicon Valley Intern, Apple Developer Awardee, Former AI/ML Researcher @L&D, UK and {' '}
         <Link className="text-primary-600 font-medium sm:font-normal hover:underline underline-offset-4" href={'/about'}>more...</Link>
       </p>
 
