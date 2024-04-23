@@ -11,7 +11,9 @@ const ShortIntro = () => {
 
       <h1 className='text-4xl py-3 sm:text-5xl font-medium'>
         <span>I develop </span>
-          <span className={title({color:'green'})}>full-stack</span>
+          <span className='
+            bg-gradient-to-r from-[#1cbc56] to-[#1cbc56] dark:from-[#6dd9c9] dark:to-[#68fd81] py-1 bg-cover bg-clip-text text-transparent font-semibold
+          '>full-stack</span>
           <span> softwares that people <span className={title({color: 'pink'})}>love.</span>
         </span>
       </h1>
