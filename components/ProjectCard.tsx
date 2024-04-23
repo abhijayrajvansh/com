@@ -109,9 +109,9 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
                     href={visitLink}
                     color="danger"
                     as={Link}
-                    variant="solid"
+                    variant="flat"
                   >
-                    <div className="flex items-center gap-2 font-normal text-white">
+                    <div className="flex items-center gap-2 font-normal">
                       <FaLink />
                       Visit
                     </div>
@@ -119,13 +119,13 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
 
                   <Button
                     size="sm"
-                    color="success"
+                    color="primary"
                     className="text-sm "
                     href={blogLink}
                     as={Link}
                     variant="solid"
                   >
-                    <div className="flex items-center gap-2 font-normal text-black">
+                    <div className="flex items-center gap-2 font-normal">
                       <MdOutlineArticle size={21} />
                       Blog
                     </div>
@@ -133,7 +133,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
 
                   <Button
                     size="sm"
-                    className="text-sm py-4 border border-gray-500 bg-black "
+                    className="text-sm py-4 border border-gray-500 bg-[#0f162a] "
                     isExternal={true}
                     color="default"
                     href={githubLink}
