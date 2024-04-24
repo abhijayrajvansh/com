@@ -55,6 +55,7 @@ const Resume = () => {
             companyName={experiencesData.company.unacademy.companyName}
             companyLocation={experiencesData.company.unacademy.companyLocation}
             description={experiencesData.company.unacademy.description}
+            showBorder={false}
           />
 
         <h1 className="text-3xl font-semibold my-10 yellow-text-bg-gradient">Relevant Coursework</h1>
@@ -64,6 +65,7 @@ const Resume = () => {
           position={experiencesData.company.metaCourse.course}
           companyName={experiencesData.company.metaCourse.companyName}
           description={experiencesData.company.metaCourse.description}
+          showBorder={false}
         />
 
         <ExperienceCard 
@@ -71,6 +73,7 @@ const Resume = () => {
           position={experiencesData.company.CS50Course.course}
           companyName={experiencesData.company.CS50Course.companyName}
           description={experiencesData.company.CS50Course.description}
+          showBorder={false}
         />
 
         <ExperienceCard 
@@ -78,6 +81,7 @@ const Resume = () => {
           position={experiencesData.company.redhatCourse.course}
           companyName={experiencesData.company.redhatCourse.companyName}
           description={experiencesData.company.redhatCourse.description}
+          showBorder={false}
         />
 
         </main>

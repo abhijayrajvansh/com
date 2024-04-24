@@ -8,13 +8,15 @@ interface ExperienceCardProps {
   companyName: string,
   companyLocation?: string,
   description?: string[],
+  showBorder?: boolean,
 }
 
-const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, endDate, position, companyName, companyLocation, description}) => {
+const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, endDate, position, companyName, companyLocation, description, showBorder = true}) => {
   return (
     <div className="flex gap-3 sm:gap-5">
 
-      <div className={`border border-default-400 relative left-10 sm:left-12`}></div>
+      {showBorder && <div className={`border-l border-default-400 relative left-10 sm:left-12`}></div>}
+      {!showBorder && <div className={`border-l border-background relative left-10 sm:left-12`}></div>}
       
       <div className="min-w-[56px] z-10">
         <Image height={56} width={56} 
