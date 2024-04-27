@@ -9,7 +9,7 @@ const Banner = () => {
   return (
       <>
         <Tooltip size={'sm'} 
-          showArrow content={`AI generated myself in a cyberpunk world!`}
+          showArrow content={`AI generated myself in a metaverse!`}
           placement="bottom" 
           color="foreground">
           
