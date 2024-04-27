@@ -1,6 +1,7 @@
 import { siteConfig, tweets } from "@/config/site";
 import { Button, Link } from "@nextui-org/react";
 import Image from "next/image";
+import avatar from "@/public/images/abhijayrajvansh-avatar.png";
 
 interface twitterProps {
   tilt: string,
@@ -15,7 +16,13 @@ const Twitter: React.FC<twitterProps> = ({ tilt }) => {
 
          <div className="flex items-center w-full justify-between">
           <div className="flex items-center gap-3">
-            <Image className="rounded-full" width={40} height={40} src="/abhijay-rajvansh-software-best-software-engineer.png" alt="/twitterpfp" />
+            <Image 
+              className="rounded-full" 
+              width={40} height={40} 
+              src={avatar}
+              alt="ar-avatar"
+              placeholder="blur"
+            />
 
             <div className="flex flex-col">
               <p className="font-semibold text-sm text-white">Abhijay Rajvansh</p>
