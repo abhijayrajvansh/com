@@ -14,7 +14,7 @@ const Services = () => {
         
         <Thumbnail 
           title="Full-Stack"
-          description="e-commerce, cms & ai agents"
+          description="e-commerce, saas & ai agents"
           videosrc="/videos/fullstack-thumbnail.mp4" 
           imgsrc='/videos/fullstack-thumbnail.png'
         />
