@@ -94,7 +94,7 @@ const About = () => {
               <br />
               <span>
 				When I&apos;m not coding, I spend my time trading, reading about
-				finance & geopolitics, watching arthouse movies and I play chess.
+				finance & user psychology, watching arthouse movies and I play chess.
 			  </span>
             </p>
 
