@@ -93,16 +93,18 @@ const About = () => {
               <br />
               <br />
               <span>
-				When I&apos;m not coding, I spend my time trading, reading about
-				finance & user psychology, watching arthouse movies and I play chess.
-			  </span>
+              When I&apos;m not coding, I spend my time trading, reading about
+              finance & user psychology, watching arthouse movies and I play chess.
+              </span>
             </p>
 
             <p className="text-default-700 font-medium">
               p.s. i&apos;m an artist who aims for his art to leave behind a
               lasting legacy!
             </p>
+            
             <DigitalHandSign />
+
           </div>
 
           <div className="my-10">

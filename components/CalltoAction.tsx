@@ -7,7 +7,7 @@ const CalltoAction = () => {
     <div className="text-color-text">
       For work enquiries you can{" "}
       <Link href={siteConfig.links.email} className="text-primary-500 font-medium hover:underline underline-offset-4">
-        Email
+        e-mail
       </Link>{" "}
       me or you can DM on{" "}
       <Link
@@ -17,9 +17,8 @@ const CalltoAction = () => {
       >
         𝕏
       </Link>{" "}
-      , I&apos;m always interested in exploring potential opportunities and collaborations.
-	  <br /> <br />
-	  Looking forward to having a discussion with you.
+      , I&apos;m always interested in exploring potential opportunities and collaborations. 
+      <br /> <br /> Looking forward to having a discussion with you.
     </div>
   )
 }
