@@ -18,21 +18,20 @@ const Header = () => {
   return (
     <section className="flex items-center justify-between px-5 py-5 sm:pl-0 sm:ml-[110px] lg:ml-[230px]">
       
-      <div className="transition rounded-xl border border-background hover:border-blue-500 shadow-all shadow-blue-600">
+      <div className="transition rounded-xl border border-background hover:border-blue-600 shadow-lg shadow-blue-600">
+        
         <Dropdown backdrop="blur" >
           <DropdownTrigger>
             <Button variant="flat" color="primary" isIconOnly className="dark:text-white"> <RxHamburgerMenu size={20}/> </Button>
           </DropdownTrigger>
           
           <DropdownMenu aria-label="Static Actions" >
-            <DropdownSection title='Actions' showDivider >
-              
-              <DropdownItem onClick={ handleTheme }>Go {theme === 'light' ? 'Dark' : 'Light'}</DropdownItem>
             
+            <DropdownSection title='Actions' showDivider >
+              <DropdownItem onClick={ handleTheme }>Go {theme === 'light' ? 'Dark' : 'Light'}</DropdownItem>    
             </DropdownSection>
 
             <DropdownSection title='Social Links'  >
-
               <DropdownItem>X</DropdownItem>
               <DropdownItem>Linkedin</DropdownItem>
               <DropdownItem>Email</DropdownItem>
