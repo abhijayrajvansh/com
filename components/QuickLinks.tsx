@@ -1,6 +1,6 @@
 'use client';
 
-import { Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownSection, DropdownItem } from "@nextui-org/react";
+import { Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownSection, DropdownItem, Link } from "@nextui-org/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useTheme } from "next-themes";
 
@@ -20,14 +20,11 @@ const QuickLinks = () => {
 
   return (
     <div className="transition rounded-xl border border-background hover:border-blue-600 hover:border-blur">
-        
         <Dropdown backdrop="blur" size="lg">
           <DropdownTrigger>
             <Button variant="flat" isIconOnly className="dark:text-white dark:bg-primary-100"> <RxHamburgerMenu size={20}/> </Button>
           </DropdownTrigger>
-          
           <DropdownMenu aria-label="Static Actions" >
-            
             <DropdownSection title='Actions' showDivider >
               <DropdownItem onClick={ handleTheme }>
                 <div className="flex items-center gap-5">
@@ -36,42 +33,42 @@ const QuickLinks = () => {
                 </div>
               </DropdownItem>    
             </DropdownSection>
-
             <DropdownSection title='Social Links'>
-
               <DropdownItem className="my-1">
-                <div className="flex items-center gap-5">
+                
+                <Link isExternal color="foreground" href={siteConfig.links.twitter} className="flex items-center gap-5">
                   <FaXTwitter size={20}/> 
                   <p className="text-[16px]">Twitter</p>
-                </div>
-              </DropdownItem>
+                </Link>
 
+              </DropdownItem>
               <DropdownItem className="my-1">
-                <div className="flex items-center gap-5">
+                
+                <Link isExternal color="foreground" href={siteConfig.links.github} className="flex items-center gap-5">
                   <FaGithub size={20}/> 
                   <p className="text-[16px]">Github</p>
-                </div>
+                </Link>
+              
               </DropdownItem>
-
               <DropdownItem className="my-1">
-                <div className="flex items-center gap-5">
+              
+                <Link isExternal color="foreground" href={siteConfig.links.linkedin} className="flex items-center gap-5">
                   <FaLinkedin size={20}/> 
                   <p className="text-[16px]">LinkedIn</p>
-                </div>
+                </Link>
+              
               </DropdownItem> 
-
               <DropdownItem className="mt-1">
-                <div className="flex items-center gap-5">
+              
+                <Link color="foreground" href={siteConfig.links.email} className="flex items-center gap-5">
                   <MdEmail size={20}/> 
                   <p className="text-[16px]">E-mail</p>
-                </div>
+                </Link>
+              
               </DropdownItem> 
             </DropdownSection>
-
           </DropdownMenu>
-        
         </Dropdown>
-
       </div>
   )
 }

@@ -31,19 +31,7 @@ const Projects = () => {
                 blogLink={siteConfig.blogs.twitter.link}
                 githubLink={siteConfig.projects.twitter.sourceCodeLink}
               />
-
-              <ProjectCard 
-                banner={siteConfig.projects.twitter.banner}
-                logo={siteConfig.projects.twitter.logo}
-                title={siteConfig.projects.twitter.title}
-                description='this is a sample description for thr project card from recent project page, good going!!'
-                nextjs react supabse drizzle shadcn reacticnons typescript node
-                visitLink={siteConfig.projects.twitter.liveProjectLink}
-                blogLink={siteConfig.blogs.twitter.link}
-                githubLink={siteConfig.projects.twitter.sourceCodeLink}
-              />
-
-
+              
             </div>
 
 
