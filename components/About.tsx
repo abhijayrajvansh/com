@@ -10,6 +10,7 @@ import Spotify from "./Spotify";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
 import { Link } from "@nextui-org/react";
+import Newsletter from "./Newsletter";
 
 const About = () => {
   return (

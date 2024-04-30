@@ -10,6 +10,9 @@ import { siteConfig } from "@/config/site";
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import TechnicalSkills from "./TechnicalSkills";
+import SocialConnections from "./SocialConnections";
+import SocialLinks from "./SocialLinks";
+import Twitter from "./Twitter";
 
 
 const Blog = () => {
@@ -76,8 +79,9 @@ const Blog = () => {
 
         <div className="flex flex-col">
           {/* adding technical skills makes the width same from home, about ... */}
-          {/* <TechnicalSkills />  */}
-          <Newsletter tilt="left" />
+          <TechnicalSkills /> 
+          <Twitter tilt="right"/>
+          <SocialConnections tilt="left"/>
           <ThanksNote tilt='right' />
         </div>
       
