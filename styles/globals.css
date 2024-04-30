@@ -43,6 +43,9 @@
   .blue-text-bg-gradient {
     @apply bg-gradient-to-r from-blue-500 to-[#9584ff] dark:from-[#9584ff] dark:to-[#87d1f1] py-1 bg-cover bg-clip-text text-transparent
   }
+  .border-blur {
+    box-shadow: 0 0 15px 1px rgba(104, 171, 249, 1);
+  }
 }
 
 /* debugging border classes */
