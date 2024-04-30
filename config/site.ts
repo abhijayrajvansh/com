@@ -42,7 +42,7 @@ export const siteConfig = {
 };
 
 export const technicalSkills = [
-	'Next.js',
+	'Next.js with SSR',
 	'React & React Native', 
 	'Typescript & Javascript',
 	'C/C++ & Java',
