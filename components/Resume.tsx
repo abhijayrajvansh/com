@@ -4,6 +4,8 @@ import NotesCard from "./NotesCard";
 import { experiencesData, languages, technicalSkills, technicalTools } from "@/config/site";
 import ThanksNote from "./ThanksNote";
 import ExperienceCard from "./ExperienceCard";
+import SocialLinks from "./SocialLinks";
+import SocialConnections from "./SocialConnections";
 
 const Resume = () => {
   return (
@@ -92,6 +94,7 @@ const Resume = () => {
           <NotesCard title="Technical Skills" elements={technicalSkills} tilt="right"/>
           <NotesCard title="Tools" elements={technicalTools} tilt="left"/>
           <NotesCard title="Languages" elements={languages} tilt="right"/>
+          <SocialConnections tilt="right" />
           <ThanksNote tilt="left" />
         </div>
       </div>
