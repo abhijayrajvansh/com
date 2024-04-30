@@ -3,7 +3,6 @@
 import { PiHouse, PiSuitcase } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import Link from "next/link";
-import { siteConfig } from "@/config/site";
 import { usePathname } from "next/navigation";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
