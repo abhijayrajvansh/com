@@ -70,7 +70,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
             { supabse && <RiSupabaseFill className="text-green-500" /> }
             { drizzle && <Image height={39} width={39} src="/drizzle.png" alt="drizzleLogo"/>}
             { shadcn && <Image height={25} width={25} src="/shadcn.png" alt="shadcnlogo" />}
-            { reacticnons && <Image height={25} width={25} src="/react-icons.svg" alt="reacticonslogo" />}
+            { reacticnons && <Image height={21} width={21} src="/react-icons.svg" alt="reacticonslogo" />}
             { typescript && <SiTypescript className="text-[#3075C1]" />}
             { node && <IoLogoNodejs className="text-green-600" />}
           </div>
