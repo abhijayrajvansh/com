@@ -9,6 +9,8 @@ import { MdOutlineArticle } from "react-icons/md";
 import { RiBookMarkLine } from "react-icons/ri";
 import Image from "next/image";
 import avatar from '@/public/images/abhijayrajvansh-avatar.png';
+import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
+
 
 // navigation tab routes
 const NAVIGATION_DATA = [
@@ -30,7 +32,7 @@ const NAVIGATION_DATA = [
   },
   {
     pageTitle: 'Resume',
-    pageIcon: PiSuitcase
+    pageIcon: PiSuitcaseSimpleDuotone
   },
   {
     pageTitle: 'Guestbook',
