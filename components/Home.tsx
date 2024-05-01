@@ -21,7 +21,9 @@ const Home = () => {
 	const [isLoading, setIsLoading  ] = useState(true);
 
 	useEffect(() => {
-		setIsLoading(false);
+		setTimeout(() => {
+			setIsLoading(false);
+		}, 2000)
 	}, []);
 
 	return (
