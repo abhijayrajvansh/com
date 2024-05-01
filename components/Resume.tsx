@@ -1,11 +1,10 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import NotesCard from "./NotesCard";
-import { experiencesData, languages, technicalSkills, technicalTools } from "@/config/site";
 import ThanksNote from "./ThanksNote";
 import ExperienceCard from "./ExperienceCard";
-import SocialLinks from "./SocialLinks";
 import SocialConnections from "./SocialConnections";
+import { experiencesData, languages, technicalSkills, technicalTools } from "@/config/site";
 
 const Resume = () => {
   return (
@@ -18,6 +17,16 @@ const Resume = () => {
         <main className="contentWrapper mb-20">
         
           <h1 className="text-4xl font-bold mb-10 blue-text-bg-gradient">Career & Expertise.</h1>
+
+          <ExperienceCard 
+            companyLogo={experiencesData.company.upwork.companyLogo}
+            startDate={experiencesData.company.upwork.startDate}
+            endDate={experiencesData.company.upwork.endDate}
+            position={experiencesData.company.upwork.position}
+            companyName={experiencesData.company.upwork.companyName}
+            companyLocation={experiencesData.company.upwork.companyLocation}
+            description={experiencesData.company.upwork.description}
+          />
 
           <ExperienceCard 
             companyLogo={experiencesData.company.bling.companyLogo}

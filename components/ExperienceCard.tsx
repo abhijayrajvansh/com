@@ -20,7 +20,7 @@ const ExperienceCard:React.FC<ExperienceCardProps> = ({companyLogo, startDate, e
       
       <div className="min-w-[56px] z-10">
         <Image height={56} width={56} 
-          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-4 border-yellow-400 shadow-lg shadow-warning-400/50 customShadow' : 'border-4 border-default-300'}`} src={companyLogo} alt="companyLogo" />
+          className={`h-14 rounded-xl ${endDate === 'Present' ? 'border-3 border-yellow-400 border-blur-yellow' : 'border-3 border-default-300'}`} src={companyLogo} alt="companyLogo" />
       </div>
       
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10">

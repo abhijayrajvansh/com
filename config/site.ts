@@ -90,8 +90,21 @@ export const tweets = {
 
 export const experiencesData = {
 	company : {
+		upwork : {
+			companyLogo: "/logo/upwork.jpeg",
+			startDate: "Mar 2024",
+			endDate: "Present",
+			position: "Sr. Software Engineer",
+			companyName: "Upwork · Freelance",
+			companyLocation: "Worldwide · Remote",
+			description : [
+				`Successfully served over 20+ clients worldwide.`,
+				`Developed saas with dynamic frontends and scalable backends, worked on authentication and authorization services, AI Integration, e-commerce & landing pages.`,
+				"Expertise: AI Saas, Web3, Frontend, Backend, iOS, DBMS, DevOps, Cloud & UI/UX.",
+			]
+		},
 		bling : {
-			companyLogo: "/bling.jpeg",
+			companyLogo: "/logo/bling.jpeg",
 			startDate: "Feb 2023",
 			endDate: "Nov 2023",
 			position: "Software Engineer Intern",
@@ -106,7 +119,7 @@ export const experiencesData = {
 		},
 
 		appleDeveloperProgram : {
-			companyLogo: "/apple.jpeg",
+			companyLogo: "/logo/apple.jpeg",
 			startDate: "Oct 2022",
 			endDate: "Nov 2022",
 			position: "iOS Software Engineer Trainee",
@@ -120,7 +133,7 @@ export const experiencesData = {
 		},
 
 		nhs : {
-			companyLogo: "/nhs.png",
+			companyLogo: "/logo/nhs.png",
 			startDate: "Jul 2022",
 			endDate: "Oct 2022",
 			position: "Undergraduate AI/ML Researcher",
@@ -134,7 +147,7 @@ export const experiencesData = {
 		},
 
 		unacademy : {
-			companyLogo: "/unacademy.jpeg",
+			companyLogo: "/logo/unacademy.jpeg",
 			startDate: "Mar 2022",
 			endDate: "Oct 2022",
 			position: "Educator & Teaching Assistant",
@@ -146,25 +159,24 @@ export const experiencesData = {
 			]
 		},
 
-
 		// coursework & certifications
 
 		metaCourse : {
 			InstituteLogo: "/logo/meta.jpeg",
-			course: "Prompt Engineering with Llama 2",
-			companyName: "Meta",
-			description : ['Skills: Generative AI, Llama 2-b, Code Llama, Prompt Engineering, LLMs Training']
+			course: "Llama Prompt Engineering",
+			companyName: "Meta | Meta AI & Deep learning",
+			description : ['Skills: Generative AI,Llama 3, Llama 2-b, Code Llama, Prompt Engineering, LLMs Training']
 		},
 		
 		CS50Course : {
-			InstituteLogo: "/cs50.jpeg",
+			InstituteLogo: "/logo/cs50.jpeg",
 			course: "Harvard's CS50: Introduction to Computer Science",
 			companyName: "Harvard University | CS50",
 			description : ['Skills: c/c++, Software Development, Computer Science, Python (Programming Language), Algorithms, Data Structures']
 		},
 
 		redhatCourse : {
-			InstituteLogo: "/redhat.jpeg",
+			InstituteLogo: "/logo/redhat.jpeg",
 			course: "Fundamentals of Red Hat Enterprise Linux",
 			companyName: "RedHat",
 			description : ['Skills: Linux and different distros, Shell Scripting, Computer Science, Bash, Zsh, Red Hat Enterprise Linux & Linux Tools.']

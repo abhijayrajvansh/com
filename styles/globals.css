@@ -46,6 +46,9 @@
   .border-blur {
     box-shadow: 0 0 15px 1px rgba(104, 171, 249, 1);
   }
+  .border-blur-yellow {
+    box-shadow: 0 0 10px 1px rgba(232, 249, 104, 0.598);
+  }
 }
 
 /* debugging border classes */
