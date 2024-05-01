@@ -20,7 +20,7 @@ const QuickLinks = () => {
 
   return (
     <div className="transition rounded-xl border border-background hover:border-blue-600 hover:border-blur">
-        <Dropdown backdrop="blur" size="lg">
+        <Dropdown backdrop="blur">
           <DropdownTrigger>
             <Button variant="flat" isIconOnly className="dark:text-white dark:bg-primary-100"> <RxHamburgerMenu size={20}/> </Button>
           </DropdownTrigger>
