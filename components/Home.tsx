@@ -13,27 +13,11 @@ import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
 import Services from "./Services";
-import { useEffect, useState } from "react";
-import PreLoader from "./PreLoader";
 
 const Home = () => {
 
-	const [isLoading, setIsLoading  ] = useState(true);
-
-	useEffect(() => {
-		setTimeout(() => {
-			setIsLoading(false);
-		}, 2000)
-	}, []);
-
 	return (
 			<>
-			{
-				isLoading && 
-				<div className="absolute z-30 w-full">
-					<PreLoader />
-				</div>
-			}
 				<section className="wrapper">
 					<Header />
 					<NavigationTab />
