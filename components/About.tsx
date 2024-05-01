@@ -75,7 +75,7 @@ const About = () => {
               </span>{", "}
 
               just like painting was for Leonardo Da Vinci. 
-              I focus research & developing{" "}
+              I focus on research & developing{" "}
               <Link className="embeddedLinks text-primary-500" href="/projects">
                 optimized solutions
               </Link>{" "}
