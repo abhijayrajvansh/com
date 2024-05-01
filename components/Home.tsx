@@ -36,16 +36,16 @@ const Home = () => {
 						
 					<section>
 						<Newsletter tilt="left" />
+						
+						<SocialConnections tilt="right" />
 
 						<TechnicalSkills />
 						
 						<Twitter tilt="right"/>
 						
 						<Spotify tilt="left"/>
-
-						<SocialConnections	 tilt="right" />
 						
-						<ThanksNote tilt="left" />
+						<ThanksNote tilt="right" />
 					</section>
 					
 				</div>
