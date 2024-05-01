@@ -1,8 +1,8 @@
 interface AchievementCardProps {
-  tilt: string,
   title: string,
   thumbnail: string,
   position: string,
+  tilt: string,
 }
 
 const AchievementCard:React.FC<AchievementCardProps> = ({thumbnail, tilt, position, title}) => {

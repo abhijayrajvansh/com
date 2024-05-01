@@ -11,12 +11,14 @@ import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
 import { Link } from "@nextui-org/react";
 import Newsletter from "./Newsletter";
+import AchievementCard from "./AchievementCard";
 
 const About = () => {
   return (
     <section className="wrapper">
       <Header />
       <NavigationTab />
+
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
           <h1 className="text-4xl font-bold mb-10 pink-text-bg-gradient w-fit ">
@@ -112,12 +114,26 @@ const About = () => {
               Let&apos;s Connect!
             </h1>
             <CalltoAction />
-            
           </div>
+
+          {/* <div className="my-10">
+            <h1 className="text-3xl font-semibold my-2 green-text-bg-gradient">
+              Awards & Achievements
+            </h1>
+            
+            <AchievementCard
+              title="achievement title"
+              thumbnail="bg-[url('/cn.webp')]"
+              position="always winner"
+              tilt="left"
+            />
+
+          </div> */}
+
         </div>
 
         <section>
-          {/* <Newsletter tilt="left" /> */}
+        {/* <Newsletter tilt="left" /> */}
           <TechnicalSkills />
           <Twitter tilt="left" />
           <Spotify tilt="right" />
