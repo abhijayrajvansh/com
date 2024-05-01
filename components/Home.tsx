@@ -1,7 +1,6 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import RecentProjects from "./RecentProjects";
-import Awwwards from "@/components/Awwwards";
 import ShortIntro from "@/components/ShortIntro";
 import FeaturedArticles from "./FeaturedArticles";
 import Banner from "@/components/Banner"
