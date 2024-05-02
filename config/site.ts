@@ -63,6 +63,7 @@ export const technicalTools = [
 	"Kubernetes",
 	"Supabase & other BAAS",
 	"AWS",
+	'Xcode, iOS tools & simulators',
 	'Expo',
 	"Figma",
 ]
