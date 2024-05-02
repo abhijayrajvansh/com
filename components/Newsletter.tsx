@@ -29,7 +29,9 @@ const Newsletter: React.FC<NewsletterProps> = ({tilt}) => {
 
         <h3 className="text-xl sm:text-lg">Newsletter comming soon!</h3>
 
-        <p className="font-normal text-[#94A3B8] text-sm sm:text-xs text-center">Follow my journey, I write about tech, my experiences and more.</p>
+        <p className="font-normal text-color-text text-sm sm:text-xs text-center">
+          Get remote job offers, freelancing advice & top developer tips with The Rajvansh Times.
+        </p>
         
         <input disabled className="rounded-full bg-default/30 border border-default-300/50 px-4 text-sm w-full py-2 sm:py-1 font-light" 
           type="email" placeholder="enter your email..." />
@@ -39,7 +41,7 @@ const Newsletter: React.FC<NewsletterProps> = ({tilt}) => {
          size="sm"
          color="primary"
          isDisabled
-         > Subscribe!</Button>
+         > YES PLEASE!</Button>
 
       </div>
     </div>
