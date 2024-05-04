@@ -6,6 +6,7 @@ import SocialConnections from "./SocialConnections";
 import ThanksNote from "./ThanksNote";
 import ProjectCard from "./ProjectCard";
 import { siteConfig } from "@/config/site";
+import TechnicalSkills from "./TechnicalSkills";
 
 const Projects = () => {
   return (
@@ -40,7 +41,7 @@ const Projects = () => {
         </main>
 
         <section>
-          <Newsletter tilt="left" />
+          <TechnicalSkills />
           <Twitter tilt="right" />
           <SocialConnections tilt="left" />
           <ThanksNote tilt="right" />

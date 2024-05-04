@@ -1,7 +1,10 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Subscription from "./EngagementSection";
-import CalltoAction from "./CalltoAction";
+import Newsletter from "./Newsletter";
+import Twitter from "./Twitter";
+import SocialConnections from "./SocialConnections";
+import ThanksNote from "./ThanksNote";
+import TechnicalSkills from "./TechnicalSkills";
 
 const Guestbook = () => {
   return (
@@ -18,7 +21,14 @@ const Guestbook = () => {
           ...comments!
 
         </main>
-        <Subscription />
+
+        <section>
+          <Newsletter tilt="left" />
+          <TechnicalSkills />
+          <Twitter tilt="left" />
+          <SocialConnections tilt="right" />
+          <ThanksNote tilt="left" />
+        </section>
       </div>
       
     </section>
