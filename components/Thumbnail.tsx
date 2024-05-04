@@ -23,7 +23,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ title, description, vid
     <div
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="relative w-full sm:w-[336px] h-48 mb-7 overflow-hidden"
+      className="relative w-full sm:w-[336px] h-48 mb-7 overflow-hidden shadow-xl rounded-xl"
     >
       <div className="absolute flex-col w-full h-full text-3xl text-white font-bold rounded-xl flex items-center justify-center dark:bg-black/60 bg-black/50">
         <h1>{title}</h1>
