@@ -32,7 +32,7 @@ const Services = () => {
 
         <Thumbnail 
           title="Blockchain"
-          description="dapps, defi & wallets"
+          description="dapps, nfts, defi & wallets"
           videosrc="/videos/blockchain-thumbnail.mp4" 
           imgsrc='/videos/blockchain-thumbnail.png'
         />
