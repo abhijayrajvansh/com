@@ -1,9 +1,8 @@
 'use client';
 
-import SocialLinks from "./SocialLinks";
 import { Button } from "@nextui-org/react";
 import { Link } from "@nextui-org/react";
-import { RiBookMarkLine } from "react-icons/ri";
+import { RiBookmarkLine } from "react-icons/ri";
 import QuickLinks from "./QuickLinks";
 
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
           variant="solid" 
           color="primary"
           className="font-medium sm:py-3">
-          <RiBookMarkLine size={21} /> sign my guestbook!
+          <RiBookmarkLine size={21} /> sign my guestbook!
         </Button>
 
     </section>

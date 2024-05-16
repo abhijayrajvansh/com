@@ -1,6 +1,6 @@
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
-import { RiBookMarkLine } from "react-icons/ri";
+import { RiBookmarkLine } from "react-icons/ri";
 
 
 interface ThanksNoteProps {
@@ -21,7 +21,7 @@ const ThanksNote: React.FC<ThanksNoteProps> = ({tilt}) => {
           as={Link}
           size="sm"
           variant="solid" >
-          <RiBookMarkLine size={21}/>Sign my guestbook!
+          <RiBookmarkLine size={21}/>Sign my guestbook!
         </Button>
       </div>
 

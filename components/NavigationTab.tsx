@@ -1,15 +1,15 @@
 'use client';
 
-import { PiHouse, PiSuitcase } from "react-icons/pi";
+import { PiHouse } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
-import { RiBookMarkLine } from "react-icons/ri";
+import { RiBookmarkLine } from "react-icons/ri";
+import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
+import Link from "next/link";
 import Image from "next/image";
 import avatar from '@/public/images/abhijayrajvansh-avatar.png';
-import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
 
 
 // navigation tab routes
@@ -36,7 +36,7 @@ const NAVIGATION_DATA = [
   },
   {
     pageTitle: 'Guestbook',
-    pageIcon: RiBookMarkLine
+    pageIcon: RiBookmarkLine
   },
 ]
 
