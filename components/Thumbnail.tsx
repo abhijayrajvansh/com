@@ -44,7 +44,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ title, description, vid
         loop
         muted
         playsInline
-        webkit-playsinline
+        webkit-playsinline='true'
         className={`absolute top-0 left-0 w-full h-full object-cover rounded-xl transition-opacity duration-500 ${
           isHovered ? 'opacity-100' : 'opacity-0'
         }`}

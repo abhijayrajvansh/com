@@ -11,7 +11,6 @@ const Services = () => {
 
       <div className="flex flex-col sm:flex-row sm:space-x-7">
 
-        
         <Thumbnail 
           title="Full-Stack"
           description="e-commerce, saas & ai agents"

@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "@nextui-org/react";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import CalltoAction from "./CalltoAction";
@@ -9,9 +10,7 @@ import Twitter from "./Twitter";
 import Spotify from "./Spotify";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
-import { Link } from "@nextui-org/react";
-import Newsletter from "./Newsletter";
-import AchievementCard from "./AchievementCard";
+
 
 const About = () => {
   return (
@@ -32,7 +31,7 @@ const About = () => {
               autoPlay
               loop
               playsInline
-              webkit-playsinline
+              webkit-playsinline='true'
             ></video>
           </div>
 
