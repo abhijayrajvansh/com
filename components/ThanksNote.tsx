@@ -1,7 +1,4 @@
-import { Button } from "@nextui-org/react";
-import Link from "next/link";
-import { BiSolidBookHeart } from "react-icons/bi";
-
+import GuestbookBtn from "./GuestbookBtn";
 
 interface ThanksNoteProps {
   tilt: string,
@@ -16,13 +13,9 @@ const ThanksNote: React.FC<ThanksNoteProps> = ({tilt}) => {
         
         <h3 className="bg-gradient-to-r from-[#df9599] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#fdfc81] py-1 bg-cover bg-clip-text text-transparent font-bold text-2xl sm:text-xl">Gald to have you here.</h3>
 
-        <Button className="text-xs bg-primary-400 hover:bg-primary-300 font-medium text-white"
-          href="/guestbook"
-          as={Link}
-          size="sm"
-          variant="solid" >
-          <BiSolidBookHeart size={21}/>Sign my guestbook!
-        </Button>
+        
+        <GuestbookBtn />
+
       </div>
 
     </div>
