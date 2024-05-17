@@ -2,7 +2,7 @@
 
 import { Button } from "@nextui-org/react";
 import { Link } from "@nextui-org/react";
-import { RiBookmarkLine } from "react-icons/ri";
+import { BiSolidBookHeart } from "react-icons/bi";
 import QuickLinks from "./QuickLinks";
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
           variant="solid" 
           color="primary"
           className="font-medium sm:py-3">
-          <RiBookmarkLine size={21} /> sign my guestbook!
+          <BiSolidBookHeart size={21} /> sign my guestbook!
         </Button>
       
     </section>

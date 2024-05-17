@@ -5,7 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 import { FiUser } from "react-icons/fi";
 import { MdOutlineArticle } from "react-icons/md";
-import { RiBookmarkLine } from "react-icons/ri";
+import { BiBookHeart } from "react-icons/bi";
 import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
@@ -36,7 +36,7 @@ const NAVIGATION_DATA = [
   },
   {
     pageTitle: 'Guestbook',
-    pageIcon: RiBookmarkLine
+    pageIcon: BiBookHeart
   },
 ]
 
