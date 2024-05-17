@@ -28,12 +28,12 @@ const config: Config = {
       themes: {
         light: {
           colors: {
-            background: "#FFFDF9", // or DEFAULT FFFAED F5E9D3 FFFDF9 FFFFFF(white) f4f4f4(greyish white)
+            background: "#FFFFFF", // or DEFAULT FFFAED F5E9D3 FFFDF9 FFFFFF(white) f4f4f4(greyish white)
             foreground: "#11181C", // or 50 to 900 DEFAULT
             
             // gradient
             projectCardTop: "white",
-            projectCardBotttom: "#f4f4f4",
+            projectCardBotttom: "white",
 
             // hover dark layer
             hoverdarkbg: "#0F182A",

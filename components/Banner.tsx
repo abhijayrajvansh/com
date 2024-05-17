@@ -15,7 +15,7 @@ const Banner = () => {
           
           <Image
             width={700} height={225}
-            className='hidden sm:block rounded-2xl w-full shadow-lg'
+            className='hidden sm:block rounded-2xl w-full shadow-md'
             placeholder="blur"
             src={desktopBanner}
             alt="abhijay_as_curioustoddler_in_the_cyberworld"
@@ -28,7 +28,7 @@ const Banner = () => {
           src={mobileBanner}
           placeholder="blur"
           alt="ai_generated_abhijay_in_cyberworld" 
-          className='sm:hidden rounded-lg w-full shadow-lg'
+          className='sm:hidden rounded-lg w-full shadow-md'
         />
 
       </>
