@@ -3,7 +3,6 @@
 import { Button, Dropdown, DropdownTrigger, DropdownMenu, DropdownSection, DropdownItem, Link } from "@nextui-org/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useTheme } from "next-themes";
-
 import { siteConfig } from "@/config/site";
 import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
