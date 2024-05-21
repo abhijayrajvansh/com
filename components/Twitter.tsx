@@ -9,10 +9,10 @@ interface twitterProps {
 
 const Twitter: React.FC<twitterProps> = ({ tilt }) => {
   return (
-    <div
-      className={`ml-7 mb-7 shadow-md rounded-xl mr-5 transition relative sm:ml-[116px] lg:ml-7 sm:w-[650px] lg:max-w-[300px] flex items-center justify-center border border-default-200/50 bg-gradient-to-b from-projectCardTop to-projectCardBotttom`}
-    >
-      <div className="w-full rounded-xl backdrop-blur-2xl flex flex-col items-start space-y-3 p-4">
+    <div className="w-full px-4 sm:ml-2">
+      <div
+        className={`flex flex-col gap-4 rounded-xl p-4 font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-default-200/50 mb-5 shadow-md bg-gradient-to-b from-projectCardTop to-projectCardBotttom transition py-4`}
+      >
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center gap-3">
             <Image
@@ -40,13 +40,16 @@ const Twitter: React.FC<twitterProps> = ({ tilt }) => {
           </Button>
         </div>
 
-        <p className=" text-base sm:text-sm">{tweets.post.tweet}</p>
+        <div className="text-base flex justify-start font-normal sm:text-sm">
+          <p>{tweets.post.tweet}</p>
+        </div>
 
         <div className="flex items-center justify-start text-sm text-color-text">
           <p>
             {tweets.post.time} · {tweets.post.date}
           </p>
         </div>
+   
       </div>
     </div>
   );
