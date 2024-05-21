@@ -1,6 +1,5 @@
 "use client";
 
-import { Link } from "@nextui-org/react";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import CalltoAction from "./CalltoAction";
@@ -10,6 +9,7 @@ import Twitter from "./Twitter";
 import Spotify from "./Spotify";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
+import Link from "next/link";
 
 
 const About = () => {
