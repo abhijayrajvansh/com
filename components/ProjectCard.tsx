@@ -42,7 +42,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
       <Image width={336} height={180}
         src={`${banner}`} 
         alt="project-banner" 
-        className="absolute w-full -z-10 rounded-xl"
+        className="absolute w-full h-full -z-10 rounded-xl"
       />
       
       <div className="flex flex-col rounded-xl shadow-lg">
