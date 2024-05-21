@@ -80,7 +80,7 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
       </div>
 
       <Modal isOpen={isOpen} onOpenChange={onOpenChange} backdrop="blur" isDismissable={false} classNames={{
-        closeButton: "scale-150 sm:scale-125",
+        closeButton: "scale-125 sm:scale-125",
         base: "bg-background"
       }}>
         
