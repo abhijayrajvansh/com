@@ -4,11 +4,7 @@ import Image from "next/image";
 import { Slider } from "@nextui-org/react";
 import { songs } from "@/config/site";
 
-interface SpotifyProps {
-  tilt: string;
-}
-
-const Spotify: React.FC<SpotifyProps> = ({ tilt }) => {
+const Spotify = ({ }) => {
   return (
     <div
       className={`ml-7 mb-7 shadow-xl rounded-xl min-h-[300px] mr-5 transition relative sm:ml-[116px] lg:ml-7 sm:w-[650px] lg:max-w-[300px] flex items-center justify-center bg-[url('/podcast/tgvae.jpeg')] bg-no-repeat bg-center`}

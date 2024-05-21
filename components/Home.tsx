@@ -3,7 +3,7 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import RecentProjects from "./RecentProjects";
-import ShortIntro from "@/components/ShortIntro";
+import Bio from "@/components/Bio";
 import FeaturedArticles from "./FeaturedArticles";
 import Banner from "@/components/Banner";
 import Newsletter from "./Newsletter";
@@ -24,7 +24,7 @@ const Home = () => {
           <main className="contentWrapper">
             <Banner />
 
-            <ShortIntro />
+            <Bio />
 
             <FeaturedArticles />
 
@@ -34,15 +34,11 @@ const Home = () => {
           </main>
 
           <section>
-            <Newsletter tilt="left" />
-
-            <SocialConnections tilt="right" />
-
+            <Newsletter />
+            <SocialConnections />
             <TechnicalSkills />
-
-            <Twitter tilt="right" />
-
-            <ThanksNote tilt="left" />
+            <Twitter />
+            <ThanksNote />
           </section>
         </div>
       </section>

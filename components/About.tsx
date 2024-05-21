@@ -10,7 +10,7 @@ import Spotify from "./Spotify";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
 import Link from "next/link";
-
+import Awwwards from "./Awwwards";
 
 const About = () => {
   return (
@@ -31,7 +31,7 @@ const About = () => {
               autoPlay
               loop
               playsInline
-              webkit-playsinline='true'
+              webkit-playsinline="true"
             ></video>
           </div>
 
@@ -45,38 +45,31 @@ const About = () => {
             </h2>
 
             <p className="text-color-text mb-3">
-              In today&apos;s rapidly evolving
-              tech landscape, staying ahead is a big challenge. Product Hunt and
-              HubSpot introduce new features every day, while AI is being
-              incorporated into EVERYTHING. If you&apos;re staying the same,
-              you&apos;re falling behind.
-
+              In today&apos;s rapidly evolving tech landscape, staying ahead is
+              a big challenge. Product Hunt and HubSpot introduce new features
+              every day, while AI is being incorporated into EVERYTHING. If
+              you&apos;re staying the same, you&apos;re falling behind.
               <br />
               <br />
-
               That&apos;s where I come in. I love helping individuals transform
               their ideas into fully operational digital products. With my
-              
               <span className="text-default-700 font-medium">
                 {" "}
                 4+ years of experience{" "}
               </span>
-              
-              in the industry both as a freelance software developer and as a technical consultant, 
-              I provide actionable guidance, offer practical
-              solutions and even bridge the gap for those who need non-tech
-              support.
-              
+              in the industry both as a freelance software developer and as a
+              technical consultant, I provide actionable guidance, offer
+              practical solutions and even bridge the gap for those who need
+              non-tech support.
               <br />
               <br />
-             
               For me,{" "}
               <span className="text-default-700 font-medium">
                 software engineering is an art
-              </span>{", "}
-
-              just like painting was for Leonardo Da Vinci. 
-              I focus on research & developing{" "}
+              </span>
+              {", "}
+              just like painting was for Leonardo Da Vinci. I focus on research
+              & developing{" "}
               <Link className="embeddedLinks text-primary-500" href="/projects">
                 optimized solutions
               </Link>{" "}
@@ -94,8 +87,9 @@ const About = () => {
               <br />
               <br />
               <span>
-              When I&apos;m not coding, I spend my time trading, reading about
-              finance & user psychology, watching arthouse movies and I play chess.
+                When I&apos;m not coding, I spend my time trading, reading about
+                finance & user psychology, watching arthouse movies and I play
+                chess.
               </span>
             </p>
 
@@ -103,9 +97,8 @@ const About = () => {
               p.s. i&apos;m an artist who aims for his art to leave behind a
               lasting legacy!
             </p>
-            
-            <DigitalHandSign />
 
+            <DigitalHandSign />
           </div>
 
           <div className="my-10">
@@ -115,29 +108,17 @@ const About = () => {
             <CalltoAction />
           </div>
 
-          {/* <div className="my-10">
-            <h1 className="text-3xl font-semibold my-2 green-text-bg-gradient">
-              Awards & Achievements
-            </h1>
-            
-            <AchievementCard
-              title="achievement title"
-              thumbnail="bg-[url('/cn.webp')]"
-              position="always winner"
-              tilt="left"
-            />
-
-          </div> */}
+          {/* <Awwwards /> */}
 
         </div>
 
         <section>
-        {/* <Newsletter tilt="left" /> */}
+          {/* <Newsletter /> */}
           <TechnicalSkills />
-          <Twitter tilt="left" />
-          <Spotify tilt="right" />
-          <SocialConnections tilt="left" />
-          <ThanksNote tilt="right" />
+          <Twitter />
+          <Spotify />
+          <SocialConnections />
+          <ThanksNote />
         </section>
       </div>
     </section>

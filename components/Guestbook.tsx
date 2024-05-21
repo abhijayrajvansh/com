@@ -23,11 +23,11 @@ const Guestbook = () => {
         </main>
 
         <section>
-          <Newsletter tilt="left" />
+          {/* <Newsletter /> */}
           <TechnicalSkills />
-          <Twitter tilt="left" />
-          <SocialConnections tilt="right" />
-          <ThanksNote tilt="left" />
+          <Twitter />
+          <SocialConnections  />
+          <ThanksNote />
         </section>
       </div>
       

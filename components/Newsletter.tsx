@@ -53,7 +53,7 @@ const Newsletter = () => {
           {" "}
           YES PLEASE!
         </Button>
-        <p className="text-sm sm:text-xs font-normal text-color-text">only valueable content, even i hate spams!</p>
+        <p className="text-sm sm:text-xs font-normal text-color-text">No spam, ever. Only valueable content!</p>
       </div>
     </div>
   );

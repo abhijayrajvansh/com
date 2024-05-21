@@ -3,11 +3,7 @@ import { Button, Link } from "@nextui-org/react";
 import Image from "next/image";
 import avatar from "@/public/images/abhijayrajvansh-avatar.png";
 
-interface twitterProps {
-  tilt: string;
-}
-
-const Twitter: React.FC<twitterProps> = ({ tilt }) => {
+const Twitter = () => {
   return (
     <div className="w-full px-4 sm:ml-2">
       <div

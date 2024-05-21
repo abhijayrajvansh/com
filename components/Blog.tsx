@@ -14,7 +14,6 @@ import SocialConnections from "./SocialConnections";
 import SocialLinks from "./SocialLinks";
 import Twitter from "./Twitter";
 
-
 const Blog = () => {
   const [tabContent, setTabContent] = useState("lat");
 
@@ -29,40 +28,46 @@ const Blog = () => {
 
       <div className="pageWrapper sm:my-10">
         <main className="contentWrapper">
-          <h1 className="text-4xl font-bold mb-10 yellow-text-bg-gradient ">Stories & Coding.</h1>
-
+          <h1 className="text-4xl font-bold mb-10 yellow-text-bg-gradient ">
+            Stories & Coding.
+          </h1>
 
           <div className="flex flex-col items-start">
-
             <ButtonGroup radius="sm" variant="flat" size="sm">
-              
               <Button
                 color={tabContent === "lat" ? "primary" : "default"}
-                onClick={() => handleTabContent("lat")}>
+                onClick={() => handleTabContent("lat")}
+              >
                 Latest
               </Button>
 
               <Button
                 color={tabContent === "prog" ? "success" : "default"}
-                onClick={() => handleTabContent("prog")}>
+                onClick={() => handleTabContent("prog")}
+              >
                 Programming
               </Button>
 
               <Button
                 color={tabContent === "tut" ? "warning" : "default"}
-                onClick={() => handleTabContent("tut")}>
+                onClick={() => handleTabContent("tut")}
+              >
                 Tutorials
               </Button>
-
             </ButtonGroup>
 
             <AddGap vertical="1" />
 
             {tabContent === "lat" ? (
               <div className="p-2 pl-0 rounded-xl w-full">
-                
-                <BlogCard thumbnail={siteConfig.blogs.twitter.thumbnail} date={siteConfig.blogs.twitter.date} timeToRead={siteConfig.blogs.twitter.timeToRead} title={siteConfig.blogs.twitter.title} description={siteConfig.blogs.twitter.description} link={siteConfig.blogs.twitter.link} />
-
+                <BlogCard
+                  thumbnail={siteConfig.blogs.twitter.thumbnail}
+                  date={siteConfig.blogs.twitter.date}
+                  timeToRead={siteConfig.blogs.twitter.timeToRead}
+                  title={siteConfig.blogs.twitter.title}
+                  description={siteConfig.blogs.twitter.description}
+                  link={siteConfig.blogs.twitter.link}
+                />
               </div>
             ) : tabContent === "prog" ? (
               <div className="p-2 rounded-xl w-full">
@@ -73,18 +78,16 @@ const Blog = () => {
                 <p>tutorials</p>
               </div>
             )}
-
           </div>
         </main>
 
-        <div className="flex flex-col">
-          {/* adding technical skills makes the width same from home, about ... */}
-          <TechnicalSkills /> 
-          <Twitter tilt="right"/>
-          <SocialConnections tilt="left"/>
-          <ThanksNote tilt='right' />
-        </div>
-      
+        <section>
+          {/* <Newsletter /> */}
+          <TechnicalSkills />
+          <Twitter />
+          <SocialConnections />
+          <ThanksNote />
+        </section>
       </div>
     </section>
   );
