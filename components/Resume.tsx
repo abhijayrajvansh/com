@@ -98,13 +98,14 @@ const Resume = () => {
 
         </main>
 
-        <div className="flex flex-col mt-10">
+        <section>
           <NotesCard title="Technical Skills" elements={technicalSkills} />
           <NotesCard title="Tools" elements={technicalTools} />
           <NotesCard title="Languages" elements={languages} />
           <SocialConnections  />
           <ThanksNote  />
-        </div>
+        </section>
+        
       </div>
       
     </section>
