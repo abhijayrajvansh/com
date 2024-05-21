@@ -4,7 +4,8 @@ import NotesCard from "./NotesCard";
 import ThanksNote from "./ThanksNote";
 import ExperienceCard from "./ExperienceCard";
 import SocialConnections from "./SocialConnections";
-import { experiencesData, languages, technicalSkills, technicalTools } from "@/config/site";
+import { languages, technicalSkills, technicalTools } from "@/config/site";
+import { experiencesData } from "@/config/resume-config";
 
 const Resume = () => {
   return (
