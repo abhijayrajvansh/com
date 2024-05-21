@@ -4,6 +4,8 @@ import { siteConfig } from "@/config/site";
 import { Inter } from "next/font/google";
 import { Providers } from "./provider";
 import { Bricolage_Grotesque } from "next/font/google";
+import Header from "@/components/Header";
+import NavigationTab from "@/components/NavigationTab";
 
 const inter = Inter({ subsets: ["latin"] });
 const myFont = Bricolage_Grotesque({ subsets: ["latin"] });
@@ -34,7 +36,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${myFont.className}`}>
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );
