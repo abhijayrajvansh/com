@@ -15,7 +15,6 @@ const FeaturedArticles = () => {
 
       <BlogCard 
         thumbnail={siteConfig.blogs.twitter.thumbnail} 
-        date={siteConfig.blogs.twitter.date} 
         timeToRead={siteConfig.blogs.twitter.timeToRead} 
         title={siteConfig.blogs.twitter.title} 
         description={siteConfig.blogs.twitter.description} 

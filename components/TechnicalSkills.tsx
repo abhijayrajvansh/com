@@ -5,7 +5,7 @@ import NotesCard from "./NotesCard";
 const TechnicalSkills = () => {
   return (
     <div>
-      <NotesCard title="Technical Skills" elements={technicalSkills} tilt="right"/>
+      <NotesCard title="Technical Skills" elements={technicalSkills} />
     </div>
   )
 }
