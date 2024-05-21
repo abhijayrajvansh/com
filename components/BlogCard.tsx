@@ -5,14 +5,13 @@ import Image from "next/image";
 
 interface BlogCardProps {
   thumbnail: string, 
-  date: string,
   timeToRead: string, 
   title: string, 
   description: string,
   link: string,
 }
 
-const BlogCard:React.FC<BlogCardProps> = ({thumbnail, date, timeToRead, title, description, link}) => {
+const BlogCard:React.FC<BlogCardProps> = ({thumbnail, timeToRead, title, description, link}) => {
 
 
   return (
@@ -29,7 +28,7 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, date, timeToRead, title, d
 
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
-            <p className="text-sm text-color-text"><span className="text-primary-500"> — </span>{date} · {timeToRead}</p>
+            <p className="text-sm text-color-text"><span className="text-primary-500"> — </span> {timeToRead}</p>
 
             <Link href={link}><FaLink className="size-5 text-primary-600" /></Link>
 

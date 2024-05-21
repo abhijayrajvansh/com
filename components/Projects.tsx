@@ -41,10 +41,10 @@ const Projects = () => {
         </main>
 
         <section>
+          <Twitter  />
           <TechnicalSkills />
-          <Twitter tilt="right" />
-          <SocialConnections tilt="left" />
-          <ThanksNote tilt="right" />
+          <SocialConnections  />
+          <ThanksNote />
         </section>
         
       </div>
