@@ -28,7 +28,7 @@ const Home = () => {
 
             <FeaturedArticles />
 
-            {/* <Services /> */}
+            <Services />
 
             <RecentProjects />
           </main>

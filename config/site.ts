@@ -41,12 +41,12 @@ export const siteConfig = {
 };
 
 export const technicalSkills = [
-	'Next.js with SSR',
+	'Next.js',
 	'React & React Native', 
 	'Typescript & Javascript',
-	'Node.js, Express.js & Bun', 
-	'Serverless Architecture',
+	'Node.js Express.js', 
 	'SQL & NoSQL',
+	'Serverless Architecture',
 	'Apollo GraphQL & tRPC', 
 	'Generative AI & LLMs',
 	'DevSecOps, CI/CD & Monitoring',

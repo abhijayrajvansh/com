@@ -14,7 +14,7 @@ const NotesCard:React.FC<NotesCardProps> = ({title, elements }) => {
 
         {
           elements.map((element, index) => (
-            <p key={index} className="text-sm space-x-3 mt-4"><span className="text-primary-500">—</span><span>{element}</span></p>
+            <p key={index} className="text-sm space-x-3 mt-4"><span className="primary-text">—</span><span>{element}</span></p>
           ))
         }
 
