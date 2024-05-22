@@ -108,7 +108,7 @@
 
   /* gradient shades */
   .cardTop-BottomGradient {
-    @apply bg-gradient-to-b from-[#131A31] to-[#1C2638]
+    @apply dark:bg-gradient-to-b dark:from-[#131A31] dark:to-[#1C2638] bg-gradient-to-b from-white to-[#f4f4f4]
   }
 }
 
