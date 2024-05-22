@@ -8,7 +8,7 @@ const Twitter = () => {
   return (
     <div className="w-full px-4 sm:ml-2">
       <div
-        className={`flex flex-col gap-4 rounded-xl p-4 font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-default-200/50 mb-5 shadow-md bg-gradient-to-b from-projectCardTop to-projectCardBotttom transition py-4`}
+        className={`flex flex-col gap-4 rounded-xl p-4 font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-border mb-5 shadow-md cardTop-BottomGradient transition py-4`}
       >
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center gap-3">
@@ -28,11 +28,10 @@ const Twitter = () => {
           </div>
           <Button
             asChild
-            
             size="sm"
-            className="dark:bg-white dark:text-black text-white bg-sky-500 font-medium rounded-full px-3"
+            className="dark:bg-white text-xs dark:text-black text-white bg-blue-500 font-medium rounded-full px-3"
           >
-            <Link href={siteConfig.links.twitter}>Follow</Link>
+            <Link target="_black" rel="noopener noreferer" href={siteConfig.links.twitter}>Follow</Link>
           </Button>
         </div>
 

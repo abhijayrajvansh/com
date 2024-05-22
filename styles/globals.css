@@ -60,7 +60,7 @@
 }
 
 @layer components {
-  /* Page Structure */
+  /* page structure */
   .wrapper {
     @apply w-screen h-full max-w-screen-xl
   }
@@ -84,7 +84,7 @@
     @apply dark:text-[#66AAF9] text-[#2570EE]
   }
 
-  /* Gradient text Heading */
+  /* gradient text heading */
   .pink-text-bg-gradient {
     @apply bg-gradient-to-r from-[#fd81c1] to-[#bc80e7] py-1 bg-cover bg-clip-text text-transparent
   }
@@ -97,11 +97,18 @@
   .blue-text-bg-gradient {
     @apply bg-gradient-to-r from-blue-500 to-[#9584ff] dark:from-[#9584ff] dark:to-[#87d1f1] py-1 bg-cover bg-clip-text text-transparent
   }
+
+  /* shadow spread */
   .border-blur {
     box-shadow: 0 0 15px 1px rgba(104, 171, 249, 1);
   }
   .border-blur-yellow {
     box-shadow: 0 0 10px 1px rgba(232, 249, 104, 0.598);
+  }
+
+  /* gradient shades */
+  .cardTop-BottomGradient {
+    @apply bg-gradient-to-b from-[#131A31] to-[#1C2638]
   }
 }
 
