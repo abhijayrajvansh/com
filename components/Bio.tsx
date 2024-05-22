@@ -5,7 +5,7 @@ const ShortIntro = () => {
     <div className="space-y-5 font-medium">
       <p className="text-xl space-x-2 mt-10">
         Hi, I&apos;m
-        <span className={`font-medium text-primary-600`}>
+        <span className={`font-medium primary-text`}>
           {" "}
           Abhijay Rajvansh
         </span>
@@ -31,7 +31,7 @@ const ShortIntro = () => {
         Freelance Web & Mobile Developer, Former Silicon Valley Intern, Apple
         Developer Awardee, Former AI/ML Researcher @L&D, UK and{" "}
         <Link
-          className="text-primary-600 font-medium sm:font-normal hover:underline underline-offset-4"
+          className="primary-text font-medium sm:font-normal hover:underline underline-offset-4"
           href={"/about"}
         >
           more...

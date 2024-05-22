@@ -7,12 +7,6 @@ import { RiSupabaseFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
 import Image from "next/image";
-import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure } from "@nextui-org/react";
-
-import { Link } from "@nextui-org/react";
-import { FaGithub } from "react-icons/fa";
-import { FaLink } from "react-icons/fa";
-import { MdOutlineArticle } from "react-icons/md";
 
 interface ProjectCardProps {
   logo: string, 
@@ -34,10 +28,9 @@ interface ProjectCardProps {
 
 const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, description, nextjs, react, supabse, drizzle, shadcn, reacticnons, typescript, node, visitLink, githubLink, blogLink}) => {
 
-  const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
   return (
-    <div onClick={onOpen} className={`my-5 sm:w-[336px] rounded-xl shadow-2xl transition w-full justify-end relative cursor-pointer`}>
+    <div className={`my-5 sm:w-[336px] rounded-xl shadow-2xl transition w-full justify-end relative cursor-pointer`}>
       
       <Image width={336} height={180}
         src={`${banner}`} 
@@ -78,80 +71,6 @@ const ProjectCard:React.FC<ProjectCardProps> = ({ banner, logo, title, descripti
         </div>
 
       </div>
-
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange} backdrop="blur" isDismissable={false} classNames={{
-        closeButton: "scale-125 sm:scale-125",
-        base: "bg-background"
-      }}>
-        
-        <ModalContent>
-          
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex flex-col gap-1 text-2xl">{title}</ModalHeader>
-              
-              <ModalBody>
-                
-                <p className="text-color-text"> 
-                  {description}
-                </p>
-
-              </ModalBody>
-              
-              <ModalFooter>
-              
-
-                <div className="flex justify-start gap-5 mb-2 w-full">
-                  <Button
-                    size="sm"
-                    className="text-sm"
-                    isExternal={true}
-                    href={visitLink}
-                    color="danger"
-                    as={Link}
-                    variant="flat"
-                  >
-                    <div className="flex items-center gap-2 font-normal">
-                      <FaLink />
-                      Visit
-                    </div>
-                  </Button>
-
-                  <Button
-                    size="sm"
-                    color="primary"
-                    className="text-sm "
-                    href={blogLink}
-                    as={Link}
-                    variant="solid"
-                  >
-                    <div className="flex items-center gap-2 font-normal">
-                      <MdOutlineArticle size={21} />
-                      Blog
-                    </div>
-                  </Button>
-
-                  <Button
-                    size="sm"
-                    className="text-sm py-4 border border-gray-500 bg-[#0f162a] "
-                    isExternal={true}
-                    color="default"
-                    href={githubLink}
-                    as={Link}
-                    variant="solid"
-                  >
-                    <div className="flex items-center gap-2 font-normal text-white">
-                      <FaGithub size={18} />
-                      GitHub
-                    </div>
-                  </Button>
-  
-                </div>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
-      </Modal>
     </div>
   );
 };

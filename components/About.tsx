@@ -6,7 +6,6 @@ import CalltoAction from "./CalltoAction";
 import TechnicalSkills from "./TechnicalSkills";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
-import Spotify from "./Spotify";
 import DigitalHandSign from "./DigitalHandSign";
 import SocialConnections from "./SocialConnections";
 import Link from "next/link";
@@ -116,7 +115,7 @@ const About = () => {
           {/* <Newsletter /> */}
           <TechnicalSkills />
           <Twitter />
-          <Spotify />
+          {/* spotify card */}
           <SocialConnections />
           <ThanksNote />
         </section>

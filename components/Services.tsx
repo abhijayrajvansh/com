@@ -39,7 +39,7 @@ const Services = () => {
       </div>
 
       <div className="text-md my-5 font-light flex gap-1"> 
-          <span className="text-danger-500 font-semibold">pitch: <span className="text-default-900 font-light">I&apos;m good at <span className="text-default-900 font-semibold">figuring things out</span>, that&apos;s my biggest flex!</span></span>
+          <span className="text-pink-500 font-semibold">pitch:</span> <span className="text-default-900 font-light">I&apos;m good at <span className="font-semibold">figuring things out</span>!</span>
       </div>
 
     </div>

@@ -2,10 +2,8 @@ import "@/styles/globals.css";
 import type { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
 import { Inter } from "next/font/google";
-import { Providers } from "./provider";
+import { ThemeProvider } from "@/components/theme-provider";
 import { Bricolage_Grotesque } from "next/font/google";
-import Header from "@/components/Header";
-import NavigationTab from "@/components/NavigationTab";
 
 const inter = Inter({ subsets: ["latin"] });
 const myFont = Bricolage_Grotesque({ subsets: ["latin"] });
@@ -21,13 +19,6 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "background" },
-    { media: "(prefers-color-scheme: dark)", color: "background" },
-  ],
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,9 +27,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${myFont.className}`}>
-        <Providers>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
-        </Providers>
+        </ThemeProvider>
       </body>
     </html>
   );

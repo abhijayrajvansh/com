@@ -32,14 +32,13 @@ const RecentProjects = () => {
 
 
 
-        
 
       </div>
 
 
       <div className="text-md font-light flex gap-1 mb-10"> 
         <p>View all my projects on the</p>
-        <Link className="text-primary-600 font-medium hover:underline underline-offset-4" href={'/projects'}>projects page.</Link>
+        <Link className="primary-text font-medium hover:underline underline-offset-4" href={'/projects'}>projects page.</Link>
       </div>
     </div>
   )

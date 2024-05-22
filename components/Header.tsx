@@ -1,14 +1,12 @@
 import GuestbookBtn from "./GuestbookBtn";
-import QuickLinks from "./QuickLinks";
+import { ModeToggle } from "./ModeToggle";
 
 const Header = () => {
 
   return (
     <section className="flex items-center justify-between px-5 py-5 sm:pl-0 sm:ml-[110px] lg:ml-[230px]">
-      
-      <QuickLinks />
+      <ModeToggle />
       <GuestbookBtn />
-    
     </section>
   )
 }

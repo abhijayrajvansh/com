@@ -15,7 +15,7 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, timeToRead, title, descrip
 
 
   return (
-    <div className="border-t border-b border-default/50 py-1">
+    <div className="border-t border-b border-border py-1">
       <AddGap vertical="2" />
       <div className="flex gap-5 items-center">
 
@@ -28,9 +28,9 @@ const BlogCard:React.FC<BlogCardProps> = ({thumbnail, timeToRead, title, descrip
 
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
-            <p className="text-sm text-color-text"><span className="text-primary-500"> — </span> {timeToRead}</p>
+            <p className="text-sm text-color-text"><span className="primary-text"> — </span> {timeToRead}</p>
 
-            <Link href={link}><FaLink className="size-5 text-primary-600" /></Link>
+            <Link href={link}><FaLink className="size-5 primary-text" /></Link>
 
           </div>
 

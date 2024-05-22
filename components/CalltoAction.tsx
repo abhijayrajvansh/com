@@ -1,5 +1,6 @@
 import { siteConfig } from "@/config/site";
-import { Link } from "@nextui-org/react";
+import Link from "next/link";
+
 
 
 const CalltoAction = () => {
@@ -11,7 +12,6 @@ const CalltoAction = () => {
       </Link>{" "}
       me or you can DM on{" "}
       <Link
-        isExternal
         href={siteConfig.links.twitter}
         className="text-primary-500 text-xl font-bold hover:underline underline-offset-4"
       >

@@ -1,17 +1,20 @@
-import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import { BiSolidBookHeart } from "react-icons/bi";
+import { Button } from "./ui/button";
 
 const GuestbookBtn = () => {
   return (
-    <Button className="text-xs bg-primary-400 hover:bg-primary-300 font-medium text-white"
-      href="/guestbook"
-      as={Link}
+    <Button
+      asChild
+      className="text-xs font-medium text-white"
       size="sm"
-      variant="solid" >
-      <BiSolidBookHeart size={21}/>Sign my guestbook!
+    >
+      <Link href="/guestbook" className="space-x-2">
+        <BiSolidBookHeart size={21} />
+        <p>Sign my guestbook!</p>
+      </Link>
     </Button>
-  )
-}
+  );
+};
 
 export default GuestbookBtn;

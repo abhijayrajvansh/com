@@ -35,9 +35,6 @@ const Projects = () => {
               
             </div>
 
-
-
-
         </main>
 
         <section>

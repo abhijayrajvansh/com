@@ -1,7 +1,8 @@
 import { siteConfig, tweets } from "@/config/site";
-import { Button, Link } from "@nextui-org/react";
 import Image from "next/image";
 import avatar from "@/public/images/abhijayrajvansh-avatar.png";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Twitter = () => {
   return (
@@ -26,13 +27,12 @@ const Twitter = () => {
             </div>
           </div>
           <Button
-            as={Link}
-            isExternal
-            href={siteConfig.links.twitter}
+            asChild
+            
             size="sm"
             className="dark:bg-white dark:text-black text-white bg-sky-500 font-medium rounded-full px-3"
           >
-            Follow
+            <Link href={siteConfig.links.twitter}>Follow</Link>
           </Button>
         </div>
 

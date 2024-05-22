@@ -22,7 +22,7 @@ const FeaturedArticles = () => {
       />
 
       <p className="font-light mt-3">Read more on my{" "}
-        <Link className="text-primary-600 font-normal hover:underline underline-offset-4" href={'/blog'}>blogs page.
+        <Link className="primary-text font-normal hover:underline underline-offset-4" href={'/blog'}>blogs page.
         </Link>
       </p>
 

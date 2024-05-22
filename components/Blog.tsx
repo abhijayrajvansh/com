@@ -1,6 +1,5 @@
 "use client";
 
-import { Button, ButtonGroup } from "@nextui-org/react";
 import AddGap from "./AddGap";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
@@ -33,28 +32,7 @@ const Blog = () => {
           </h1>
 
           <div className="flex flex-col items-start">
-            <ButtonGroup radius="sm" variant="flat" size="sm">
-              <Button
-                color={tabContent === "lat" ? "primary" : "default"}
-                onClick={() => handleTabContent("lat")}
-              >
-                Latest
-              </Button>
-
-              <Button
-                color={tabContent === "prog" ? "success" : "default"}
-                onClick={() => handleTabContent("prog")}
-              >
-                Programming
-              </Button>
-
-              <Button
-                color={tabContent === "tut" ? "warning" : "default"}
-                onClick={() => handleTabContent("tut")}
-              >
-                Tutorials
-              </Button>
-            </ButtonGroup>
+             {/* button group and tab goes here */}
 
             <AddGap vertical="1" />
 
