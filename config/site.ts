@@ -75,13 +75,6 @@ export const languages = [
 	"French",
 ]
 
-export const songs = {
-	podcast: {
-		songThumbnail: "/podcast/tgvae.jpeg",
-		songTitle: "The GaryVee Audio Experience",
-	},
-}
-
 export const tweets = {
 	post: {
 		tweet: "ai will never replace software engineers.",
