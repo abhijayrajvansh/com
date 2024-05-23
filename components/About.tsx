@@ -37,7 +37,7 @@ const About = () => {
           <div>
             <h2 className="mb-3 text-md">
               Let&apos;s start with
-              <span className="text-xl text-default-700 font-semibold">
+              <span className="text-xl text-highlighted-text font-semibold">
                 {" "}
                 &apos;Why?&apos;
               </span>
@@ -52,7 +52,7 @@ const About = () => {
               <br />
               That&apos;s where I come in. I love helping individuals transform
               their ideas into fully operational digital products. With my
-              <span className="text-default-700 font-medium">
+              <span className="text-highlighted-text font-medium">
                 {" "}
                 4+ years of experience{" "}
               </span>
@@ -63,23 +63,23 @@ const About = () => {
               <br />
               <br />
               For me,{" "}
-              <span className="text-default-700 font-medium">
+              <span className="text-highlighted-text font-medium">
                 software engineering is an art
               </span>
               {", "}
               just like painting was for Leonardo Da Vinci. I focus on research
               & developing{" "}
-              <Link className="embeddedLinks text-primary-500" href="/projects">
+              <Link className="embeddedLinks primary-text" href="/projects">
                 optimized solutions
               </Link>{" "}
               rather than just copying-pasting code. I&apos;m always curious
               about the{" "}
-              <span className="text-default-700 font-medium">
+              <span className="text-highlighted-text font-medium">
                 algorithms & UI/UX
               </span>{" "}
               and I also love educating fellow developers about technology and
               programming through writing{" "}
-              <Link className="embeddedLinks text-primary-500" href="/blog">
+              <Link className="embeddedLinks primary-text" href="/blog">
                 blogs
               </Link>{" "}
               in my free time.
@@ -92,7 +92,7 @@ const About = () => {
               </span>
             </p>
 
-            <p className="text-default-700 font-medium">
+            <p className="text-highlighted-text font-medium">
               p.s. i&apos;m an artist who aims for his art to leave behind a
               lasting legacy!
             </p>

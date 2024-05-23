@@ -32,7 +32,7 @@ export const siteConfig = {
 	blogs: {
 		twitter: {
 			title: "Twitter 𝕏 Fullstack Clone",
-			description: "I build a full stack clone of 𝕏 to practice the backend jargon especially how API calls are done on a platform with large user base",
+			description: "I built a full stack clone of twitter/𝕏 to practice the backend jargon especially how API calls are done on a platform with a large user base.",
 			thumbnail: "/xLogo.jpeg",
 			timeToRead: "2 MIN READ",
 			link: "/blog/full-stack-twitter-clone",

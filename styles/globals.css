@@ -76,10 +76,12 @@
   .text-color-text {
     @apply dark:text-[#94A3B8] text-[#64748B]
   }
+  .text-highlighted-text {
+    @apply dark:text-white text-black
+  }
   .embeddedLinks {
     @apply font-medium hover:underline underline-offset-4
   }
-
   .primary-text {
     @apply dark:text-[#66AAF9] text-[#2570EE]
   }
