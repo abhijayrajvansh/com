@@ -1,5 +1,5 @@
 import Resume from "@/components/Resume";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,7 +18,7 @@ const page = () => {
     <section>
       <Resume />
     </section>
-  )
-}
+  );
+};
 
 export default page;

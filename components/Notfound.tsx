@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 
 const Notfound = () => {
   return (

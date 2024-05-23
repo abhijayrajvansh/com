@@ -15,7 +15,7 @@ import {
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import Link from "next/link";
 import { MdEmail } from "react-icons/md";
 

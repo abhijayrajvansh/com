@@ -1,13 +1,14 @@
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import Link from "next/link";
-
-
 
 const CalltoAction = () => {
   return (
     <div className="text-color-text">
       For work enquiries you can{" "}
-      <Link href={siteConfig.links.email} className="primary-text font-medium hover:underline underline-offset-4">
+      <Link
+        href={siteConfig.links.email}
+        className="primary-text font-medium hover:underline underline-offset-4"
+      >
         e-mail
       </Link>{" "}
       me or you can DM on{" "}
@@ -17,10 +18,11 @@ const CalltoAction = () => {
       >
         𝕏
       </Link>{" "}
-      , I&apos;m always interested in exploring potential opportunities and collaborations. 
+      , I&apos;m always interested in exploring potential opportunities and
+      collaborations.
       <br /> <br /> Looking forward to having a discussion with you.
     </div>
-  )
-}
+  );
+};
 
 export default CalltoAction;

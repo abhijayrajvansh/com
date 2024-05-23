@@ -1,7 +1,6 @@
 import Blog from "@/components/Blog";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import { Metadata } from "next";
-
 
 export const metadata: Metadata = {
   title: {
@@ -14,11 +13,8 @@ export const metadata: Metadata = {
   },
 };
 
-
 const page = () => {
-  return (
-    <Blog />
-  )
-}
+  return <Blog />;
+};
 
 export default page;

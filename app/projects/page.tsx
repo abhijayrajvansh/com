@@ -1,7 +1,6 @@
 import Projects from "@/components/Projects";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import { Metadata } from "next";
-
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +18,7 @@ const page = () => {
     <section className="wrapper">
       <Projects />
     </section>
-  )
-}
+  );
+};
 
 export default page;

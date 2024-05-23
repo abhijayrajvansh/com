@@ -1,4 +1,4 @@
-import { siteConfig, tweets } from "@/config/site";
+import { siteConfig, tweets } from "@/config/site.config";
 import Image from "next/image";
 import avatar from "@/public/images/abhijayrajvansh-avatar.png";
 import { Button } from "./ui/button";
@@ -31,7 +31,13 @@ const Twitter = () => {
             size="sm"
             className="dark:bg-white text-xs dark:text-black text-white bg-blue-500 font-medium rounded-full px-3"
           >
-            <Link target="_black" rel="noopener noreferer" href={siteConfig.links.twitter}>Follow</Link>
+            <Link
+              target="_black"
+              rel="noopener noreferer"
+              href={siteConfig.links.twitter}
+            >
+              Follow
+            </Link>
           </Button>
         </div>
 
@@ -44,7 +50,6 @@ const Twitter = () => {
             {tweets.post.time} · {tweets.post.date}
           </p>
         </div>
-   
       </div>
     </div>
   );

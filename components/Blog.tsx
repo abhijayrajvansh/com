@@ -5,7 +5,7 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import { useState } from "react";
 import BlogCard from "@/components/BlogCard";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import TechnicalSkills from "./TechnicalSkills";
@@ -32,7 +32,7 @@ const Blog = () => {
           </h1>
 
           <div className="flex flex-col items-start">
-             {/* button group and tab goes here */}
+            {/* button group and tab goes here */}
 
             <AddGap vertical="1" />
 

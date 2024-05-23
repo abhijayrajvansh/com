@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { Metadata } from "next";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Bricolage_Grotesque } from "next/font/google";
 

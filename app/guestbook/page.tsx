@@ -1,5 +1,5 @@
 import Guestbook from "@/components/Guestbook";
-import { siteConfig } from "@/config/site";
+import { siteConfig } from "@/config/site.config";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,9 +14,7 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-  return (
-    <Guestbook />
-  )
-}
+  return <Guestbook />;
+};
 
 export default page;
