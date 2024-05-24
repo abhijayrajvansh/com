@@ -1,15 +1,16 @@
 export const technicalSkills = [
-	'Next.js',
+	'Next.js with Server Actions',
 	'React & React Native', 
 	'Typescript & Javascript',
-	'Node.js Express.js', 
+	'Node (Express.js)', 
+	'Serverless Architecture',	
 	'SQL & NoSQL',
-	'Serverless Architecture',
 	'Apollo GraphQL & tRPC', 
 	'Generative AI & LLMs',
+	'AI Agents & Automation Bots',
 	'DevSecOps, CI/CD & Monitoring',
 	'iOS Swift & UIkit', 
-	'Bash, C/C++, Rust & GO',
+	'C/C++, Python, Rust & GO',
 	'Product Design & UI/UX',
 	'Data Structures & Algorithms',
 ]
@@ -17,6 +18,7 @@ export const technicalSkills = [
 export const technicalTools = [
 	"Git",
 	"AWS",
+	"Linux",
 	"Docker",
 	"Kubernetes",
 	"Prisma",
