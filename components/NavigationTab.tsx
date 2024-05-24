@@ -4,7 +4,7 @@ import { PiHouse } from "react-icons/pi";
 import { FaReact } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 import { FiUser } from "react-icons/fi";
-import { MdOutlineArticle } from "react-icons/md";
+import { RiArticleLine } from "react-icons/ri";
 import { BiBookHeart } from "react-icons/bi";
 import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
 import Link from "next/link";
@@ -22,7 +22,7 @@ const NAVIGATION_DATA = [
   },
   {
     pageTitle: "Blog",
-    pageIcon: MdOutlineArticle,
+    pageIcon: RiArticleLine,
   },
   {
     pageTitle: "Projects",
