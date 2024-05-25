@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <>
       <section className="wrapper">
-        <Header />
         <NavigationTab />
+        <Header />
 
         <div className="pageWrapper">
           <main className="contentWrapper">

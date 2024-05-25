@@ -55,7 +55,7 @@ const NavigationTab = () => {
               alt="abhijay-rajvansh-pfp"
             />
 
-            <div className="hidden lg:block text-[11px]">
+            <div className="hidden xl:block text-[11px]">
               <p className="primary-text font-medium text-sm">
                 Abhijay Rajvansh
               </p>
@@ -86,7 +86,7 @@ const NavigationTab = () => {
                 }`}
               >
                 <item.pageIcon className="text-[28px] sm:text-2xl" />
-                <div className="hidden lg:block">{item.pageTitle}</div>
+                <div className="hidden xl:block">{item.pageTitle}</div>
               </nav>
             </Link>
           );
