@@ -19,7 +19,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
   link,
 }) => {
   return (
-    <div className="border-t border-b border-border py-1">
+    <div className="border-b border-border py-1">
       <AddGap vertical="2" />
       <div className="flex gap-5 items-center">
         <Image

@@ -32,7 +32,7 @@ export function ModeToggle() {
           <RxHamburgerMenu size={21} />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-44" align="center">
+      <DropdownMenuContent className="w-44" align="start">
         <DropdownMenuLabel className="text-color-text">
           Toogle Theme
         </DropdownMenuLabel>

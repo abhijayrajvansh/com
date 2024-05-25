@@ -23,6 +23,7 @@ const Guestbook = () => {
         </main>
 
         <section>
+          <div className="my-10 md:hidden"></div>
           {/* <Newsletter /> */}
           <TechnicalSkills />
           <Twitter />

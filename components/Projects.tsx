@@ -42,6 +42,7 @@ const Projects = () => {
         </main>
 
         <section>
+          <div className="my-10 md:hidden"></div>
           <Twitter />
           <TechnicalSkills />
           <SocialConnections />

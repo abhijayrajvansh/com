@@ -80,12 +80,12 @@ const NavigationTab = () => {
               className={`flex items-center text-color-text font-medium cursor-pointer sm:text-sm hover:text-primary-700`}
             >
               <nav
-                className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:dark:bg-[#1238769d] hover:sm:bg-[#B1D4FC] hover:sm:dark:text-blue-300 hover:sm:text-blue-700 sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-100 ${
+                className={`sm:flex sm:items-center sm:space-x-3 px-2 sm:ml-2 py-4 rounded-xl sm:mt-3 sm:hover:dark:bg-[#1238769d] hover:sm:bg-[#B1D4FC] hover:sm:dark:text-blue-300 hover:sm:text-blue-700 sm:py-2 sm:px-4 sm:hover:shadow-sm hover:scale-125 sm:hover:scale-100 transition md:transition-none ${
                   isActive &&
                   "text-blue-400 sm:dark:text-blue-300 sm:text-blue-700 scale-125 sm:scale-100 sm:shadow-sm sm:dark:bg-[#123976] sm:bg-[#B1D4FC]"
                 }`}
               >
-                <item.pageIcon className="text-[28px] sm:text-2xl transition" />
+                <item.pageIcon className="text-[28px] sm:text-2xl" />
                 <div className="hidden lg:block">{item.pageTitle}</div>
               </nav>
             </Link>
