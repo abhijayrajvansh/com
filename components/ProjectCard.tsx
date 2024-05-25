@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiSupabaseFill } from "react-icons/ri";
@@ -39,9 +38,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   reacticnons,
   typescript,
   node,
-  visitLink,
-  githubLink,
-  blogLink,
 }) => {
   return (
     <div
