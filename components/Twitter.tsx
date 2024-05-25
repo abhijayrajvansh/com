@@ -1,6 +1,5 @@
 import { siteConfig, tweets } from "@/config/site.config";
 import Image from "next/image";
-import avatar from "@/public/images/abhijayrajvansh-avatar.png";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
@@ -16,9 +15,8 @@ const Twitter = () => {
               className="rounded-full"
               width={40}
               height={40}
-              src={avatar}
-              alt="ar-avatar"
-              placeholder="blur"
+              src='https://github.com/abhijayrajvansh.png'
+              alt="@rajvanshtwt"
             />
 
             <div className="flex flex-col">

@@ -9,7 +9,7 @@ import { BiBookHeart } from "react-icons/bi";
 import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
-import avatar from "@/public/images/abhijayrajvansh-avatar.png";
+import { siteConfig } from "@/config/site.config";
 
 const NAVIGATION_DATA = [
   {
@@ -50,9 +50,8 @@ const NavigationTab = () => {
               width={40}
               height={40}
               className="h-10 w-10 rounded-xl border-2 border-border"
-              placeholder="blur"
-              src={avatar}
-              alt="abhijay-rajvansh-pfp"
+              src={siteConfig.avatar.src}
+              alt="@abhijayrajvansh"
             />
 
             <div className="hidden xl:block text-[11px]">
