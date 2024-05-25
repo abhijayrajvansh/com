@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiSupabaseFill } from "react-icons/ri";
@@ -30,7 +29,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   banner,
   logo,
   title,
-  description,
   nextjs,
   react,
   supabse,
@@ -80,6 +78,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {typescript && <SiTypescript className="text-[#3075C1]" />}
             {node && <IoLogoNodejs className="text-green-600" />}
           </div>
+          
         </div>
       </div>
     </div>
