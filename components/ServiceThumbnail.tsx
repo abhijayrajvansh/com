@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-interface VideoComponentProps {
+interface ServiceThumbnailProps {
   videosrc: string;
   imgsrc: string;
   title: string;
   description: string;
 }
 
-const VideoComponent: React.FC<VideoComponentProps> = ({ title, description, videosrc, imgsrc }) => {
+const ServiceThumbnail: React.FC<ServiceThumbnailProps> = ({ title, description, videosrc, imgsrc }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -53,4 +53,4 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ title, description, vid
   );
 };
 
-export default VideoComponent;
+export default ServiceThumbnail;

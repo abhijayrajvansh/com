@@ -7,6 +7,7 @@ import ThanksNote from "./ThanksNote";
 import ProjectCard from "./ProjectCard";
 import { siteConfig } from "@/config/site.config";
 import TechnicalSkills from "./TechnicalSkills";
+import DummyCard from "./DummyCard";
 
 const Projects = () => {
   return (
@@ -26,19 +27,16 @@ const Projects = () => {
               logo={siteConfig.projects.twitter.logo}
               title={siteConfig.projects.twitter.title}
               description="this is a sample description for thr project card from recent project page, good going!!"
-              nextjs
-              react
-              supabse
-              drizzle
-              shadcn
-              reacticnons
-              typescript
-              node
+              nextjs react supabse drizzle shadcn reacticnons typescript node
               visitLink={siteConfig.projects.twitter.liveProjectLink}
               blogLink={siteConfig.blogs.twitter.link}
               githubLink={siteConfig.projects.twitter.sourceCodeLink}
             />
+
+            <DummyCard />
+
           </div>
+
         </main>
 
         <section>
