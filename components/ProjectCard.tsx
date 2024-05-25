@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { TbBrandNextjs } from "react-icons/tb";
 import { RiReactjsLine } from "react-icons/ri";
 import { RiSupabaseFill } from "react-icons/ri";
@@ -52,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       />
 
       <div className="flex flex-col rounded-xl shadow-lg">
-        <div className="pt-2 bg-gradient-to-t from-black to-black/10 pb-3 px-4 flex flex-col justify-center relative rounded-t-xl min-h-[100px]">
+        <div className="pt-2 bg-gradient-to-t from-black to-black/5 pb-3 px-4 flex flex-col justify-center relative rounded-t-xl min-h-[100px]">
           <div className="flex justify-between ">
             <Image
               className="h-14 w-14 rounded-xl "
@@ -64,7 +65,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
 
-        <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-xl pb-2 ">
+        <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-lg pb-2 ">
           <h1 className="font-semibold sm:font-medium text-2xl text-white">
             {title}
           </h1>
