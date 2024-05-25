@@ -7,7 +7,6 @@ export const technicalSkills = [
 	'SQL & NoSQL',
 	'Apollo GraphQL & tRPC', 
 	'Generative AI & LLMs',
-	'AI Agents & Automation Bots',
 	'DevSecOps, CI/CD & Monitoring',
 	'iOS Swift & UIkit', 
 	'C/C++, Python, Rust & GO',
