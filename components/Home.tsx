@@ -23,13 +23,9 @@ const Home = () => {
         <div className="pageWrapper">
           <main className="contentWrapper">
             <Banner />
-
             <Bio />
-
             <FeaturedArticles />
-
             <Services />
-
             <RecentProjects />
           </main>
 
