@@ -65,7 +65,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
 
-        <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-lg pb-2 ">
+        <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-md pb-2 ">
           <h1 className="font-semibold sm:font-medium text-2xl text-white">
             {title}
           </h1>
