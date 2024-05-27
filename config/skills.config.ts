@@ -1,8 +1,8 @@
 export const technicalSkills = [
 	'Next.js with Server Actions',
 	'React & React Native', 
+	'Express.js & Nest.js', 
 	'Typescript & Javascript',
-	'Node.js & Express.js', 
 	'Serverless Architecture',	
 	'SQL & NoSQL',
 	'Apollo GraphQL & tRPC', 
@@ -21,6 +21,7 @@ export const technicalTools = [
 	"Docker",
 	"Kubernetes",
 	"Prisma",
+	"PostgreSQL",
 	"Redis",
 	"Supabase",
 	"zustand",
