@@ -2,7 +2,7 @@ export const technicalSkills = [
 	'Next.js with Server Actions',
 	'React & React Native', 
 	'Typescript & Javascript',
-	'Node (Express.js)', 
+	'Node.js & Express.js', 
 	'Serverless Architecture',	
 	'SQL & NoSQL',
 	'Apollo GraphQL & tRPC', 
