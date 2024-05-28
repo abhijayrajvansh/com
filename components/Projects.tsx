@@ -8,6 +8,7 @@ import ProjectCard from "./ProjectCard";
 import { siteConfig } from "@/config/site.config";
 import TechnicalSkills from "./TechnicalSkills";
 import DummyCard from "./DummyCard";
+import Spotify from "./Spotify";
 
 const Projects = () => {
   return (
@@ -41,8 +42,8 @@ const Projects = () => {
 
         <section>
           <div className="my-10 md:hidden"></div>
-          <Twitter />
           <TechnicalSkills />
+          <Spotify />
           <SocialConnections />
           <ThanksNote />
         </section>

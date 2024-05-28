@@ -60,7 +60,7 @@ const Blog = () => {
 
         <section>
           <div className="my-10 md:hidden"></div>
-          {/* <Newsletter /> */}
+          <Newsletter />
           <TechnicalSkills />
           <Twitter />
           <SocialConnections />

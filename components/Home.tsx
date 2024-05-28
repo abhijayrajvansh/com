@@ -12,6 +12,7 @@ import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
 import Services from "./Services";
+import Spotify from "./Spotify";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
             <SocialConnections />
             <TechnicalSkills />
             <Twitter />
+            <Spotify />
             <ThanksNote />
           </section>
         </div>

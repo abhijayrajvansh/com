@@ -4,7 +4,7 @@ import Newsletter from "./Newsletter";
 import Twitter from "./Twitter";
 import SocialConnections from "./SocialConnections";
 import ThanksNote from "./ThanksNote";
-import TechnicalSkills from "./TechnicalSkills";
+import Spotify from "./Spotify";
 
 const Guestbook = () => {
   return (
@@ -24,11 +24,9 @@ const Guestbook = () => {
 
         <section>
           <div className="my-10 md:hidden"></div>
-          {/* <Newsletter /> */}
-          <TechnicalSkills />
-          <Twitter />
+          <Newsletter />
+          <Spotify />
           <SocialConnections  />
-          <ThanksNote />
         </section>
       </div>
       

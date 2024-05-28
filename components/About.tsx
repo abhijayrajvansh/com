@@ -8,6 +8,7 @@ import Twitter from "./Twitter";
 import SocialConnections from "./SocialConnections";
 import Introduction from "./Introduction";
 import Awwwards from "./Awwwards";
+import Spotify from "./Spotify";
 
 const About = () => {
   return (
@@ -28,6 +29,7 @@ const About = () => {
           {/* <Newsletter /> */}
           <TechnicalSkills />
           <Twitter />
+          <Spotify />
           <SocialConnections />
           <ThanksNote />
         </section>
