@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { Sun, Moon } from "lucide-react";
+import { HiComputerDesktop } from "react-icons/hi2";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import {
@@ -44,6 +45,10 @@ export function ModeToggle() {
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           <Moon className="mr-2 h-4 w-4" />
           <span>Dark</span>
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("system")}>
+          <HiComputerDesktop className="mr-2 h-4 w-4" />
+          <span>System</span>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuLabel className="text-color-text">
