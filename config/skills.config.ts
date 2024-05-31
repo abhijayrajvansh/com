@@ -21,7 +21,6 @@ export const technicalTools = [
 	"Docker",
 	"Kubernetes",
 	"Prisma",
-	"PostgreSQL",
 	"Redis",
 	"Supabase",
 	"zustand",
