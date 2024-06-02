@@ -42,7 +42,7 @@ const NavigationTab = () => {
   const pathname = usePathname();
 
   return (
-    <header className="bg-background/50 z-20 backdrop-blur-[5px] bg-opacity-60 fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:pr-4 sm:top-0 sm:pt-0 sm:border-r border-border sm:font-light">
+    <header className="dark:bg-background/50 bg-white/50 z-20 backdrop-blur-[5px] fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:pr-4 sm:top-0 sm:pt-0 sm:border-r border-border sm:font-light">
       <div className="flex items-center justify-evenly w-full sm:block sm:pt-5 sm:mt-2">
         <Link href={"/"} className="hidden sm:flex mb-5 justify-center">
           <div className="flex items-center space-x-2 pl-2">
