@@ -98,7 +98,7 @@
     @apply bg-gradient-to-r from-[#fd81c1] to-[#bc80e7] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
   .yellow-text-bg-gradient {
-    @apply bg-gradient-to-r from-[#fda8ac] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#f5ffb2] py-1 bg-cover bg-clip-text text-transparent w-fit
+    @apply bg-gradient-to-r from-[#fd9499] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#f5ffb2] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
   .green-text-bg-gradient {
     @apply bg-gradient-to-r from-cyan-400 to-green-500 dark:from-[#80ffe9] dark:to-[#88ff9b] py-1 bg-cover bg-clip-text text-transparent w-fit
