@@ -5,7 +5,9 @@ import ProjectCard from "./ProjectCard";
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className={`subHeading`}>Recent Projects</h1>
+      <h1 className="sub-heading mt-12">
+        Recent Projects
+      </h1>
 
       {/* top 2 projects showcase */}
       <div className="flex flex-col sm:flex-row sm:space-x-7">

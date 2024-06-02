@@ -92,13 +92,16 @@
   .primary-text {
     @apply dark:text-[#66AAF9] text-[#2570EE]
   }
+  .sub-heading {
+    @apply text-xl font-bold
+  }
 
   /* gradient text heading */
   .pink-text-bg-gradient {
     @apply bg-gradient-to-r from-[#fd81c1] to-[#bc80e7] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
   .yellow-text-bg-gradient {
-    @apply bg-gradient-to-r from-[#fd9499] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#f5ffb2] py-1 bg-cover bg-clip-text text-transparent w-fit
+    @apply bg-gradient-to-r from-[#FF6D6E] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#f3ffa8] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
   .green-text-bg-gradient {
     @apply bg-gradient-to-r from-cyan-400 to-green-500 dark:from-[#80ffe9] dark:to-[#88ff9b] py-1 bg-cover bg-clip-text text-transparent w-fit
@@ -106,6 +109,12 @@
   .blue-text-bg-gradient {
     @apply bg-gradient-to-r from-blue-500 to-[#9584ff] dark:from-[#9584ff] dark:to-[#87d1f1] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
+  .pg-text-bg-gradient {
+    @apply bg-gradient-to-r from-[#d0b5fa] to-[#25ae9c] py-1 bg-cover bg-clip-text text-transparent w-fit
+  }
+
+  /* dark:from-[#9584ff] dark:to-[#87d1f1] */
+
 
   /* shadow spread */
   .border-blur {
