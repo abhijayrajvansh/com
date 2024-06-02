@@ -1,10 +1,9 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import Newsletter from "./Newsletter";
-import Twitter from "./Twitter";
 import SocialConnections from "./SocialConnections";
-import ThanksNote from "./ThanksNote";
 import Spotify from "./Spotify";
+import DummySpace from "./DummySpace";
 
 const Guestbook = () => {
   return (
@@ -25,6 +24,7 @@ const Guestbook = () => {
           <Newsletter />
           <Spotify />
           <SocialConnections />
+          <DummySpace />
         </section>
       </div>
     </section>

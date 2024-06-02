@@ -33,7 +33,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
             <p className="text-sm text-color-text">
-              <span className="primary-text"> — </span> {timeToRead}
+              <span className="primary-text"> — </span> <span className="font-light">{timeToRead}</span>
             </p>
 
             <Link href={link}>
@@ -43,12 +43,12 @@ const BlogCard: React.FC<BlogCardProps> = ({
 
           <Link
             href={link}
-            className="text-lg font-semibold hover:underline underline-offset-4 transition hover:text-blue-400"
+            className="text-lg font-medium hover:underline underline-offset-4 transition hover:text-blue-400"
           >
             {title}
           </Link>
 
-          <p className="text-sm text-color-text">{description}</p>
+          <p className="text-sm font-medium text-color-text">{description}</p>
         </div>
       </div>
       <AddGap vertical="2" />

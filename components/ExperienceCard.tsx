@@ -64,8 +64,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
         {description?.map((keyPoint, index) => (
           <div className="text-color-text text-[13px] sm:text-sm" key={index}>
             <p className="pt-1">
-              <span className="text-primary-600"> — </span>
-              {keyPoint}
+              <span className="primary-text"> — </span>
+              <span className="font-normal">{keyPoint}</span>
             </p>
           </div>
         ))}

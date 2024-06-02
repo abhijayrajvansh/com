@@ -29,7 +29,7 @@ const Introduction = () => {
           </span>
         </h2>
 
-        <p className="text-color-text mb-3">
+        <p className="text-color-text font-light mb-3">
           In today&apos;s rapidly evolving tech landscape, staying ahead is a
           big challenge. Product Hunt and HubSpot introduce new features every
           day, while AI is being incorporated into EVERYTHING. If you&apos;re
@@ -38,7 +38,7 @@ const Introduction = () => {
           <br />
           That&apos;s where I come in. I love helping individuals transform
           their ideas into fully operational digital products. With my
-          <span className="text-highlighted-text font-medium">
+          <span className="text-highlighted-text font-normal">
             {" "}
             4+ years of experience{" "}
           </span>
@@ -48,7 +48,7 @@ const Introduction = () => {
           <br />
           <br />
           For me,{" "}
-          <span className="text-highlighted-text font-medium">
+          <span className="text-highlighted-text font-normal">
             software engineering is an art
           </span>
           {", "}
@@ -59,7 +59,7 @@ const Introduction = () => {
           </Link>{" "}
           rather than just copying-pasting code. I&apos;m always curious about
           the{" "}
-          <span className="text-highlighted-text font-medium">
+          <span className="text-highlighted-text font-normal">
             algorithms & UI/UX
           </span>{" "}
           and I also love educating fellow developers about technology and
@@ -77,7 +77,7 @@ const Introduction = () => {
           </span>
         </p>
 
-        <p className="text-highlighted-text font-medium">
+        <p className="text-highlighted-text font-light">
           p.s. i&apos;m an artist who aims for his art to leave behind a lasting
           legacy!
         </p>

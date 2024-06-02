@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <div className="my-5 rounded-xl shadow-lg">
+    <div className="my-5 rounded-xl shadow-lg sm:mt-10">
       <div className="flex items-center justify-between p-4 rounded-xl cardTop-BottomGradient border border-border">
         <div className="flex flex-col items-center">
           <p className="text-2xl sm:text-3xl font-bold">37+</p>

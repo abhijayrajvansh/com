@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CalltoAction = () => {
   return (
-    <div className="text-color-text">
+    <div className="text-color-text font-light">
       For work enquiries you can{" "}
       <Link
         href={siteConfig.links.email}
@@ -14,9 +14,9 @@ const CalltoAction = () => {
       me or you can DM on{" "}
       <Link
         href={siteConfig.links.twitter}
-        className="primary-text text-xl font-bold hover:underline underline-offset-4"
+        className="primary-text font-medium hover:underline underline-offset-4"
       >
-        𝕏
+        𝕏 (twitter)
       </Link>{" "}
       , I&apos;m always interested in exploring potential opportunities and
       collaborations.

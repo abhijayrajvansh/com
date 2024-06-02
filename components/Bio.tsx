@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const ShortIntro = () => {
   return (
-    <div className="space-y-3 font-medium">
+    <div className="space-y-3 sm:space-y-5 font-medium">
       <p className="text-xl space-x-2 mt-5">
         Hi, I&apos;m
         <span className={`font-medium primary-text`}>
@@ -27,7 +27,7 @@ const ShortIntro = () => {
         </span>
       </h1>
 
-      <p className="font-normal text-color-text leading-relaxed">
+      <p className="font-light text-color-text leading-relaxed">
         Freelance Web & Mobile Developer, Former Silicon Valley Intern, Apple
         Developer Awardee, Former AI/ML Researcher @L&D, UK and{" "}
         <Link
