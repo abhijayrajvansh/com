@@ -11,6 +11,10 @@ interface ProjectCardProps {
   logo: string;
   title: string;
   description: string;
+  visitLink: string;
+  githubLink: string;
+  blogLink: string;
+  banner: string;
   nextjs?: boolean;
   react?: boolean;
   supabse?: boolean;
@@ -19,10 +23,6 @@ interface ProjectCardProps {
   reacticnons?: boolean;
   typescript?: boolean;
   node?: boolean;
-  visitLink: string;
-  githubLink: string;
-  blogLink: string;
-  banner: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       />
 
       <div className="flex flex-col rounded-xl shadow-lg">
-        <div className="pt-2 bg-gradient-to-t from-black to-black/5 pb-3 px-4 flex flex-col justify-center relative rounded-t-xl min-h-[100px]">
+        <div className="pt-2 bg-gradient-to-t from-[#000000] to-[#000000]/5 pb-3 px-4 flex flex-col justify-center relative rounded-t-xl min-h-[100px]">
           <div className="flex justify-between ">
             <Image
               className="h-14 w-14 rounded-xl "
@@ -63,7 +63,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
 
-        <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-md pb-2 ">
+        <div className="transition flex flex-col text-xl font-medium justify-end bg-[#000000] px-4 rounded-b-sm pb-2 ">
           <h1 className="font-semibold sm:font-medium text-2xl text-white">
             {title}
           </h1>
@@ -72,13 +72,33 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {nextjs && <TbBrandNextjs className="text-white" />}
             {react && <RiReactjsLine className="text-sky-500" />}
             {supabse && <RiSupabaseFill className="text-green-500" />}
-            {drizzle && ( <Image height={39} width={39} src="/drizzle.png" alt="drizzleLogo" /> )}
-            {shadcn && ( <Image height={25} width={25} src="/shadcn.png" alt="shadcnlogo" /> )}
-            {reacticnons && ( <Image height={21} width={21} src="/react-icons.svg" alt="reacticonslogo" />)}
+            {drizzle && (
+              <Image
+                height={39}
+                width={39}
+                src="/drizzle.png"
+                alt="drizzleLogo"
+              />
+            )}
+            {shadcn && (
+              <Image
+                height={25}
+                width={25}
+                src="/shadcn.png"
+                alt="shadcnlogo"
+              />
+            )}
+            {reacticnons && (
+              <Image
+                height={21}
+                width={21}
+                src="/react-icons.svg"
+                alt="reacticonslogo"
+              />
+            )}
             {typescript && <SiTypescript className="text-[#3075C1]" />}
             {node && <IoLogoNodejs className="text-green-600" />}
           </div>
-          
         </div>
       </div>
     </div>
