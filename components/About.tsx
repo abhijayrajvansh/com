@@ -7,7 +7,6 @@ import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import SocialConnections from "./SocialConnections";
 import Introduction from "./Introduction";
-import Awwwards from "./Awwwards";
 import Spotify from "./Spotify";
 
 const About = () => {
@@ -18,11 +17,7 @@ const About = () => {
 
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
-
           <Introduction />
-
-          {/* <Awwwards /> */}
-
         </div>
         <section>
           <div className="my-10 md:hidden"></div>

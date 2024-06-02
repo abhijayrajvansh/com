@@ -10,7 +10,6 @@ import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
-import SocialLinks from "./SocialLinks";
 import Twitter from "./Twitter";
 
 const Blog = () => {
@@ -27,7 +26,7 @@ const Blog = () => {
 
       <div className="pageWrapper sm:my-10">
         <main className="contentWrapper">
-          <h1 className="text-4xl font-bold mb-10 yellow-text-bg-gradient ">
+          <h1 className="text-4xl font-bold mb-10 yellow-text-bg-gradient">
             Stories & Coding.
           </h1>
 
