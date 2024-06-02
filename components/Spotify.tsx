@@ -1,5 +1,4 @@
 import { FaSpotify } from "react-icons/fa6";
-import { FaCircle } from "react-icons/fa";
 import { spotifyData } from "@/config/spotify.config";
 import Image from "next/image";
 
@@ -25,14 +24,13 @@ const Spotify = () => {
             />
           </div>
           <div>
-            <div className="flex items-center gap-3">
-              {/* <FaCircle size={12} className="text-green-500"/> */}
-              <p className="font-light text-white">
-                Listening to{" "}
-                <span className="font-semibold">{spotifyData.songName}</span>{" "}by{" "}
-                <span className="text-white font-semibold">{spotifyData.artist}.</span>
-              </p>
-            </div>
+            <p className="font-light text-white">
+              Listening to{" "}
+              <span className="font-semibold">{spotifyData.songName}</span> by{" "}
+              <span className="text-white font-semibold">
+                {spotifyData.artist}.
+              </span>
+            </p>
           </div>
           <div className="min-h-2 rounded-full mx-1 bg-gradient-to-r from-[#25A7E9] to-pink-400"></div>
         </div>
