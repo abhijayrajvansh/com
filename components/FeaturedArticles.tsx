@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site.config";
 const FeaturedArticles = () => {
   return (
     <div className="flex flex-col items-start">
-      <h1 className="sub-heading mt-10">
+      <h1 className="subHeading">
         Featured Articles
       </h1>
 

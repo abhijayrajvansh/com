@@ -92,9 +92,6 @@
   .primary-text {
     @apply dark:text-[#66AAF9] text-[#2570EE]
   }
-  .sub-heading {
-    @apply text-xl font-bold
-  }
 
   /* gradient text heading */
   .pink-text-bg-gradient {

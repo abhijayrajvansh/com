@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className="sub-heading mt-12">
+      <h1 className="subHeading">
         Recent Projects
       </h1>
 
