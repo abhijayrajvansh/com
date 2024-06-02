@@ -11,20 +11,26 @@ const Spotify = () => {
         <Image
           height={500}
           width={500}
-          className="w-full h-full rounded-xl absolute object-cover -z-10"
+          className="w-full h-full rounded-xl absolute object-cover object-center -z-10"
           src={spotifyData.bannerImgUri}
           alt="spotify-track-banner.png"
         />
 
         <div className="z-10 flex flex-col justify-between h-40 p-4">
-          <div>
+          <div className="flex items-center justify-between">
             <FaSpotify
               className="text-green-500 border-blur-yellow rounded-full"
               size={30}
             />
+            <Image
+              height={36}
+              width={36}
+              src="/images/audio-wave.gif"
+              alt="audio-wave-animationa"
+            />
           </div>
           <div>
-            <p className="font-light text-white">
+            <p className="font-light text-white mt-1">
               Listening to{" "}
               <span className="font-semibold">{spotifyData.songName}</span> by{" "}
               <span className="text-white font-semibold">
