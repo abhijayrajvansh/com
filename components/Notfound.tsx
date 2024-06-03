@@ -1,6 +1,9 @@
 import Link from "next/link";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
+import Spotify from "./Spotify";
+import SocialConnections from "./SocialConnections";
+import ThanksNote from "./ThanksNote";
 import { siteConfig } from "@/config/site.config";
 
 const Notfound = () => {
@@ -39,6 +42,12 @@ const Notfound = () => {
             </div>
           </div>
         </main>
+        <section>
+          <div className="my-10 md:hidden"></div>
+          <SocialConnections />
+          <Spotify />
+          <ThanksNote />
+        </section>
       </div>
     </section>
   );
