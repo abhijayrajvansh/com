@@ -11,7 +11,7 @@ const Introduction = () => {
 
       <div className="mb-5">
         <video
-          className="w-full sm:h-[282.326px] rounded"
+          className="w-full sm:h-[282.326px] rounded-md"
           src="/videos/abhijayWalkingInCyberworld.mp4"
           autoPlay
           loop
@@ -35,42 +35,48 @@ const Introduction = () => {
           means falling behind.
           <br />
           <br />
-          That's where I come in. With over
+          That&apos;s where I come in. With over
           <span className="text-highlighted-text font-normal">
             {" "}
-            4+ years of experience
-            {" "}
+            4+ years of experience{" "}
           </span>
           as a freelance software engineer and technical consultant, I help turn
           ideas into fully functional digital products. I offer practical
           solutions and bridge the tech gap for non-tech individuals.
           <br />
           <br />
-
-          For me, 
+          For me,
           <span className="text-highlighted-text font-normal">
             {" "}
-            software engineering is an art
-            {" "}
+            software engineering is an art{" "}
           </span>
-          , akin to Da Vinci's painting. I prioritize researching about new methodologies for optimized solutions over just copying code. I'm passionate about 
-          
+          , akin to Da Vinci&apos;s painting. I prioritize researching new
+          methodologies to develop{" "}
+          <Link
+            href={"/projects"}
+            className="primary-text font-medium hover:underline underline-offset-4"
+          >
+            optimized solutions
+          </Link>,{" "}
+          rather than simply replicating code. I&apos;m passionate about
           <span className="text-highlighted-text font-normal">
             {" "}
-            algorithms and UI/UX
-            {" "}
+            algorithms & UI/UX{" "}
           </span>
-          which you can observe through {" "}
-          <Link href={'/projects'} className="primary-text font-medium hover:underline underline-offset-4">
-          my projects.
-          </Link>
-          {" "}I also love educating fellow developers through blogging.
-    
+          design that&apos;s why I love educating fellow developers about my unique
+          approaches to solving problems through videos & writing{" "}
+          <Link
+            href={"/blog"}
+            className="primary-text font-medium hover:underline underline-offset-4"
+          >
+            blogs
+          </Link>{" "}
+          in my free time.
           <br />
           <br />
           <span>
-            When I&apos;m not coding, I spend my time trading, reading about
-            finance & user psychology, watching arthouse movies and I play
+            Apart from coding, I enjoy playing my piano, reading about finance
+            and psychology, watching arthouse movies, and sometimes playing
             chess.
           </span>
         </p>
