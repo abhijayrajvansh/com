@@ -19,8 +19,8 @@ const Spotify = () => {
         <div className="z-10 flex flex-col justify-between h-48 p-4">
           <div className="flex items-center justify-between">
             <FaSpotify
-              className="text-green-500 border-blur-yellow rounded-full"
-              size={30}
+              className="text-green-500 border-blur-yellow rounded-full bg-black"
+              size={37}
             />
             <Image
               height={36}
@@ -30,7 +30,7 @@ const Spotify = () => {
             />
           </div>
           <div>
-            <p className="font-light text-white mt-1">
+            <p className="font-light text-white text-md mt-1 drop-shadow-md">
               Listening to{" "}
               <span className="font-semibold">{spotifyData.songName}</span> by{" "}
               <span className="text-white font-semibold">
