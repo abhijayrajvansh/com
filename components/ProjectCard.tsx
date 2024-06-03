@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       />
 
       <div className="flex flex-col rounded-xl shadow-lg">
-        <div className="pt-2 bg-gradient-to-t from-[#000000] to-[#000000]/5 pb-3 px-4 flex flex-col justify-center relative rounded-t-xl min-h-[100px]">
+        <div className="pt-2 bg-gradient-to-t relative top-1 from-[#000000] to-[#000000]/5 pb-3 px-4 flex flex-col justify-center  rounded-t-xl min-h-[100px]">
           <div className="flex justify-between ">
             <Image
               className="h-14 w-14 rounded-xl "
