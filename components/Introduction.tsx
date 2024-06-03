@@ -30,44 +30,42 @@ const Introduction = () => {
         </h2>
 
         <p className="text-color-text font-light mb-3">
-          In today&apos;s rapidly evolving tech landscape, staying ahead is a
-          big challenge. Product Hunt and HubSpot introduce new features every
-          day, while AI is being incorporated into EVERYTHING. If you&apos;re
-          staying the same, you&apos;re falling behind.
+          In the fast-paced tech world, keeping up is tough. Product Hunt and
+          HubSpot launch features daily, and AI is everywhere. Standing still
+          means falling behind.
           <br />
           <br />
-          That&apos;s where I come in. I love helping individuals transform
-          their ideas into fully operational digital products. With my
+          That's where I come in. With over
           <span className="text-highlighted-text font-normal">
             {" "}
-            4+ years of experience{" "}
+            4+ years of experience
+            {" "}
           </span>
-          in the industry both as a freelance software developer and as a
-          technical consultant, I provide actionable guidance, offer practical
-          solutions and even bridge the gap for those who need non-tech support.
+          as a freelance software engineer and technical consultant, I help turn
+          ideas into fully functional digital products. I offer practical
+          solutions and bridge the tech gap for non-tech individuals.
           <br />
           <br />
-          For me,{" "}
+
+          For me, 
           <span className="text-highlighted-text font-normal">
+            {" "}
             software engineering is an art
+            {" "}
           </span>
-          {", "}
-          just like painting was for Leonardo Da Vinci. I focus on research &
-          developing{" "}
-          <Link className="embeddedLinks primary-text" href="/projects">
-            optimized solutions
-          </Link>{" "}
-          rather than just copying-pasting code. I&apos;m always curious about
-          the{" "}
+          , akin to Da Vinci's painting. I prioritize researching about new methodologies for optimized solutions over just copying code. I'm passionate about 
+          
           <span className="text-highlighted-text font-normal">
-            algorithms & UI/UX
-          </span>{" "}
-          and I also love educating fellow developers about technology and
-          programming through writing{" "}
-          <Link className="embeddedLinks primary-text" href="/blog">
-            blogs
-          </Link>{" "}
-          in my free time.
+            {" "}
+            algorithms and UI/UX
+            {" "}
+          </span>
+          which you can observe through {" "}
+          <Link href={'/projects'} className="primary-text font-medium hover:underline underline-offset-4">
+          my projects.
+          </Link>
+          {" "}I also love educating fellow developers through blogging.
+    
           <br />
           <br />
           <span>
