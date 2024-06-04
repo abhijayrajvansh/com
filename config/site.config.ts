@@ -16,18 +16,6 @@ export const siteConfig = {
 		email:"mailto:abhijayrajvansh01@gmail.com",
 		instagram: "https://www.instagram.com/abhijayrajvansh",
 	},
-
-	projects: {
-		twitter: {
-			banner: '/projects/fullstack-twitter.webp',
-			title: "Twitter 𝕏 Clone",
-			logo: '/xLogo.jpeg',
-			type: "personal-project",
-			description: "Next.js, Supabase, Drizzle ORM, TailwindCSS, Shadcn/ui, RadixUI, Typescript",
-			sourceCodeLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
-			liveProjectLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
-		},
-	},
 };
 
 export const tweets = {

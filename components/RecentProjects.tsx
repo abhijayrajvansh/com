@@ -1,21 +1,22 @@
 import Link from "next/link";
-import { siteConfig } from "@/config/site.config";
+import { projects } from "@/config/project.config";
 import ProjectCard from "./ProjectCard";
 
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className="subHeading">
-        Recent Projects
-      </h1>
+      <h1 className="subHeading">Recent Projects</h1>
 
-      {/* top 2 projects showcase */}
       <div className="flex flex-col sm:flex-row sm:space-x-7">
         <ProjectCard
-          banner={siteConfig.projects.twitter.banner}
-          logo={siteConfig.projects.twitter.logo}
-          title={siteConfig.projects.twitter.title}
-          description="this is a sample description for thr project card from recent project page, good going!!"
+          banner={projects.twitter.banner}
+          logo={projects.twitter.logo}
+          title={projects.twitter.title}
+          description={projects.twitter.descriptiom}
+          visitLink={projects.twitter.liveProjectLink}
+          githubLink={projects.twitter.sourceCodeLink}
+          blogLink={projects.twitter.blogLink}
+          // technologies used
           nextjs
           react
           supabse
@@ -24,9 +25,6 @@ const RecentProjects = () => {
           reacticnons
           typescript
           node
-          // visitLink={}
-          // blogLink={}
-          // githubLink={}
         />
       </div>
 

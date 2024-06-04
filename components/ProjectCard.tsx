@@ -10,7 +10,7 @@ import Image from "next/image";
 interface ProjectCardProps {
   logo: string;
   title: string;
-  description: string;
+  description?: string;
   visitLink?: string;
   githubLink?: string;
   blogLink?: string;
