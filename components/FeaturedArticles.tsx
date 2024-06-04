@@ -2,22 +2,23 @@
 
 import Link from "next/link";
 import BlogCard from "./BlogCard";
-import { siteConfig } from "@/config/site.config";
+import { allBlogs } from "@/config/blog.config";
 
 const FeaturedArticles = () => {
   return (
     <div className="flex flex-col items-start">
-      <h1 className="subHeading">
-        Featured Articles
-      </h1>
+      <h1 className="subHeading">Featured Articles</h1>
 
-      <BlogCard
-        thumbnail={siteConfig.blogs.twitter.thumbnail}
-        timeToRead={siteConfig.blogs.twitter.timeToRead}
-        title={siteConfig.blogs.twitter.title}
-        description={siteConfig.blogs.twitter.description}
-        link={siteConfig.blogs.twitter.link}
-      />
+      {allBlogs.map((blog) => (
+        <BlogCard
+          key={blog.id}
+          thumbnail={blog.thumbnail}
+          timeToRead={blog.timeToRead}
+          title={blog.title}
+          description={blog.description}
+          link={blog.link}
+        />
+      ))}
 
       <p className="font-light mt-3">
         Read more on my{" "}

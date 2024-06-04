@@ -28,16 +28,6 @@ export const siteConfig = {
 			liveProjectLink: "https://github.com/abhijayrajvansh/twitter-clone-next.js",
 		},
 	},
-
-	blogs: {
-		twitter: {
-			title: "Twitter 𝕏 Fullstack Clone",
-			description: "I built a full stack clone of 𝕏 (formerly twitter) to practice the backend jargon especially how API calls are done on a platform with a large user base.",
-			thumbnail: "/xLogo.jpeg",
-			timeToRead: "2 MIN READ",
-			link: "/blog/full-stack-twitter-clone",
-		}
-	}
 };
 
 export const tweets = {

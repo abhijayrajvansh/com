@@ -24,9 +24,9 @@ const RecentProjects = () => {
           reacticnons
           typescript
           node
-          visitLink={siteConfig.projects.twitter.liveProjectLink}
-          blogLink={siteConfig.blogs.twitter.link}
-          githubLink={siteConfig.projects.twitter.sourceCodeLink}
+          // visitLink={}
+          // blogLink={}
+          // githubLink={}
         />
       </div>
 

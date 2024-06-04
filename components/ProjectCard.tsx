@@ -11,9 +11,9 @@ interface ProjectCardProps {
   logo: string;
   title: string;
   description: string;
-  visitLink: string;
-  githubLink: string;
-  blogLink: string;
+  visitLink?: string;
+  githubLink?: string;
+  blogLink?: string;
   banner: string;
   nextjs?: boolean;
   react?: boolean;

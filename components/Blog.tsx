@@ -1,24 +1,17 @@
 "use client";
 
-import AddGap from "./AddGap";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import { useState } from "react";
 import BlogCard from "@/components/BlogCard";
-import { siteConfig } from "@/config/site.config";
 import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
 import Twitter from "./Twitter";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { allBlogs } from "@/config/blog.config";
 
 const Blog = () => {
-  const [tabContent, setTabContent] = useState("lat");
-
-  function handleTabContent(topic: string) {
-    setTabContent(topic);
-  }
-
   return (
     <section className="wrapper">
       <Header />
@@ -31,29 +24,106 @@ const Blog = () => {
           </h1>
 
           <div className="flex flex-col items-start">
-            {/* button group and tab goes here */}
+            <Tabs defaultValue="all" className="w-full">
+              <TabsList>
+                <TabsTrigger className="text-xs sm:text-sm" value="all">
+                  All
+                </TabsTrigger>
+                <TabsTrigger className="text-xs sm:text-sm" value="popular">
+                  Popular
+                </TabsTrigger>
+                <TabsTrigger className="text-xs sm:text-sm" value="tutorials">
+                  Tutorials
+                </TabsTrigger>
+                <TabsTrigger
+                  className="text-xs sm:text-sm"
+                  value="productivity"
+                >
+                  Productivity
+                </TabsTrigger>
+                <TabsTrigger className="text-xs sm:text-sm" value="beginners">
+                  Beginners
+                </TabsTrigger>
+              </TabsList>
 
-            <AddGap vertical="1" />
 
-            {tabContent === "lat" ? (
-              <div className="p-2 pl-0 rounded-xl w-full">
-                <BlogCard
-                  thumbnail={siteConfig.blogs.twitter.thumbnail}
-                  timeToRead={siteConfig.blogs.twitter.timeToRead}
-                  title={siteConfig.blogs.twitter.title}
-                  description={siteConfig.blogs.twitter.description}
-                  link={siteConfig.blogs.twitter.link}
-                />
-              </div>
-            ) : tabContent === "prog" ? (
-              <div className="p-2 rounded-xl w-full">
-                <p>programming</p>
-              </div>
-            ) : (
-              <div className="p-2 rounded-xl w-full">
-                <p>tutorials</p>
-              </div>
-            )}
+              <TabsContent value="all">
+                {allBlogs
+                  .map((blog) => (
+                    <BlogCard
+                      key={blog.id}
+                      thumbnail={blog.thumbnail}
+                      timeToRead={blog.timeToRead}
+                      title={blog.title}
+                      description={blog.description}
+                      link={blog.link}
+                    />
+                  ))}
+              </TabsContent>
+
+              <TabsContent value="popular">
+                {allBlogs
+                  .filter((blog) => blog.popular)
+                  .map((blog) => (
+                    <BlogCard
+                      key={blog.id}
+                      thumbnail={blog.thumbnail}
+                      timeToRead={blog.timeToRead}
+                      title={blog.title}
+                      description={blog.description}
+                      link={blog.link}
+                    />
+                  ))}
+              </TabsContent>
+
+              <TabsContent value="tutorials">
+                {allBlogs
+                  .filter((blog) => blog.tutorials)
+                  .map((blog) => (
+                    <BlogCard
+                      key={blog.id}
+                      thumbnail={blog.thumbnail}
+                      timeToRead={blog.timeToRead}
+                      title={blog.title}
+                      description={blog.description}
+                      link={blog.link}
+                    />
+                  ))}
+              </TabsContent>
+
+              <TabsContent value="productivity">
+                {allBlogs
+                  .filter((blog) => blog.productivity)
+                  .map((blog) => (
+                    <BlogCard
+                      key={blog.id}
+                      thumbnail={blog.thumbnail}
+                      timeToRead={blog.timeToRead}
+                      title={blog.title}
+                      description={blog.description}
+                      link={blog.link}
+                    />
+                  ))}
+              </TabsContent>
+
+              <TabsContent value="beginners">
+                {allBlogs
+                  .filter((blog) => blog.beginners)
+                  .map((blog) => (
+                    <BlogCard
+                      key={blog.id}
+                      thumbnail={blog.thumbnail}
+                      timeToRead={blog.timeToRead}
+                      title={blog.title}
+                      description={blog.description}
+                      link={blog.link}
+                    />
+                  ))}
+              </TabsContent>
+
+
+
+            </Tabs>
           </div>
         </main>
 
