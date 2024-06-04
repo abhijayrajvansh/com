@@ -22,7 +22,7 @@ const Spotify = () => {
               className="text-green-500 border-blur-yellow rounded-full bg-black"
               size={37}
             />
-            <Image
+            <Image unoptimized
               height={36}
               width={36}
               src="/images/audio-wave.gif"
