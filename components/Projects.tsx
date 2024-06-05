@@ -54,6 +54,17 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
+                    nextjs={project.skills.nextjs}
+                    react={project.skills.react}
+                    express={project.skills.express}
+                    typescript={project.skills.typescript}
+                    graphql={project.skills.graphql}
+                    prisma={project.skills.prisma}
+                    supabase={project.skills.supabase}
+                    postgres={project.skills.postgres}
+                    aws={project.skills.aws}
+
+
                   />
                 ))}
             </TabsContent>
@@ -63,7 +74,7 @@ const Projects = () => {
               className="flex flex-col sm:flex-row flex-wrap justify-between"
             >
               {allProjects
-                .filter((project) => project.ai)
+                .filter((project) => project.category.ai)
                 .map((project) => (
                   <ProjectCard
                     key={project.id}
@@ -74,6 +85,17 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
+                    nextjs={project.skills.nextjs}
+                    react={project.skills.react}
+                    express={project.skills.express}
+                    typescript={project.skills.typescript}
+                    graphql={project.skills.graphql}
+                    prisma={project.skills.prisma}
+                    supabase={project.skills.supabase}
+                    postgres={project.skills.postgres}
+                    aws={project.skills.aws}
+
+
                   />
                 ))}
             </TabsContent>
@@ -83,7 +105,7 @@ const Projects = () => {
               className="flex flex-col sm:flex-row flex-wrap justify-between"
             >
               {allProjects
-                .filter((project) => project.blockchain)
+                .filter((project) => project.category.blockchain)
                 .map((project) => (
                   <ProjectCard
                     key={project.id}
@@ -94,6 +116,17 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
+                    nextjs={project.skills.nextjs}
+                    react={project.skills.react}
+                    express={project.skills.express}
+                    typescript={project.skills.typescript}
+                    graphql={project.skills.graphql}
+                    prisma={project.skills.prisma}
+                    supabase={project.skills.supabase}
+                    postgres={project.skills.postgres}
+                    aws={project.skills.aws}
+
+
                   />
                 ))}
             </TabsContent>
@@ -103,7 +136,7 @@ const Projects = () => {
               className="flex flex-col sm:flex-row flex-wrap justify-between"
             >
               {allProjects
-                .filter((project) => project.web)
+                .filter((project) => project.category.web)
                 .map((project) => (
                   <ProjectCard
                     key={project.id}
@@ -114,6 +147,18 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
+                    // if any skills object not received then throws error
+                    nextjs={project.skills.nextjs}
+                    react={project.skills.react}
+                    express={project.skills.express}
+                    typescript={project.skills.typescript}
+                    graphql={project.skills.graphql}
+                    prisma={project.skills.prisma}
+                    supabase={project.skills.supabase}
+                    postgres={project.skills.postgres}
+                    aws={project.skills.aws}
+
+
                   />
                 ))}
             </TabsContent>
@@ -123,7 +168,7 @@ const Projects = () => {
               className="flex flex-col sm:flex-row flex-wrap justify-between"
             >
               {allProjects
-                .filter((project) => project.mobile)
+                .filter((project) => project.category.mobile)
                 .map((project) => (
                   <ProjectCard
                     key={project.id}
@@ -134,6 +179,17 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
+                    nextjs={project.skills.nextjs}
+                    react={project.skills.react}
+                    express={project.skills.express}
+                    typescript={project.skills.typescript}
+                    graphql={project.skills.graphql}
+                    prisma={project.skills.prisma}
+                    supabase={project.skills.supabase}
+                    postgres={project.skills.postgres}
+                    aws={project.skills.aws}
+
+
                   />
                 ))}
             </TabsContent>

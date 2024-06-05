@@ -4,15 +4,6 @@ import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { RiArticleLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiExpress } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
-import { SiPrisma } from "react-icons/si";
-import { RiSupabaseFill } from "react-icons/ri";
-import { GrGraphQl } from "react-icons/gr";
-import { SiShadcnui } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { FaAws } from "react-icons/fa";
 
 import {
   Dialog,
@@ -25,14 +16,13 @@ import {
 import { Button } from "./ui/button";
 import Link from "next/link";
 
-import NextjsIcon from "@/components/icons/NextjsIcon";
+import NextjsIcon from "./icons/NextjsIcon";
 import ReactIcon from "./icons/ReactIcon";
 import ExpressIcon from "./icons/ExpressIcon";
 import TypescriptIcon from "./icons/TypescriptIcon";
 import PrismaIcon from "./icons/PrismaIcon";
 import SupabaseIcon from "./icons/SupabaseIcon";
 import GraphqlIcon from "./icons/GraphqlIcon";
-import ShadcnIcon from "./icons/ShadcnIcon";
 import PostgresIcon from "./icons/PostgresIcon";
 import AwsIcon from "./icons/AwsIcon";
 
@@ -44,6 +34,15 @@ interface ProjectCardProps {
   sourceCode: string;
   blog: string;
   banner: string;
+  nextjs?: boolean;
+  react?: boolean;
+  express?: boolean;
+  typescript?: boolean;
+  graphql?: boolean;
+  prisma?: boolean;
+  supabase?: boolean;
+  postgres?: boolean;
+  aws?: boolean;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -54,6 +53,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   demo,
   blog,
   sourceCode,
+  nextjs,
+  react,
+  express,
+  typescript,
+  graphql,
+  prisma,
+  supabase,
+  postgres,
+  aws,
 }) => {
   return (
     <Dialog>
@@ -88,16 +96,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               </h1>
 
               <div className="flex gap-2 items-center py-3">
-                <NextjsIcon />
-                <ReactIcon />
-                <ExpressIcon />
-                <TypescriptIcon />
-                <GraphqlIcon />
-                <PrismaIcon />
-                <SupabaseIcon />
-                <ShadcnIcon />
-                <PostgresIcon />
-                <AwsIcon />
+                {nextjs && <NextjsIcon />}
+                {react && <ReactIcon />}
+                {express && <ExpressIcon />}
+                {typescript && <TypescriptIcon />}
+                {graphql && <GraphqlIcon />}
+                {prisma && <PrismaIcon />}
+                {supabase && <SupabaseIcon />}
+                {postgres && <PostgresIcon />}
+                {aws && <AwsIcon />}
               </div>
             </div>
           </div>

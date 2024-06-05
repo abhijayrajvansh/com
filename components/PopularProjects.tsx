@@ -9,7 +9,7 @@ const RecentProjects = () => {
 
       <div className="flex flex-col sm:flex-row flex-wrap justify-between">
         {allProjects
-          .filter((project) => project.popular)
+          .filter((project) => project.category.popular)
           .map((project) => (
             <ProjectCard
               key={project.id}
@@ -20,6 +20,15 @@ const RecentProjects = () => {
               demo={project.demo}
               blog={project.blog}
               sourceCode={project.sourceCode}
+              nextjs={project.skills.nextjs}
+              react={project.skills.react}
+              express={project.skills.express}
+              typescript={project.skills.typescript}
+              graphql={project.skills.graphql}
+              prisma={project.skills.prisma}
+              supabase={project.skills.supabase}
+              postgres={project.skills.postgres}
+              aws={project.skills.aws}
             />
           ))}
       </div>
