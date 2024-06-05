@@ -1,12 +1,11 @@
 export const allProjects = [
   {
     "id": '01',
-    "ai": true,
+    "popular": true,
+    "ai": false,
     "blockchain": false,
+    "web": true,
     "mobile": false,
-    "backend": true,
-    "frontend": true,
-    "popular":true,
     "banner": '/projects/fullstack-twitter.webp',
     "logo": '/logo/xLogo.jpeg',
     "title": "Twitter 𝕏 Clone",

@@ -20,24 +20,43 @@ const Projects = () => {
             Work & Hobby.
           </h1>
 
-          <Tabs defaultValue="AI" className="w-full">
+          <Tabs defaultValue="All" className="w-full">
             <TabsList>
+              <TabsTrigger className="text-xs sm:text-sm" value="All">
+                Popular
+              </TabsTrigger>
               <TabsTrigger className="text-xs sm:text-sm" value="AI">
                 AI
               </TabsTrigger>
               <TabsTrigger className="text-xs sm:text-sm" value="Blockchain">
                 Blockchain
               </TabsTrigger>
+              <TabsTrigger className="text-xs sm:text-sm" value="Web">
+                Web
+              </TabsTrigger>
               <TabsTrigger className="text-xs sm:text-sm" value="Mobile">
                 Mobile
               </TabsTrigger>
-              <TabsTrigger className="text-xs sm:text-sm" value="Back-end">
-                Back-end
-              </TabsTrigger>
-              <TabsTrigger className="text-xs sm:text-sm" value="Front-end">
-                Front-end
-              </TabsTrigger>
             </TabsList>
+
+            <TabsContent
+              value="All"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                  />
+                ))}
+            </TabsContent>
 
             <TabsContent
               value="AI"
@@ -80,51 +99,31 @@ const Projects = () => {
             </TabsContent>
 
             <TabsContent
+              value="Web"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .filter((project) => project.web)
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                  />
+                ))}
+            </TabsContent>
+
+            <TabsContent
               value="Mobile"
               className="flex flex-col sm:flex-row flex-wrap justify-between"
             >
               {allProjects
                 .filter((project) => project.mobile)
-                .map((project) => (
-                  <ProjectCard
-                    key={project.id}
-                    banner={project.banner}
-                    logo={project.logo}
-                    title={project.title}
-                    description={project.descriptiom}
-                    demo={project.demo}
-                    blog={project.blog}
-                    sourceCode={project.sourceCode}
-                  />
-                ))}
-            </TabsContent>
-
-            <TabsContent
-              value="Back-end"
-              className="flex flex-col sm:flex-row flex-wrap justify-between"
-            >
-              {allProjects
-                .filter((project) => project.backend)
-                .map((project) => (
-                  <ProjectCard
-                    key={project.id}
-                    banner={project.banner}
-                    logo={project.logo}
-                    title={project.title}
-                    description={project.descriptiom}
-                    demo={project.demo}
-                    blog={project.blog}
-                    sourceCode={project.sourceCode}
-                  />
-                ))}
-            </TabsContent>
-
-            <TabsContent
-              value="Front-end"
-              className="flex flex-col sm:flex-row flex-wrap justify-between"
-            >
-              {allProjects
-                .filter((project) => project.frontend)
                 .map((project) => (
                   <ProjectCard
                     key={project.id}
