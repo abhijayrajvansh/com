@@ -12,8 +12,8 @@ const Newsletter = () => {
         <h3 className="text-xl sm:text-lg">Newsletter comming soon!</h3>
 
         <p className="font-normal text-color-text text-sm sm:text-xs text-center">
-          Get remote job offers, freelancing advice & top developer tips with
-          The Rajvansh Times.
+          Get remote job offers, freelancing advice & productivity tips with
+          my newsletter.
         </p>
 
         <input
