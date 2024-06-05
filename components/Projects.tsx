@@ -26,9 +26,9 @@ const Projects = () => {
               logo={projects.twitter.logo}
               title={projects.twitter.title}
               description={projects.twitter.descriptiom}
-              visitLink={projects.twitter.liveProjectLink}
-              githubLink={projects.twitter.sourceCodeLink}
-              blogLink={projects.twitter.blogLink}
+              demo={projects.twitter.demo}
+              blog={projects.twitter.blog}
+              sourceCode={projects.twitter.sourceCode}
               // technologies used
               nextjs
               react
@@ -40,7 +40,7 @@ const Projects = () => {
               node
             />
 
-            <DummyCard />
+            <DummyCard show />
           </div>
         </main>
 
