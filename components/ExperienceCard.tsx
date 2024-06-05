@@ -40,7 +40,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           width={56}
           className={`h-14 rounded-xl ${
             endDate === "Present"
-              ? "border-2 border-yellow-400 border-blur-yellow"
+              ? "border-2 border-yellow-300 glow-bg-gold"
               : "border-2 border-zinc-500"
           }`}
           src={companyLogo}

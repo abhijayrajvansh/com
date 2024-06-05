@@ -27,7 +27,7 @@ export function ModeToggle() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="hover:border-blur transition dark:bg-[#123c78] bg-[#E8E8EA] text-black hover:bg-gray-300 dark:text-white"
+          className="hover:glow-bg-primary hover:border border-primary transition dark:bg-[#123c78] bg-[#E8E8EA] text-black hover:bg-gray-300 dark:text-white"
           size="icon"
         >
           <RxHamburgerMenu size={21} />

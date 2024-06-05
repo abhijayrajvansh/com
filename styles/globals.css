@@ -110,16 +110,15 @@
     @apply bg-gradient-to-r from-[#d0b5fa] to-[#25ae9c] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
 
-  /* dark:from-[#9584ff] dark:to-[#87d1f1] */
-
 
   /* shadow spread */
-  .border-blur {
-    box-shadow: 0 0 15px 1px rgba(104, 171, 249, 1);
+  .glow-bg-primary {
+    box-shadow: 0 0 18px 1px rgb(81, 161, 252);
   }
-  .border-blur-yellow {
-    box-shadow: 0 0 10px 1px rgba(232, 249, 104, 0.598);
+  .glow-bg-gold {
+    box-shadow: 0 0 10px 1px rgb(240, 235, 90);
   }
+  
 
   /* gradient shades */
   .cardTop-BottomGradient {
