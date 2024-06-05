@@ -20,7 +20,7 @@ const Projects = () => {
             Work & Hobby.
           </h1>
 
-          <div className="flex flex-col sm:flex-row sm:space-x-7">
+          <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between">
             <ProjectCard
               banner={projects.twitter.banner}
               logo={projects.twitter.logo}
@@ -39,8 +39,42 @@ const Projects = () => {
               typescript
               node
             />
-
-            <DummyCard show />
+            <ProjectCard
+              banner={projects.twitter.banner}
+              logo={projects.twitter.logo}
+              title={projects.twitter.title}
+              description={projects.twitter.descriptiom}
+              demo={projects.twitter.demo}
+              blog={projects.twitter.blog}
+              sourceCode={projects.twitter.sourceCode}
+              // technologies used
+              nextjs
+              react
+              supabse
+              drizzle
+              shadcn
+              reacticnons
+              typescript
+              node
+            />
+            <ProjectCard
+              banner={projects.twitter.banner}
+              logo={projects.twitter.logo}
+              title={projects.twitter.title}
+              description={projects.twitter.descriptiom}
+              demo={projects.twitter.demo}
+              blog={projects.twitter.blog}
+              sourceCode={projects.twitter.sourceCode}
+              // technologies used
+              nextjs
+              react
+              supabse
+              drizzle
+              shadcn
+              reacticnons
+              typescript
+              node
+            />
           </div>
         </main>
 

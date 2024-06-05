@@ -71,11 +71,11 @@
   }
   /* feed engagement */
   .pageWrapper {
-    @apply lg:flex pt-5
+    @apply lg:flex pt-5 
   }
   /* feed */
   .contentWrapper {
-    @apply px-4 sm:px-5 xl:px-0 lg:mr-[10px] sm:ml-[95px] xl:ml-[230px] w-full sm:max-w-[700px]
+    @apply px-4 sm:px-5 xl:px-0 sm:ml-[110px] xl:ml-[230px] w-full sm:max-w-[700px]
   }
   .subHeading {
     @apply font-medium text-xl mt-10
