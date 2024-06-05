@@ -87,7 +87,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 <GrGraphQl className="text-pink-500"/>
                 <SiShadcnui className="text-white"/>
                 <BiLogoPostgresql className="text-blue-400" size={24}/>
-                <FaAws className="text-yellow-400" size={23}/>
+                <FaAws 
+                className="text-white" size={23}/>
               </div>
             </div>
           </div>
