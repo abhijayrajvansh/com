@@ -60,7 +60,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <Dialog>
       <DialogTrigger>
         <div
-          className={`my-5 w-full sm:w-[330px] rounded-xl shadow-2xl transition justify-end relative cursor-pointer`}
+          className={`my-5 w-full sm:w-[320px] rounded-xl shadow-2xl transition justify-end relative cursor-pointer`}
         >
           <Image
             width={336}

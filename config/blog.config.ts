@@ -4,7 +4,7 @@ export const allBlogs = [
     "popular": false,
     "tutorials": false,
     "productivity": false,
-    "beginners": false,
+    "beginners": true,
     "title": "Twitter 𝕏 Fullstack Clone",
     "thumbnail": "/logo/xLogo.jpeg",
     "description": "Built a full-stack clone of 𝕏 (formerly twitter) to practice the latest backend  framework especially real time features with scalability.",

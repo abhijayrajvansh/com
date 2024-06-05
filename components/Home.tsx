@@ -2,7 +2,7 @@
 
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import RecentProjects from "./RecentProjects";
+import PopularProjects from "./PopularProjects";
 import Bio from "@/components/Bio";
 import FeaturedArticles from "./FeaturedArticles";
 import Banner from "@/components/Banner";
@@ -27,7 +27,7 @@ const Home = () => {
             <Bio />
             <Stats />
             <FeaturedArticles />
-            <RecentProjects />
+            <PopularProjects />
           </main>
 
           <section>

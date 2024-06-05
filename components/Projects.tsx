@@ -4,9 +4,9 @@ import SocialConnections from "./SocialConnections";
 import ThanksNote from "./ThanksNote";
 import ProjectCard from "./ProjectCard";
 import TechnicalSkills from "./TechnicalSkills";
-import DummyCard from "./DummyCard";
 import Spotify from "./Spotify";
-import { projects } from "@/config/project.config";
+import { allProjects } from "@/config/project.config";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Projects = () => {
   return (
@@ -20,62 +20,170 @@ const Projects = () => {
             Work & Hobby.
           </h1>
 
-          <div className="flex flex-col sm:flex-row sm:flex-wrap justify-between">
-            <ProjectCard
-              banner={projects.twitter.banner}
-              logo={projects.twitter.logo}
-              title={projects.twitter.title}
-              description={projects.twitter.descriptiom}
-              demo={projects.twitter.demo}
-              blog={projects.twitter.blog}
-              sourceCode={projects.twitter.sourceCode}
-              // technologies used
-              nextjs
-              react
-              supabse
-              drizzle
-              shadcn
-              reacticnons
-              typescript
-              node
-            />
-            <ProjectCard
-              banner={projects.twitter.banner}
-              logo={projects.twitter.logo}
-              title={projects.twitter.title}
-              description={projects.twitter.descriptiom}
-              demo={projects.twitter.demo}
-              blog={projects.twitter.blog}
-              sourceCode={projects.twitter.sourceCode}
-              // technologies used
-              nextjs
-              react
-              supabse
-              drizzle
-              shadcn
-              reacticnons
-              typescript
-              node
-            />
-            <ProjectCard
-              banner={projects.twitter.banner}
-              logo={projects.twitter.logo}
-              title={projects.twitter.title}
-              description={projects.twitter.descriptiom}
-              demo={projects.twitter.demo}
-              blog={projects.twitter.blog}
-              sourceCode={projects.twitter.sourceCode}
-              // technologies used
-              nextjs
-              react
-              supabse
-              drizzle
-              shadcn
-              reacticnons
-              typescript
-              node
-            />
-          </div>
+          <Tabs defaultValue="Front-end" className="w-full">
+            <TabsList>
+              <TabsTrigger className="text-xs sm:text-sm" value="AI">
+                AI
+              </TabsTrigger>
+              <TabsTrigger className="text-xs sm:text-sm" value="Blockchain">
+                Blockchain
+              </TabsTrigger>
+              <TabsTrigger className="text-xs sm:text-sm" value="Mobile">
+                Mobile
+              </TabsTrigger>
+              <TabsTrigger className="text-xs sm:text-sm" value="Back-end">
+                Back-end
+              </TabsTrigger>
+              <TabsTrigger className="text-xs sm:text-sm" value="Front-end">
+                Front-end
+              </TabsTrigger>
+            </TabsList>
+
+            <TabsContent
+              value="AI"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .filter((project) => project.ai)
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                    // technologies used
+                    nextjs
+                    react
+                    supabse
+                    drizzle
+                    shadcn
+                    reacticnons
+                    typescript
+                    node
+                  />
+                ))}
+            </TabsContent>
+
+            <TabsContent
+              value="Blockchai n"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .filter((project) => project.blockchain)
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                    // technologies used
+                    nextjs
+                    react
+                    supabse
+                    drizzle
+                    shadcn
+                    reacticnons
+                    typescript
+                    node
+                  />
+                ))}
+            </TabsContent>
+
+            <TabsContent
+              value="Mobile"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .filter((project) => project.mobile)
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                    // technologies used
+                    nextjs
+                    react
+                    supabse
+                    drizzle
+                    shadcn
+                    reacticnons
+                    typescript
+                    node
+                  />
+                ))}
+            </TabsContent>
+
+            <TabsContent
+              value="Back-end"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .filter((project) => project.backend)
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                    // technologies used
+                    nextjs
+                    react
+                    supabse
+                    drizzle
+                    shadcn
+                    reacticnons
+                    typescript
+                    node
+                  />
+                ))}
+            </TabsContent>
+
+            <TabsContent
+              value="Front-end"
+              className="flex flex-col sm:flex-row flex-wrap justify-between"
+            >
+              {allProjects
+                .filter((project) => project.frontend)
+                .map((project) => (
+                  <ProjectCard
+                    key={project.id}
+                    banner={project.banner}
+                    logo={project.logo}
+                    title={project.title}
+                    description={project.descriptiom}
+                    demo={project.demo}
+                    blog={project.blog}
+                    sourceCode={project.sourceCode}
+                    // technologies used
+                    nextjs
+                    react
+                    supabse
+                    drizzle
+                    shadcn
+                    reacticnons
+                    typescript
+                    node
+                  />
+                ))}
+            </TabsContent>
+          </Tabs>
         </main>
 
         <section>
