@@ -20,15 +20,6 @@ const RecentProjects = () => {
               demo={project.demo}
               blog={project.blog}
               sourceCode={project.sourceCode}
-              // technologies used
-              nextjs
-              react
-              supabse
-              drizzle
-              shadcn
-              reacticnons
-              typescript
-              node
             />
           ))}
       </div>

@@ -4,7 +4,6 @@ import Image from "next/image";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { RiArticleLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
-import { TbBrandNextjs } from "react-icons/tb";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
@@ -25,6 +24,17 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "./ui/button";
 import Link from "next/link";
+
+import NextjsIcon from "@/components/icons/NextjsIcon";
+import ReactIcon from "./icons/ReactIcon";
+import ExpressIcon from "./icons/ExpressIcon";
+import TypescriptIcon from "./icons/TypescriptIcon";
+import PrismaIcon from "./icons/PrismaIcon";
+import SupabaseIcon from "./icons/SupabaseIcon";
+import GraphqlIcon from "./icons/GraphqlIcon";
+import ShadcnIcon from "./icons/ShadcnIcon";
+import PostgresIcon from "./icons/PostgresIcon";
+import AwsIcon from "./icons/AwsIcon";
 
 interface ProjectCardProps {
   logo: string;
@@ -78,16 +88,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               </h1>
 
               <div className="flex gap-2 items-center py-3">
-                <TbBrandNextjs className="text-white" size={21} />
-                <RiReactjsLine className="text-blue-400" size={23} />
-                <SiExpress className="text-white" />
-                <SiTypescript className="text-blue-500" />
-                <SiPrisma className="text-white" />
-                <RiSupabaseFill className="text-green-400" />
-                <GrGraphQl className="text-pink-500" />
-                <SiShadcnui className="text-white" />
-                <BiLogoPostgresql className="text-blue-400" size={24} />
-                <FaAws className="text-white" size={23} />
+                <NextjsIcon />
+                <ReactIcon />
+                <ExpressIcon />
+                <TypescriptIcon />
+                <GraphqlIcon />
+                <PrismaIcon />
+                <SupabaseIcon />
+                <ShadcnIcon />
+                <PostgresIcon />
+                <AwsIcon />
               </div>
             </div>
           </div>
