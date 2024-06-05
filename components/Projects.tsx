@@ -20,7 +20,7 @@ const Projects = () => {
             Work & Hobby.
           </h1>
 
-          <Tabs defaultValue="Front-end" className="w-full">
+          <Tabs defaultValue="AI" className="w-full">
             <TabsList>
               <TabsTrigger className="text-xs sm:text-sm" value="AI">
                 AI
@@ -55,21 +55,12 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
-                    // technologies used
-                    nextjs
-                    react
-                    supabse
-                    drizzle
-                    shadcn
-                    reacticnons
-                    typescript
-                    node
                   />
                 ))}
             </TabsContent>
 
             <TabsContent
-              value="Blockchai n"
+              value="Blockchain"
               className="flex flex-col sm:flex-row flex-wrap justify-between"
             >
               {allProjects
@@ -84,15 +75,6 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
-                    // technologies used
-                    nextjs
-                    react
-                    supabse
-                    drizzle
-                    shadcn
-                    reacticnons
-                    typescript
-                    node
                   />
                 ))}
             </TabsContent>
@@ -113,15 +95,6 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
-                    // technologies used
-                    nextjs
-                    react
-                    supabse
-                    drizzle
-                    shadcn
-                    reacticnons
-                    typescript
-                    node
                   />
                 ))}
             </TabsContent>
@@ -142,15 +115,6 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
-                    // technologies used
-                    nextjs
-                    react
-                    supabse
-                    drizzle
-                    shadcn
-                    reacticnons
-                    typescript
-                    node
                   />
                 ))}
             </TabsContent>
@@ -171,15 +135,6 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
-                    // technologies used
-                    nextjs
-                    react
-                    supabse
-                    drizzle
-                    shadcn
-                    reacticnons
-                    typescript
-                    node
                   />
                 ))}
             </TabsContent>

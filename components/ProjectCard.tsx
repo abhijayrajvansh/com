@@ -9,6 +9,7 @@ import { IoLogoNodejs } from "react-icons/io5";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { RiArticleLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
+import { SiPrisma } from "react-icons/si";
 
 import {
   Dialog,
@@ -29,14 +30,6 @@ interface ProjectCardProps {
   sourceCode: string;
   blog: string;
   banner: string;
-  nextjs?: boolean;
-  react?: boolean;
-  supabse?: boolean;
-  drizzle?: boolean;
-  shadcn?: boolean;
-  reacticnons?: boolean;
-  typescript?: boolean;
-  node?: boolean;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -47,20 +40,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   demo,
   blog,
   sourceCode,
-  nextjs,
-  react,
-  supabse,
-  drizzle,
-  shadcn,
-  reacticnons,
-  typescript,
-  node,
 }) => {
   return (
     <Dialog>
       <DialogTrigger>
         <div
-          className={`my-5 w-full sm:w-[320px] rounded-xl shadow-2xl transition justify-end relative cursor-pointer`}
+          className={`my-5 w-full sm:w-[320px] xl:w-[336px] rounded-xl shadow-2xl transition justify-end relative cursor-pointer`}
         >
           <Image
             width={336}
@@ -88,37 +73,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 {title}
               </h1>
 
-              <div className="flex gap-2 items-center py-1 pb-2">
+              {/* <div className="flex gap-2 items-center py-1 pb-2">
                 {nextjs && <TbBrandNextjs className="text-white" />}
                 {react && <RiReactjsLine className="text-sky-500" />}
-                {supabse && <RiSupabaseFill className="text-green-500" />}
-                {drizzle && (
-                  <Image
-                    height={39}
-                    width={39}
-                    src="/drizzle.png"
-                    alt="drizzleLogo"
-                  />
-                )}
+                {node && <IoLogoNodejs className="text-green-600" />}
+                {typescript && <SiTypescript className="text-[#3075C1]" />}
+                {newv && <SiPrisma className="text-white" />}
+                {supabase && <RiSupabaseFill className="text-green-500" />}
                 {shadcn && (
                   <Image
-                    height={25}
+                  height={25}
                     width={25}
                     src="/shadcn.png"
                     alt="shadcnlogo"
                   />
                 )}
-                {reacticnons && (
-                  <Image
-                    height={21}
-                    width={21}
-                    src="/react-icons.svg"
-                    alt="reacticonslogo"
-                  />
-                )}
-                {typescript && <SiTypescript className="text-[#3075C1]" />}
-                {node && <IoLogoNodejs className="text-green-600" />}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

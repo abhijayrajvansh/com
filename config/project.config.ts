@@ -1,7 +1,7 @@
 export const allProjects = [
   {
     "id": '01',
-    "ai": false,
+    "ai": true,
     "blockchain": false,
     "mobile": false,
     "backend": true,
@@ -15,4 +15,6 @@ export const allProjects = [
     "demo": "https://github.com/abhijayrajvansh/twitter-clone-next.js",
     "blog": "/blog/twitter-fullstack-clone",
   },
+
+  
 ]
