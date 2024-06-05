@@ -1,15 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import { TbBrandNextjs } from "react-icons/tb";
-import { RiReactjsLine } from "react-icons/ri";
-import { RiSupabaseFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
-import { IoLogoNodejs } from "react-icons/io5";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { RiArticleLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa6";
+import { TbBrandNextjs } from "react-icons/tb";
+import { RiReactjsLine } from "react-icons/ri";
+import { SiExpress } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
+import { RiSupabaseFill } from "react-icons/ri";
+import { GrGraphQl } from "react-icons/gr";
+import { SiShadcnui } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaAws } from "react-icons/fa";
 
 import {
   Dialog,
@@ -73,22 +77,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 {title}
               </h1>
 
-              {/* <div className="flex gap-2 items-center py-1 pb-2">
-                {nextjs && <TbBrandNextjs className="text-white" />}
-                {react && <RiReactjsLine className="text-sky-500" />}
-                {node && <IoLogoNodejs className="text-green-600" />}
-                {typescript && <SiTypescript className="text-[#3075C1]" />}
-                {newv && <SiPrisma className="text-white" />}
-                {supabase && <RiSupabaseFill className="text-green-500" />}
-                {shadcn && (
-                  <Image
-                  height={25}
-                    width={25}
-                    src="/shadcn.png"
-                    alt="shadcnlogo"
-                  />
-                )}
-              </div> */}
+              <div className="flex gap-2 items-center py-3">
+                <TbBrandNextjs className="text-white"/>
+                <RiReactjsLine />
+                <SiExpress />
+                <SiTypescript />
+                <SiPrisma />
+                <RiSupabaseFill />
+                <GrGraphQl />
+                <SiShadcnui />
+                <BiLogoPostgresql />
+                <FaAws />
+              </div>
             </div>
           </div>
         </div>
