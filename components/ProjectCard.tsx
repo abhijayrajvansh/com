@@ -78,16 +78,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               </h1>
 
               <div className="flex gap-2 items-center py-3">
-                <TbBrandNextjs className="text-white"/>
-                <RiReactjsLine />
-                <SiExpress />
-                <SiTypescript />
-                <SiPrisma />
-                <RiSupabaseFill />
-                <GrGraphQl />
-                <SiShadcnui />
-                <BiLogoPostgresql />
-                <FaAws />
+                <TbBrandNextjs className="text-white" size={21}/>
+                <RiReactjsLine className="text-blue-400" size={23}/>
+                <SiExpress className="text-white"/>
+                <SiTypescript className="text-blue-400"/>
+                <SiPrisma className="text-white"/>
+                <RiSupabaseFill className="text-green-400"/>
+                <GrGraphQl className="text-pink-500"/>
+                <SiShadcnui className="text-white"/>
+                <BiLogoPostgresql className="text-blue-400" size={24}/>
+                <FaAws className="text-yellow-400" size={23}/>
               </div>
             </div>
           </div>
