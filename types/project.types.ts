@@ -3,7 +3,7 @@ export interface Project {
   banner: string;
   logo: string;
   title: string;
-  descriptiom: string;
+  description: string;
   sourceCode: string;
   demo: string;
   blog: string;

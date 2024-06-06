@@ -50,7 +50,7 @@ const Projects = () => {
                   banner={project.banner}
                   logo={project.logo}
                   title={project.title}
-                  description={project.descriptiom}
+                  description={project.description}
                   demo={project.demo}
                   blog={project.blog}
                   sourceCode={project.sourceCode}
@@ -79,7 +79,7 @@ const Projects = () => {
                     banner={project.banner}
                     logo={project.logo}
                     title={project.title}
-                    description={project.descriptiom}
+                    description={project.description}
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
@@ -108,7 +108,7 @@ const Projects = () => {
                     banner={project.banner}
                     logo={project.logo}
                     title={project.title}
-                    description={project.descriptiom}
+                    description={project.description}
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
@@ -137,7 +137,7 @@ const Projects = () => {
                     banner={project.banner}
                     logo={project.logo}
                     title={project.title}
-                    description={project.descriptiom}
+                    description={project.description}
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
@@ -167,7 +167,7 @@ const Projects = () => {
                     banner={project.banner}
                     logo={project.logo}
                     title={project.title}
-                    description={project.descriptiom}
+                    description={project.description}
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
