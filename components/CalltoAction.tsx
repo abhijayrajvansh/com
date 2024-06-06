@@ -4,14 +4,14 @@ import Link from "next/link";
 const CalltoAction = () => {
   return (
     <div className="text-color-text font-light">
-      For work enquiries you can{" "}
+      For work enquiries you can contact me via{" "}
       <Link
         href={siteConfig.links.email}
         className="primary-text font-medium hover:underline underline-offset-4"
       >
         e-mail
       </Link>{" "}
-      me or you can DM on{" "}
+      or DM on{" "}
       <Link
         href={siteConfig.links.twitter}
         className="primary-text font-medium hover:underline underline-offset-4"
