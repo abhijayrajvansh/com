@@ -5,7 +5,7 @@ import CalltoAction from "./CalltoAction";
 const Introduction = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-10 pink-text-bg-gradient">
+      <h1 className="heading pink-text-bg-gradient">
         Who, What & Why?
       </h1>
 
@@ -21,22 +21,14 @@ const Introduction = () => {
       </div>
 
       <div>
-        <h2 className="mb-3 text-md">
-          Let&apos;s start with
-          <span className="text-xl text-highlighted-text font-semibold">
-            {" "}
-            &apos;Why?&apos;
-          </span>
-        </h2>
-
-        <p className="text-color-text font-light mb-3">
+        <p className="text-color-text font-light">
           In the fast-paced tech world, keeping up is tough. Product Hunt and
           HubSpot launch features daily, and AI is everywhere. Standing still
           means falling behind.
           <br />
           <br />
           That&apos;s where I come in. With over
-          <span className="text-highlighted-text font-normal">
+          <span className="text-highlighted">
             {" "}
             4+ years of experience{" "}
           </span>
@@ -46,7 +38,7 @@ const Introduction = () => {
           <br />
           <br />
           For me,
-          <span className="text-highlighted-text font-normal">
+          <span className="text-highlighted ">
             {" "}
             software engineering is an art{" "}
           </span>
@@ -59,7 +51,7 @@ const Introduction = () => {
             optimized solutions
           </Link>,{" "}
           rather than simply replicating code. I&apos;m passionate about
-          <span className="text-highlighted-text font-normal">
+          <span className=" ">
             {" "}
             algorithms & UI/UX{" "}
           </span>
@@ -79,10 +71,11 @@ const Introduction = () => {
             and psychology, watching arthouse movies, and sometimes playing
             chess.
           </span>
+          <br /><br />
         </p>
 
-        <p className="text-highlighted-text font-light">
-          p.s. i&apos;m an artist who aims for his art to leave behind a lasting
+        <p className="text-highlighted ">
+          tl;dr: i&apos;m an artist who aims for his art to leave behind a lasting
           legacy!
         </p>
 

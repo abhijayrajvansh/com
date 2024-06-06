@@ -77,13 +77,16 @@
   .contentWrapper {
     @apply px-4 sm:px-5 xl:px-0 sm:ml-[110px] xl:ml-[230px] w-full sm:max-w-[700px]
   }
+  .heading {
+    @apply text-4xl font-bold mb-10
+  }
   .subHeading {
     @apply font-medium text-xl mt-10
   }
   .text-color-text {
     @apply dark:text-[#94A3B8] text-[#64748B]
   }
-  .text-highlighted-text {
+  .text-highlighted {
     @apply dark:text-white text-black
   }
   .embeddedLinks {
