@@ -6,20 +6,17 @@ import Image from "next/image";
 const Introduction = () => {
   return (
     <div>
-      <h1 className="heading pink-text-bg-gradient">Who, What & Why?</h1>
+      <h1 className="heading pink-text-bg-gradient mb-5">Who, What & Why?</h1>
 
-      <div className="">
         <img
           src="/images/abhijay-rajvansh.jpeg"
           alt="abhijay-rajvansh-avatar.png"
-          className="flex-none h-[230px] mr-5 rounded-lg float-left"
+          className="flex-none sm:h-[240px] mr-5 sm:float-left px-4 sm:p-0"
         />
-
-        <div className="">
-          <p className="text-paragraph">
-            The rapidly evolving tech industry makes staying updated
+          <p className="text-paragraph mt-3">
+            <span className="font-semibold text-4xl">T</span>he rapidly evolving tech industry makes staying updated
             challenging. Product Hunt and HubSpot release new features daily,
-            and AI is ubiquitous. Standing still means falling behind.
+            and AI is everywhere. Standing still means falling behind.
           </p>
 
           <p className="text-paragraph mt-3">
@@ -59,8 +56,6 @@ const Introduction = () => {
             tl;dr: i&apos;m an artist who aims for his art to leave behind a
             lasting legacy!
           </p>
-        </div>
-      </div>
 
       <DigitalHandSign />
 

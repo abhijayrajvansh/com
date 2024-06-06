@@ -12,7 +12,7 @@ const ShortIntro = () => {
       </p>
 
       <h1 className="text-4xl py-3 sm:text-5xl font-medium">
-        <span>I develop </span>
+        <span>I make </span>
         <span
           className="
             bg-gradient-to-r from-[#1cbc56] to-[#1cbc56] dark:from-[#6dd9c9] dark:to-[#68fd81] bg-cover bg-clip-text text-transparent font-semibold

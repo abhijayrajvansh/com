@@ -78,7 +78,7 @@
     @apply px-4 sm:px-5 xl:px-0 sm:ml-[110px] xl:ml-[230px] w-full sm:max-w-[700px]
   }
   .heading {
-    @apply text-4xl font-bold mb-10
+    @apply text-4xl font-bold
   }
   .subHeading {
     @apply font-medium text-xl mt-10
@@ -93,7 +93,7 @@
     @apply primary-text dark:font-light hover:underline underline-offset-4
   }
   .text-highlighted {
-    @apply dark:text-white text-black
+    @apply dark:text-white text-black font-normal dark:font-light
   }
   .embeddedLinks {
     @apply font-medium hover:underline underline-offset-4
