@@ -13,33 +13,32 @@ const Notfound = () => {
       <NavigationTab />
       <div className="pageWrapper">
         <main className="contentWrapper">
-          <div className="flex flex-col items-start justify-center sm:pt-20">
-            <p className="py-1 sm:text-xl font-light">
-              hey, looks like this page doesn&apos;t exist...
+          <div className="flex flex-col text-base font-light items-start justify-center sm:pt-20">
+            <p className="text-5xl font-bold">
+              404 error &nbsp; : P
             </p>
-            <p className="py-1 sm:text-xl font-light">
-              think it&apos;s a mistake? tell me via{" "}
+            <p className="mt-5">hmm, looks like this page doesn&apos;t exist...</p>
+            <p>
+              believe it&apos;s a mistake or a bug? you can cantact me
+              via{" "}
               <Link
                 className="primary-text hover:underline underline-offset-4"
                 href={siteConfig.links.email}
               >
                 email
               </Link>{" "}
-              or DM on{" "}
+              or dm on{" "}
               <Link
                 target="_blank"
                 rel="noopener noreferer"
                 className="primary-text hover:underline underline-offset-4"
                 href={siteConfig.links.twitter}
               >
-                𝕏.
+                𝕏(twitter).
               </Link>
             </p>
-            <br />
-            <div className="font-light">
-              <p className="sm:text-lg">regards</p>
-              <p className="sm:text-lg">abhijay</p>
-            </div>
+            <p className="mt-3">regards</p>
+            <p>abhijay ; )</p>
           </div>
         </main>
         <section>
