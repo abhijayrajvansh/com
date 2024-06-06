@@ -84,7 +84,13 @@
     @apply font-medium text-xl mt-10
   }
   .text-color-text {
-    @apply dark:text-[#94A3B8] text-[#64748B]
+    @apply dark:text-[#94A3B8] text-[#4a515b]
+  }
+  .text-paragraph {
+    @apply dark:text-[#94A3B8] text-[#4a515b] font-light
+  }
+  .text-link {
+    @apply primary-text dark:font-light hover:underline underline-offset-4
   }
   .text-highlighted {
     @apply dark:text-white text-black
