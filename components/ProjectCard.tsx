@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   demo,
   blog,
   sourceCode,
-  nextjs,
+  nextjs = false,
   react,
   express,
   typescript,
@@ -95,6 +95,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 {title}
               </h1>
 
+              {/* skills section */}
               <div className="flex gap-2 items-center py-3">
                 {nextjs && <NextjsIcon />}
                 {react && <ReactIcon />}

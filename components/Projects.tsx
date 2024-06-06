@@ -8,6 +8,8 @@ import Spotify from "./Spotify";
 import { allProjects } from "@/config/project.config";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
+
+
 const Projects = () => {
   return (
     <section className="wrapper">
@@ -54,7 +56,8 @@ const Projects = () => {
                     demo={project.demo}
                     blog={project.blog}
                     sourceCode={project.sourceCode}
-                    nextjs={project.skills.nextjs}
+                    nextjs={project.skills.nextjs ?? false}
+                    // to fix this i need to export types of project from config, it seems.
                     react={project.skills.react}
                     express={project.skills.express}
                     typescript={project.skills.typescript}
