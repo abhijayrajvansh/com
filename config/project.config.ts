@@ -17,7 +17,7 @@ export const allProjects = [
       "mobile": false,
     },
     "skills": {
-      // "nextjs": true,
+      "nextjs": true,
       "react": true,
       "express": true,
       "typescript": true,
@@ -28,5 +28,4 @@ export const allProjects = [
       "aws": true,
     },
   },
-
 ]

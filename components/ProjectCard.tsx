@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   demo,
   blog,
   sourceCode,
-  nextjs = false,
+  nextjs,
   react,
   express,
   typescript,
