@@ -9,7 +9,9 @@ const FeaturedArticles = () => {
     <div className="flex flex-col items-start">
       <h1 className="subHeading">Featured Articles</h1>
 
-      {allBlogs.map((blog) => (
+      {allBlogs
+        .filter(blog => blog.category.home)
+        .map((blog) => (
         <BlogCard
           key={blog.id}
           thumbnail={blog.thumbnail}

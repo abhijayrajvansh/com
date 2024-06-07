@@ -63,7 +63,7 @@ const Blog = () => {
 
               <TabsContent value="popular">
                 {allBlogs
-                  .filter((blog) => blog.popular)
+                  .filter((blog) => blog.category.popular)
                   .map((blog) => (
                     <BlogCard
                       key={blog.id}
@@ -78,7 +78,7 @@ const Blog = () => {
 
               <TabsContent value="tutorials">
                 {allBlogs
-                  .filter((blog) => blog.tutorials)
+                  .filter((blog) => blog.category.tutorials)
                   .map((blog) => (
                     <BlogCard
                       key={blog.id}
@@ -93,7 +93,7 @@ const Blog = () => {
 
               <TabsContent value="productivity">
                 {allBlogs
-                  .filter((blog) => blog.productivity)
+                  .filter((blog) => blog.category.productivity)
                   .map((blog) => (
                     <BlogCard
                       key={blog.id}
@@ -108,7 +108,7 @@ const Blog = () => {
 
               <TabsContent value="beginners">
                 {allBlogs
-                  .filter((blog) => blog.beginners)
+                  .filter((blog) => blog.category.beginners)
                   .map((blog) => (
                     <BlogCard
                       key={blog.id}
