@@ -29,7 +29,7 @@ const NAVIGATION_DATA = [
     pageIcon: FaReact,
   },
   {
-    pageTitle: "Resume",
+    pageTitle: "Experience",
     pageIcon: PiSuitcaseSimpleDuotone,
   },
   {
