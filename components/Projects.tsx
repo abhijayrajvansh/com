@@ -51,9 +51,9 @@ const Projects = () => {
                   logo={project.logo}
                   title={project.title}
                   description={project.description}
-                  demo={project.demo}
-                  blog={project.blog}
-                  sourceCode={project.sourceCode}
+                  demo={project.links.demo ?? ' '}
+                  blog={project.links.blog ?? ' '}
+                  sourceCode={project.links.sourceCode ?? ' '}
                   nextjs={project.skills.nextjs ?? false}
                   react={project.skills.react ?? false}
                   express={project.skills.express ?? false}
@@ -80,9 +80,9 @@ const Projects = () => {
                     logo={project.logo}
                     title={project.title}
                     description={project.description}
-                    demo={project.demo}
-                    blog={project.blog}
-                    sourceCode={project.sourceCode}
+                    demo={project.links.demo ?? ' '}
+                    blog={project.links.blog ?? ' '}
+                    sourceCode={project.links.sourceCode ?? ' '}
                     nextjs={project.skills.nextjs ?? false}
                     react={project.skills.react ?? false}
                     express={project.skills.express ?? false}
@@ -109,9 +109,9 @@ const Projects = () => {
                     logo={project.logo}
                     title={project.title}
                     description={project.description}
-                    demo={project.demo}
-                    blog={project.blog}
-                    sourceCode={project.sourceCode}
+                    demo={project.links.demo ?? ' '}
+                    blog={project.links.blog ?? ' '}
+                    sourceCode={project.links.sourceCode ?? ' '}
                     nextjs={project.skills.nextjs ?? false}
                     react={project.skills.react ?? false}
                     express={project.skills.express ?? false}
@@ -138,10 +138,9 @@ const Projects = () => {
                     logo={project.logo}
                     title={project.title}
                     description={project.description}
-                    demo={project.demo}
-                    blog={project.blog}
-                    sourceCode={project.sourceCode}
-                    // if any skills object not received then throws error
+                    demo={project.links.demo ?? ' '}
+                    blog={project.links.blog ?? ' '}
+                    sourceCode={project.links.sourceCode ?? ' '}
                     nextjs={project.skills.nextjs ?? false}
                     react={project.skills.react ?? false}
                     express={project.skills.express ?? false}
@@ -168,9 +167,9 @@ const Projects = () => {
                     logo={project.logo}
                     title={project.title}
                     description={project.description}
-                    demo={project.demo}
-                    blog={project.blog}
-                    sourceCode={project.sourceCode}
+                    demo={project.links.demo ?? ' '}
+                    blog={project.links.blog ?? ' '}
+                    sourceCode={project.links.sourceCode ?? ' '}
                     nextjs={project.skills.nextjs ?? false}
                     react={project.skills.react ?? false}
                     express={project.skills.express ?? false}

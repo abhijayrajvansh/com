@@ -30,10 +30,10 @@ interface ProjectCardProps {
   logo: string;
   title: string;
   description: string;
-  demo: string;
-  sourceCode: string;
-  blog: string;
   banner: string;
+  demo: string;
+  blog: string;
+  sourceCode: string;
   nextjs?: boolean;
   react?: boolean;
   express?: boolean;
@@ -94,8 +94,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               <h1 className="font-semibold text-start sm:font-medium text-2xl text-white">
                 {title}
               </h1>
-
-              {/* skills section */}
               <div className="flex gap-2 items-center py-3">
                 {nextjs && <NextjsIcon />}
                 {react && <ReactIcon />}
@@ -118,26 +116,29 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {description}
           </DialogDescription>
           <DialogDescription className="text-start flex justify-between sm:justify-start">
+            
+          {demo !== ' ' ?  
             <Button
-              asChild
-              variant={"link"}
-              className="sm:text-base font-medium text-pink-600"
-              size="sm"
+            asChild
+            variant={"link"}
+            className="sm:text-base font-medium text-pink-600"
+            size="sm"
+          >
+            <Link
+              target="_blank"
+              rel="noopener noreferer"
+              href={demo}
+              className="space-x-2"
             >
-              <Link
-                target="_blank"
-                rel="noopener noreferer"
-                href={demo}
-                className="space-x-2"
-              >
-                <p className="flex items-center gap-2">
-                  <FaExternalLinkAlt size={18} />
-                  Demo
-                </p>
-              </Link>
-            </Button>
+              <p className="flex items-center gap-2">
+                <FaExternalLinkAlt size={18} />
+                Demo
+              </p>
+            </Link>
+          </Button> : <></>}
 
-            <Button
+            {blog !== ' ' ?
+              <Button
               asChild
               variant={"link"}
               className="sm:text-base font-medium primary-text"
@@ -154,9 +155,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   Blog
                 </p>
               </Link>
-            </Button>
+            </Button> : <></>}
 
-            <Button
+            {sourceCode !== ' ' ?
+              <Button
               asChild
               variant={"link"}
               className="sm:text-base font-medium dark:text-white text-black"
@@ -173,7 +175,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   Source Code
                 </p>
               </Link>
-            </Button>
+            </Button> : <></>}
+
           </DialogDescription>
         </DialogHeader>
       </DialogContent>

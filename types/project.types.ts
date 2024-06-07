@@ -4,9 +4,11 @@ export interface Project {
   logo: string;
   title: string;
   description: string;
-  sourceCode: string;
-  demo: string;
-  blog: string;
+  links: {
+    demo?: string;
+    blog?: string;
+    sourceCode?: string;
+  };
   category: {
     popular: boolean;
     ai: boolean;

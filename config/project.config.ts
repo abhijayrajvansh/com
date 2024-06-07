@@ -5,10 +5,11 @@ export const allProjects = [
     "logo": '/logo/xLogo.jpeg',
     "title": "Twitter 𝕏 Clone",
     "description": "this is a sample description of the poject for the card model, good going!!",
-    "sourceCode": "https://github.com/abhijayrajvansh/twitter-clone-next.js",
-    "demo": "https://github.com/abhijayrajvansh/twitter-clone-next.js",
-    "blog": "/blog/twitter-fullstack-clone",
-
+    "links": {
+      "demo": "https://github.com/abhijayrajvansh/twitter-clone-next.js",
+      "blog": "/blog/twitter-fullstack-clone",
+      "sourceCode": "https://github.com/abhijayrajvansh/twitter-clone-next.js",
+    },
     "category": {
       "popular": true,
       "ai": false,
