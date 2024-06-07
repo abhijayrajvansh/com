@@ -90,16 +90,16 @@
     @apply dark:text-[#94A3B8] text-[#4a515b] font-light
   }
   .text-link {
-    @apply primary-text dark:font-light hover:underline underline-offset-4
+    @apply primary-text hover:underline underline-offset-4
   }
   .text-highlighted {
-    @apply dark:text-white text-black font-normal dark:font-light
+    @apply dark:text-white text-black font-medium sm:font-normal
   }
   .embeddedLinks {
     @apply font-medium hover:underline underline-offset-4
   }
   .primary-text {
-    @apply dark:text-[#66AAF9] text-[#2570EE]
+    @apply dark:text-[#66AAF9] text-[#2570EE] font-medium
   }
 
   /* gradient text heading */

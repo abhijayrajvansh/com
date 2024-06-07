@@ -51,7 +51,7 @@ const Introduction = () => {
         Apart from coding, I enjoy playing my piano, reading about finance and
         psychology, watching arthouse movies, and sometimes playing chess.
       </p>
-      <p className="text-highlighted mt-3">
+      <p className="text-highlighted mt-5">
         tl;dr: i&apos;m an artist who aims for his art to leave behind a lasting
         legacy!
       </p>
