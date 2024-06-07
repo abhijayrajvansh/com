@@ -18,11 +18,10 @@ const BlogCard: React.FC<BlogCardProps> = ({
   description,
   link,
 }) => {
-
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(link)
+    router.push(link);
   };
 
   return (
@@ -51,12 +50,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
             </Link>
           </div>
 
-          <Link
-            href={link}
-            className="text-lg font-medium hover:underline underline-offset-4 transition hover:text-blue-400"
-          >
-            {title}
-          </Link>
+          <div className="text-lg font-medium">{title}</div>
 
           <p className="text-sm font-light text-color-text">{description}</p>
         </div>
