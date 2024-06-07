@@ -11,7 +11,7 @@ export const allProjects = [
       "sourceCode": "https://github.com/abhijayrajvansh/twitter-clone-next.js",
     },
     "category": {
-      "popular": true,
+      "home": true,
       "ai": false,
       "blockchain": false,
       "web": true,

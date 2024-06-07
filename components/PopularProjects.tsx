@@ -5,11 +5,11 @@ import ProjectCard from "./ProjectCard";
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className="subHeading">Popular Projects</h1>
+      <h1 className="subHeading mt-12">Popular Projects</h1>
 
       <div className="flex flex-col sm:flex-row flex-wrap justify-between">
         {allProjects
-          .filter((project) => project.category.popular)
+          .filter((project) => project.category.home)
           .map((project) => (
             <ProjectCard
               key={project.id}
@@ -33,7 +33,7 @@ const RecentProjects = () => {
           ))}
       </div>
 
-      <div className="text-md font-light flex gap-1 mb-10">
+      <div className="text-md font-light flex gap-1 mt-1 mb-10">
         <p>View all my projects on the</p>
         <Link
           className="primary-text font-medium hover:underline underline-offset-4"

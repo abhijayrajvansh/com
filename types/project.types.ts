@@ -10,7 +10,7 @@ export interface Project {
     sourceCode?: string;
   };
   category: {
-    popular: boolean;
+    home: boolean;
     ai: boolean;
     blockchain: boolean;
     web: boolean;
