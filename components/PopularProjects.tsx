@@ -17,18 +17,18 @@ const RecentProjects = () => {
               logo={project.logo}
               title={project.title}
               description={project.description}
-              demo={project.demo}
-              blog={project.blog}
-              sourceCode={project.sourceCode}
-              nextjs={project.skills.nextjs}
-              react={project.skills.react}
-              express={project.skills.express}
-              typescript={project.skills.typescript}
-              graphql={project.skills.graphql}
-              prisma={project.skills.prisma}
-              supabase={project.skills.supabase}
-              postgres={project.skills.postgres}
-              aws={project.skills.aws}
+              demo={project.links.demo ?? " "}
+              blog={project.links.blog ?? " "}
+              sourceCode={project.links.sourceCode ?? " "}
+              nextjs={project.skills.nextjs ?? false}
+              react={project.skills.react ?? false}
+              express={project.skills.express ?? false}
+              typescript={project.skills.typescript ?? false}
+              graphql={project.skills.graphql ?? false}
+              prisma={project.skills.prisma ?? false}
+              supabase={project.skills.supabase ?? false}
+              postgres={project.skills.postgres ?? false}
+              aws={project.skills.aws ?? false}
             />
           ))}
       </div>
