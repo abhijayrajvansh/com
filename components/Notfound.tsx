@@ -15,7 +15,7 @@ const Notfound = () => {
         <main className="contentWrapper">
           <div className="flex flex-col text-base font-light items-start justify-center sm:pt-20">
             <p className="text-5xl font-bold">404 error</p>
-            <p className="mt-5">
+            <p className="mt-7">
               hey, looks like this page doesn&apos;t exist...
             </p>
             <p className="mt-2">
