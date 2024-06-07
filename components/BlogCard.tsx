@@ -1,7 +1,7 @@
-import Link from "next/link";
-import AddGap from "./AddGap";
 import { FaLink } from "react-icons/fa6";
+import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 interface BlogCardProps {
   thumbnail: string;
@@ -18,10 +18,19 @@ const BlogCard: React.FC<BlogCardProps> = ({
   description,
   link,
 }) => {
+
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push(link)
+  };
+
   return (
-    <div className="border-b border-border py-1">
-      <AddGap vertical="2" />
-      <div className="flex gap-5 items-center">
+    <div className="">
+      <div
+        onClick={handleClick}
+        className="flex gap-5 items-center hover:cursor-pointer hover:bg-[#182136] p-3 rounded-lg my-1"
+      >
         <Image
           width={80}
           height={80}
@@ -49,10 +58,9 @@ const BlogCard: React.FC<BlogCardProps> = ({
             {title}
           </Link>
 
-          <p className="text-sm font-medium text-color-text">{description}</p>
+          <p className="text-sm font-light text-color-text">{description}</p>
         </div>
       </div>
-      <AddGap vertical="2" />
     </div>
   );
 };

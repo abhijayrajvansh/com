@@ -120,9 +120,6 @@ const Blog = () => {
                     />
                   ))}
               </TabsContent>
-
-
-
             </Tabs>
           </div>
         </main>
