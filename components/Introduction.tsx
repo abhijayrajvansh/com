@@ -13,10 +13,9 @@ const Introduction = () => {
         className="flex-none mr-5 sm:h-[240px] sm:float-left sm:p-0 rounded-lg"
       />
       <p className="text-paragraph mt-3">
-        <span className="font-medium text-4xl">T</span>he rapidly evolving tech
-        industry makes staying updated challenging. Product Hunt and HubSpot
-        release new features daily, and AI is everywhere. Standing still means
-        falling behind.
+        <span className="font-medium text-4xl">T</span>he fast-paced nature of the 
+        tech industry makes it hard to keep up. Product Hunt and HubSpot launch new 
+        features every day, and AI is everywhere. Not advancing equates to being left behind.
       </p>
 
       <p className="text-paragraph mt-3">
