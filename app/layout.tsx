@@ -5,7 +5,10 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Bricolage_Grotesque } from "next/font/google";
 
 // const inter = Inter({ subsets: ["latin"] });
-const myFont = Bricolage_Grotesque({ subsets: ["latin"] });
+const myFont = Bricolage_Grotesque({
+  weight: ["200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"]
+});
 
 export const metadata: Metadata = {
   title: {
