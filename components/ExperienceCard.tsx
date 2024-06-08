@@ -1,4 +1,10 @@
 import Image from "next/image";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 interface ExperienceCardProps {
   companyLogo: string;
@@ -40,15 +46,15 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           width={56}
           className={`h-14 rounded-xl ${
             endDate === "Present"
-              ? "border-2 border-yellow-300 glow-bg-gold"
-              : "border-2 border-zinc-500"
+              ? "border-[3px] border-yellow-300 glow-bg-gold"
+              : "border-4 border-border"
           }`}
           src={companyLogo}
           alt="companyLogo"
         />
       </div>
 
-      <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10">
+      <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10 w-full">
         {startDate && (
           <p className="text-default-500 text-sm">
             {startDate} - {endDate}
@@ -61,14 +67,27 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
             <p className="text-color-text">{companyLocation}</p>
           </div>
         </div>
-        {description?.map((keyPoint, index) => (
-          <div className="text-color-text text-[13px] sm:text-sm" key={index}>
-            <p className="pt-1">
-              <span className="primary-text"> — </span>
-              <span className="font-normal">{keyPoint}</span>
-            </p>
-          </div>
-        ))}
+
+        {/* defaultValue={content} - content will decide wheather to open and in this scenario if we map then all the content value are same, thus here the values must be pass through prop drilling and api must be in JSON format, on the experience.tsx page the full JSON will be mapped and then here we can decide what to have in accordian and skills out of accordion for more appealing. */}
+        
+        <Accordion type="single" defaultValue="description" collapsible className="w-full">
+          <AccordionItem value="description">
+            <AccordionTrigger  className="text-color-text font-normal text-sm">Details</AccordionTrigger>
+            <AccordionContent>
+              {description?.map((keyPoint, index) => (
+                <div
+                  className="text-color-text text-[13px] sm:text-sm"
+                  key={index}
+                >
+                  <p className="pt-1">
+                    <span className="primary-text"> — </span>
+                    <span className="font-light">{keyPoint}</span>
+                  </p>
+                </div>
+              ))}
+            </AccordionContent>
+          </AccordionItem>
+        </Accordion>
       </div>
     </div>
   );
