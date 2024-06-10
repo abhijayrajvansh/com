@@ -56,7 +56,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10 w-full">
         {startDate && (
-          <p className="text-default-500 text-sm">
+          <p className="text-paragraph text-sm">
             {startDate} - {endDate}
           </p>
         )}
