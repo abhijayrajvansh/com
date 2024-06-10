@@ -1,4 +1,4 @@
-import Resume from "@/components/Resume";
+import Experience from "@/components/Experience";
 import { siteConfig } from "@/config/site.config";
 import { Metadata } from "next";
 
@@ -14,11 +14,7 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-  return (
-    <section>
-      <Resume />
-    </section>
-  );
+  return <Experience />;
 };
 
 export default page;

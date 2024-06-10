@@ -11,7 +11,7 @@ import {
   technicalTools,
 } from "@/config/skills.config";
 
-const Resume = () => {
+const Experience = () => {
   return (
     <section className="wrapper">
       <Header />
@@ -124,4 +124,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Experience;

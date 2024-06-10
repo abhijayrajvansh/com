@@ -14,11 +14,7 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-  return (
-    <section className="wrapper">
-      <Projects />
-    </section>
-  );
+  return <Projects />;
 };
 
 export default page;
