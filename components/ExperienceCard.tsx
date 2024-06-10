@@ -68,15 +68,12 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           </div>
         </div>
 
-        {/* defaultValue={content} - content will decide wheather to open and in this scenario if we map then all the content value are same, thus here the values must be pass through prop drilling and api must be in JSON format, on the experience.tsx page the full JSON will be mapped and then here we can decide what to have in accordian and skills out of accordion for more appealing. */}
-
         <Accordion
           type="single"
-          defaultValue="description"
           collapsible
           className="w-full"
         >
-          <AccordionItem value="description">
+          <AccordionItem value='experienceData'>
             <AccordionTrigger className="text-color-text max-w-fit gap-2 font-normal text-sm">
               See Details
             </AccordionTrigger>
