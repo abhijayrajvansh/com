@@ -13,14 +13,15 @@ const Introduction = () => {
         className="flex-none mr-5 sm:h-[240px] sm:float-left sm:p-0 rounded-lg"
       />
       <p className="text-paragraph mt-3">
-        <span className="font-medium text-4xl">T</span>he fast-paced nature of the 
-        tech industry makes it hard to keep up. Product Hunt and HubSpot launch new 
-        features every day, and AI is everywhere. Not advancing equates to being left behind.
+        <span className="font-medium text-4xl">T</span>he fast-paced nature of
+        the tech industry makes it hard to keep up. Product Hunt and HubSpot
+        launch new features every day, and AI is everywhere. Not advancing
+        equates to being left behind.
       </p>
 
       <p className="text-paragraph mt-3">
         That&apos;s where I come in. With over
-        <span className="text-highlighted"> 4+ years of experience </span>
+        <Link href={'/experience'} className="text-link"> 4+ years of experience </Link>
         as a freelance software engineer and technical consultant, I help turn
         ideas into fully functional digital products. I offer practical
         solutions and bridge the tech gap for non-tech individuals.

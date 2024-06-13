@@ -9,7 +9,6 @@ import SocialConnections from "./SocialConnections";
 import Introduction from "./Introduction";
 import Spotify from "./Spotify";
 import CalltoAction from "./CalltoAction";
-import WorkExperience from "./WorkExperience";
 
 const About = () => {
   return (
@@ -19,8 +18,7 @@ const About = () => {
 
       <div className="pageWrapper sm:my-10">
         <div className="contentWrapper">
-          <Introduction />
-          <WorkExperience />          
+          <Introduction />   
           <CalltoAction />
         </div>
         <section>
