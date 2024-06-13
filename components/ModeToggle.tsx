@@ -42,7 +42,7 @@ export function ModeToggle() {
         {/* <DropdownMenuSeparator /> */}
         <DropdownMenuItem onClick={() => setTheme("light")}>
           <Sun className="mr-2 h-4 w-4" />
-          <span onClick={() => router.refresh() }>Light</span>
+          <span>Light</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           <Moon className="mr-2 h-4 w-4" />
