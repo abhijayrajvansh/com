@@ -28,7 +28,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
     <div className="">
       <div
         onClick={handleClick}
-        className="flex gap-5 items-center hover:cursor-pointer hover:bg-[#f5f5f5] dark:hover:bg-[#1c2638] hover:primary-text px-3 py-2 rounded-lg my-1"
+        className="flex gap-5 items-center hover:cursor-pointer hover:bg-[#ecebeb] dark:hover:bg-[#1c2638] hover:primary-text px-3 py-2 rounded-lg my-1"
       >
         <Image
           width={80}
