@@ -21,7 +21,7 @@ const About = () => {
         <div className="contentWrapper">
           <Introduction />
           <h1 className="text-3xl font-semibold mt-12 mb-7 yellow-text-bg-gradient">
-            Career
+            Professional Experience
           </h1>
           <Timeline />
           <CalltoAction />

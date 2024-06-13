@@ -182,9 +182,9 @@ const Projects = () => {
                 ))}
             </TabsContent>
           </Tabs>
-          {/* temporary y-axis space for noraml width below xl screen */}
+          {/* temporary y-axis space for noraml width for above sm & below xl screens */}
           <p className="text-background hidden sm:block">this is sample text paragraph to add minimum width for the feed section in the projects page as it will shrink.</p>
-          <div className="min-w-max"></div>
+
         </main>
 
         <section>
