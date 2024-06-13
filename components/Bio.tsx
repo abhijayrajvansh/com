@@ -3,7 +3,7 @@ import Link from "next/link";
 const ShortIntro = () => {
   return (
     <div className="space-y-3 sm:space-y-5 font-medium">
-      <p className="text-xl space-x-2 mt-5">
+      <p className="text-xl space-x-2 mt-7">
         Hi, I&apos;m
         <span className={`font-medium primary-text`}>
           {" "}
@@ -11,7 +11,7 @@ const ShortIntro = () => {
         </span>
       </p>
 
-      <h1 className="text-4xl py-3 sm:text-5xl font-medium">
+      <h1 className="text-4xl py-2 sm:text-5xl font-medium">
         <span>I make </span>
         <span
           className="
@@ -24,7 +24,7 @@ const ShortIntro = () => {
           {" "}
           softwares that people{" "}
           <span className="bg-gradient-to-b from-[#FD6BCE] to-[#F85798] bg-cover bg-clip-text text-transparent font-semibold">love.</span>
-        </span>
+        </span> 
       </h1>
 
       <p className="font-light text-color-text leading-relaxed">
