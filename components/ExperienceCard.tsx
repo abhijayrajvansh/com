@@ -66,17 +66,14 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
             )}
           </div>
         </div>
-        <div className="flex items-center gap-2 pb-1">
-          <div className="text-sm font-medium text-default-600">
-            <h3 className="">{companyName}</h3>
-            <p className="text-color-text mt-1">{companyLocation}</p>
-          </div>
-        </div>
 
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="experienceData">
-            <AccordionTrigger className="text-color-text max-w-fit gap-2 font-normal text-sm">
-              See Details
+            <AccordionTrigger className="hover:no-underline">
+              <div className="text-sm font-medium text-default-600 flex flex-col items-start">
+                <h3 className="">{companyName}</h3>
+                <p className="text-paragraph">{companyLocation}</p>
+              </div>
             </AccordionTrigger>
 
             <AccordionContent>
