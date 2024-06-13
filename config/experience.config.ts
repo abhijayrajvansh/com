@@ -46,7 +46,7 @@ export const experiencesData = {
 			companyLogo: "/logo/nhs.png",
 			startDate: "Jul 2022",
 			endDate: "Oct 2022",
-			position: "Undergraduate AI/ML Researcher",
+			position: "AI/ML Researcher",
 			companyName: "L&D  Hospital · Internship",
 			companyLocation: "Luton, England, United Kingdom · Remote",
 			description : [
