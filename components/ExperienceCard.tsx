@@ -71,7 +71,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           <AccordionItem value="experienceData">
             <AccordionTrigger className="hover:no-underline">
               <div className="text-sm font-medium text-default-600 flex flex-col items-start">
-                <h3>{companyName}</h3>
+                <h3 className="-mt-1">{companyName}</h3>
                 <p className="text-paragraph mt-1">{companyLocation}</p>
               </div>
             </AccordionTrigger>
