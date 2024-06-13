@@ -56,13 +56,6 @@ const Introduction = () => {
       </p>
 
       <DigitalHandSign />
-
-      <div className="my-10">
-        <h1 className="text-3xl font-semibold my-2 yellow-text-bg-gradient">
-          Let&apos;s Connect!
-        </h1>
-        <CalltoAction />
-      </div>
     </div>
   );
 };

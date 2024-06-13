@@ -67,7 +67,7 @@
   /* page structure */
   /* navigation header feed engagement */
   .wrapper {
-    @apply w-screen h-full max-w-fit
+    @apply w-screen h-full max-w-fit lg:max-w-screen-xl
   }
   /* feed engagement */
   .pageWrapper {
