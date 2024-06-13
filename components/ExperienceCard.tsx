@@ -55,12 +55,17 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
       </div>
 
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10 w-full">
-        {startDate && (
-          <p className="text-paragraph text-sm">
-            {startDate} - {endDate}
-          </p>
-        )}
-        <h2 className="text-xl sm:text-2xl font-medium">{position}</h2>
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between">
+          <h2 className="text-xl sm:text-2xl font-medium">{position}</h2>
+          <div>
+            {startDate && (
+              <p className="text-paragraph font-semibold text-xs">
+                {" "}
+                {startDate} - {endDate}{" "}
+              </p>
+            )}
+          </div>
+        </div>
         <div className="flex items-center gap-2 pb-1">
           <div className="text-sm font-medium text-default-600">
             <h3 className="">{companyName}</h3>
@@ -68,12 +73,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           </div>
         </div>
 
-        <Accordion
-          type="single"
-          collapsible
-          className="w-full"
-        >
-          <AccordionItem value='experienceData'>
+        <Accordion type="single" collapsible className="w-full">
+          <AccordionItem value="experienceData">
             <AccordionTrigger className="text-color-text max-w-fit gap-2 font-normal text-sm">
               See Details
             </AccordionTrigger>
