@@ -17,11 +17,13 @@ import {
 import { RxHamburgerMenu } from "react-icons/rx";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { siteConfig } from "@/config/site.config";
-import Link from "next/link";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export function ModeToggle() {
   const { setTheme } = useTheme();
+  const router = useRouter();
 
   return (
     <DropdownMenu>
@@ -40,7 +42,7 @@ export function ModeToggle() {
         {/* <DropdownMenuSeparator /> */}
         <DropdownMenuItem onClick={() => setTheme("light")}>
           <Sun className="mr-2 h-4 w-4" />
-          <span>Light</span>
+          <span onClick={() => router.refresh() }>Light</span>
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           <Moon className="mr-2 h-4 w-4" />
