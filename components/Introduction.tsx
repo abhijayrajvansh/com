@@ -5,8 +5,8 @@ import CalltoAction from "./CalltoAction";
 const Introduction = () => {
   return (
     <div>
-      <h1 className="heading pink-text-bg-gradient mb-5">Who, What & Why?</h1>
-
+      <h1 className="heading pink-text-bg-gradient">Who, What & Why?</h1>
+      <p className="mb-5 text-paragraph">Updated at — Mar 22nd, 2024</p>
       <img
         src={"/images/abhijayrajvansh-avatar.jpeg"}
         alt="abhijay-rajvansh-avatar.png"
