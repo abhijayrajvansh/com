@@ -115,7 +115,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <DialogDescription className="text-start sm:text-base">
             {description}
           </DialogDescription>
-          <DialogDescription className="text-start flex justify-between sm:justify-start">
+          <DialogDescription className="text-start flex justify-between sm:justify-start sm:space-x-3">
             
           {demo !== ' ' ?  
             <Button
@@ -130,7 +130,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               href={demo}
               className="space-x-2"
             >
-              <p className="flex items-center gap-2">
+              <p className="flex items-center font-normal text-sm gap-3">
                 <FaExternalLinkAlt size={18} />
                 Demo
               </p>
@@ -150,7 +150,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 href={blog}
                 className="space-x-2"
               >
-                <p className="flex items-center gap-2">
+                <p className="flex items-center font-normal text-sm gap-3">
                   <RiArticleLine size={21} />
                   Blog
                 </p>
@@ -170,7 +170,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 href={sourceCode}
                 className="space-x-2"
               >
-                <p className="flex items-center gap-2">
+                <p className="flex items-center font-normal text-sm gap-3">
                   <FaGithub size={21} />
                   Source Code
                 </p>
