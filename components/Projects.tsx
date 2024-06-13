@@ -20,7 +20,6 @@ const Projects = () => {
           <h1 className="text-4xl font-bold mb-10 green-text-bg-gradient">
             Work & Hobby.
           </h1>
-
           <Tabs defaultValue="All" className="w-full">
             <TabsList>
               <TabsTrigger className="text-xs sm:text-sm" value="All">
@@ -183,10 +182,13 @@ const Projects = () => {
                 ))}
             </TabsContent>
           </Tabs>
+          {/* temporary y-axis space for noraml width below xl screen */}
+          <p className="text-background hidden sm:block">this is sample text paragraph to add minimum width for the feed section in the projects page as it will shrink.</p>
+          <div className="min-w-max"></div>
         </main>
 
         <section>
-          <div className="my-10 md:hidden"></div>
+          <div className="my-3 md:hidden"></div>
           <TechnicalSkills />
           <Spotify />
           <SocialConnections />
