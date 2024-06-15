@@ -151,7 +151,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 className="space-x-2"
               >
                 <p className="flex items-center font-normal text-sm gap-3">
-                  <RiArticleLine size={21} />
+                  <RiArticleLine size={23} />
                   Blog
                 </p>
               </Link>
@@ -171,7 +171,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 className="space-x-2"
               >
                 <p className="flex items-center font-normal text-sm gap-3">
-                  <FaGithub size={21} />
+                  <FaGithub size={23} />
                   Source Code
                 </p>
               </Link>
