@@ -1,6 +1,5 @@
 import Link from "next/link";
 import DigitalHandSign from "./DigitalHandSign";
-import CalltoAction from "./CalltoAction";
 
 const Introduction = () => {
   return (
@@ -21,7 +20,10 @@ const Introduction = () => {
 
       <p className="text-paragraph mt-3">
         That&apos;s where I come in. With over
-        <Link href={'/experience'} className="text-link"> 4+ years of experience </Link>
+        <Link href={"/experience"} className="text-link">
+          {" "}
+          4+ years of experience{" "}
+        </Link>
         as a freelance software engineer and technical consultant, I help turn
         ideas into fully functional digital products. I offer practical
         solutions and bridge the tech gap for non-tech individuals.

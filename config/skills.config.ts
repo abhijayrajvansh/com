@@ -6,7 +6,7 @@ export const technicalSkills = [
 	'TypeScript & JavaScript',
 	'Microservices',	
 	'SQL & NoSQL',
-	'Apollo GraphQL & tRPC', 
+	'GraphQL & tRPC', 
 	'Generative AI & LLMs',
 	'DevSecOps (DevOps & Security)',
 	'iOS Swift & UIkit', 
@@ -16,15 +16,14 @@ export const technicalSkills = [
 ]
 
 export const technicalTools = [
-	"Git",
-	"AWS",
-	"Linux",
-	"Docker",
 	"Kubernetes",
+	"Docker",
+	"Prisma ORM",
+	"AWS, S3 & Lambda",
+	"Git",
 	"Apache Kafka",
 	"Prometheus",
 	"Redis",
-	"Prisma",
 	"zustand",
 	"Expo",
 ]
