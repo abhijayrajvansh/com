@@ -11,7 +11,7 @@ const ShortIntro = () => {
         </span>
       </p>
 
-      <h1 className="text-4xl py-2 sm:text-5xl font-medium">
+      <h1 className="text-4xl py-2 sm:text-5xl font-medium sm:font-semibold">
         <span>I make </span>
         <span
           className="
