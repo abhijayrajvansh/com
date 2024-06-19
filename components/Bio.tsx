@@ -10,11 +10,15 @@ const ShortIntro = () => {
       </div>
 
       <div className="text-4xl py-2 sm:text-5xl xl:text-5xl font-semibold sm:font-semibold">
-        I make 
-        <GradientText color={'sky'}>AI</GradientText>
-        <GradientText color={'green'}>Blockchain</GradientText>
-        <GradientText color={'pink'}>fullstack</GradientText>
-        {/* fullstack -> full-stack next line break on md lg */}
+        I make
+        <GradientText color={"sky"}>AI</GradientText>
+        <GradientText color={"green"}>Blockchain</GradientText>
+        <GradientText className={"xl:hidden"} color={"pink"}>
+          full-stack
+        </GradientText>
+        <GradientText className={"hidden xl:inline"} color={"pink"}>
+          fullstack
+        </GradientText>
         products.
       </div>
 
