@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 const RecentProjects = () => {
   return (
     <div>
-      <h1 className="subHeading mt-12">Popular Projects</h1>
+      <h1 className="subHeading">Popular Projects</h1>
 
       <div className="flex flex-col sm:flex-row flex-wrap justify-between">
         {allProjects

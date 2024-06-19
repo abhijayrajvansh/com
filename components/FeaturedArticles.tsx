@@ -7,7 +7,7 @@ import { allBlogs } from "@/config/blog.config";
 const FeaturedArticles = () => {
   return (
     <div className="flex flex-col items-start">
-      <h1 className="subHeading mb-3">Featured Articles</h1>
+      <h1 className="subHeading">Featured Articles</h1>
 
       {allBlogs
         .filter(blog => blog.category.home)

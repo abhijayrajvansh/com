@@ -81,7 +81,7 @@
     @apply text-4xl font-bold
   }
   .subHeading {
-    @apply font-semibold text-2xl mt-10
+    @apply font-semibold text-2xl mt-12
   }
   .text-color-text {
     @apply dark:text-[#94A3B8] text-[#4a515b]
