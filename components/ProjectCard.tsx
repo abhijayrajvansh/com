@@ -78,7 +78,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           />
 
           <div className="flex flex-col rounded-xl shadow-lg">
-            <div className="pt-2 bg-gradient-to-t relative top-1 from-[#000000] to-[#000000]/5 pb-3 px-4 flex flex-col justify-center  rounded-t-xl min-h-[100px]">
+            <div className="pt-2 bg-gradient-to-t relative top-1 from-black to-black/5 pb-3 px-4 flex flex-col justify-center  rounded-t-xl min-h-[100px]">
               <div className="flex justify-between ">
                 <Image
                   className="h-14 w-14 rounded-xl "
@@ -90,7 +90,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               </div>
             </div>
 
-            <div className="transition flex flex-col text-xl font-medium justify-end bg-[#000000] px-4 rounded-b-sm pb-2 ">
+            <div className="transition flex flex-col text-xl font-medium justify-end bg-black px-4 rounded-b-sm pb-2 ">
               <h1 className="font-semibold text-start sm:font-medium text-2xl text-white">
                 {title}
               </h1>
