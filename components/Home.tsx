@@ -12,7 +12,7 @@ import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
 import Spotify from "./Spotify";
-import Stats from "./Stats";
+import DeveloperStats from "./DeveloperStats";
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
           <main className="contentWrapper">
             <Banner />
             <Bio />
-            <Stats />
+            <DeveloperStats />
             <FeaturedArticles />
             <PopularProjects />
           </main>

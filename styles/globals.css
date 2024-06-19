@@ -119,7 +119,7 @@
     @apply bg-gradient-to-r from-[#d0b5fa] to-[#25ae9c] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
   .text-bg-pink-gradient {
-    @apply bg-gradient-to-r from-[#fb75ab] to-[#f82e7f] dark:from-[#f98dd7] dark:to-[#f35c98] bg-cover bg-clip-text text-transparent w-fit
+    @apply bg-gradient-to-r from-[#fb75ab] to-[#f82e7f] dark:from-[#f98dd7] dark:to-[#f0639b] bg-cover bg-clip-text text-transparent w-fit
   }
   .text-bg-green-gradient {
     @apply bg-gradient-to-r from-[#4eda3e] to-[#30ab45] dark:from-[#6dd9c9] dark:to-[#38c750] bg-cover bg-clip-text text-transparent w-fit

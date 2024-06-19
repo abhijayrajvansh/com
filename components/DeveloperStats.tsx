@@ -1,4 +1,4 @@
-const Stats = () => {
+const DeveloperStats = () => {
   return (
     <div className="my-5 rounded-xl shadow-md sm:mt-10">
       <div className="flex items-center justify-between sm:justify-around px-4 py-3 rounded-xl cardTop-BottomGradient border border-border">
@@ -23,4 +23,4 @@ const Stats = () => {
   );
 };
 
-export default Stats;
+export default DeveloperStats;

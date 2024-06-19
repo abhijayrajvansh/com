@@ -3,7 +3,7 @@ import LinkText from "./LinkText";
 
 const ShortIntro = () => {
   return (
-    <div className="space-y-3 sm:space-y-5">
+    <div className="space-y-4 sm:space-y-5">
       <div className="sm:text-2xl font-medium sm:font-normal text-xl mt-7">
         <span>Hi, I&apos;m</span>
         <span className="primary-text">&nbsp;Abhijay Rajvansh</span>
@@ -13,12 +13,7 @@ const ShortIntro = () => {
         I make
         <GradientText color={"sky"}>AI</GradientText>
         <GradientText color={"green"}>Blockchain</GradientText>
-        <GradientText className={"xl:hidden"} color={"pink"}>
-          full-stack
-        </GradientText>
-        <GradientText className={"hidden xl:inline"} color={"pink"}>
-          fullstack
-        </GradientText>
+        <GradientText color={"pink"}>full-stack</GradientText>
         products.
       </div>
 
