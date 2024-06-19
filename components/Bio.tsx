@@ -1,30 +1,26 @@
-import Link from "next/link";
 import GradientText from "./GradientText";
+import LinkText from "./LinkText";
 
 const ShortIntro = () => {
   return (
-    <div className="space-y-3 sm:space-y-5 font-medium">
-      <h1 className="sm:text-2xl text-xl mt-7">
+    <div className="space-y-3 sm:space-y-5">
+      <div className="sm:text-2xl text-xl mt-7">
         <span>Hi, I&apos;m</span>
-        <span className="font-medium primary-text">&nbsp;Abhijay Rajvansh</span>
-      </h1>
+        <span className="primary-text">&nbsp;Abhijay Rajvansh</span>
+      </div>
 
-      <h1 className="text-4xl py-2 sm:text-5xl font-medium sm:font-semibold">
+      <div className="text-4xl py-2 sm:text-5xl font-medium sm:font-semibold">
         <span>I make</span>
         <GradientText color={"green"}>full-stack</GradientText>
         <span>softwares that people</span>
-        <GradientText color={'pink'}>love.</GradientText>
-      </h1>
+        <GradientText color={"pink"}>love.</GradientText>
+        <GradientText color={"yellow"}>blockchain</GradientText>
 
-      <p className="font-light sm:text-lg text-color-text leading-relaxed">
-        Freelance Web & Mobile Developer, Former Silicon Valley Intern, Open
-        Source Contributor, Former AI/ML Researcher @NHS, UK and &nbsp;
-        <Link
-          className="primary-text font-medium sm:font-normal hover:underline underline-offset-4"
-          href={"/about"}
-        >
-          more...
-        </Link>
+      </div>
+
+      <p className="font-light sm:text-lg text-paragraph">
+        Freelance Web & Mobile Developer, Former Silicon Valley Intern, OSS Contributor, Former AI/ML Researcher @NHS, UK and
+        <LinkText href={'/about'}>more...</LinkText>
       </p>
     </div>
   );
