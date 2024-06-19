@@ -6,7 +6,7 @@ const ShortIntro = () => {
       <h1 className="sm:text-2xl text-xl mt-7">
         <span>Hi, I&apos;m</span>
         <span className="font-medium primary-text">
-          &nbsp;Abhijay Rajvansh&nbsp;
+          &nbsp;Abhijay Rajvansh
         </span>
       </h1>
 
