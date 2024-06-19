@@ -4,7 +4,7 @@ export const experiencesData = {
 			companyLogo: "/logo/upwork.jpeg",
 			startDate: "Mar 2024",
 			endDate: "Present",
-			position: "Senior Full Stack Developer",
+			position: "Full Stack Software Engineer",
 			companyName: "Upwork · Freelance",
 			companyLocation: "Worldwide · Remote",
 			description : [
@@ -32,7 +32,7 @@ export const experiencesData = {
 			companyLogo: "/logo/apple.jpeg",
 			startDate: "Oct 2022",
 			endDate: "Nov 2022",
-			position: "iOS Software Engineer Trainee",
+			position: "iOS Engineer Trainee",
 			companyName: "Apple · Apprenticeship",
 			companyLocation: "iMac Lab, SRMIST, India · On-site",
 			description : [
@@ -47,7 +47,7 @@ export const experiencesData = {
 			startDate: "Jul 2022",
 			endDate: "Oct 2022",
 			position: "AI/ML Researcher",
-			companyName: "L&D  Hospital · Internship",
+			companyName: "NHS L&D  Hospital · Internship",
 			companyLocation: "Luton, England, United Kingdom · Remote",
 			description : [
 				"Led a 4 month project developing a deep learning algorithm for automated identification of orthopaedic implants, using YOLOv7 and CNN. ",
