@@ -99,7 +99,7 @@
     @apply font-medium hover:underline underline-offset-4
   }
   .primary-text {
-    @apply dark:text-[#66AAF9] text-[#2570EE] font-medium
+    @apply dark:text-[#66AAF9] text-[#2570EE]
   }
 
   /* gradient text heading */
@@ -122,10 +122,10 @@
     @apply bg-gradient-to-r from-[#fb75ab] to-[#f82e7f] dark:from-[#f98dd7] dark:to-[#f35c98] bg-cover bg-clip-text text-transparent w-fit
   }
   .text-bg-green-gradient {
-    @apply bg-gradient-to-r from-[#1cbc56] to-[#1cbc56] dark:from-[#6dd9c9] dark:to-[#68fd81] bg-cover bg-clip-text text-transparent w-fit
+    @apply bg-gradient-to-r from-[#4eda3e] to-[#30ab45] dark:from-[#6dd9c9] dark:to-[#38c750] bg-cover bg-clip-text text-transparent w-fit
   }
-  .text-bg-yellow-gradient {
-    
+  .text-bg-sky-gradient {
+    @apply bg-gradient-to-r from-[#31bfea] to-[#0d94bd] dark:from-[#83defa] dark:to-[#37b9e1] bg-cover bg-clip-text text-transparent w-fit
   }
 
 

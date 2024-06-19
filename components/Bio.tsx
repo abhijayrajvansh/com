@@ -4,23 +4,24 @@ import LinkText from "./LinkText";
 const ShortIntro = () => {
   return (
     <div className="space-y-3 sm:space-y-5">
-      <div className="sm:text-2xl text-xl mt-7">
+      <div className="sm:text-2xl font-medium sm:font-normal text-xl mt-7">
         <span>Hi, I&apos;m</span>
         <span className="primary-text">&nbsp;Abhijay Rajvansh</span>
       </div>
 
-      <div className="text-4xl py-2 sm:text-5xl font-medium sm:font-semibold">
-        <span>I make</span>
-        <GradientText color={"green"}>full-stack</GradientText>
-        <span>softwares that people</span>
-        <GradientText color={"pink"}>love.</GradientText>
-        <GradientText color={"yellow"}>blockchain</GradientText>
-
+      <div className="text-4xl py-2 sm:text-5xl xl:text-5xl font-semibold sm:font-semibold">
+        I make 
+        <GradientText color={'sky'}>AI</GradientText>
+        <GradientText color={'green'}>Blockchain</GradientText>
+        <GradientText color={'pink'}>fullstack</GradientText>
+        {/* fullstack -> full-stack next line break on md lg */}
+        products.
       </div>
 
       <p className="font-light sm:text-lg text-paragraph">
-        Freelance Web & Mobile Developer, Former Silicon Valley Intern, OSS Contributor, Former AI/ML Researcher @NHS, UK and
-        <LinkText href={'/about'}>more...</LinkText>
+        Freelance Web & Mobile Developer, Former Silicon Valley Intern, OSS
+        Contributor, Former AI/ML Researcher @NHS, UK and
+        <LinkText href={"/about"}>more...</LinkText>
       </p>
     </div>
   );

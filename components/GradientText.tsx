@@ -5,12 +5,14 @@ interface GradientTextProps {
   leftSpace?: Boolean;
   rightSpace?: Boolean;
   color?: String;
+  className?: String;
 }
 
-const GradientText: FC<GradientTextProps> = ({ children, leftSpace=true, rightSpace=true, color }) => {
-  return <span className={`
+const GradientText: FC<GradientTextProps> = ({ children, leftSpace=true, rightSpace=true, color, className }) => {
+  return <span className={` ${className}
     ${color === 'pink' ? 'text-bg-pink-gradient' : ''}
     ${color === 'green' ? 'text-bg-green-gradient' : ''}
+    ${color === 'sky' ? 'text-bg-sky-gradient' : ''}
     `}>
     {leftSpace && <>{' '}</>}
     {children}
