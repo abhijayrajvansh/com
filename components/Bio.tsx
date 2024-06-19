@@ -23,7 +23,7 @@ const ShortIntro = () => {
         <span>
           {" "}
           softwares that people{" "}
-          <span className="bg-gradient-to-b from-[#FD6BCE] to-[#F85798] bg-cover bg-clip-text text-transparent font-semibold">love.</span>
+          <span className="bg-gradient-to-r from-[#f989b6] to-[#f33782] dark:from-[#f98dd7] dark:to-[#F85798] bg-cover bg-clip-text text-transparent font-semibold">love.</span>
         </span> 
       </h1>
 
