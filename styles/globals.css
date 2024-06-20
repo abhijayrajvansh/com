@@ -118,6 +118,11 @@
   .pg-text-bg-gradient {
     @apply bg-gradient-to-r from-[#d0b5fa] to-[#25ae9c] py-1 bg-cover bg-clip-text text-transparent w-fit
   }
+  /* cutoms text sizes & styles */
+  .text-3-half-xl {
+    font-size: 33px;
+    line-height: 38px;
+  }
   .text-bg-pink-gradient {
     @apply bg-gradient-to-r from-[#fb75ab] to-[#f82e7f] dark:from-[#f98dd7] dark:to-[#f0639b] bg-cover bg-clip-text text-transparent w-fit
   }
@@ -126,6 +131,9 @@
   }
   .text-bg-sky-gradient {
     @apply bg-gradient-to-r from-[#31bfea] to-[#0d94bd] dark:from-[#83defa] dark:to-[#37b9e1] bg-cover bg-clip-text text-transparent w-fit
+  }
+  .text-bg-skytogreen-gradient {
+    @apply bg-gradient-to-r from-[#0d94bd] to-[#4eda3e] dark:from-[#37b9e1] dark:to-[#6dd9c9] bg-cover bg-clip-text text-transparent w-fit
   }
 
 
