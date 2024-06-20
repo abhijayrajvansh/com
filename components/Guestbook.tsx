@@ -17,6 +17,11 @@ const Guestbook = () => {
             Sign my guestbook!
           </h1>
           ...comments!
+          {/* temporary y-axis space for noraml width for above sm & below xl screens */}
+          <p className="text-background hidden sm:block">
+            this is sample text paragraph to add minimum width for the feed
+            section in the projects page as it will shrink.
+          </p>
         </main>
 
         <section>
