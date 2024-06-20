@@ -25,6 +25,7 @@ import SupabaseIcon from "./icons/SupabaseIcon";
 import GraphqlIcon from "./icons/GraphqlIcon";
 import PostgresIcon from "./icons/PostgresIcon";
 import AwsIcon from "./icons/AwsIcon";
+import DockerIcon from './icons/DockerIcon';
 
 interface ProjectCardProps {
   logo: string;
@@ -43,6 +44,7 @@ interface ProjectCardProps {
   supabase?: boolean;
   postgres?: boolean;
   aws?: boolean;
+  docker?: boolean;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -62,6 +64,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   supabase,
   postgres,
   aws,
+  docker,
 }) => {
   return (
     <Dialog>
@@ -104,6 +107,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 {supabase && <SupabaseIcon />}
                 {postgres && <PostgresIcon />}
                 {aws && <AwsIcon />}
+                {docker && <DockerIcon />}
               </div>
             </div>
           </div>

@@ -62,6 +62,7 @@ const Projects = () => {
                   supabase={project.skills.supabase ?? false}
                   postgres={project.skills.postgres ?? false}
                   aws={project.skills.aws ?? false}
+                  docker={project.skills.docker ?? false}
                 />
               ))}
             </TabsContent>
@@ -91,6 +92,7 @@ const Projects = () => {
                     supabase={project.skills.supabase ?? false}
                     postgres={project.skills.postgres ?? false}
                     aws={project.skills.aws ?? false}
+                    docker={project.skills.docker ?? false}
                   />
                 ))}
             </TabsContent>
@@ -120,6 +122,7 @@ const Projects = () => {
                     supabase={project.skills.supabase ?? false}
                     postgres={project.skills.postgres ?? false}
                     aws={project.skills.aws ?? false}
+                    docker={project.skills.docker ?? false}
                   />
                 ))}
             </TabsContent>
@@ -149,6 +152,7 @@ const Projects = () => {
                     supabase={project.skills.supabase ?? false}
                     postgres={project.skills.postgres ?? false}
                     aws={project.skills.aws ?? false}
+                    docker={project.skills.docker ?? false}
                   />
                 ))}
             </TabsContent>
@@ -178,6 +182,7 @@ const Projects = () => {
                     supabase={project.skills.supabase ?? false}
                     postgres={project.skills.postgres ?? false}
                     aws={project.skills.aws ?? false}
+                    docker={project.skills.docker ?? false}
                   />
                 ))}
             </TabsContent>

@@ -27,6 +27,7 @@ export const allProjects = [
       "graphql": true,
       "postgres": true,
       "aws": true,
+      "docker": true,
     },
   },
 ]

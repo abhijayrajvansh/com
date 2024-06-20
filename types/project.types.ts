@@ -26,5 +26,6 @@ export interface Project {
     graphql?: boolean;
     postgres?: boolean;
     aws?: boolean;
+    docker?: boolean;
   };
 }

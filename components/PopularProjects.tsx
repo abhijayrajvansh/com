@@ -29,6 +29,7 @@ const RecentProjects = () => {
               supabase={project.skills.supabase ?? false}
               postgres={project.skills.postgres ?? false}
               aws={project.skills.aws ?? false}
+              docker={project.skills.docker ?? false}
             />
           ))}
       </div>
