@@ -25,7 +25,7 @@ const Blog = () => {
 
           <div className="flex flex-col items-start">
             <Tabs defaultValue="all" className="w-full">
-              <TabsList>
+              <TabsList className="mb-5">
                 <TabsTrigger className="text-xs sm:text-sm" value="all">
                   All
                 </TabsTrigger>
@@ -125,7 +125,7 @@ const Blog = () => {
         </main>
 
         <section>
-          <div className="my-10 md:hidden"></div>
+          <div className="my-10 lg:hidden"></div>
           <Newsletter />
           <TechnicalSkills />
           <Twitter />
