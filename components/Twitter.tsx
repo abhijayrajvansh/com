@@ -1,7 +1,8 @@
-import { siteConfig, tweets } from "@/config/site.config";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { tweets } from "@/config/twitter.config";
+import { siteConfig } from "@/config/site.config";
 
 const Twitter = () => {
   return (
