@@ -20,7 +20,7 @@ const Guestbook = () => {
         </main>
 
         <section>
-          <div className="my-10 md:hidden"></div>
+          <div className="my-10 lg:hidden"></div>
           <Newsletter />
           <Spotify />
           <SocialConnections />
