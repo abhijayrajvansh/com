@@ -1,6 +1,6 @@
 export const spotifyData = {
-  songName: "Excitement",
-  artist: "Trippie Redd & PARTYNEXTDOOR",
-  bannerImgUri: "https://c.saavncdn.com/433/Pegasus-English-2017-20231011205251-500x500.jpg",
-  spotifyLink: "https://open.spotify.com/track/66w7lK0t98OPgvYjXp39IP"
+  songName: "Solitude (Felsmann + Tiley Reinterpretation)",
+  artist: "M83, Felsmann + Tiley",
+  bannerImgUri: "/spotify/m83-artwork.jpg",
+  spotifyLink: "https://open.spotify.com/album/4p7WLVMsRuU9gU3DWfuNTk?si=rFuN9dd6S1uyQbjjZ2vaVQ&nd=1&dlsi=c2b32916208944b4"
 }
