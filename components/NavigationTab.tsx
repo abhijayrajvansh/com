@@ -10,6 +10,7 @@ import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig } from "@/config/site.config";
+import AvatarAndLocation from "./AvatarAndLocation";
 
 const NAVIGATION_DATA = [
   {
@@ -44,24 +45,8 @@ const NavigationTab = () => {
   return (
     <header className="dark:bg-background/50 bg-white/50 z-20 backdrop-blur-[5px] fixed max-w-screen-xl w-full bottom-0 sm:w-fit sm:px-2 lg:pr-4 sm:top-0 sm:pt-0 sm:border-r border-border sm:font-light">
       <div className="flex items-center justify-evenly w-full sm:block sm:pt-5 sm:mt-2">
-        <Link href={"/"} className="hidden sm:flex mb-5 justify-center">
-          <div className="flex items-center space-x-2 pl-2">
-            <Image
-              width={40}
-              height={40}
-              className="h-10 w-10 rounded-xl border-2 border-border"
-              src={siteConfig.avatar.src}
-              alt="@abhijayrajvansh"
-            />
-
-            <div className="hidden xl:block text-[11px]">
-              <p className="primary-text font-medium text-sm">
-                Abhijay Rajvansh
-              </p>
-              <p className="font-normal text-xs">Software Engineer</p>
-            </div>
-          </div>
-        </Link>
+        
+        <AvatarAndLocation />
 
         {NAVIGATION_DATA.map((item) => {
           let currentPathname = "/" + item.pageTitle.toLowerCase();
