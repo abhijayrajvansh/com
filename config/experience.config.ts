@@ -5,7 +5,8 @@ export const experiencesData = {
 			startDate: "Mar 2024",
 			endDate: "Present",
 			position: "Full Stack Software Engineer",
-			companyName: "Upwork · Freelance",
+			companyName: "Upwork",
+			jobType: "Freelance",
 			companyLocation: "Worldwide · Remote",
 			description : [
 				`Successfully served over 20+ clients worldwide.`,
@@ -18,7 +19,8 @@ export const experiencesData = {
 			startDate: "Feb 2023",
 			endDate: "Nov 2023",
 			position: "Software Engineer Intern",
-			companyName: "Bling Cloud | Techstars 23 · Internship",
+			companyName: "Bling Cloud | Techstars 23",
+			jobType: "Internship",
 			companyLocation: "San Francisco Bay Area · Remote",
 			description : [
 				`Developed the initial prototype and the MVP implemented following features :`,
@@ -33,7 +35,8 @@ export const experiencesData = {
 			startDate: "Oct 2022",
 			endDate: "Nov 2022",
 			position: "iOS Engineer Trainee",
-			companyName: "Apple · Apprenticeship",
+			jobType: "Apprenticeship",
+			companyName: "Apple",
 			companyLocation: "iMac Lab, SRMIST, India · On-site",
 			description : [
 				"Chosen among the top 50 candidates from a pool of over 1600 students for enrolment in the esteemed Apple iOS App Development Training Program.",
@@ -47,7 +50,8 @@ export const experiencesData = {
 			startDate: "Jul 2022",
 			endDate: "Oct 2022",
 			position: "AI/ML Researcher",
-			companyName: "NHS L&D  Hospital · Internship",
+			jobType: "Internship",
+			companyName: "NHS L&D  Hospital",
 			companyLocation: "Luton, England, United Kingdom · Remote",
 			description : [
 				"Led a 4 month project developing a deep learning algorithm for automated identification of orthopaedic implants, using YOLOv7 and CNN. ",
@@ -61,7 +65,8 @@ export const experiencesData = {
 			startDate: "Mar 2022",
 			endDate: "Oct 2022",
 			position: "Educator & Teaching Assistant",
-			companyName: "Unacademy · Part-time",
+			jobType: "Part-time",
+			companyName: "Unacademy",
 			companyLocation: "Bengaluru, Karnataka, India · Remote",
 			description : [
 				"Educated and helped students pursuing the course on Data structures, Algorithms and Object Oriented programming in C++ and Java via zoom and discord. Taught students concepts, verified their code, suggested better approaches of solving problems and resolved 500+ doubts.",

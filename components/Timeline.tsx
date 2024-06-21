@@ -10,6 +10,7 @@ const Timeline = () => {
         endDate={experiencesData.company.upwork.endDate}
         position={experiencesData.company.upwork.position}
         companyName={experiencesData.company.upwork.companyName}
+        jobType={experiencesData.company.upwork.jobType}
         companyLocation={experiencesData.company.upwork.companyLocation}
         description={experiencesData.company.upwork.description}
       />
@@ -20,6 +21,7 @@ const Timeline = () => {
         endDate={experiencesData.company.bling.endDate}
         position={experiencesData.company.bling.position}
         companyName={experiencesData.company.bling.companyName}
+        jobType={experiencesData.company.bling.jobType}
         companyLocation={experiencesData.company.bling.companyLocation}
         description={experiencesData.company.bling.description}
       />
@@ -30,6 +32,7 @@ const Timeline = () => {
         endDate={experiencesData.company.appleDeveloperProgram.endDate}
         position={experiencesData.company.appleDeveloperProgram.position}
         companyName={experiencesData.company.appleDeveloperProgram.companyName}
+        jobType={experiencesData.company.appleDeveloperProgram.jobType}
         companyLocation={
           experiencesData.company.appleDeveloperProgram.companyLocation
         }
@@ -42,6 +45,7 @@ const Timeline = () => {
         endDate={experiencesData.company.nhs.endDate}
         position={experiencesData.company.nhs.position}
         companyName={experiencesData.company.nhs.companyName}
+        jobType={experiencesData.company.nhs.jobType}
         companyLocation={experiencesData.company.nhs.companyLocation}
         description={experiencesData.company.nhs.description}
       />
@@ -52,6 +56,7 @@ const Timeline = () => {
         endDate={experiencesData.company.unacademy.endDate}
         position={experiencesData.company.unacademy.position}
         companyName={experiencesData.company.unacademy.companyName}
+        jobType={experiencesData.company.unacademy.jobType}
         companyLocation={experiencesData.company.unacademy.companyLocation}
         description={experiencesData.company.unacademy.description}
         showTimeline={false}

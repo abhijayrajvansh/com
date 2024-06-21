@@ -12,6 +12,7 @@ interface ExperienceCardProps {
   endDate?: string;
   position: string;
   companyName: string;
+  jobType?: string;
   companyLocation?: string;
   description?: string[];
   showTimeline?: boolean;
@@ -23,6 +24,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
   endDate,
   position,
   companyName,
+  jobType,
   companyLocation,
   description,
   showTimeline = true,
@@ -56,7 +58,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 
       <div className="flex flex-col gap-1 pl-1 pb-7 sm:pb-10 w-full">
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between">
-          <h2 className="text-xl sm:text-2xl font-medium">{position}</h2>
+          <h2 className="text-lg sm:text-xl font-medium">{position}</h2>
           <div>
             {startDate && (
               <p className="text-paragraph font-semibold text-xs">
@@ -71,7 +73,10 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
           <AccordionItem value="experienceData">
             <AccordionTrigger className="hover:no-underline">
               <div className="text-sm font-medium text-default-600 flex flex-col items-start">
-                <h3 className="-mt-1">{companyName}</h3>
+                <div className="flex items-center gap-1 -mt-1">
+                  <p className="font-light">{companyName}</p>
+                  <p className="font-normal text-paragraph">• {jobType}</p>
+                </div>
                 <p className="text-paragraph mt-1">{companyLocation}</p>
               </div>
             </AccordionTrigger>

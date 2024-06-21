@@ -12,6 +12,7 @@ import {
 
 import { courseworks } from "@/config/coursework.config";
 import Timeline from "./Timeline";
+import GradientText from "./GradientText";
 
 const Experience = () => (
   <section className="wrapper">
@@ -26,9 +27,12 @@ const Experience = () => (
 
         <Timeline />
 
-        <h1 className="text-3xl font-semibold my-10 yellow-text-bg-gradient">
-          Relevant Coursework
-        </h1>
+        <div className="my-10">
+          <GradientText color={'pink'}
+            className="text-3xl mb-5 font-semibold">
+            Relevant Coursework
+          </GradientText>
+        </div>
 
         {courseworks.map((course) => (
           <ExperienceCard
