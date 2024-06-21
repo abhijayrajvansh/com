@@ -1,4 +1,4 @@
-export interface BlogPost {
+export interface BlogInterface {
   id: number;
   title: string;
   thumbnail: string;
@@ -6,10 +6,10 @@ export interface BlogPost {
   timeToRead: string;
   link: string;
   category: {
-    home: boolean;
-    popular: boolean;
+    featured: boolean;
     tutorials: boolean;
     productivity: boolean;
-    beginners: boolean;
+    notes: boolean;
+    life: boolean;
   };
 }

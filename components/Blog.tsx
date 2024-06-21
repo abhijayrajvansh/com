@@ -10,6 +10,7 @@ import SocialConnections from "./SocialConnections";
 import Twitter from "./Twitter";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { allBlogs } from "@/config/blog.config";
+import { BlogInterface } from "@/types/blog.types";
 
 const Blog = () => {
   return (
@@ -29,9 +30,6 @@ const Blog = () => {
                 <TabsTrigger className="text-xs sm:text-sm" value="all">
                   All
                 </TabsTrigger>
-                <TabsTrigger className="text-xs sm:text-sm" value="popular">
-                  Popular
-                </TabsTrigger>
                 <TabsTrigger className="text-xs sm:text-sm" value="tutorials">
                   Tutorials
                 </TabsTrigger>
@@ -41,15 +39,18 @@ const Blog = () => {
                 >
                   Productivity
                 </TabsTrigger>
-                <TabsTrigger className="text-xs sm:text-sm" value="beginners">
-                  Beginners
+                <TabsTrigger className="text-xs sm:text-sm" value="notes">
+                  Notes
+                </TabsTrigger>
+                <TabsTrigger className="text-xs sm:text-sm" value="life">
+                  Life
                 </TabsTrigger>
               </TabsList>
 
 
               <TabsContent value="all">
                 {allBlogs
-                  .map((blog) => (
+                  .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
                       thumbnail={blog.thumbnail}
@@ -61,10 +62,10 @@ const Blog = () => {
                   ))}
               </TabsContent>
 
-              <TabsContent value="popular">
+              <TabsContent value="life">
                 {allBlogs
-                  .filter((blog) => blog.category.popular)
-                  .map((blog) => (
+                  .filter((blog: BlogInterface) => blog.category.life)
+                  .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
                       thumbnail={blog.thumbnail}
@@ -78,8 +79,8 @@ const Blog = () => {
 
               <TabsContent value="tutorials">
                 {allBlogs
-                  .filter((blog) => blog.category.tutorials)
-                  .map((blog) => (
+                  .filter((blog: BlogInterface) => blog.category.tutorials)
+                  .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
                       thumbnail={blog.thumbnail}
@@ -93,8 +94,8 @@ const Blog = () => {
 
               <TabsContent value="productivity">
                 {allBlogs
-                  .filter((blog) => blog.category.productivity)
-                  .map((blog) => (
+                  .filter((blog: BlogInterface) => blog.category.productivity)
+                  .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
                       thumbnail={blog.thumbnail}
@@ -106,10 +107,10 @@ const Blog = () => {
                   ))}
               </TabsContent>
 
-              <TabsContent value="beginners">
+              <TabsContent value="notes">
                 {allBlogs
-                  .filter((blog) => blog.category.beginners)
-                  .map((blog) => (
+                  .filter((blog: BlogInterface) => blog.category.notes)
+                  .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
                       thumbnail={blog.thumbnail}

@@ -8,11 +8,11 @@ export const allBlogs = [
     "link": "/blog/twitter-fullstack-clone",
 
     "category": {
-      "home":true,
-      "popular": false,
-      "tutorials": false,
+      "featured":true,
+      "tutorials": true,
       "productivity": false,
-      "beginners": true,
+      "notes": false,
+      "life": false,
     }
   },
 ]

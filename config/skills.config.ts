@@ -1,15 +1,14 @@
 export const technicalSkills = [
 	'Next.js with Server Actions',
 	'React • React Native', 
-	'Node.js • Express.js',
 	'SQL • NoSQL',
-	'GraphQL • tRPC', 
+	'GraphQL • tRPC • gRPC', 
 	'Generative AI • LLMs',
+	'Prompt Engineering',
 	'Microservices',	
 	'DevSecOps (DevOps & Security)',
 	'TypeScript • JavaScript',
-	'C/C++, Python, Rust & GO',
-	'UI/UX • Product Design ',
+	'GO Lang • Python • C/C++',
 	'Problem Solving',
 ]
 
