@@ -3,7 +3,7 @@
 import Link from "next/link";
 import BlogCard from "./BlogCard";
 import { allBlogs } from "@/config/blog.config";
-import { Blog } from "@/types/blog.types";
+import { BlogInterface } from "@/types/blog.types";
 
 const FeaturedArticles = () => {
   return (
@@ -11,8 +11,8 @@ const FeaturedArticles = () => {
       <h1 className="subHeading mb-3">Featured Articles</h1>
 
       {allBlogs
-        .filter((blog: Blog) => blog.category.featured)
-        .map((blog: Blog) => (
+        .filter((blog: BlogInterface) => blog.category.featured)
+        .map((blog: BlogInterface) => (
         <BlogCard
           key={blog.id}
           thumbnail={blog.thumbnail}
