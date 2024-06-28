@@ -1,33 +1,36 @@
 export const technicalSkills = [
-	'Next.js with Server Actions',
-	'React • React Native', 
-	'SQL • NoSQL',
-	'GraphQL • tRPC • gRPC', 
-	'Generative AI • LLMs',
-	'Prompt Engineering',
-	'Microservices',	
-	'DevSecOps (DevOps & Security)',
-	'TypeScript • JavaScript',
-	'GO Lang • Python • C/C++',
-	'Problem Solving',
-]
+  "Next.js",
+  "React • React Native",
+  // "Smart Contracts",
+	// "DApps • Defi • NFTs",
+  "SQL • NoSQL",
+  "GraphQL • tRPC", // gRPC
+	// "Distributed Systems",
+  "Microservices",
+  "Generative AI • LLMs",
+  "DevSecOps (DevOps & Security)",
+  "TypeScript • JavaScript",
+  "GO Lang • Python • C/C++",
+  // "Solidity • Rust",
+  "Problem Solving",
+  // 'Prompt Engineering',
+];
 
 export const technicalTools = [
-	"Git",
-	"AWS",
-	"Kubernetes",
-	"Docker",
-	"Prisma ORM",
-	"Apache Kafka",
-	"Prometheus",
-	"Redis",
-	"Postman",
-	"zustand",
-	"Expo",
-]
+  // "Eth-Remix IDE",
+  // "Truffle",
+  // "Hardhat",
+  "Git",
+  "AWS",
+  "Kubernetes",
+  "Docker",
+  "Prisma ORM",
+  "Apache Kafka",
+  "Prometheus",
+  "Redis",
+  "Postman",
+  "zustand",
+  // "Expo",
+];
 
-export const languages = [
-	"English",
-	"Hindi",
-	"French",
-]
+export const languages = ["English", "Hindi", "French"];
