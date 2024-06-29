@@ -75,7 +75,7 @@
   }
   /* feed */
   .contentWrapper {
-    @apply px-4 sm:px-5 xl:px-0 sm:ml-[110px] xl:ml-[230px] w-full sm:max-w-[700px]
+    @apply px-4 sm:px-5 xl:px-0 sm:ml-[110px] xl:ml-[230px] w-full sm:w-[700px]
   }
   .heading {
     @apply text-4xl font-bold
