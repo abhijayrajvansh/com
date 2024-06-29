@@ -1,5 +1,6 @@
 import Link from "next/link";
 import DigitalHandSign from "./DigitalHandSign";
+import LinkText from "./LinkText";
 
 const Introduction = () => {
   return (
@@ -20,10 +21,7 @@ const Introduction = () => {
 
       <p className="text-paragraph mt-3">
         That&apos;s where I come in. With over
-        <Link href={"/experience"} className="text-link">
-          {" "}
-          4+ years of experience{" "}
-        </Link>
+        <LinkText href={'/experience'}>4+ years of experience</LinkText>
         as a freelance software engineer and technical consultant, I help turn
         ideas into fully functional digital products. I offer practical
         solutions and bridge the tech gap for non-tech individuals.

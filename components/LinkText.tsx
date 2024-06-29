@@ -3,7 +3,7 @@ import Link from "next/link";
 
 interface LinkTextProps {
   children?: ReactNode;
-  href?: String;
+  href: String;
   leftSpace?: String;
   rightSpace?: String;
 }

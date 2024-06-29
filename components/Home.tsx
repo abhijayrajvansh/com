@@ -6,7 +6,6 @@ import PopularProjects from "./PopularProjects";
 import Bio from "@/components/Bio";
 import FeaturedArticles from "./FeaturedArticles";
 import Banner from "@/components/Banner";
-import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import Twitter from "./Twitter";
 import TechnicalSkills from "./TechnicalSkills";
@@ -32,7 +31,6 @@ const Home = () => {
 
           <section>
             <div className="my-10 md:hidden"></div>
-            <Newsletter />
             <SocialConnections />
             <TechnicalSkills />
             <Twitter />

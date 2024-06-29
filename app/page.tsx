@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Abhijay Rajvansh • Full-stack Software Engineer",
+    absolute: "Abhijay Rajvansh • Full-Stack Software Engineer",
   },
   description: siteConfig.description,
   icons: {

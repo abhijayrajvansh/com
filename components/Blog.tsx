@@ -3,7 +3,6 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import BlogCard from "@/components/BlogCard";
-import Newsletter from "./Newsletter";
 import ThanksNote from "./ThanksNote";
 import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
@@ -127,7 +126,6 @@ const Blog = () => {
 
         <section>
           <div className="my-10 lg:hidden"></div>
-          <Newsletter />
           <TechnicalSkills />
           <Twitter />
           <SocialConnections />

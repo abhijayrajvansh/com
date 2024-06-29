@@ -1,6 +1,5 @@
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
-import Newsletter from "./Newsletter";
 import SocialConnections from "./SocialConnections";
 import Spotify from "./Spotify";
 import DummySpace from "./DummySpace";
@@ -26,7 +25,6 @@ const Guestbook = () => {
 
         <section>
           <div className="my-10 lg:hidden"></div>
-          <Newsletter />
           <Spotify />
           <SocialConnections />
           <DummySpace />
