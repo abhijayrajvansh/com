@@ -12,7 +12,7 @@ const Introduction = () => {
       <Image width={240} height={240}
         src={avatar}
         alt="abhijay-rajvansh-avatar.png"
-        className="flex-none mr-5 sm:h-[240px] sm:float-left sm:p-0 rounded-lg hidden sm:block"
+        className="flex-none mr-5 sm:h-[240px] mt-4 sm:float-left sm:p-0 rounded-lg hidden sm:block"
         placeholder="blur"
       />
       <div className="flex items-center justify-center">
