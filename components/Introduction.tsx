@@ -1,17 +1,27 @@
 import Link from "next/link";
 import DigitalHandSign from "./DigitalHandSign";
 import LinkText from "./LinkText";
+import Image from "next/image";
+import avatar from "@/public/images/abhijayrajvansh-avatar.jpeg";
 
 const Introduction = () => {
   return (
     <div>
       <h1 className="heading pink-text-bg-gradient">Who, What & Why?</h1>
       <p className="mb-5 text-paragraph">Updated at — Mar 22nd, 2024</p>
-      <img
-        src={"/images/abhijayrajvansh-avatar.jpeg"}
+      <Image width={240} height={240}
+        src={avatar}
         alt="abhijay-rajvansh-avatar.png"
-        className="flex-none mr-5 sm:h-[240px] sm:float-left sm:p-0 rounded-lg"
+        className="flex-none mr-5 sm:h-[240px] sm:float-left sm:p-0 rounded-lg hidden sm:block"
+        placeholder="blur"
       />
+      <div className="flex items-center justify-center">
+        <img
+          src={"/images/abhijayrajvansh-avatar.jpeg"}
+          alt="abhijay-rajvansh-avatar.png"
+          className="rounded-lg sm:hidden"
+        />
+      </div>
       <p className="text-paragraph mt-3">
         <span className="font-medium text-4xl">T</span>he fast-paced nature of
         the tech industry makes it hard to keep up. Product Hunt and HubSpot
@@ -21,7 +31,7 @@ const Introduction = () => {
 
       <p className="text-paragraph mt-3">
         That&apos;s where I come in. With over
-        <LinkText href={'/experience'}>4+ years of experience</LinkText>
+        <LinkText href={"/experience"}>4+ years of experience</LinkText>
         as a freelance software engineer and technical consultant, I help turn
         ideas into fully functional digital products. I offer practical
         solutions and bridge the tech gap for non-tech individuals.

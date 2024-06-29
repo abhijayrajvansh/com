@@ -1,11 +1,12 @@
 export const technicalSkills = [
   "Next.js",
   "React • React Native",
+  "Express.js • REST API's",
   // "Smart Contracts",
-	// "DApps • Defi • NFTs",
+  // "DApps • Defi • NFTs",
   "SQL • NoSQL",
   "GraphQL • tRPC", // gRPC
-	// "Distributed Systems",
+  // "Distributed Systems",
   "Microservices",
   "Generative AI • LLMs",
   "DevSecOps (DevOps & Security)",
