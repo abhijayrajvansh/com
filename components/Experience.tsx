@@ -49,7 +49,7 @@ const Experience = () => (
       <section>
         <div className="my-10 md:hidden"></div>
         <NotesCard title="Technical Skills" elements={technicalSkills} />
-        <NotesCard title=" Microservices & Tools" elements={technicalTools} />
+        <NotesCard title=" DevOps & Tools" elements={technicalTools} />
         <NotesCard title="Languages" elements={languages} />
         <SocialConnections />
         <ThanksNote />
