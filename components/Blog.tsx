@@ -42,28 +42,32 @@ const Blog = () => {
                   Notes
                 </TabsTrigger>
                 <TabsTrigger className="text-xs sm:text-sm" value="philosophy">
-                Philosophy
+                  Philosophy
                 </TabsTrigger>
               </TabsList>
 
-
               <TabsContent value="all">
-                {allBlogs
-                  .map((blog: BlogInterface) => (
-                    <BlogCard
-                      key={blog.id}
-                      thumbnail={blog.thumbnail}
-                      timeToRead={blog.timeToRead}
-                      title={blog.title}
-                      description={blog.description}
-                      link={blog.link ?? '/'}
-                    />
-                  ))}
+                {allBlogs.map((blog: BlogInterface) => (
+                  <BlogCard
+                    key={blog.id}
+                    thumbnail={blog.thumbnail}
+                    timeToRead={blog.timeToRead}
+                    title={blog.title}
+                    description={blog.description}
+                    link={blog.link ?? "/"}
+                    notes={blog.category.notes ?? false}
+                    philosophy={blog.category.philosophy ?? false}
+                    productivity={blog.category.productivity ?? false}
+                    tutorial={blog.category.tutorial ?? false}
+                  />
+                ))}
               </TabsContent>
 
               <TabsContent value="tutorials">
                 {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.tutorials ?? false)
+                  .filter(
+                    (blog: BlogInterface) => blog.category.tutorial ?? false
+                  )
                   .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
@@ -71,14 +75,20 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link ?? '/'}
+                      link={blog.link ?? "/"}
+                      notes={blog.category.notes ?? false}
+                      philosophy={blog.category.philosophy ?? false}
+                      productivity={blog.category.productivity ?? false}
+                      tutorial={blog.category.tutorial ?? false}
                     />
                   ))}
               </TabsContent>
 
               <TabsContent value="productivity">
                 {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.productivity ?? false)
+                  .filter(
+                    (blog: BlogInterface) => blog.category.productivity ?? false
+                  )
                   .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
@@ -86,7 +96,11 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link ?? '/'}
+                      link={blog.link ?? "/"}
+                      notes={blog.category.notes ?? false}
+                      philosophy={blog.category.philosophy ?? false}
+                      productivity={blog.category.productivity ?? false}
+                      tutorial={blog.category.tutorial ?? false}
                     />
                   ))}
               </TabsContent>
@@ -101,14 +115,20 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link ?? '/'}
+                      link={blog.link ?? "/"}
+                      notes={blog.category.notes ?? false}
+                      philosophy={blog.category.philosophy ?? false}
+                      productivity={blog.category.productivity ?? false}
+                      tutorial={blog.category.tutorial ?? false}
                     />
                   ))}
               </TabsContent>
 
               <TabsContent value="philosophy">
                 {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.philosophy ?? false)
+                  .filter(
+                    (blog: BlogInterface) => blog.category.philosophy ?? false
+                  )
                   .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
@@ -116,7 +136,11 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link ?? '/'}
+                      link={blog.link ?? "/"}
+                      notes={blog.category.notes ?? false}
+                      philosophy={blog.category.philosophy ?? false}
+                      productivity={blog.category.productivity ?? false}
+                      tutorial={blog.category.tutorial ?? false}
                     />
                   ))}
               </TabsContent>

@@ -7,7 +7,7 @@ export interface BlogInterface {
   link?: string;
   category: {
     featured?: boolean;
-    tutorials?: boolean;
+    tutorial?: boolean;
     productivity?: boolean;
     notes?: boolean;
     philosophy?: boolean;

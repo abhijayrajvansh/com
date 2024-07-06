@@ -19,7 +19,11 @@ const FeaturedArticles = () => {
           timeToRead={blog.timeToRead}
           title={blog.title}
           description={blog.description}
-          link={blog.link}
+          link={blog.link ?? '/'}
+          notes={blog.category.notes ?? false}
+          philosophy={blog.category.philosophy ?? false}
+          productivity={blog.category.productivity ?? false}
+          tutorial={blog.category.tutorial ?? false}
         />
       ))}
 

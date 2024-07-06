@@ -9,6 +9,10 @@ interface BlogCardProps {
   title: string;
   description: string;
   link: string;
+  tutorial: boolean;
+  productivity: boolean;
+  notes: boolean;
+  philosophy: boolean;
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({
@@ -17,6 +21,10 @@ const BlogCard: React.FC<BlogCardProps> = ({
   title,
   description,
   link,
+  tutorial,
+  productivity,
+  notes,
+  philosophy,
 }) => {
   const router = useRouter();
 
@@ -40,9 +48,20 @@ const BlogCard: React.FC<BlogCardProps> = ({
 
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
-            <div className="text-sm text-color-text">
-              <span className="primary-text"> — </span>{" "}
-              <span className="font-light">{timeToRead}</span>
+            <div className="text-sm text-color-text flex items-center">
+              <div className="font-light">— {timeToRead} &nbsp;</div>
+              {tutorial && <div className="py-1 px-2 dark:bg-primary/50 bg-primary/80 font-medium text-xs text-white rounded-sm mx-1">
+                Tutorials
+              </div>}
+              {productivity && <div className="py-1 px-2 text-white dark:bg-green-700/90 bg-green-600/90 font-medium text-xs rounded-sm mx-1">
+                Productivity
+              </div>}
+              {notes && <div className="py-1 px-2 text-yellow-900 dark:bg-yellow-400/90 bg-yellow-400 font-semibold text-xs rounded-sm mx-1">
+                Notes
+              </div>}
+              {philosophy && <div className="py-1 px-2 dark:bg-pink-500/50 bg-pink-500/90 font-medium text-xs text-white rounded-sm mx-1">
+                Philosophy
+              </div>}
             </div>
 
             <Link href={link}>

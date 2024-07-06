@@ -12,7 +12,7 @@ export const allBlogs: BlogInterface[] = [
 
     category: {
       featured: true,
-      tutorials: true,
+      tutorial: true,
     },
   },
 ];
