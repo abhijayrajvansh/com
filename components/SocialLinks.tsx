@@ -14,7 +14,7 @@ interface SocialLinksProps {
 
 const SocialLinks = ({ iconSize, showOnMobile = false }: SocialLinksProps) => {
   return (
-    <div className={`${!showOnMobile && "hidden"} flex space-x-5`}>
+    <div className={`${!showOnMobile && "hidden"} flex space-x-7`}>
       <Link
         target="_blank"
         rel="noopener noreferer"
