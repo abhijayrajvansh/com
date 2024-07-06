@@ -11,14 +11,14 @@ const Introduction = () => {
       <p className="mb-5 text-paragraph">Updated at — Mar 22nd, 2024</p>
       <Image width={240} height={240}
         src={avatar}
-        alt="abhijay-rajvansh-avatar.png"
+        alt="abhijay-rajvansh-avatar.jpeg"
         className="flex-none mr-5 sm:h-[240px] mt-4 sm:float-left sm:p-0 rounded-lg hidden sm:block"
         placeholder="blur"
       />
       <div className="flex items-center justify-center">
         <img
           src={"/images/abhijayrajvansh-avatar.jpeg"}
-          alt="abhijay-rajvansh-avatar.png"
+          alt="abhijay-rajvansh-avatar.jpeg"
           className="rounded-lg sm:hidden"
         />
       </div>
