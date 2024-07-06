@@ -40,10 +40,10 @@ const BlogCard: React.FC<BlogCardProps> = ({
 
         <div className="space-y-1">
           <div className="flex items-center justify-between gap-5 sm:pr-5 pr-3">
-            <p className="text-sm text-color-text">
+            <div className="text-sm text-color-text">
               <span className="primary-text"> — </span>{" "}
               <span className="font-light">{timeToRead}</span>
-            </p>
+            </div>
 
             <Link href={link}>
               <FaLink className="size-5 primary-text" />

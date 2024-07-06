@@ -11,7 +11,7 @@ const FeaturedArticles = () => {
       <h1 className="subHeading mb-3">Featured Articles</h1>
 
       {allBlogs
-        .filter((blog: BlogInterface) => blog.category.featured)
+        .filter((blog: BlogInterface) => blog.category.featured ?? false)
         .map((blog: BlogInterface) => (
         <BlogCard
           key={blog.id}

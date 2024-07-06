@@ -41,8 +41,8 @@ const Blog = () => {
                 <TabsTrigger className="text-xs sm:text-sm" value="notes">
                   Notes
                 </TabsTrigger>
-                <TabsTrigger className="text-xs sm:text-sm" value="life">
-                  Life
+                <TabsTrigger className="text-xs sm:text-sm" value="philosophy">
+                Philosophy
                 </TabsTrigger>
               </TabsList>
 
@@ -56,29 +56,14 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link}
-                    />
-                  ))}
-              </TabsContent>
-
-              <TabsContent value="life">
-                {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.life)
-                  .map((blog: BlogInterface) => (
-                    <BlogCard
-                      key={blog.id}
-                      thumbnail={blog.thumbnail}
-                      timeToRead={blog.timeToRead}
-                      title={blog.title}
-                      description={blog.description}
-                      link={blog.link}
+                      link={blog.link ?? '/'}
                     />
                   ))}
               </TabsContent>
 
               <TabsContent value="tutorials">
                 {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.tutorials)
+                  .filter((blog: BlogInterface) => blog.category.tutorials ?? false)
                   .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
@@ -86,14 +71,14 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link}
+                      link={blog.link ?? '/'}
                     />
                   ))}
               </TabsContent>
 
               <TabsContent value="productivity">
                 {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.productivity)
+                  .filter((blog: BlogInterface) => blog.category.productivity ?? false)
                   .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
@@ -101,14 +86,14 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link}
+                      link={blog.link ?? '/'}
                     />
                   ))}
               </TabsContent>
 
               <TabsContent value="notes">
                 {allBlogs
-                  .filter((blog: BlogInterface) => blog.category.notes)
+                  .filter((blog: BlogInterface) => blog.category.notes ?? false)
                   .map((blog: BlogInterface) => (
                     <BlogCard
                       key={blog.id}
@@ -116,7 +101,22 @@ const Blog = () => {
                       timeToRead={blog.timeToRead}
                       title={blog.title}
                       description={blog.description}
-                      link={blog.link}
+                      link={blog.link ?? '/'}
+                    />
+                  ))}
+              </TabsContent>
+
+              <TabsContent value="philosophy">
+                {allBlogs
+                  .filter((blog: BlogInterface) => blog.category.philosophy ?? false)
+                  .map((blog: BlogInterface) => (
+                    <BlogCard
+                      key={blog.id}
+                      thumbnail={blog.thumbnail}
+                      timeToRead={blog.timeToRead}
+                      title={blog.title}
+                      description={blog.description}
+                      link={blog.link ?? '/'}
                     />
                   ))}
               </TabsContent>

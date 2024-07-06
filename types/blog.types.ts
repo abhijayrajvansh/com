@@ -4,12 +4,12 @@ export interface BlogInterface {
   thumbnail: string;
   description: string;
   timeToRead: string;
-  link: string;
+  link?: string;
   category: {
-    featured: boolean;
-    tutorials: boolean;
-    productivity: boolean;
-    notes: boolean;
-    life: boolean;
+    featured?: boolean;
+    tutorials?: boolean;
+    productivity?: boolean;
+    notes?: boolean;
+    philosophy?: boolean;
   };
 }
