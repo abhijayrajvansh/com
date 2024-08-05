@@ -93,7 +93,7 @@
     @apply primary-text hover:underline underline-offset-4
   }
   .text-highlighted {
-    @apply dark:text-white text-black font-medium sm:font-normal
+    @apply dark:text-[#E1E7EF] text-black font-medium sm:font-normal
   }
   .embeddedLinks {
     @apply font-medium hover:underline underline-offset-4

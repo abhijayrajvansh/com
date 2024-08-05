@@ -40,7 +40,7 @@ const Spotify = () => {
             </div>
             <div className="space-y-5">
               <p className="font-light sm:text-sm  text-white text-md mt-1 drop-shadow-md">
-                Listening to{" "}
+                Recently played{" "}
                 <span className="font-semibold sm:text-base">
                   {spotifyData.songName}
                 </span>{" "}

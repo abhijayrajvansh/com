@@ -1,6 +1,6 @@
 export const spotifyData = {
-  songName: "Solitude (Felsmann + Tiley Reinterpretation)",
-  artist: "M83, Felsmann + Tiley",
-  bannerImgUri: "/spotify/m83-artwork.jpg",
-  spotifyLink: "https://open.spotify.com/album/4p7WLVMsRuU9gU3DWfuNTk?si=rFuN9dd6S1uyQbjjZ2vaVQ&nd=1&dlsi=c2b32916208944b4"
+  songName: "Wine Pon You",
+  artist: "Doja Cat",
+  bannerImgUri: "https://c.saavncdn.com/artists/Doja_Cat_20200218145042_500x500.jpg",
+  spotifyLink: "https://open.spotify.com/track/2s4AcE9n80mSHl87lp4gIm?si=88e77ed917c4463c"
 }

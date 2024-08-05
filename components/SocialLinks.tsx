@@ -14,7 +14,7 @@ interface SocialLinksProps {
 
 const SocialLinks = ({ iconSize, showOnMobile = false }: SocialLinksProps) => {
   return (
-    <div className={`${!showOnMobile && "hidden"} flex space-x-7`}>
+    <div className={`${!showOnMobile && "hidden"} flex space-x-5`}>
       <Link
         target="_blank"
         rel="noopener noreferer"
@@ -39,7 +39,7 @@ const SocialLinks = ({ iconSize, showOnMobile = false }: SocialLinksProps) => {
       >
         <FaLinkedin size={iconSize} className="hover:scale-125 transition" />
       </Link>
-      {/* <Link
+      <Link
         target="_blank"
         rel="noopener noreferer"
         color="foreground"
@@ -57,7 +57,7 @@ const SocialLinks = ({ iconSize, showOnMobile = false }: SocialLinksProps) => {
           size={iconSize}
           className="scale-125 hover:scale-150 transition"
         />
-      </Link> */}
+      </Link>
       <Link
         target="_blank"
         rel="noopener noreferer"

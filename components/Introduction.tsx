@@ -11,14 +11,14 @@ const Introduction = () => {
       <p className="mb-5 text-paragraph">Updated at — Mar 22nd, 2024</p>
       <Image width={240} height={240}
         src={avatar}
-        alt="abhijay-rajvansh-avatar.jpeg"
+        alt="abhijayrajvansh-avatar.jpeg"
         className="flex-none mr-5 sm:h-[240px] mt-4 sm:float-left sm:p-0 rounded-lg hidden sm:block"
         placeholder="blur"
       />
       <div className="flex items-center justify-center">
         <img
           src={"/images/abhijayrajvansh-avatar.jpeg"}
-          alt="abhijay-rajvansh-avatar.jpeg"
+          alt="abhijayrajvansh-avatar.jpeg"
           className="rounded-lg sm:hidden"
         />
       </div>
@@ -45,21 +45,21 @@ const Introduction = () => {
         </span>
         , akin to Da Vinci&apos;s painting. I prioritize researching new
         methodologies to develop{" "}
-        <Link href={"/projects"} className="text-link">
-          optimized solutions
-        </Link>
-        , rather than simply replicating code. I&apos;m passionate about
+        <LinkText href={"/projects"}>
+          optimized solutions,
+        </LinkText>
+        rather than simply replicating code. I&apos;m passionate about
         algorithms & UI/UX design that&apos;s why I love educating fellow
         developers about my unique approaches to solving problems through videos
         & writing{" "}
-        <Link href={"/blog"} className="text-link">
+        <LinkText href={"/blog"}>
           blogs
-        </Link>{" "}
+        </LinkText>{" "}
         in my free time.
       </p>
       <p className="text-paragraph mt-3">
-        Apart from coding, I enjoy playing my piano, reading about finance and
-        psychology, watching arthouse movies, and sometimes playing chess.
+        Apart from coding, I enjoy playing piano, reading about finance and
+        psychology, watching speculative fiction arthouse movies & ofc i'm a human
       </p>
       <p className="text-highlighted mt-5">
         tl;dr: i&apos;m an artist who aims for his art to leave behind a lasting
