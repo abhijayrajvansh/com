@@ -59,7 +59,7 @@ const Introduction = () => {
       </p>
       <p className="text-paragraph mt-3">
         Apart from coding, I enjoy playing piano, reading about finance and
-        psychology, watching speculative fiction arthouse movies & ofc i'm a human
+        psychology, watching speculative fiction arthouse movies & ofc i&apos;m a human ;)
       </p>
       <p className="text-highlighted mt-5">
         tl;dr: i&apos;m an artist who aims for his art to leave behind a lasting
