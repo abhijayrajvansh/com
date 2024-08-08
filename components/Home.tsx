@@ -21,6 +21,7 @@ const Home = () => {
         <Header />
 
         <div className="pageWrapper">
+          
           <main className="contentWrapper">
             <Banner />
             <Bio />
@@ -37,6 +38,7 @@ const Home = () => {
             <Spotify />
             <ThanksNote />
           </section>
+
         </div>
       </section>
     </>
