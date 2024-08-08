@@ -15,7 +15,17 @@ const Notfound = () => {
         <main className="contentWrapper">
           <div className="flex flex-col text-base font-light items-start justify-center sm:pt-20">
             <p className="text-5xl font-bold">404 error</p>
-            <p className="mt-7">
+
+            <div className="rounded-lg pt-3">
+              <video className="rounded-lg"
+                autoPlay
+                loop
+                playsInline
+                src="/videos/confused.mp4"
+              ></video>
+            </div>
+
+            <p className="mt-3">
               hey, looks like this page doesn&apos;t exist...
             </p>
             <p className="mt-2">
