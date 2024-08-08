@@ -14,7 +14,7 @@ const Spotify = () => {
     >
       <div className="w-full px-5 sm:ml-2 rounded-xl">
         <div
-          className={`relative cursor-pointer rounded-xl font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-border mb-5 shadow-md transition dark:bg-black/50 bg-black/30`}
+          className={`relative cursor-pointer rounded-xl font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-border mb-5 shadow-md transition dark:bg-black/40 bg-black/30 `}
         >
           <Image
             height={500}
@@ -49,7 +49,7 @@ const Spotify = () => {
                   {spotifyData.artist}.
                 </span>
               </p>
-              <div className="min-h-2 rounded-full mx-1 bg-gradient-to-r from-[#25A7E9] to-pink-400"></div>
+              <div className="min-h-[6px] rounded-full mx-1 bg-gradient-to-r from-[#25A7E9] to-pink-400"></div>
             </div>
           </div>
         </div>
