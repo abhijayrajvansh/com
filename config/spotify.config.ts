@@ -1,6 +1,6 @@
 export const spotifyData = {
-  songName: "Alibi",
-  artist: "Sevdaliza",
-  bannerImgUri: "https://c.saavncdn.com/256/Energia-Parte-2--English-2018-20180828004641-500x500.jpg",
-  spotifyLink: "https://open.spotify.com/track/5496lks6V3fh1mZAB6IAap"
+  songName: "1985",
+  artist: "Bo Burnham",
+  bannerImgUri: "https://c.saavncdn.com/848/THE-INSIDE-OUTTAKES-English-2022-20220608043458-500x500.jpg",
+  spotifyLink: "https://open.spotify.com/track/0yNiaePZow0ycdrmLV0J7y"
 }

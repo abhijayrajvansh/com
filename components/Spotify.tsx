@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Spotify = () => {
+
   return (
     <Link
       href={spotifyData.spotifyLink}
