@@ -10,7 +10,6 @@ const ThanksNote = ({}) => {
         <h3 className="bg-gradient-to-r from-[#df9599] to-[#ef3740] dark:from-[#fdfc81] dark:to-[#fdfc81] py-1 bg-cover bg-clip-text text-transparent font-bold text-2xl sm:text-xl">Gald to have you here.</h3>
 
         <GuestbookBtn />
-
       </div>
 
     </div>

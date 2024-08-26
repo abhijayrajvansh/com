@@ -13,6 +13,7 @@ import {
 import { courseworks } from "@/config/coursework.config";
 import Timeline from "./Timeline";
 import GradientText from "./GradientText";
+import Copyright from "./Copyright";
 
 const Experience = () => (
   <section className="wrapper">
@@ -53,6 +54,7 @@ const Experience = () => (
         <NotesCard title="Languages" elements={languages} />
         <SocialConnections />
         <ThanksNote />
+        <Copyright />
       </section>
     </div>
   </section>

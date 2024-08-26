@@ -12,6 +12,7 @@ import TechnicalSkills from "./TechnicalSkills";
 import SocialConnections from "./SocialConnections";
 import Spotify from "./Spotify";
 import DeveloperStats from "./DeveloperStats";
+import Copyright from "./Copyright";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
             <Twitter />
             <Spotify />
             <ThanksNote />
+            <Copyright />
           </section>
 
         </div>

@@ -1,7 +1,9 @@
+import Copyright from "./Copyright";
 import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import SocialConnections from "./SocialConnections";
 import Spotify from "./Spotify";
+import ThanksNote from "./ThanksNote";
 
 const Guestbook = () => {
   return (
@@ -15,17 +17,14 @@ const Guestbook = () => {
             Sign my guestbook!
           </h1>
           ...comments!
-          {/* temporary y-axis space for noraml width for above sm & below xl screens */}
-          <p className="text-background hidden sm:block">
-            this is sample text paragraph to add minimum width for the feed
-            section in the projects page as it will shrink.
-          </p>
         </main>
 
         <section className="mb-24">
           <div className="my-10 lg:hidden"></div>
           <SocialConnections />
           <Spotify />
+          <ThanksNote />
+          <Copyright />
         </section>
       </div>
     </section>

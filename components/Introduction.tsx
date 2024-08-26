@@ -49,7 +49,7 @@ const Introduction = () => {
           optimized solutions,
         </LinkText>
         rather than simply replicating code. I&apos;m passionate about
-        algorithms & UI/UX design that&apos;s why I love educating fellow
+        finance, end-user experience, design that&apos;s why I love educating fellow
         developers about my unique approaches to solving problems through videos
         & writing{" "}
         <LinkText href={"/blog"}>
@@ -58,7 +58,7 @@ const Introduction = () => {
         in my free time.
       </p>
       <p className="text-paragraph mt-3">
-        Apart from coding, I enjoy playing piano, reading about finance and
+        Apart from coding, I enjoy playing piano, watching podcast, reading about
         psychology, watching speculative fiction arthouse movies & ofc i&apos;m a human ;)
       </p>
       <p className="text-highlighted mt-5">

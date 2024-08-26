@@ -9,6 +9,7 @@ import { allProjects } from "@/config/project.config";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Project } from "@/types/project.types";
 import Twitter from "./Twitter";
+import Copyright from "./Copyright";
 
 const Projects = () => {
   return (
@@ -203,6 +204,7 @@ const Projects = () => {
           <Spotify />
           <SocialConnections />
           <ThanksNote />
+          <Copyright />
         </section>
       </div>
     </section>

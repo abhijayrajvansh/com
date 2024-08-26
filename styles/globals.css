@@ -93,7 +93,7 @@
     @apply primary-text hover:underline underline-offset-4
   }
   .text-highlighted {
-    @apply dark:text-[#E1E7EF] text-black font-medium sm:font-normal
+    @apply dark:text-[#E1E7EF] text-black font-normal sm:font-normal
   }
   .embeddedLinks {
     @apply font-medium hover:underline underline-offset-4
@@ -136,7 +136,6 @@
     @apply bg-gradient-to-r from-[#0d94bd] to-[#4eda3e] dark:from-[#37b9e1] dark:to-[#6dd9c9] bg-cover bg-clip-text text-transparent w-fit
   }
 
-
   /* shadow spread */
   .glow-bg-primary {
     box-shadow: 0 0 18px 1px rgb(81, 161, 252);
@@ -145,7 +144,6 @@
     box-shadow: 0 0 10px 1px rgb(240, 235, 90);
   }
   
-
   /* gradient shades */
   .cardTop-BottomGradient {
     @apply dark:bg-gradient-to-b dark:from-[#131A31] dark:to-[#1C2638] bg-gradient-to-b from-white to-[#f4f4f4]

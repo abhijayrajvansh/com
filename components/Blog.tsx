@@ -10,6 +10,7 @@ import Twitter from "./Twitter";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { allBlogs } from "@/config/blog.config";
 import { BlogInterface } from "@/types/blog.types";
+import Copyright from "./Copyright";
 
 const Blog = () => {
   return (
@@ -155,6 +156,7 @@ const Blog = () => {
           <Twitter />
           <SocialConnections />
           <ThanksNote />
+          <Copyright />
         </section>
       </div>
     </section>

@@ -9,6 +9,7 @@ import SocialConnections from "./SocialConnections";
 import Introduction from "./Introduction";
 import Spotify from "./Spotify";
 import CalltoAction from "./CalltoAction";
+import Copyright from "./Copyright";
 
 const About = () => {
   return (
@@ -28,6 +29,7 @@ const About = () => {
           <Spotify />
           <SocialConnections />
           <ThanksNote />
+          <Copyright />
         </section>
       </div>
     </section>
