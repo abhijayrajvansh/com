@@ -7,7 +7,7 @@ const DeveloperStats = () => {
           <p className="text-sm text-color-text font-medium">Projects</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-2xl sm:text-3xl font-bold">20</p>
+          <p className="text-2xl sm:text-3xl font-bold">22</p>
           <p className="text-sm text-color-text font-medium">Happy Clients</p>
         </div>
         <div className="flex flex-col items-center">

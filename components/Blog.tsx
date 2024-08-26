@@ -23,6 +23,7 @@ const Blog = () => {
             Stories & Coding.
           </h1>
 
+
           <div className="flex flex-col items-start">
             <Tabs defaultValue="all" className="w-full">
               <TabsList className="mb-5">
@@ -148,7 +149,7 @@ const Blog = () => {
           </div>
         </main>
 
-        <section>
+        <section className="mb-24">
           <div className="my-10 lg:hidden"></div>
           <TechnicalSkills />
           <Twitter />

@@ -8,6 +8,7 @@ import Spotify from "./Spotify";
 import { allProjects } from "@/config/project.config";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Project } from "@/types/project.types";
+import Twitter from "./Twitter";
 
 const Projects = () => {
   return (
@@ -15,13 +16,16 @@ const Projects = () => {
       <Header />
       <NavigationTab />
 
-      <div className="pageWrapper sm:mt-10">
+      <div className="pageWrapper sm:my-10">
         <main className="contentWrapper">
           <h1 className="text-4xl font-bold mb-10 green-text-bg-gradient">
             Work & Hobby.
           </h1>
+
+
+          <div className="flex flex-col items-start">
           <Tabs defaultValue="All" className="w-full">
-            <TabsList>
+            <TabsList className="mb-5">
               <TabsTrigger className="text-xs sm:text-sm" value="All">
                 Popular
               </TabsTrigger>
@@ -187,14 +191,15 @@ const Projects = () => {
                 ))}
             </TabsContent>
           </Tabs>
-          {/* temporary y-axis space for noraml width for above sm & below xl screens */}
-          <p className="text-background hidden sm:block">this is sample text paragraph to add minimum width for the feed section in the projects page as it will shrink.</p>
+          </div>
+          {/* <p className="text-background">this is sample text paragraph to add minimum width for the feed section in the projects page as it will shrink.</p> */}
 
         </main>
 
-        <section>
+        <section className="mb-24">
           <div className="my-3 md:hidden"></div>
           <TechnicalSkills />
+          <Twitter />
           <Spotify />
           <SocialConnections />
           <ThanksNote />

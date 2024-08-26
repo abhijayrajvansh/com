@@ -30,7 +30,7 @@ const Home = () => {
             <PopularProjects />
           </main>
 
-          <section>
+          <section className="mb-24">
             <div className="my-10 md:hidden"></div>
             <SocialConnections />
             <TechnicalSkills />

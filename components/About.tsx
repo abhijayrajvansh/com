@@ -21,7 +21,7 @@ const About = () => {
           <Introduction />   
           <CalltoAction />
         </div>
-        <section>
+        <section className="mb-24">
           <div className="my-10 md:hidden"></div>
           <TechnicalSkills />
           <Twitter />
