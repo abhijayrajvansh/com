@@ -19,7 +19,7 @@ const ShortIntro = () => {
       </div>
 
       <p className="font-light sm:text-lg text-paragraph">
-        Freelance Web & Mobile Developer, Former Silicon Valley Intern, Former AI Researcher @NHS, Open Source Contributor, pianist and
+        freelance web & mobile developer, former silicon valley engineer, former ai researcher @nhs, open source contributor, pianist and
         {/* 2x Founding Engineer at YC-backed Startups • Passionate Developer with expertise in Finance, User-Experience Psychology and */}
         <LinkText href={"/about"}>more...</LinkText>
       </p>
