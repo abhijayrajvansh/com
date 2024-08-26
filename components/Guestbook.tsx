@@ -2,7 +2,6 @@ import Header from "./Header";
 import NavigationTab from "./NavigationTab";
 import SocialConnections from "./SocialConnections";
 import Spotify from "./Spotify";
-import DummySpace from "./DummySpace";
 
 const Guestbook = () => {
   return (
@@ -12,7 +11,7 @@ const Guestbook = () => {
 
       <div className="pageWrapper sm:mt-10">
         <main className="contentWrapper">
-          <h1 className="text-4xl pink-text-bg-gradient font-bold mb-10">
+          <h1 className="text-4xl pink-text-bg-gradient font-bold mb-10 min-w-[382px]">
             Sign my guestbook!
           </h1>
           ...comments!
@@ -25,9 +24,8 @@ const Guestbook = () => {
 
         <section className="mb-24">
           <div className="my-10 lg:hidden"></div>
-          <Spotify />
           <SocialConnections />
-          <DummySpace />
+          <Spotify />
         </section>
       </div>
     </section>

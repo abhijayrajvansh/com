@@ -18,7 +18,7 @@ const Projects = () => {
 
       <div className="pageWrapper sm:my-10">
         <main className="contentWrapper">
-          <h1 className="text-4xl font-bold mb-10 green-text-bg-gradient">
+          <h1 className="text-4xl font-bold mb-10 green-text-bg-gradient min-w-[382px]">
             Work & Hobby.
           </h1>
 
