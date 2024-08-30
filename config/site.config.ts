@@ -10,7 +10,7 @@ export const siteConfig = {
 
 	links: {
 		github: "https://github.com/abhijayrajvansh",
-		twitter: "https://x.com/rajvanshtwt",
+		twitter: "https://x.com/rajvanshx",
     linkedin:"https://www.linkedin.com/in/abhijayrajvansh/",
 		youtube: "https://youtube.com/@abhijayrajvansh",
 		email:"mailto:abhijayrajvansh01@gmail.com",
