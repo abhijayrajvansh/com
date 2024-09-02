@@ -33,8 +33,8 @@ const Introduction = () => {
         That&apos;s where I come in. With over
         <LinkText href={"/experience"}>4+ years of experience</LinkText>
         as a software engineer and consultant, I help brands and startup founders
-        turn their ideas into fully functional digital products. I offer practical
-        solutions to reduce costs and bridge the tech gap for non-tech individuals.
+        turn their ideas into digital products. I offer practical
+        solutions to reduce costs without compromising security or scalability.
       </p>
 
       <p className="text-paragraph mt-3">
@@ -49,17 +49,15 @@ const Introduction = () => {
           optimized solutions,
         </LinkText>
         rather than simply replicating code. I&apos;m passionate about
-        finance, end-user experience, design that&apos;s why I love educating fellow
+        end-user experience, finance, business logic and design that&apos;s why I also love educating fellow
         developers about my unique approaches to solving problems through videos
         & writing{" "}
         <LinkText href={"/blog"}>
-          blogs
+          blogs.
         </LinkText>{" "}
-        in my free time.
       </p>
       <p className="text-paragraph mt-3">
-        Apart from coding, I enjoy playing piano, watching podcast, reading about
-        psychology, watching speculative fiction arthouse movies & ofc i&apos;m a human ;)
+        when i&apos;m not coding, I enjoy watching speculative-fiction movies, business podcasts ofc, reading about psychology and sometimes i touch grass 🌱.
       </p>
       <p className="text-highlighted mt-5">
         tl;dr: i&apos;m an artist who aims for his art to leave behind a lasting
