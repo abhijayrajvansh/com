@@ -1,4 +1,3 @@
-import Link from "next/link";
 import DigitalHandSign from "./DigitalHandSign";
 import LinkText from "./LinkText";
 import Image from "next/image";
