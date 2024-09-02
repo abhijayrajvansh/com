@@ -5,7 +5,7 @@ export const siteConfig = {
 	description: "Are you looking for your website or mobile app? Consider it done with Abhijay Rajvansh's expertise in software development, design prowess, and strategic approach for the best outcome. Your desired needs are the priority here!",
 
 	avatar: {
-		src: "https://github.com/abhijayrajvansh.png",
+		src: "/favicon.ico",
 	},
 
 	links: {

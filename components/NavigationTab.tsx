@@ -8,8 +8,6 @@ import { RiArticleLine } from "react-icons/ri";
 import { BiBookHeart } from "react-icons/bi";
 import { PiSuitcaseSimpleDuotone } from "react-icons/pi";
 import Link from "next/link";
-import Image from "next/image";
-import { siteConfig } from "@/config/site.config";
 import AvatarAndLocation from "./AvatarAndLocation";
 
 const NAVIGATION_DATA = [
