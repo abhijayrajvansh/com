@@ -11,13 +11,23 @@ const Spotify = () => {
         <div
           className={`relative rounded-xl font-medium text-lg sm:mt-0 mt-5 sm:ml-[90px] lg:ml-0 sm:w-[650px] lg:max-w-[300px] border border-border mb-5 shadow-md transition dark:bg-black/40 bg-black/30 `}
         >
-          <Image
-            height={500}
-            width={500}
-            className="w-full h-full rounded-xl absolute object-cover object-center -z-10"
-            src={musicData.bannerImgUri}
-            alt="spotify-track-banner.png"
+          <Image 
+            height={500} 
+            width={500} 
+            className="w-full h-full rounded-xl absolute object-cover object-center -z-10" 
+            src={musicData.bannerImgUri} 
+            alt="spotify-track-banner.png" 
           />
+
+          <video className="w-full h-full rounded-xl absolute object-cover object-center -z-10"
+            autoPlay={true}
+            loop={true}
+            playsInline={true}
+            muted={true}
+            src="/videos/confused.mp4"
+          >
+          </video>
+
 
           <div className="z-10 flex flex-col justify-between p-4 rounded-xl space-y-5 min-h-56">
             <div className="flex items-center justify-between">

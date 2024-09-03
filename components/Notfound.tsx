@@ -18,9 +18,10 @@ const Notfound = () => {
 
             <div className="rounded-lg pt-3">
               <video className="rounded-lg"
-                autoPlay
-                loop
-                playsInline
+                autoPlay={true}
+                loop={true}
+                playsInline={true}
+                muted={true}
                 src="/videos/confused.mp4"
               ></video>
             </div>
