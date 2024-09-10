@@ -45,7 +45,6 @@ const Spotify = () => {
         height="80"
         width="100%"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
       ></iframe>
     </div>
   );
