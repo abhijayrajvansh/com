@@ -35,8 +35,8 @@ const Home = () => {
             <div className="my-10 md:hidden"></div>
             <SocialConnections />
             <TechnicalSkills />
-            <Twitter />
             <Spotify />
+            <Twitter />
             <ThanksNote />
             <Copyright />
           </section>

@@ -11,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { allBlogs } from "@/config/blog.config";
 import { BlogInterface } from "@/types/blog.types";
 import Copyright from "./Copyright";
+import Spotify from "./Spotify";
 
 const Blog = () => {
   return (
@@ -153,6 +154,7 @@ const Blog = () => {
         <section className="mb-24">
           <div className="my-10 lg:hidden"></div>
           <TechnicalSkills />
+          <Spotify />
           <Twitter />
           <SocialConnections />
           <ThanksNote />
