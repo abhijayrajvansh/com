@@ -22,9 +22,8 @@ const Spotify = () => {
 
         const jsonData = await response.json();
         setSongId(jsonData.songId);
-        console.log(jsonData)
-      } catch (err) {
-        console.log(err)
+      } catch (err: any) {
+        console.log(err.message)
       }
     };
 
