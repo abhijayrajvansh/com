@@ -2,9 +2,35 @@
 
 import { FaSpotify } from "react-icons/fa";
 import Image from "next/image";
-import { config } from "@/config/spotify.config";
+import { config, SPOTIFY_CONFIG_URL } from "@/config/spotify.config";
+import { useEffect, useState } from "react";
 
 const Spotify = () => {
+
+  const [songId, setSongId] = useState<String | null>(null);
+
+  useEffect(() => {
+    const fetchSongData = async () => {
+      try {
+        const response = await fetch(
+          `${SPOTIFY_CONFIG_URL}/songId.json`
+        );
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch the song data');
+        }
+
+        const jsonData = await response.json();
+        setSongId(jsonData.songId);
+        console.log(jsonData)
+      } catch (err) {
+        console.log(err)
+      }
+    };
+
+    fetchSongData();
+  }, []); // Runs once when the component mounts
+
   return (
     <div className="w-full px-5 sm:ml-2 mb-5">
       <div
@@ -46,7 +72,7 @@ const Spotify = () => {
       </div>
       <iframe
         className="rounded-2xl sm:ml-[90px] sm:w-[648px] lg:w-[300px] lg:ml-[0px] relative -top-3"
-        src={`https://open.spotify.com/embed/track/${config.songId}?utm_source=generator`}
+        src={`https://open.spotify.com/embed/track/${songId}?utm_source=generator`}
         height="80"
         width="100%"
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
