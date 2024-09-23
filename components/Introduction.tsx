@@ -1,7 +1,7 @@
 import DigitalHandSign from "./DigitalHandSign";
 import LinkText from "./LinkText";
 import Image from "next/image";
-import avatar from "@/public/images/abhijayrajvansh-avatar.jpeg";
+import avatar from "@/public/images/abhijayrajvansh-avatar.jpg";
 
 const Introduction = () => {
   return (
@@ -11,14 +11,16 @@ const Introduction = () => {
       <Image width={240} height={240}
         src={avatar}
         alt="abhijayrajvansh-avatar.jpeg"
-        className="flex-none mr-5 sm:h-[240px] mt-4 sm:float-left sm:p-0 rounded-lg hidden sm:block"
+        className="flex-none mr-5 sm:h-[240px] sm:float-left sm:p-0 rounded-lg hidden sm:block"
         placeholder="blur"
+
       />
-      <div className="flex items-center justify-center">
-        <img
-          src={"/images/abhijayrajvansh-avatar.jpeg"}
+      <div className="flex items-center justify-center sm:hidden">
+        <Image
+          src={avatar}
           alt="abhijayrajvansh-avatar.jpeg"
-          className="rounded-lg sm:hidden"
+          className="rounded-lg"
+          placeholder="blur"
         />
       </div>
       <p className="text-paragraph mt-3">
