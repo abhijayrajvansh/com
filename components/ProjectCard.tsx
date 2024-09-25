@@ -113,7 +113,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
       </DialogTrigger>
-      <DialogContent className="rounded-xl border-border">
+      {/* add border-border */}
+      <DialogContent className="rounded-xl"> 
         <DialogHeader className="space-y-5">
           <DialogTitle className="text-start text-xl">{title}</DialogTitle>
           <DialogDescription className="text-start sm:text-base">
