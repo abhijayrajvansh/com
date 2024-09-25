@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { tweets } from "@/config/twitter.config";
 import { siteConfig } from "@/config/site.config";
+import xDP from "@/public/images/xDP.jpg";
 
 const Twitter = () => {
   return (
@@ -18,12 +19,14 @@ const Twitter = () => {
         >
           <div className="flex items-center w-full justify-between">
             <div className="flex items-center gap-3">
+
               <Image
                 className="rounded-full"
                 width={40}
                 height={40}
-                src="https://github.com/abhijay-xyz.png"
+                src={xDP}
                 alt="@rajvanshx"
+                placeholder="blur"
               />
 
               <div className="flex flex-col">

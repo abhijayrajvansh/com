@@ -1,6 +1,8 @@
-import { siteConfig } from "@/config/site.config";
-import Image from "next/image";
+'use client'
+
 import Link from "next/link";
+import Image from "next/image";
+import avatar from "@/public/images/abhijayrajvansh-avatar.jpg";
 
 const AvatarAndLocation = () => {
   return (
@@ -10,8 +12,9 @@ const AvatarAndLocation = () => {
           width={40}
           height={40}
           className="h-10 w-10 rounded-xl border-2 border-border"
-          src={siteConfig.avatar.src}
+          src={avatar}
           alt="@abhijayrajvansh"
+          placeholder="blur"
         />
 
         <div className="hidden xl:block text-[11px] font-medium">
