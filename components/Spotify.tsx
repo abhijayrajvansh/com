@@ -19,8 +19,8 @@ const Spotify = () => {
         const jsonData = await response.json();
         // setSongId(jsonData.songId);
 
-        setSongId("0yNiaePZow0ycdrmLV0J7y");
-        setVideoId("HZsiToZ8zCI");
+        setSongId("2Hh3ETdQKrmSI3QS0hme7g");
+        setVideoId("wL8DVHuWI7Y");
 
       } catch (err: any) {
         console.log(err.message);
