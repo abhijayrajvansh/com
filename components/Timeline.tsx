@@ -16,6 +16,17 @@ const Timeline = () => {
       />
 
       <ExperienceCard
+        companyLogo={experiencesData.company.uptut.companyLogo}
+        startDate={experiencesData.company.uptut.startDate}
+        endDate={experiencesData.company.uptut.endDate}
+        position={experiencesData.company.uptut.position}
+        companyName={experiencesData.company.uptut.companyName}
+        jobType={experiencesData.company.uptut.jobType}
+        companyLocation={experiencesData.company.uptut.companyLocation}
+        description={experiencesData.company.uptut.description}
+      />
+
+      <ExperienceCard
         companyLogo={experiencesData.company.bling.companyLogo}
         startDate={experiencesData.company.bling.startDate}
         endDate={experiencesData.company.bling.endDate}

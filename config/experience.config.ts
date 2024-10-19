@@ -1,77 +1,92 @@
 export const experiencesData = {
-	company : {
-		upwork : {
-			companyLogo: "/logo/upwork.jpeg",
-			startDate: "Mar 2024",
-			endDate: "Present",
-			position: "Full Stack Software Engineer",
-			companyName: "Upwork",
-			jobType: "Freelance",
-			companyLocation: "Worldwide · Remote",
-			description : [
-				`Successfully served over 20+ clients worldwide.`,
-				`Developed saas with dynamic frontends and scalable backends, worked on authentication and authorization services, AI Integration, e-commerce & landing pages.`,
-				"Expertise: AI Saas, Web3, Frontend, Backend, iOS, DBMS, DevOps, Cloud & UI/UX.",
-			]
-		},
-		bling : {
-			companyLogo: "/logo/bling.jpeg",
-			startDate: "Feb 2023",
-			endDate: "Nov 2023",
-			position: "Software Engineer",
-			companyName: "Bling Cloud | Techstars 23",
-			jobType: "Internship",
-			companyLocation: "San Francisco Bay Area · Remote",
-			description : [
-				`Developed the initial prototype and the MVP implemented following features :`,
-				`User Authentication, User Profile with CRUD Operations, Push Notifications, Integration of Instagram DM, Facebook Messenger, Gmail Inbox, Whatsapp, etc.`,
-				"Worked with the product team, taught fellow developers and interns, debugged their code, fixed bugs and maintained the production level low latency code serving in US time zone.",
-				"Technologies Used: React Native, Typescript, Redux, Expo, React Native CLI, Node (Express.js) and GraphQL.",
-			]
-		},
+  company: {
+		upwork: {
+      companyLogo: "/logo/upwork.jpeg",
+      startDate: "Apr 2024",
+      endDate: "Present",
+      position: "Software Engineer & Consultant",
+      companyName: "Upwork",
+      jobType: "Freelance",
+      companyLocation: "Worldwide · Remote",
+      description: [
+        "Successfully served over 20+ clients worldwide.",
+        "Developed saas with dynamic frontends and scalable backends, worked on authentication and authorization services, AI Integration, e-commerce & landing pages.",
+        "Services Provided: AI SAAS, DevOps Engineering, Full-Stack Web & Mobile Development, UI/UX & Web3",
+      ],
+    },
 
-		appleDeveloperProgram : {
-			companyLogo: "/logo/apple.jpeg",
-			startDate: "Oct 2022",
-			endDate: "Nov 2022",
-			position: "iOS Developer Trainee",
-			jobType: "Apprenticeship",
-			companyName: "Apple",
-			companyLocation: "iMac Lab, SRMIST, India · On-site",
-			description : [
-				"Chosen among the top 50 candidates from a pool of over 1600 students for enrolment in the esteemed Apple iOS App Development Training Program.",
-				"Attained proficiency in UI/UX design coupled with foundational logical skills, adeptly diagnosed runtime errors, developed an outstanding prototype and minimum viable product (MVP), and successfully presented the pitch for phase-2, resulting in selection",
-				"Technologies Used: Swift, SwiftUI, Xcode, UI/UX."
-			]
-		},
+    uptut: {
+      companyLogo: "/logo/uptut.jpeg",
+      startDate: "Sep 2024",
+      endDate: "Present",
+      position: "Founding Software Engineer",
+      companyName: "Uptut",
+      jobType: "Internship",
+      companyLocation: "WeWork, Gurugram, India · Remote",
+      description: [
+        `Working on Open-Banking System Design and Generative AI solutions.`,
+        `Skills: Next.js · TypeScript · Large Language Models (LLM) · Prompt Engineering · Generative AI`,
+      ],
+    },
 
-		nhs : {
-			companyLogo: "/logo/nhs.png",
-			startDate: "Jul 2022",
-			endDate: "Oct 2022",
-			position: "AI/ML Researcher",
-			jobType: "Internship",
-			companyName: "NHS L&D  Hospital",
-			companyLocation: "Luton, England, United Kingdom · Remote",
-			description : [
-				"Led a 4 month project developing a deep learning algorithm for automated identification of orthopaedic implants, using YOLOv7 and CNN. ",
-				"Achieved an impressive 97% accuracy rate in prediction and identification, showcasing advanced technological expertise and impactful problem-solving.",
-				"Technologies Used: Object Detection, Python, Research Skills, Yolo Algorithm, Convolutional Neural Networks (CNN), Full-Stack Development, Leadership, Machine Learning."
-			]
-		},
+    bling: {
+      companyLogo: "/logo/bling.jpeg",
+      startDate: "Feb 2023",
+      endDate: "Nov 2023",
+      position: "Software Engineer",
+      companyName: "Bling Cloud | Techstars 23",
+      jobType: "Internship",
+      companyLocation: "San Francisco Bay Area · Remote",
+      description: [
+        `Developed the initial prototype and MVP with following features:`,
+        `User Authentication, User Profile with CRUD Operations, Push Notifications, Integration of Instagram DM, Facebook Messenger, Gmail Inbox, Whatsapp, etc.`,
+        "Collaborated with the product team, mentored developers and interns, debugged and fixed code, and maintained low-latency production code, respected US-time zone while working remotely.",
+        "Skills: iOS Development · Node.js · REST APIs · React Native · SQL",
+      ],
+    },
 
-		unacademy : {
-			companyLogo: "/logo/unacademy.jpeg",
-			startDate: "Mar 2022",
-			endDate: "Oct 2022",
-			position: "Algorithms Educator & TA",
-			jobType: "Part-time",
-			companyName: "Unacademy",
-			companyLocation: "Bengaluru, Karnataka, India · Remote",
-			description : [
-				"Educated and helped students pursuing the course on Data structures, Algorithms and Object Oriented programming in C++ and Java via zoom and discord. Taught students concepts, verified their code, suggested better approaches of solving problems and resolved 500+ doubts.",
-				"Skills: C/C++, Java, DSA, Object Oriented Programming, Problem Solving, Debugging, Communication, Leadership."
-			]
-		},
-	},
-}
+    appleDeveloperProgram: {
+      companyLogo: "/logo/apple.jpeg",
+      startDate: "Oct 2022",
+      endDate: "Nov 2022",
+      position: "iOS Developer Apprentice",
+      jobType: "Apprenticeship",
+      companyName: "Apple",
+      companyLocation: "iMac Lab, SRMIST, India · On-site",
+      description: [
+        "Chosen among the top 50 candidates from a pool of over 18k+ students for the esteemed Apple iOS App Development Program.",
+        "Mastered UI/UX design psychology and logical skills, effectively fixed runtime errors, built a standout prototype with MVP, and delivered a successful pitch for next phase, leading to selection.",
+        "Skills: Swift (Programming Language) · SwiftUI · Xcode",
+      ],
+    },
+
+    nhs: {
+      companyLogo: "/logo/nhs.png",
+      startDate: "Jul 2022",
+      endDate: "Oct 2022",
+      position: "AI Researcher",
+      jobType: "Internship",
+      companyName: "NHS L&D University Hospital",
+      companyLocation: "Luton, England, United Kingdom · Remote",
+      description: [
+        "Led a four-month project developing a deep learning algorithm for automated identification of orthopaedic implants, using YOLOv7 and CNN. ",
+        "Achieved an impressive 97% accuracy rate in prediction and identification, showcasing advanced technological expertise and impactful problem-solving.",
+        "Skills: Object Detection · Python (Programming Language) · Research Skills · Yolo Algorithm · Convolutional Neural Networks (CNN) · Leadership · Machine Learning",
+      ],
+    },
+
+    unacademy: {
+      companyLogo: "/logo/unacademy.jpeg",
+      startDate: "Mar 2022",
+      endDate: "Oct 2022",
+      position: "Algorithms Educator & TA",
+      jobType: "Part-time",
+      companyName: "Unacademy",
+      companyLocation: "Bengaluru, Karnataka, India · Remote",
+      description: [
+        "Taught and assisted students with Data Structures, Algorithms, and Object-Oriented Programming in C++ and Java via Zoom and Discord. Verified code, suggested better solutions, and resolved over 500 queries.",
+        "Skills: Problem Solving · Communication · Leadership",
+      ],
+    },
+  },
+};

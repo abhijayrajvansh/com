@@ -83,8 +83,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 
             <AccordionContent>
               {description?.map((keyPoint, index) => (
-                <div
-                  className="text-color-text text-[13px] sm:text-sm"
+                <div 
+                  className="text-color-text text-[13px] mt-2 sm:text-sm"
                   key={index}
                 >
                   <p className="pt-1">
